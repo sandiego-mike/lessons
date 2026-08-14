@@ -1,0 +1,15 @@
+.venv/
+.venv312/
+node_modules/
+apps/web/node_modules/
+apps/liam-school/node_modules/
+.DS_Store
+.npm-cache/
+.env
+.env.local
+apps/api/*.sqlite3
+dist/
+apps/web/dist/
+.pytest_cache/
+__pycache__/
+*.pyc
