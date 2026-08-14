@@ -1,15 +1,19 @@
 (function(){
   function esc(value){return String(value||'').replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]})}
+  function pdfClean(value){return String(value||'').normalize('NFKD').replace(/[\u2018\u2019]/g,"'").replace(/[\u201C\u201D]/g,'"').replace(/[\u2013\u2014]/g,'-').replace(/\u2192/g,'->').replace(/\u2022/g,'-').replace(/\u00A0/g,' ').replace(/[^\x09\x0A\x0D\x20-\x7E]/g,'')}
+  function pdfEscape(value){return pdfClean(value).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)')}
   function pdfBlob(lines){
-    var wrapped=[]; lines.forEach(function(line){line=String(line||''); if(!line){wrapped.push(''); return} while(line.length>86){var cut=line.lastIndexOf(' ',86); if(cut<30)cut=86; wrapped.push(line.slice(0,cut)); line=line.slice(cut).trim()} wrapped.push(line)});
-    var pages=[]; for(var i=0;i<wrapped.length;i+=48)pages.push(wrapped.slice(i,i+48));
+    var encoder=new TextEncoder(), wrapped=[]; function byteLen(s){return encoder.encode(s).length}
+    lines.forEach(function(line){line=pdfClean(line); if(!line){wrapped.push(''); return} while(line.length>86){var cut=line.lastIndexOf(' ',86); if(cut<30)cut=86; wrapped.push(line.slice(0,cut)); line=line.slice(cut).trim()} wrapped.push(line)});
+    var pages=[]; for(var i=0;i<wrapped.length;i+=48)pages.push(wrapped.slice(i,i+48)); if(!pages.length)pages=[['']];
     var objs=[]; function add(s){objs.push(s); return objs.length}
     var font=add('<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>'), pageIds=[], contentIds=[];
-    pages.forEach(function(pg){var stream='BT /F1 11 Tf 48 744 Td 15 TL '; pg.forEach(function(l){stream+='('+l.replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)')+') Tj T* '}); stream+='ET'; contentIds.push(add('<< /Length '+stream.length+' >>\\nstream\\n'+stream+'\\nendstream')); pageIds.push(add('PLACEHOLDER'))});
+    pages.forEach(function(pg){var stream='BT /F1 11 Tf 48 744 Td 15 TL '; pg.forEach(function(l){stream+='('+pdfEscape(l)+') Tj T* '}); stream+='ET'; contentIds.push(add('<< /Length '+byteLen(stream)+' >>\nstream\n'+stream+'\nendstream')); pageIds.push(add('PLACEHOLDER'))});
     var pagesId=add('PLACEHOLDER'); pageIds.forEach(function(pid,i){objs[pid-1]='<< /Type /Page /Parent '+pagesId+' 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 '+font+' 0 R >> >> /Contents '+contentIds[i]+' 0 R >>'}); objs[pagesId-1]='<< /Type /Pages /Count '+pageIds.length+' /Kids ['+pageIds.map(function(x){return x+' 0 R'}).join(' ')+'] >>';
-    var catalog=add('<< /Type /Catalog /Pages '+pagesId+' 0 R >>'), out='%PDF-1.4\\n', offs=[0]; objs.forEach(function(o,i){offs.push(out.length); out+=(i+1)+' 0 obj\\n'+o+'\\nendobj\\n'}); var xref=out.length; out+='xref\\n0 '+(objs.length+1)+'\\n0000000000 65535 f \\n'; for(var j=1;j<offs.length;j++)out+=String(offs[j]).padStart(10,'0')+' 00000 n \\n'; out+='trailer << /Size '+(objs.length+1)+' /Root '+catalog+' 0 R >>\\nstartxref\\n'+xref+'\\n%%EOF'; return new Blob([out],{type:'application/pdf'});
+    var catalog=add('<< /Type /Catalog /Pages '+pagesId+' 0 R >>'), parts=[], offs=[0], pos=0; function push(s){parts.push(s); pos+=byteLen(s)}
+    push('%PDF-1.4\n'); objs.forEach(function(o,i){offs.push(pos); push((i+1)+' 0 obj\n'+o+'\nendobj\n')}); var xref=pos; push('xref\n0 '+(objs.length+1)+'\n0000000000 65535 f \n'); for(var j=1;j<offs.length;j++)push(String(offs[j]).padStart(10,'0')+' 00000 n \n'); push('trailer << /Size '+(objs.length+1)+' /Root '+catalog+' 0 R >>\nstartxref\n'+xref+'\n%%EOF'); return new Blob(parts,{type:'application/pdf'});
   }
-  function download(blob,name){var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name; document.body.appendChild(a); a.click(); setTimeout(function(){URL.revokeObjectURL(a.href); a.remove()},1000)}
+  function download(blob,name){var url=URL.createObjectURL(blob); var preview=window.open(url,'_blank','noopener'); var a=document.createElement('a'); a.href=url; a.download=name; document.body.appendChild(a); a.click(); if(!preview)alert('PDF exported. If you do not see it, check your Downloads folder.'); setTimeout(function(){URL.revokeObjectURL(url); a.remove()},120000)}
   function bootFallback(){
     var app=document.getElementById('app');
     if(!app || !/Loading Liam Learning|App startup error/.test(app.textContent||''))return;
