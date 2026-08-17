@@ -80,8 +80,11 @@ for (const subject of ["biology", "geography"]) {
       });
     } else {
       (chapter.sections || []).forEach((section, index) => {
-        sectionBlocks(chapter, section).forEach((block) => checkText(subject, chapter.number, "lesson", block));
-        checkText(subject, chapter.number, "activity", clarityScenario(chapter, termInfo((chapter.vocabulary || [])[index % Math.max(1, chapter.vocabulary.length)] || { term: chapter.title })).scenario);
+        const meta = sectionMeta(chapter, section, index);
+        const activity = alignedActivity(meta, chapter);
+        sectionBlocks(chapter, section, index).forEach((block) => checkText(subject, chapter.number, "lesson", block));
+        checkText(subject, chapter.number, "activity", activity.scenario);
+        checkText(subject, chapter.number, "apply", activity.apply);
       });
     }
     worksheetItems(chapter).forEach((item) => checkText(subject, chapter.number, "worksheet", item.prompt));

@@ -10,6 +10,7 @@
     "validate-curriculum": "node scripts/validate-liam-learning-app.mjs",
     "validate-activities": "node scripts/validate-activities.mjs",
     "validate-student-content": "node scripts/validate-student-content.mjs",
+    "validate-learning-alignment": "node scripts/validate-learning-alignment.mjs",
     "test:pacing": "node scripts/test-pacing.mjs"
   },
   "dependencies": {
