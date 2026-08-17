@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "node scripts/build-learning-app.mjs",
     "typecheck": "tsc --noEmit",
-    "validate-curriculum": "node scripts/validate-liam-learning-app.mjs"
+    "validate-curriculum": "node scripts/validate-liam-learning-app.mjs",
+    "test:pacing": "node scripts/test-pacing.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
