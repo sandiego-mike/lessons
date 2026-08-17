@@ -8,6 +8,7 @@
     "build": "node scripts/build-learning-app.mjs",
     "typecheck": "tsc --noEmit",
     "validate-curriculum": "node scripts/validate-liam-learning-app.mjs",
+    "validate-activities": "node scripts/validate-activities.mjs",
     "test:pacing": "node scripts/test-pacing.mjs"
   },
   "dependencies": {
