@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd apps/liam-school && npm install && npm run build",
+  "outputDirectory": "apps/liam-school/dist",
+  "cleanUrls": false
+}
