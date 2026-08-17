@@ -51,9 +51,36 @@ const badPatternSources = [
 const validator = `
 S.data=window.__LIAM_COURSE_DATA__;
 const badPatterns = ${JSON.stringify(badPatternSources)}.map(([source,flags])=>new RegExp(source,flags));
+const badTellMorePatterns = [
+  /Liam does not need/i,
+  /evidence can/i,
+  /can be saved as evidence/i,
+  /duplicate worksheet/i,
+  /worksheet/i,
+  /Parent Mode/i,
+  /portfolio/i,
+  /standards/i,
+  /documentation/i,
+  /the app/i,
+  /this feature/i,
+  /curriculum/i,
+  /progress storage/i,
+  /assessment architecture/i,
+  /developer/i
+];
 const rows = [];
+const tellMoreRows = [];
 function stripHtml(value) {
   return String(value || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+}
+function wordSet(value) {
+  return new Set(String(value || "").toLowerCase().match(/[a-z0-9]+/g) || []);
+}
+function overlapCount(a, b) {
+  const A = wordSet(a), B = wordSet(b);
+  let count = 0;
+  for (const word of A) if (B.has(word) && word.length > 3) count++;
+  return count;
 }
 function checkText(subject, chapter, type, text) {
   const value = stripHtml(text);
@@ -63,6 +90,30 @@ function checkText(subject, chapter, type, text) {
   if (/^(this|it|they|these|those)\b/i.test(value)) issues.push("starts with unclear pronoun");
   if (value.length < 8 && /[?]/.test(value)) issues.push("too short to be clear");
   rows.push({ subject, chapter, type, text: value, issues });
+}
+function checkTellMore(chapter, meta, rawMore) {
+  const subject = meta.subject || S.subject;
+  const value = stripHtml(tellMoreContent(chapter, meta, rawMore || ""));
+  const issues = [];
+  if (!subject || !chapter.number || !meta.section || !meta.conceptId || !meta.learningObjectiveId) issues.push("missing Tell Me More metadata");
+  if (!value) issues.push("missing Tell Me More content");
+  if (value.length < 45) issues.push("too short to add useful depth");
+  if (value.length > 900) issues.push("too long for optional depth");
+  for (const pattern of badTellMorePatterns) if (pattern.test(value)) issues.push(pattern.toString());
+  const conceptAnchors = {
+    "ecosystem-parts": "biotic abiotic living nonliving ecosystem factors",
+    "ecosystem-interdependence": "ecosystem relationships organisms food source affect change ecologists connections",
+    "symbiosis-relationships": "symbiosis mutualism commensalism parasitism benefit harmed unaffected",
+    "habitat-niche": "habitat niche where lives role survives",
+    "ecosystem-energy-roles": "producer consumer decomposer herbivore carnivore omnivore scavenger energy nutrients",
+    "food-chain-arrow": "food chain food web arrow energy matter moves",
+    "earth-layers": "crust mantle core layers depth rocky",
+    "earth-forces": "internal external forces surface mountains plates wind water gravity",
+  };
+  const anchor = [meta.title, meta.conceptId, meta.learningObjectiveId, conceptAnchors[meta.conceptId] || "", ...(meta.vocabulary || []).map((term) => term.term || term)].join(" ");
+  if (overlapCount(anchor, value) < 1) issues.push("low overlap with current lesson concept");
+  const rewritten = stripHtml(rawMore || "") !== value;
+  tellMoreRows.push({ subject, chapter: chapter.number, section: meta.section, type: "tell-more", conceptId: meta.conceptId, objectiveId: meta.learningObjectiveId, text: value, rewritten, issues });
 }
 
 for (const subject of ["biology", "geography"]) {
@@ -74,6 +125,7 @@ for (const subject of ["biology", "geography"]) {
     if (guide) {
       guide.steps.forEach((step, index) => {
         const activity = normalizeStepActivity(step, index);
+        checkTellMore(chapter, guideStepMeta(chapter, step, index), step.more || "");
         checkText(subject, chapter.number, "guide-learn", step.learn);
         checkText(subject, chapter.number, "guide-try", activity?.prompt || step.try);
         if (activity?.options) activity.options.forEach((option) => checkText(subject, chapter.number, "guide-choice", option.label));
@@ -82,6 +134,7 @@ for (const subject of ["biology", "geography"]) {
       (chapter.sections || []).forEach((section, index) => {
         const meta = sectionMeta(chapter, section, index);
         const activity = alignedActivity(meta, chapter);
+        checkTellMore(chapter, meta, "");
         sectionBlocks(chapter, section, index).forEach((block) => checkText(subject, chapter.number, "lesson", block));
         checkText(subject, chapter.number, "activity", activity.scenario);
         checkText(subject, chapter.number, "apply", activity.apply);
@@ -98,23 +151,37 @@ for (const subject of ["biology", "geography"]) {
   }
 }
 globalThis.__studentContentRows = rows;
+globalThis.__tellMoreRows = tellMoreRows;
 `;
 vm.runInContext(appJs.replace(/\nboot\(\);\s*$/, "") + validator, context, { filename: "student-content-validation.js" });
 
 const rows = context.__studentContentRows || [];
+const tellMoreRows = context.__tellMoreRows || [];
 
-const failed = rows.filter((row) => row.issues.length);
+const failed = [...rows, ...tellMoreRows].filter((row) => row.issues.length);
 const summary = {};
 for (const row of rows) {
   summary[row.subject] ||= { reviewed: 0, issues: 0 };
   summary[row.subject].reviewed++;
   if (row.issues.length) summary[row.subject].issues++;
 }
+const tellMoreSummary = {};
+for (const row of tellMoreRows) {
+  tellMoreSummary[row.subject] ||= { reviewed: 0, rewritten: 0, issues: 0 };
+  tellMoreSummary[row.subject].reviewed++;
+  if (row.rewritten) tellMoreSummary[row.subject].rewritten++;
+  if (row.issues.length) tellMoreSummary[row.subject].issues++;
+}
 
 for (const [subject, item] of Object.entries(summary)) {
   console.log(`${subject}: ${item.reviewed} student-facing prompts reviewed, ${item.issues} issues`);
 }
 console.log("math: 0 student-facing prompts reviewed, 0 issues (no Integrated Math I content is implemented in this app folder)");
+for (const subject of ["biology", "geography"]) {
+  const item = tellMoreSummary[subject] || { reviewed: 0, rewritten: 0, issues: 0 };
+  console.log(`${subject}: ${item.reviewed} Tell Me More entries reviewed, ${item.rewritten} rewritten/generated, ${item.issues} issues`);
+}
+console.log("math: 0 Tell Me More entries reviewed, 0 rewritten (no Integrated Math I content is implemented in this app folder)");
 
 if (failed.length) {
   for (const row of failed.slice(0, 30)) {
