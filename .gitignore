@@ -13,3 +13,4 @@ apps/web/dist/
 .pytest_cache/
 __pycache__/
 *.pyc
+apps/liam-school/materials/math/*.pdf

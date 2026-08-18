@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T16:15:06.673Z",
+  "generatedAt": "2026-08-18T16:50:59.839Z",
   "biology": {
     "subject": "biology",
     "label": "Biology",
@@ -833,6 +833,214 @@
         "sourceFile": "../world-geography/chapter-34.pdf",
         "hash": "1a7cbfb6b0b66c80c60670404b70262860167d5f200fd72f933cf92c4e358178",
         "bytes": 3253695,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      }
+    ],
+    "failures": []
+  },
+  "math": {
+    "subject": "math",
+    "label": "Integrated Math I",
+    "expectedChapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "unavailableChapters": [],
+    "availableSourceChapters": 12,
+    "parsed": 12,
+    "rendered": 12,
+    "validated": 12,
+    "intentionallyUnavailable": 0,
+    "unaccounted": 0,
+    "chapters": [
+      {
+        "chapter": 1,
+        "title": "Solving Linear Equations",
+        "sourceFile": "../math/int_1_student_edition_chap_1.pdf",
+        "hash": "fb7a6c6cca0713c3b021234d97cc84c43477349e2ef2038d3270c597cfb745a0",
+        "bytes": 67989702,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 2,
+        "title": "Solving Linear Inequalities",
+        "sourceFile": "../math/int_1_student_edition_chap_2.pdf",
+        "hash": "e8a83077b2422ed96124286bce43bb89fe47cbd77dac7c85bf85ca3ced8e77c2",
+        "bytes": 48984348,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 3,
+        "title": "Graphing Linear Functions",
+        "sourceFile": "../math/int_1_student_edition_chap_3.pdf",
+        "hash": "5ec0f2da71e5aeaa510cbf617238c38312ca6780babb1e930fdd0568d8df5d2e",
+        "bytes": 55844598,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 4,
+        "title": "Writing Linear Functions",
+        "sourceFile": "../math/int_1_student_edition_chap_4.pdf",
+        "hash": "d6571866cbd35787c8b12dedda7e0347936dfba037fde067afccd1001260bfde",
+        "bytes": 14054274,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 5,
+        "title": "Solving Systems of Linear Equations and Inequalities",
+        "sourceFile": "../math/int_1_student_edition_chap_5.pdf",
+        "hash": "d03fb7d158d82cc907c5cf4c76980be1da9c3b934cc749c6597661ec791dc4fe",
+        "bytes": 48070083,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 6,
+        "title": "Exponential Functions and Sequences",
+        "sourceFile": "../math/int_1_student_edition_chap_6.pdf",
+        "hash": "0e7cca18d7eab26430fbb0ee6cef0ec2c0f81b15b3bf3cab46ae6ae5bcf58375",
+        "bytes": 74522741,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 7,
+        "title": "Data Analysis and Displays",
+        "sourceFile": "../math/int_1_student_edition_chap_7.pdf",
+        "hash": "280d577c4c9d4cb4b31431f5f49ff00cb3f5766fc1bce68b2b972b182fa4dfd4",
+        "bytes": 55775445,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 8,
+        "title": "Basics of Geometry",
+        "sourceFile": "../math/int_1_student_edition_chap_8.pdf",
+        "hash": "aa768f65e0e546b8d65eb695196d90b7681c4b1462506c4732e41f65ce790ece",
+        "bytes": 74134056,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 9,
+        "title": "Reasoning and Proofs",
+        "sourceFile": "../math/int_1_student_edition_chap_9.pdf",
+        "hash": "089672a7fe86d65e6c8047e530f03348e2db0be400bd4a9078638d6b179f2ba6",
+        "bytes": 68228768,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 10,
+        "title": "Parallel and Perpendicular Lines",
+        "sourceFile": "../math/int_1_student_edition_chap_10.pdf",
+        "hash": "ebcf609fc11306275d168b004e6b512d9ebae0a565f94dc39e058f058e0ba4e3",
+        "bytes": 103999794,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 11,
+        "title": "Transformations",
+        "sourceFile": "../math/int_1_student_edition_chap_11.pdf",
+        "hash": "d830e1b8253c567ed0efb920bc17b5eec1227ab9b291eb72e1c33bd0c9b81a00",
+        "bytes": 58763980,
+        "statuses": [
+          "SOURCE_FOUND",
+          "PARSED",
+          "GENERATED",
+          "RENDERED",
+          "VALIDATED"
+        ],
+        "note": "Ready."
+      },
+      {
+        "chapter": 12,
+        "title": "Congruent Triangles",
+        "sourceFile": "../math/int_1_student_edition_chap_12.pdf",
+        "hash": "8a49745102e85ac64e7857dc52802957db0d59eae6201a7fb3ced70da746ed59",
+        "bytes": 74572318,
         "statuses": [
           "SOURCE_FOUND",
           "PARSED",

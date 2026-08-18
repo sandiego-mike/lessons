@@ -116,7 +116,7 @@ function checkTellMore(chapter, meta, rawMore) {
   tellMoreRows.push({ subject, chapter: chapter.number, section: meta.section, type: "tell-more", conceptId: meta.conceptId, objectiveId: meta.learningObjectiveId, text: value, rewritten, issues });
 }
 
-for (const subject of ["biology", "geography"]) {
+for (const subject of Object.keys(S.data)) {
   S.subject = subject;
   const course = S.data[subject];
   for (const chapter of course.chapters) {
@@ -176,12 +176,10 @@ for (const row of tellMoreRows) {
 for (const [subject, item] of Object.entries(summary)) {
   console.log(`${subject}: ${item.reviewed} student-facing prompts reviewed, ${item.issues} issues`);
 }
-console.log("math: 0 student-facing prompts reviewed, 0 issues (no Integrated Math I content is implemented in this app folder)");
-for (const subject of ["biology", "geography"]) {
+for (const subject of Object.keys(context.window.__LIAM_COURSE_DATA__)) {
   const item = tellMoreSummary[subject] || { reviewed: 0, rewritten: 0, issues: 0 };
   console.log(`${subject}: ${item.reviewed} Tell Me More entries reviewed, ${item.rewritten} rewritten/generated, ${item.issues} issues`);
 }
-console.log("math: 0 Tell Me More entries reviewed, 0 rewritten (no Integrated Math I content is implemented in this app folder)");
 
 if (failed.length) {
   for (const row of failed.slice(0, 30)) {

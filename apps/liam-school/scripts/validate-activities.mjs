@@ -54,7 +54,7 @@ function pushActivity(activity,label){
   const errors=validateActivity(activity);
   activityRows.push({subject:activity?.subject||'unknown',chapter:activity?.chapter||0,type:activity?.type||'unknown',label,errors});
 }
-for (const subject of ['biology','geography']) {
+for (const subject of Object.keys(S.data)) {
   S.subject=subject;
   const course=S.data[subject];
   for (const chapter of course.chapters) {

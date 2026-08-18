@@ -19,7 +19,7 @@
       ['2027-05-31','Memorial Day']
     ]
   };
-  const SUBJECT_DEFAULTS={biology:{weekday:2,label:'Biology Day'},geography:{weekday:4,label:'World Geography Day'}};
+  const SUBJECT_DEFAULTS={biology:{weekday:2,label:'Biology Day'},geography:{weekday:4,label:'World Geography Day'},math:{weekday:1,label:'Integrated Math I Day'}};
   const REVIEW_RESERVE=4;
   function date(s){const [y,m,d]=String(s).split('-').map(Number);return new Date(Date.UTC(y,m-1,d))}
   function iso(d){return d.toISOString().slice(0,10)}
@@ -35,7 +35,7 @@
   function biologySessionsFor(ch,mastery){let cx=chapterComplexity(ch,'biology');let base=cx==='LIGHT'?1:cx==='STANDARD'?2:3;let key='biology-'+ch.number+'-mastery';let score=Number(mastery?.[key]||0);let misconception=mastery?.['biology-'+ch.number+'-core-misconception'];return score>=80&&!misconception?0:base}
   function biologySessionPlan(target,saved,available){let rows=target.map(ch=>({ch,count:biologySessionsFor(ch,saved),complexity:chapterComplexity(ch,'biology')}));let total=()=>rows.reduce((n,r)=>n+r.count,0);while(total()>available){let dense=rows.find(r=>r.count>2&&!saved?.['biology-'+r.ch.number+'-core-misconception']);if(dense){dense.count--;continue}let standard=rows.find(r=>r.count>1&&!saved?.['biology-'+r.ch.number+'-core-misconception']);if(standard){standard.count--;continue}break}return rows}
   function currentChapter(subject,course,saved){let first=subject==='biology'?validBiologyChapters(course.chapters)[0]:course.chapters[0].number;let n=Number(saved?.[subject+'-current']||first);if(subject==='biology'&&n===16)n=17;return course.chapters.find(c=>c.number===n)||course.chapters.find(c=>c.number===first)||course.chapters[0]}
-  function semesterTargets(subject){return subject==='biology'?{1:'Chapters 1-8',2:'Chapters 9-15 and 17'}:{1:'Approximately chapters 1-17',2:'Approximately chapters 18-34'}}
+  function semesterTargets(subject){return subject==='biology'?{1:'Chapters 1-8',2:'Chapters 9-15 and 17'}:subject==='math'?{1:'Chapters 1-6',2:'Chapters 7-12'}:{1:'Approximately chapters 1-17',2:'Approximately chapters 18-34'}}
   function scheduledUnits(subject,course,saved={},options={}){
     let extra=options.extraNoSchool||[];
     let dates=subjectDates(subject,CALENDAR,extra,options.weekday);
@@ -47,13 +47,15 @@
       let learning=semDates.slice(0,Math.max(0,semDates.length-REVIEW_RESERVE));
       let target=subject==='biology'
         ?(sem===1?chapters.filter(c=>c.number>=1&&c.number<=8):chapters.filter(c=>(c.number>=9&&c.number<=15)||c.number===17))
-        :(sem===1?chapters.filter(c=>c.number>=1&&c.number<=17):chapters.filter(c=>c.number>=18&&c.number<=34));
+        :subject==='math'
+          ?(sem===1?chapters.filter(c=>c.number>=1&&c.number<=6):chapters.filter(c=>c.number>=7&&c.number<=12))
+          :(sem===1?chapters.filter(c=>c.number>=1&&c.number<=17):chapters.filter(c=>c.number>=18&&c.number<=34));
       let i=0;
-      if(subject==='geography'){
+      if(subject==='geography'||subject==='math'){
         for(const ch of target){
           let date=learning[Math.min(i,Math.max(0,learning.length-1))];
           if(!date)break;
-          plans.push({date,subject,semester:sem,chapter:ch.number,title:ch.title,type:'chapter',part:i<learning.length?'Full chapter':'Short paired chapter',status:'planned'});
+          plans.push({date,subject,semester:sem,chapter:ch.number,title:ch.title,type:'chapter',part:subject==='math'?'Concept practice day':i<learning.length?'Full chapter':'Short paired chapter',status:'planned'});
           i++;
         }
       }else{
@@ -69,7 +71,7 @@
     return plans;
   }
   function nextValidBiologyChapter(n){return n>=15?17:n+1}
-  function validate(subject,course,plans){let issues=[];let chapters=course.chapters.map(c=>c.number);if(subject==='biology'){if(plans.some(p=>p.chapter===16))issues.push('Biology Chapter 16 was scheduled.');if(chapters.includes(17)&&!plans.some(p=>p.chapter===17))issues.push('Biology Chapter 17 is omitted from the year plan.');if(plans.some(p=>p.chapter>17))issues.push('Biology scheduled a nonexistent chapter.')}else{if(plans.some(p=>p.chapter>34))issues.push('Geography scheduled more chapters than exist.')}for(const sem of [1,2]){let reserved=plans.filter(p=>p.semester===sem&&p.status==='reserved');if(reserved.length<REVIEW_RESERVE)issues.push(`${subject} semester ${sem} has less than ${REVIEW_RESERVE} reserved review/final days.`)}let keys=new Set();for(const p of plans.filter(p=>p.type==='chapter')){let key=[p.subject,p.date,p.chapter,p.part].join('|');if(keys.has(key))issues.push('Duplicate chapter assignment detected.');keys.add(key);if(noSchoolReason(p.date))issues.push('Mandatory work assigned on no-school day '+p.date)}return issues}
+  function validate(subject,course,plans){let issues=[];let chapters=course.chapters.map(c=>c.number);if(subject==='biology'){if(plans.some(p=>p.chapter===16))issues.push('Biology Chapter 16 was scheduled.');if(chapters.includes(17)&&!plans.some(p=>p.chapter===17))issues.push('Biology Chapter 17 is omitted from the year plan.');if(plans.some(p=>p.chapter>17))issues.push('Biology scheduled a nonexistent chapter.')}else if(subject==='math'){if(plans.some(p=>p.chapter>12))issues.push('Math scheduled more chapters than exist.')}else{if(plans.some(p=>p.chapter>34))issues.push('Geography scheduled more chapters than exist.')}for(const sem of [1,2]){let reserved=plans.filter(p=>p.semester===sem&&p.status==='reserved');if(reserved.length<REVIEW_RESERVE)issues.push(`${subject} semester ${sem} has less than ${REVIEW_RESERVE} reserved review/final days.`)}let keys=new Set();for(const p of plans.filter(p=>p.type==='chapter')){let key=[p.subject,p.date,p.chapter,p.part].join('|');if(keys.has(key))issues.push('Duplicate chapter assignment detected.');keys.add(key);if(noSchoolReason(p.date))issues.push('Mandatory work assigned on no-school day '+p.date)}return issues}
   function summary(subject,course,saved={},options={}){let plans=scheduledUnits(subject,course,saved,options);let current=currentChapter(subject,course,saved);let today=options.today||CALENDAR.first;let currentPlan=plans.find(p=>p.chapter===current.number)||plans.find(p=>p.type==='chapter');let mastery=Number(saved?.[subject+'-'+current.number+'-mastery']||0);let misconceptionKey=Object.keys(saved||{}).find(k=>k.startsWith(subject+'-')&&k.endsWith('-core-misconception')&&saved[k]);let status=subject==='biology'&&((mastery>0&&mastery<80)||misconceptionKey)?'Continue current chapter with targeted review':'On Track';return {subject,current,currentPlan,plans,targets:semesterTargets(subject),validations:validate(subject,course,plans),instructionalDates:instructionalDates(CALENDAR,options.extraNoSchool||[]),subjectDates:subjectDates(subject,CALENDAR,options.extraNoSchool||[],options.weekday),today,status,mastery}}
   function runTests(data){let saved={};let bio=data.biology,geo=data.geography;let normalBio=summary('biology',bio,saved);let normalGeo=summary('geography',geo,saved);let holidayBio=summary('biology',bio,saved,{extraNoSchool:[['2026-08-11','Test Biology holiday']]});let denseSaved={'biology-6-mastery':20,'biology-6-core-misconception':true};let dense=scheduledUnits('biology',bio,denseSaved).filter(p=>p.chapter===6);let next=nextValidBiologyChapter(15);let semGeo=normalGeo.plans.filter(p=>p.semester===1&&p.type==='chapter').map(p=>p.chapter).pop();let geoEnd=normalGeo.plans.some(p=>p.chapter===35);let failSaved={'biology-2-mastery':65,'biology-2-core-misconception':true};let fail=summary('biology',bio,failSaved).status;return [
     ['normal school year progression',normalBio.validations.length===0&&normalGeo.validations.length===0],

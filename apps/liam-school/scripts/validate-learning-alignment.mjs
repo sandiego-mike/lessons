@@ -46,7 +46,7 @@ const rows=[], issues=[];
 function words(value){return String(value||'').toLowerCase().match(/[a-z0-9]+/g)||[]}
 function overlap(a,b){const A=new Set(words(a)),B=new Set(words(b));let n=0;for(const w of A)if(B.has(w))n++;return n}
 function addIssue(row,msg){issues.push({...row,msg})}
-for (const subject of ["biology","geography"]) {
+for (const subject of Object.keys(S.data)) {
   S.subject=subject;
   const course=S.data[subject];
   for (const chapter of course.chapters) {
@@ -89,11 +89,10 @@ for (const row of rows) {
   bySubject[row.subject].sections++;
   bySubject[row.subject].activities++;
 }
-for (const subject of ["biology", "geography"]) {
+for (const subject of Object.keys(context.window.__LIAM_COURSE_DATA__)) {
   const s = bySubject[subject] || { sections: 0, activities: 0 };
   console.log(`${subject}: ${s.sections} sections reviewed, ${s.activities} aligned activities reviewed`);
 }
-console.log("math: 0 units reviewed, 0 activities reviewed (no Integrated Math I content is implemented in this app folder)");
 const duplicateCount = rows.length - new Set(rows.map((row) => row.scenario.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim())).size;
 console.log(`duplicate activity scenarios found: ${duplicateCount}`);
 

@@ -19,7 +19,7 @@ function sha256(file) {
 
 function chapterNumber(file) {
   const name = path.basename(file).toLowerCase();
-  const match = name.match(/chapter[_\s-]*(\d+)/) || name.match(/^chapter-(\d+)/) || name.match(/^(\d+)/);
+  const match = name.match(/chapter[_\s-]*(\d+)/) || name.match(/chap[_\s-]*(\d+)/) || name.match(/^chapter-(\d+)/) || name.match(/^(\d+)/);
   return match ? Number(match[1]) : null;
 }
 
@@ -36,7 +36,7 @@ function statusLine(ok, message) {
 }
 
 function sourceMap(subject) {
-  const folder = path.join(materialsRoot, subject === "biology" ? "biology" : "world-geography");
+  const folder = path.join(materialsRoot, subject === "biology" ? "biology" : subject === "math" ? "math" : "world-geography");
   const out = new Map();
   for (const file of pdfsIn(folder)) {
     const number = chapterNumber(file);
@@ -163,10 +163,12 @@ function main() {
     Array.from({ length: 34 }, (_, index) => index + 1),
     [],
   );
+  const math = buildCourseInventory("math", Array.from({ length: 12 }, (_, index) => index + 1), []);
   const inventory = {
     generatedAt: new Date().toISOString(),
     biology,
     geography,
+    math,
     supplemental: supplementalInventory(),
   };
   fs.writeFileSync(inventoryJsonPath, `${JSON.stringify(inventory, null, 2)}\n`);
@@ -186,11 +188,17 @@ function main() {
   console.log(`${geography.rendered} rendered`);
   console.log(`${geography.validated} validated`);
   console.log(`${geography.unaccounted} unaccounted\n`);
+  console.log("Integrated Math I");
+  console.log(`${math.availableSourceChapters} source chapters`);
+  console.log(`${math.parsed} parsed`);
+  console.log(`${math.rendered} rendered`);
+  console.log(`${math.validated} validated`);
+  console.log(`${math.unaccounted} unaccounted\n`);
   for (const item of inventory.supplemental) {
     console.log(`${item.name}: ${item.status}`);
   }
 
-  const failures = [...biology.failures, ...geography.failures, ...inventory.supplemental.filter((item) => item.status !== "SOURCE_FOUND").map((item) => `${item.name}: ${item.status}`)];
+  const failures = [...biology.failures, ...geography.failures, ...math.failures, ...inventory.supplemental.filter((item) => item.status !== "SOURCE_FOUND").map((item) => `${item.name}: ${item.status}`)];
   if (failures.length) {
     console.log("\nFAIL");
     failures.forEach((failure) => console.log(`- ${failure}`));
