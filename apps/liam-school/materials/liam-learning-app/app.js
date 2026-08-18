@@ -529,7 +529,7 @@ function extractExpectedItems(prompt){
 	// Look for comma-separated lists inside the question
 	let list = prompt.match(/(?::|list|these|sort|classify|match)[:]?\s*([A-Za-z0-9 ,\/\-]+)(?:\.|$)/i);
 	if(list){
-		return list[1].split(/,|\/).map(s=>s.trim()).filter(Boolean);
+		return list[1].split(/,|\//).map(s=>s.trim()).filter(Boolean);
 	}
 	// Generic capture of comma sequences
 	let commaSeq = prompt.match(/([A-Za-z\s]+,\s*[A-Za-z\s]{2,}(?:,\s*[A-Za-z\s]{2,})+)/);
