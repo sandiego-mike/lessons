@@ -199,7 +199,7 @@ def lesson_blocks(chapter_title: str, section_title: str, terms: list[str]) -> l
     return [
         starts[kind(section_title)],
         f"Key word: {term}. {definition} Example: {example}",
-        f"In {section_title}, Liam should show the setup, the mathematical move, and the meaning of the result. If he is solving, he should check the value. If he is graphing, he should explain the visual feature. If he is proving, he should state the reason for each claim.",
+        f"Liam's Math I level starts at grade-level work after a quick foundation check. In {section_title}, he should show the setup, the mathematical move, and the meaning of the result. If he gets the first few checks right, move into Level Up or Challenge rather than repeating basics.",
     ]
 
 def activity(title: str) -> dict[str, str]:
@@ -232,7 +232,19 @@ NWEA_PROFILE = {
         "operations_algebra": 257,
         "statistics": 254,
         "real_complex": 252,
-    }
+    },
+    "instructional_model": {
+        "foundation": "Likely strong; verify quickly with a 3-5 problem prerequisite check.",
+        "grade_level": "Primary starting level for normal lessons.",
+        "challenge": "Use frequently after successful grade-level work.",
+        "advanced": "Optional enrichment; do not require it unless it fits the current textbook concept.",
+        "geometry_note": "Geometry is Liam's clearest relative strength, so geometry chapters should move faster through basic identification and offer richer reasoning.",
+        "growth_areas": [
+            "Real and Complex Number Systems",
+            "Statistics and Probability",
+            "Operations and Algebraic Thinking",
+        ],
+    },
 }
 
 def make_visual(chapter: int, title: str) -> str:
@@ -535,9 +547,10 @@ def inventory(course: dict[str, Any]) -> dict[str, Any]:
     return {"subject": "math", "label": course["name"], "expectedChapters": list(range(1, 13)), "unavailableChapters": [], "availableSourceChapters": len(rows), "parsed": len(rows), "rendered": len(rows), "validated": len(rows), "intentionallyUnavailable": 0, "unaccounted": 0, "chapters": rows, "failures": []}
 
 def main() -> None:
+    random.seed(20260818)
     data = json.loads(DATA.read_text(encoding="utf-8"))
     records = [chapter_record(i) for i in range(1, 13)]
-    data["math"] = {"id": "math", "name": "Integrated Math I", "chapters": records, "missing": [], "semesters": {"1": semester(list(range(1, 7)), records), "2": semester(list(range(7, 13)), records)}}
+    data["math"] = {"id": "math", "name": "Integrated Math I", "personalization": NWEA_PROFILE, "chapters": records, "missing": [], "semesters": {"1": semester(list(range(1, 7)), records), "2": semester(list(range(7, 13)), records)}}
     DATA.write_text(json.dumps(data, separators=(",", ":")) + "\n", encoding="utf-8")
     INLINE.write_text("window.__LIAM_COURSE_DATA__=" + json.dumps(data, separators=(",", ":")) + ";\n", encoding="utf-8")
     inv = json.loads(INVENTORY_JSON.read_text(encoding="utf-8")) if INVENTORY_JSON.exists() else {"supplemental": []}

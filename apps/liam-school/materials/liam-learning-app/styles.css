@@ -13,3 +13,5 @@
 @media(max-width:800px){.sort-zones,.portfolio-form{grid-template-columns:1fr}}
 .subject.math{border-top:5px solid #8a6f18}
 .math-mini span{background:#fff8e6}
+.math-profile{border-left:6px solid #8a6f18;background:#fffdf6}.math-profile.compact{margin-top:18px}.profile-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}.profile-grid span{border:1px solid #eadba8;background:#fff8e6;border-radius:12px;padding:10px;font-weight:800;color:#5f4709}
+@media(max-width:800px){.profile-grid{grid-template-columns:1fr}}

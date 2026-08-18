@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:26:09.301438Z",
+  "generatedAt": "2026-08-18T18:34:45.300Z",
   "biology": {
     "subject": "biology",
     "label": "Biology",
@@ -269,7 +269,7 @@
       },
       {
         "chapter": 17,
-        "title": "Organizing Life\u2019s Diversity",
+        "title": "Organizing Life’s Diversity",
         "sourceFile": "../biology/Chapter 17 PDF.pdf",
         "hash": "f77197c1306d19745f16217c58fcc91fde055039d1dab5e1525b4429929d26fd",
         "bytes": 6360207,
