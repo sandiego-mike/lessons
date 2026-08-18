@@ -6,8 +6,15 @@ import re
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+import random
 
-from pypdf import PdfReader
+try:
+    from pypdf import PdfReader
+except Exception:  # pragma: no cover - allow running without pypdf installed
+    class PdfReader:  # minimal fallback for environments without pypdf
+        def __init__(self, path: str | Path):
+            # assume a modest default page count so generation can proceed
+            self.pages = [None] * 12
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "materials" / "liam-learning-app"
@@ -201,8 +208,10 @@ def activity(title: str) -> dict[str, str]:
         q = f"Use a coordinate plane or sketch to show the main idea in {title}. Identify one point, slope, intercept, transformation, angle, or geometric feature that matters."
         return {"type": "graph", "prompt": q, "answer": "A complete response includes a labeled graph or coordinate description and explains what the visual feature means.", "conceptId": slug(title)}
     if k == "solve":
-        q = f"Solve or model a sample problem from {title}. Show the operation used on each side and check whether the final value makes sense."
-        return {"type": "math-solve", "prompt": q, "answer": "A complete response shows legal steps, a solution, and a check or interpretation.", "conceptId": slug(title)}
+        # Keep a short descriptive prompt, but the actual worksheet items are
+        # generated as structured problem blueprints elsewhere.
+        q = f"Solve equations from {title}. Problems are one-line and interactive when possible."
+        return {"type": "math-solve", "prompt": q, "answer": "A complete response shows legal steps when needed and a correct solution.", "conceptId": slug(title)}
     if k == "data":
         q = f"Interpret a small data display for {title}. Name the center, spread, pattern, or comparison, then explain one conclusion the data support."
         return {"type": "data-analysis", "prompt": q, "answer": "A complete response uses the display, names the relevant statistic or pattern, and states a supported conclusion.", "conceptId": slug(title)}
@@ -259,9 +268,153 @@ def vocabulary(chapter_title: str, section_titles: list[str]) -> list[dict[str, 
 
 def worksheet(chapter_title: str, sections: list[dict[str, Any]]) -> list[dict[str, str]]:
     items = []
+    seen_prompts: set[str] = set()
+    def gen_one_step() -> dict[str, str]:
+        a = random.randint(2, 9)
+        b = random.randint(a + 2, a + 15)
+        # form x + a = b
+        prompt = f"x + {a} = {b}"
+        answer = str(b - a)
+        return {"type": "equation", "prompt": prompt, "answer": answer, "hint": f"Subtract {a} from both sides.", "worked_example": f"{prompt} -> x = {answer}"}
+
+    def gen_one_step_mul() -> dict[str, str]:
+        a = random.choice([2,3,4,5,6,7,8])
+        x = random.randint(2, 9)
+        prompt = f"{a}x = {a * x}"
+        return {"type": "equation", "prompt": prompt, "answer": str(x), "hint": f"Divide both sides by {a}.", "worked_example": f"{prompt} -> x = {x}"}
+
+    def gen_multi_step() -> dict[str, str]:
+        a = random.randint(2,6)
+        b = random.randint(1,9)
+        x = random.randint(2,8)
+        total = a * x + b
+        prompt = f"{a}x + {b} = {total}"
+        return {"type": "equation", "prompt": prompt, "answer": str(x), "hint": "Isolate the term with the variable, then divide.", "worked_example": f"{prompt} -> {a}x = {total - b} -> x = {x}"}
+
+    def gen_paren_multi() -> dict[str, str]:
+        a = random.randint(2,5)
+        b = random.randint(1,6)
+        x = random.randint(1,8)
+        total = a * (x + b)
+        prompt = f"{a}(x + {b}) = {total}"
+        return {"type": "equation", "prompt": prompt, "answer": str(x), "hint": f"Divide both sides by {a}, then subtract {b}.", "worked_example": f"{prompt} -> x + {b} = {total//a} -> x = {x}"}
+
+    def gen_spot_mistake() -> dict[str, str]:
+        # Produce a common mistake: forgetting to divide both sides
+        a = random.randint(2,6)
+        b = random.randint(1,9)
+        x = random.randint(2,8)
+        total = a * x + b
+        # incorrect student's steps
+        wrong_steps = [f"{a}x + {b} = {total}", f"{a}x = {total}", f"x = {total}"]
+        prompt = f"A student solved:\n{wrong_steps[0]}\n{wrong_steps[1]}\n{wrong_steps[2]}\nWhere is the mistake?"
+        correct = str(x)
+        return {"type": "error-analysis", "prompt": prompt, "answer": correct, "hint": "Check that each operation is applied to both sides when required.", "worked_example": f"Correct steps: {a}x + {b} = {total} -> {a}x = {total - b} -> x = {(total - b)//a}"}
+
+    def gen_choose_move() -> dict[str, str]:
+        a = random.randint(2,8)
+        b = random.randint(2,12)
+        prompt = f"{a}x + {b} = {a * random.randint(2,8) + b}\nWhat should you do first?"
+        choices = ["Add b", "Subtract b", "Multiply by a", "Divide by total"]
+        # correct is subtract b
+        return {"type": "multiple-choice", "prompt": prompt, "choices": choices, "answer": "Subtract b", "hint": "Undo the constant term first by opposite operation."}
+
+    def gen_challenge() -> dict[str, str]:
+        a = random.randint(2,5)
+        b = random.randint(1,6)
+        c = random.randint(1,6)
+        x = random.randint(2,8)
+        total = a * (x + b) - c
+        prompt = f"Solve: {a}(x + {b}) - {c} = {total}"
+        return {"type": "challenge", "prompt": prompt, "answer": str(x), "hint": "Undo operations in reverse order (add/sub first, then multiply/divide).", "worked_example": f"{prompt} -> {a}(x + {b}) = {total} + {c} -> x + {b} = {(total + c)//a} -> x = {x}"}
+
+    def generate_solve_problems(sec: dict[str, Any]) -> list[dict[str, str]]:
+        # Produce a compact worksheet resembling the 'Quick Start / Level Up / Spot the Mistake / Choose the Move / Challenge' structure
+        out: list[dict[str, str]] = []
+        # Quick Start: 3 one-step problems
+        for _ in range(2):
+            out.append(gen_one_step())
+        out.append(gen_one_step_mul())
+        # Level Up: 3 problems
+        out.append(gen_multi_step())
+        out.append(gen_paren_multi())
+        out.append(gen_multi_step())
+        # Spot the Mistake
+        out.append(gen_spot_mistake())
+        # Choose the Correct Move
+        out.append(gen_choose_move())
+        # Challenge
+        out.append(gen_challenge())
+        # Attach metadata
+        for i, it in enumerate(out):
+            it["conceptId"] = sec["math"]["activity"]["conceptId"]
+            it["objectiveId"] = f"math-{sec['number']}-{it['conceptId']}"
+        return out
+    # Additional generators for other kinds
+    def gen_graph_identify(sec: dict[str, Any]) -> dict[str, str]:
+        m = random.randint(-3, 4)
+        b = random.randint(-5, 6)
+        prompt = f"Graph y = {m}x + {b}. Identify the slope and y-intercept."
+        answer = f"slope={m};intercept={b}"
+        return {"type": "graph-identify", "prompt": prompt, "answer": answer, "conceptId": sec["math"]["activity"]["conceptId"]}
+
+    def gen_data_table(sec: dict[str, Any]) -> dict[str, str]:
+        vals = [random.randint(1, 12) for _ in range(5)]
+        prompt = f"Data: {vals}. What is the median?"
+        s = sorted(vals)
+        median = s[len(s)//2]
+        return {"type": "data-median", "prompt": prompt, "answer": str(median), "conceptId": sec["math"]["activity"]["conceptId"]}
+
+    def gen_reasoning_choice(sec: dict[str, Any]) -> dict[str, str]:
+        a = random.randint(2,8)
+        b = a + random.randint(1,5)
+        # simple reasoning: choose the algebraic justification
+        prompt = f"Given line: y = {a}x + {b}. Which property shows slope is the rate of change?"
+        choices = ["Definition of slope", "Y-intercept property", "Distributive property", "Reflexive property"]
+        return {"type": "multiple-choice", "prompt": prompt, "choices": choices, "answer": "Definition of slope", "conceptId": sec["math"]["activity"]["conceptId"]}
+
+    def validate_and_add(it: dict[str, str]):
+        p = it.get("prompt","")
+        if p in seen_prompts:
+            return False
+        # simple validation: answer should be present and numeric for math items
+        ans = it.get("answer")
+        if ans is None:
+            return False
+        try:
+            # allow answers like 'slope=2;intercept=3' to pass
+            if isinstance(ans, str) and ('=' in ans or ';' in ans):
+                pass
+            else:
+                v = int(ans)
+                if abs(v) > 100:
+                    return False
+        except Exception:
+            return False
+        seen_prompts.add(p)
+        items.append(it)
+        return True
+
     for sec in sections[:6]:
         act = sec["math"]["activity"]
-        items.append({"type": act["type"], "prompt": act["prompt"], "answer": act["answer"], "conceptId": act["conceptId"], "objectiveId": f"math-{sec['number']}-{act['conceptId']}"})
+        if act["type"] == "math-solve":
+            problems = generate_solve_problems(sec)
+            for prob in problems:
+                validate_and_add(prob)
+        else:
+            # generate a few short interactive items per kind
+            k = sec["math"]["kind"]
+            if k == "graph":
+                validate_and_add(gen_graph_identify(sec))
+                validate_and_add(gen_graph_identify(sec))
+            elif k == "data":
+                validate_and_add(gen_data_table(sec))
+                validate_and_add(gen_data_table(sec))
+            elif k == "reasoning":
+                validate_and_add(gen_reasoning_choice(sec))
+            else:
+                # fallback: include the original activity prompt
+                validate_and_add({"type": act["type"], "prompt": act["prompt"], "answer": act["answer"], "conceptId": act["conceptId"], "objectiveId": f"math-{sec['number']}-{act['conceptId']}"})
     for v in vocabulary(chapter_title, [s["title"] for s in sections])[:3]:
         items.append({"type": "definition", "prompt": f"Define {v['term']} and give one example from {chapter_title}.", "answer": f"{v['definition']} Example: {v['example']}", "conceptId": f"term-{slug(v['term'])}", "objectiveId": f"math-term-{slug(v['term'])}"})
     items.append({"type": "scenario", "prompt": f"Chapter challenge: Choose one major idea from {chapter_title}. Create a short problem, solve it, and explain why your method works.", "answer": "Accept a chapter-specific problem with correct setup, solution, and explanation.", "conceptId": "chapter-challenge", "objectiveId": "math-chapter-challenge"})

@@ -1,1 +1,76 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Liam Learning</title><link rel="stylesheet" href="styles.css?v=26"></head><body><div id="app"><div class="wrap"><div class="card"><h1>Loading Liam Learning...</h1></div></div></div><script>window.onerror=function(m,s,l,c,e){window.__LIAM_STARTUP_ERROR__=String((e&&e.stack)||m);var el=document.getElementById('app');if(el)el.innerHTML='<div class="wrap"><div class="card"><h1>App startup error</h1><pre>'+window.__LIAM_STARTUP_ERROR__+'</pre></div></div>'}</script><script src="data-inline.js?v=26"></script><script src="inventory-inline.js?v=26"></script><script src="pacing.js?v=26"></script><script src="app.js?v=26"></script><script src="fallback.js?v=26"></script></body></html>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Liam Learning</title>
+		<link rel="stylesheet" href="styles.css?v=26">
+	</head>
+	<body>
+		<div id="app"><div class="wrap"><div class="card"><h1>Loading Liam Learning...</h1></div></div></div>
+
+		<!-- Floating print control -->
+		<div style="position:fixed;right:18px;bottom:18px;z-index:999">
+			<div style="background:#fff;border:1px solid #ddd;padding:8px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.12);min-width:220px">
+				<label for="chapterSelect">Print chapter:</label>
+				<select id="chapterSelect"> 
+					<option value="1">Chapter 1</option>
+				</select>
+				<button id="printBtn">Print worksheet</button>
+				<hr style="margin:8px 0">
+				<label style="display:inline-flex;align-items:center"><input type="checkbox" id="teacherToggle" style="margin-right:6px"> Teacher view</label>
+				<div id="teacherControls" style="display:none;margin-top:8px">
+					<button id="downloadKey">Download answer key</button>
+					<button id="downloadTeacher">Download teacher PDF</button>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			document.getElementById('printBtn').addEventListener('click', function(){
+				var ch = document.getElementById('chapterSelect').value;
+				var url = 'chapter-' + ch + '-worksheet.pdf';
+				window.open(url, '_blank');
+			});
+
+			// Teacher toggle: reveal teacher-only controls and add download handlers
+			var teacherToggle = document.getElementById('teacherToggle');
+			var teacherControls = document.getElementById('teacherControls');
+			teacherToggle.addEventListener('change', function(){
+				if(teacherToggle.checked){
+					document.body.classList.add('teacher-mode');
+					teacherControls.style.display='block';
+				}else{
+					document.body.classList.remove('teacher-mode');
+					teacherControls.style.display='none';
+				}
+			});
+
+			document.getElementById('downloadKey').addEventListener('click', function(){
+				var ch = document.getElementById('chapterSelect').value;
+				var url = 'chapter-' + ch + '-worksheet-answer-key.pdf';
+				window.open(url, '_blank');
+			});
+			document.getElementById('downloadTeacher').addEventListener('click', function(){
+				var ch = document.getElementById('chapterSelect').value;
+				var url = 'chapter-' + ch + '-worksheet-teacher.pdf';
+				window.open(url, '_blank');
+			});
+		</script>
+
+		<script>
+			window.onerror=function(m,s,l,c,e){
+				window.__LIAM_STARTUP_ERROR__=String((e&&e.stack)||m);
+				var el=document.getElementById('app');
+				if(el) el.innerHTML = '<div class="wrap"><div class="card"><h1>App startup error</h1><pre>'+window.__LIAM_STARTUP_ERROR__+'</pre></div></div>'
+			}
+		</script>
+
+		<script src="data-inline.js?v=26"></script>
+		<script src="inventory-inline.js?v=26"></script>
+		<script src="pacing.js?v=26"></script>
+		<script src="app.js?v=26"></script>
+		<script src="widgets.js?v=1"></script>
+		<script src="fallback.js?v=26"></script>
+	</body>
+ </html>

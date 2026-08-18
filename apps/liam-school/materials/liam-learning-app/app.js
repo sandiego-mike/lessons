@@ -508,10 +508,108 @@ function pdfBlobWithFooter(lines,opt={}){return academicPdfBlob({course:'Liam Le
 function download(blob,name){let url=URL.createObjectURL(blob);let isPdf=blob.type==='application/pdf'||/\.pdf$/i.test(name);let preview=isPdf?window.open(url,'_blank','noopener'):null;let a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();let host=document.querySelector('.card')||document.body;let old=document.getElementById('export-status');if(old)old.remove();let panel=document.createElement('div');panel.id='export-status';panel.className='export-panel';panel.innerHTML=`<strong>${isPdf?'PDF':'File'} ready:</strong> ${esc(name)}<div class="actions"><a class="primary" href="${url}" download="${esc(name)}">Download ${isPdf?'PDF':'File'}</a>${isPdf?`<a class="secondary" href="${url}" target="_blank" rel="noopener">Open PDF</a>`:''}</div>${isPdf?`<iframe title="PDF preview" src="${url}"></iframe>`:''}`;host.prepend(panel);if(isPdf&&!preview)panel.insertAdjacentHTML('beforeend','<p class="muted">If the preview does not appear, use Open PDF or Download PDF.</p>');setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},600000)}
 function prettyConcept(id){return String(id||'learning activity').replace(/^term-|^guided-|^source-review$/g,'').replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase())}
 function promptTitle(q,i){let p=cleanStudentText(q.prompt||'');let m=p.match(/(?:into|as|by|for|about|explain|classify|match|put|label|trace|why)\s+([^:.?]{8,58})/i);let title=cleanStudentText((m&&m[1])||p.split(/[?:.]/)[0]).replace(/\bthese\b|\beach\b|\bthe\b/gi,'').trim();return title.slice(0,58).replace(/\b\w/g,c=>c.toUpperCase())||`Learning Activity ${i+1}`}
-function exportItemTitle(q,i){let p=cleanStudentText(q.prompt||''),concept=prettyConcept(q.conceptId||'');if(concept&&concept!=='Learning Activity')return concept;return promptTitle(q,i)}
+function exportItemTitle(q,i){
+	// Prefer machine-friendly metadata: conceptId, objectiveId, section/label
+	if(q.conceptId) return prettyConcept(q.conceptId);
+	if(q.objectiveId) return prettyConcept(q.objectiveId);
+	if(q.label) return cleanStudentText(q.label).slice(0,60);
+	// Fallback: use a shorter prompt-derived title
+	return promptTitle(q,i)
+}
+
+// Extract an expected list of items from prompts like 'classify A, B, C' or 'A -> B -> C'
+function extractExpectedItems(prompt){
+	if(!prompt) return [];
+	// Look for arrow sequences
+	let m = prompt.match(/([A-Za-z0-9\s]+(?:->|→|->|\u2192)[A-Za-z0-9\s\-\>\u2192]+)/);
+	if(m){
+		// split on arrow or ->
+		return prompt.split(/\s*(?:->|→|\u2192)\s*/).map(s=>s.trim()).filter(Boolean);
+	}
+	// Look for comma-separated lists inside the question
+	let list = prompt.match(/(?::|list|these|sort|classify|match)[:]?\s*([A-Za-z0-9 ,\/\-]+)(?:\.|$)/i);
+	if(list){
+		return list[1].split(/,|\/).map(s=>s.trim()).filter(Boolean);
+	}
+	// Generic capture of comma sequences
+	let commaSeq = prompt.match(/([A-Za-z\s]+,\s*[A-Za-z\s]{2,}(?:,\s*[A-Za-z\s]{2,})+)/);
+	if(commaSeq) return commaSeq[0].split(',').map(s=>s.trim()).filter(Boolean);
+	return [];
+}
+
+// Assess a structured response: returns {status,missing:[...],structuredMap: {item:response}}
+function assessStructuredResponse(q,response){
+	let expected = extractExpectedItems(q.prompt||'');
+	let resp = String(response||'').trim();
+	if(!resp) return {status:'Not Yet Assessed',missing:expected,structuredMap:{}};
+	if(!expected.length) return {status:'Completed',missing:[],structuredMap:{}};
+	// Parse student's items from response: split lines or commas
+	let parts = resp.split(/\n|;|,|\.|:/).map(s=>s.trim()).filter(Boolean);
+	// Try to match expected by word inclusion
+	let found = new Set();
+	let map = {};
+	for(let e of expected){
+		for(let p of parts){
+			if(p.toLowerCase().includes(e.toLowerCase().split(/\s+/)[0])){ found.add(e); map[e]=p; break }
+		}
+	}
+	let missing = expected.filter(e=>!found.has(e));
+	let status = missing.length? 'Partially Complete' : 'Completed';
+	return {status,missing,structuredMap:map};
+}
 function pdfAnswerText(value){let text=pdfClean(value||'').replace(/\s*[-=]+>\s*/g,' → ').replace(/\s+→\s+/g,' → ');return text}
 function chapterSummaryItems(items,vals){let seen=new Set(),out=[];items.forEach((q,i)=>{if(!String(vals[i]||'').trim())return;let name=prettyConcept(q.conceptId||q.type);if(!name||seen.has(name))return;seen.add(name);out.push(name)});return out}
-function worksheetDoc(ch,mode){let c=course(),items=worksheetItems(ch),vals=saved[`${S.subject}-${ch.number}-worksheet`]||{},completed=mode==='completed',key=mode==='key',blank=mode==='blank',blocks=[];blocks.push({type:'p',text:blank?'Printable blank worksheet with room for handwriting.':key?'Parent answer key for checking Liam DeVries chapter worksheet.':'Completed student work exported from Liam DeVries saved responses.'});items.forEach((q,i)=>{let answer=key?q.answer:completed?pdfAnswerText(vals[i]||''):'';blocks.push({type:'item',mode:blank?'blank':key?'key':'completed',title:`Activity ${i+1} - ${exportItemTitle(q,i)}`,question:q.prompt,answer,result:completed?(String(vals[i]||'').trim()?'Saved Response':'Needs Review'):''})});if(completed){let summary=chapterSummaryItems(items,vals);if(summary.length){blocks.push({type:'h1',text:'Chapter Learning Summary'});blocks.push({type:'p',text:'Liam demonstrated work involving:'});blocks.push({type:'list',items:summary})}let standards=portfolioStandards(S.subject,{completed:[{step:{k:items.map(x=>x.conceptId||x.prompt).join(' ')},title:`Chapter ${ch.number} worksheet`}],interactive:[],chapter:ch});if(standards.length){blocks.push({type:'h1',text:'California Standards / Curriculum Alignment'});standards.slice(0,2).forEach(st=>{blocks.push({type:'p',text:`Standard: ${st.id}`});blocks.push({type:'p',text:`Learning Target: ${st.learningTarget}`});blocks.push({type:'p',text:`Evidence: ${st.evidence}`})})}}return {subject:c.name,chapter:ch.number,chapterTitle:ch.title,docTitle:key?'Parent Answer Key':completed?'Completed Student Work':'Printable Blank Worksheet',dateLabel:completed?'Completed':'Generated',blocks}}
+function worksheetDoc(ch,mode){
+	let c=course();
+	let items=worksheetItems(ch);
+	let vals=saved[`${S.subject}-${ch.number}-worksheet`]||{};
+	let completed=mode==='completed', key=mode==='key', blank=mode==='blank';
+	let blocks=[];
+	blocks.push({type:'p',text: blank ? 'Printable blank worksheet with room for handwriting.' : key ? "Parent answer key for checking Liam DeVries chapter worksheet." : "Completed student work exported from Liam DeVries saved responses."});
+
+	// Build items with preserved student responses and lightweight assessment
+	items.forEach((q,i)=>{
+		let respRaw = vals[i]||'';
+		let answer = key ? q.answer : completed ? pdfAnswerText(respRaw||'') : '';
+		let modeLabel = blank ? 'blank' : key ? 'key' : 'completed';
+		let result = undefined;
+		let missing = [];
+		let structured = {};
+		if(completed){
+			let assess = assessStructuredResponse(q, respRaw);
+			if(assess){ result = assess.status; missing = assess.missing; structured = assess.structuredMap; }
+			if(!assess || (assess && assess.missing && assess.missing.length===0 && Object.keys(assess.structuredMap).length===0)){
+				if(String(respRaw||'').trim()) result = result || 'Completed';
+			}
+		}
+		// Append structured/missing information to the preserved raw answer for printing
+		let answerText = String(respRaw||'');
+		if(completed){
+			if(missing && missing.length) answerText += (answerText?"\n\n":'') + 'Missing: ' + missing.join(', ');
+			if(structured && Object.keys(structured).length){
+				answerText += (answerText?"\n\n":'') + 'Structured responses:';
+				for(const k in structured) answerText += `\n${k} → ${structured[k]}`;
+			}
+			if(result) answerText += (answerText?"\n\n":'') + 'Status: ' + result;
+		}
+		blocks.push({type:'item',mode:modeLabel,title:`Activity ${i+1} - ${exportItemTitle(q,i)}`,question:q.prompt,answer:answerText,missing:missing,result:result,structured:structured});
+	});
+
+	if(completed){
+		let summary=chapterSummaryItems(items,vals);
+		if(summary.length){
+			blocks.push({type:'h1',text:'Chapter Learning Summary'});
+			blocks.push({type:'p',text:'Liam demonstrated work involving:'});
+			blocks.push({type:'list',items:summary});
+		}
+		let standards=portfolioStandards(S.subject,{completed:[{step:{k:items.map(x=>x.conceptId||x.prompt).join(' ')},title:`Chapter ${ch.number} worksheet`}],interactive:[],chapter:ch});
+		if(standards.length){
+			blocks.push({type:'h1',text:'California Standards / Curriculum Alignment'});
+			standards.slice(0,2).forEach(st=>{blocks.push({type:'p',text:`Standard: ${st.id}`});blocks.push({type:'p',text:`Learning Target: ${st.learningTarget}`});blocks.push({type:'p',text:`Evidence: ${st.evidence}`})});
+		}
+	}
+	return {subject:c.name,chapter:ch.number,chapterTitle:ch.title,docTitle:key?'Parent Answer Key':completed?'Completed Student Work':'Printable Blank Worksheet',dateLabel:completed?'Completed':'Generated',blocks}
+}
 function exportWorksheet(mode){let ch=chap(),label=subjectExportLabel(S.subject),kind=mode==='key'?'Answer_Key':mode==='completed'?'Completed_Worksheet':'Blank_Worksheet';download(academicPdfBlob(worksheetDoc(ch,mode)),`Liam_DeVries_${label}_Chapter_${String(ch.number).padStart(2,'0')}_${kind}.pdf`)}
 function exportSemester(finalMode){let c=course(),sem=c.semesters[String(S.sem)],qs=(finalMode?sem.final:sem.review).slice(0,30),blocks=[{type:'p',text:`Chapters covered: ${sem.chapters.join(', ')}`}];qs.forEach((q,i)=>blocks.push({type:'item',mode:'blank',title:`Question ${i+1}`,question:semesterQuestion(q)}));download(academicPdfBlob({subject:c.name,chapter:`Semester ${S.sem}`,chapterTitle:finalMode?'Semester Final':'Practice Review',docTitle:finalMode?'Semester Final':'Practice Final / Review',dateLabel:'Generated',blocks}),`Liam_DeVries_${S.subject}_Semester_${S.sem}_${finalMode?'Final':'Practice'}.pdf`)}
 function backupPayload(){return {student:STUDENT,schemaVersion:PROGRESS_SCHEMA_VERSION,exportedAt:new Date().toISOString(),app:'Liam Learning',progress:saved}}
