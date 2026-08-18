@@ -221,6 +221,20 @@ def activity(title: str) -> dict[str, str]:
     q = f"Build a table, equation, graph, or diagram that represents {title}, then explain what each part means."
     return {"type": "model", "prompt": q, "answer": "A complete response includes a representation and interprets it in context.", "conceptId": slug(title)}
 
+# NWEA-informed profile for Liam DeVries (Spring 2026)
+NWEA_PROFILE = {
+    "student": "Liam DeVries",
+    "grade": 9,
+    "overall_rit": 259,
+    "percentile": 93,
+    "areas": {
+        "geometry": 273,
+        "operations_algebra": 257,
+        "statistics": 254,
+        "real_complex": 252,
+    }
+}
+
 def make_visual(chapter: int, title: str) -> str:
     path = APP / "assets" / f"math-{chapter:02d}-visual.svg"
     color = "#176f5b" if chapter <= 6 else "#163d66"
@@ -299,6 +313,47 @@ def worksheet(chapter_title: str, sections: list[dict[str, Any]]) -> list[dict[s
         prompt = f"{a}(x + {b}) = {total}"
         return {"type": "equation", "prompt": prompt, "answer": str(x), "hint": f"Divide both sides by {a}, then subtract {b}.", "worked_example": f"{prompt} -> x + {b} = {total//a} -> x = {x}"}
 
+    def gen_variable_both_sides() -> dict[str, str]:
+        # create equations with variables on both sides like 4x + 7 = 2x + 19
+        a = random.randint(2,6)
+        b = random.randint(1,12)
+        c = random.randint(1,6)
+        d = random.randint(1,12)
+        x = random.randint(1,10)
+        left = a * x + b
+        right = c * x + d
+        # shift so both sides equal
+        total = left
+        # build prompt with different expressions but equal value
+        prompt = f"{a}x + {b} = {c}x + {d + (a-c)*x}"
+        # solve for x algebraically
+        # (a-c)x = (d + (a-c)*x) - b => simplifies to x = x (we construct so solution is x)
+        return {"type": "equation", "prompt": prompt, "answer": str(x), "hint": "Collect x terms on one side, constants on the other, then divide.", "worked_example": f"{prompt} -> ({a}-{c})x = {d + (a-c)*x - b} -> x = {x}"}
+
+    def gen_rational_coeff() -> dict[str, str]:
+        # produce decimal or fractional coefficients
+        if random.random() < 0.5:
+            # decimal coefficient example: 0.6x - 2.4 = 7.8
+            coef = random.choice([0.5, 0.6, 0.75, 1.25])
+            const = round(random.uniform(-5, 10), 1)
+            x = random.randint(2, 12)
+            total = round(coef * x + const, 1)
+            prompt = f"{coef}x + {const} = {total}"
+            # compute answer carefully
+            return {"type": "equation", "prompt": prompt, "answer": str(x), "hint": "Isolate the term with x and divide by the coefficient.", "worked_example": f"{prompt} -> {coef}x = {round(total - const,1)} -> x = {x}"}
+        else:
+            # fractional coefficient (3/4)x + 5 = 17
+            num = random.choice([2,3,4])
+            den = random.choice([2,3,4])
+            frac = f"{num}/{den}"
+            add = random.randint(0,8)
+            x = random.randint(2,12)
+            total = num * x // den + add if (num * x) % den == 0 else (num * x) / den + add
+            # For simplicity produce problems where division is exact
+            total_val = (num * x)//den + add
+            prompt = f"({frac})x + {add} = {total_val}"
+            return {"type": "equation", "prompt": prompt, "answer": str(x), "hint": "Clear the fraction by multiplying both sides, then solve.", "worked_example": f"{prompt} -> ({frac})x = {total_val - add} -> x = {x}"}
+
     def gen_spot_mistake() -> dict[str, str]:
         # Produce a common mistake: forgetting to divide both sides
         a = random.randint(2,6)
@@ -320,30 +375,54 @@ def worksheet(chapter_title: str, sections: list[dict[str, Any]]) -> list[dict[s
         return {"type": "multiple-choice", "prompt": prompt, "choices": choices, "answer": "Subtract b", "hint": "Undo the constant term first by opposite operation."}
 
     def gen_challenge() -> dict[str, str]:
-        a = random.randint(2,5)
-        b = random.randint(1,6)
-        c = random.randint(1,6)
-        x = random.randint(2,8)
-        total = a * (x + b) - c
-        prompt = f"Solve: {a}(x + {b}) - {c} = {total}"
-        return {"type": "challenge", "prompt": prompt, "answer": str(x), "hint": "Undo operations in reverse order (add/sub first, then multiply/divide).", "worked_example": f"{prompt} -> {a}(x + {b}) = {total} + {c} -> x + {b} = {(total + c)//a} -> x = {x}"}
+        # Stronger multi-step/challenge problems for higher-performing student
+        form = random.choice([1,2,3])
+        if form == 1:
+            # nested parentheses with distribution
+            a = random.randint(2,6)
+            b = random.randint(1,6)
+            c = random.randint(1,6)
+            d = random.randint(1,6)
+            x = random.randint(2,8)
+            total = a * (b * x + c) - d
+            prompt = f"Solve: {a}({b}x + {c}) - {d} = {total}"
+            return {"type": "challenge", "prompt": prompt, "answer": str(x), "hint": "Work inside-out: undo subtraction, divide, then isolate x.", "worked_example": f"{prompt} -> {a}({b}x + {c}) = {total + d} -> {b}x + {c} = {(total + d)//a} -> x = {x}"}
+        elif form == 2:
+            # variables on both sides with distribution
+            a = random.randint(2,5)
+            b = random.randint(1,6)
+            c = random.randint(1,6)
+            x = random.randint(2,8)
+            left = a * x + b
+            right = c * x + (b + (a-c)*x)
+            prompt = f"Solve: {a}(x + {b}) = {c}x + {right - c*x}"
+            return {"type": "challenge", "prompt": prompt, "answer": str(x), "hint": "Expand and collect x terms on one side, constants on the other.", "worked_example": f"{prompt} -> {a}x + {a*b} = {c}x + {right - c*x} -> ... -> x = {x}"}
+        else:
+            # rational coefficient challenge
+            coef = random.choice([0.6, 0.75, 1.5])
+            add = random.randint(-3, 8)
+            x = random.randint(2, 10)
+            total = round(coef * x + add, 2)
+            prompt = f"Solve: {coef}x + {add} = {total}"
+            return {"type": "challenge", "prompt": prompt, "answer": str(x), "hint": "Isolate and divide by the coefficient (consider decimals).", "worked_example": f"{prompt} -> {coef}x = {round(total - add,2)} -> x = {x}"}
 
     def generate_solve_problems(sec: dict[str, Any]) -> list[dict[str, str]]:
         # Produce a compact worksheet resembling the 'Quick Start / Level Up / Spot the Mistake / Choose the Move / Challenge' structure
         out: list[dict[str, str]] = []
-        # Quick Start: 3 one-step problems
-        for _ in range(2):
-            out.append(gen_one_step())
+        # Quick Start: 2 foundation warm-ups (short check)
+        out.append(gen_one_step())
         out.append(gen_one_step_mul())
-        # Level Up: 3 problems
+        # Level Up: prioritize multi-step, parentheses, variables-on-both-sides, rational coeffs
         out.append(gen_multi_step())
         out.append(gen_paren_multi())
-        out.append(gen_multi_step())
+        out.append(gen_variable_both_sides())
+        out.append(gen_rational_coeff())
         # Spot the Mistake
         out.append(gen_spot_mistake())
         # Choose the Correct Move
         out.append(gen_choose_move())
-        # Challenge
+        # Add two challenge/application problems (one grade-level, one advanced)
+        out.append(gen_challenge())
         out.append(gen_challenge())
         # Attach metadata
         for i, it in enumerate(out):
