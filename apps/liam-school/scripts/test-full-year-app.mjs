@@ -66,7 +66,7 @@ context.window.scrollTo = () => {};
 vm.createContext(context);
 vm.runInContext(pacing, context);
 vm.runInContext(inline, context);
-vm.runInContext(`${source}\n;globalThis.__coverage=(()=>{let rows=[];for(let subject of subjectIds()){S.subject=subject;for(let chapter of S.data[subject].chapters){let guide=guideFor(chapter),worksheet=worksheetItems(chapter),check=knowledgeItems(chapter);rows.push({subject,chapter:chapter.number,steps:guide.steps.length,worksheet:worksheet.length,sourceQuestions:worksheet.filter(q=>q.type==='source_question').length,testStyle:worksheet.filter(q=>/SAT\\/ACT|Error analysis/i.test(q.prompt)).length,check:check.length,invalid:guide.steps.flatMap((step,index)=>validateActivity(normalizeStepActivity(step,index))).length})}}return rows})()`, context);
+vm.runInContext(`${source}\n;globalThis.__coverage=(()=>{let rows=[];for(let subject of subjectIds()){S.subject=subject;for(let chapter of S.data[subject].chapters){let guide=guideFor(chapter),worksheet=worksheetItems(chapter),check=knowledgeItems(chapter);rows.push({subject,chapter:chapter.number,steps:guide.steps.length,worksheet:worksheet.length,prompts:worksheet.map(q=>q.prompt),sourceQuestions:worksheet.filter(q=>q.type==='source_question').length,testStyle:worksheet.filter(q=>/SAT\\/ACT|Error analysis/i.test(q.prompt)).length,check:check.length,invalid:guide.steps.flatMap((step,index)=>validateActivity(normalizeStepActivity(step,index))).length})}}return rows})()`, context);
 assert.equal(context.__coverage.length, 62, "runtime coverage must include all 62 available chapters");
 for (const row of context.__coverage) {
   assert.ok(row.steps >= 2, `${row.subject} chapter ${row.chapter} has too few guided blocks`);
@@ -86,6 +86,14 @@ for (const row of context.__coverage) {
 }
 assert.ok(context.__coverage.filter(r=>r.subject==='biology').reduce((sum,row)=>sum+row.sourceQuestions,0)>=12,
   "biology worksheets must include a meaningful set of curated textbook section questions");
+const mathOne = context.__coverage.find(row => row.subject === "math" && row.chapter === 1);
+assert.ok(!mathOne.prompts.some(prompt => /Earth sphere|plate tectonics|weathering|water cycle/i.test(prompt)),
+  "Math Chapter 1 must never receive geography worksheet questions");
+const inequalities = context.__coverage.find(row => row.subject === "math" && row.chapter === 2);
+assert.equal(new Set(inequalities.prompts).size, 15, "inequality worksheet questions must all be distinct");
+for (const skill of [/write an inequality/i,/addition|x - 9/i,/-4x|z\/\(-3\)/i,/multi|5\(2x/i,/compound|-5 < 2x/i,/absolute|\|x - 2\|/i]) {
+  assert.ok(inequalities.prompts.some(prompt => skill.test(prompt)), `inequality worksheet is missing ${skill}`);
+}
 
 vm.runInContext(`globalThis.__writingChecks=[
   writingReview('The Pacific Ocean is apart of the hydrosphere.'),
