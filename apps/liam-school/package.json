@@ -12,7 +12,8 @@
     "validate-student-content": "node scripts/validate-student-content.mjs",
     "validate-learning-alignment": "node scripts/validate-learning-alignment.mjs",
     "test:pacing": "node scripts/test-pacing.mjs",
-    "test:exports": "node scripts/test-export-reports.mjs"
+    "test:exports": "node scripts/test-export-reports.mjs",
+    "test:full-year": "node scripts/test-full-year-app.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",

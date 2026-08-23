@@ -1,9 +1,11 @@
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const appRoot = path.resolve("materials/liam-learning-app");
-const materialsRoot = path.resolve("materials");
+const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const appRoot = path.join(projectRoot, "materials/liam-learning-app");
+const materialsRoot = path.join(projectRoot, "materials");
 const dataPath = path.join(appRoot, "data/course-data.json");
 const inventoryJsonPath = path.join(appRoot, "data/curriculum-inventory.json");
 const inventoryJsPath = path.join(appRoot, "inventory-inline.js");
@@ -24,6 +26,7 @@ function chapterNumber(file) {
 }
 
 function pdfsIn(folder) {
+  if (!fs.existsSync(folder)) return [];
   return fs
     .readdirSync(folder)
     .filter((name) => name.toLowerCase().endsWith(".pdf"))
@@ -38,6 +41,19 @@ function statusLine(ok, message) {
 function sourceMap(subject) {
   const folder = path.join(materialsRoot, subject === "biology" ? "biology" : subject === "math" ? "math" : "world-geography");
   const out = new Map();
+  if (!fs.existsSync(folder) && fs.existsSync(inventoryJsonPath)) {
+    const previous = readJson(inventoryJsonPath)?.[subject]?.chapters ?? [];
+    for (const row of previous) {
+      if (!row.sourceFile || !row.hash) continue;
+      out.set(row.chapter, {
+        file: row.sourceFile,
+        absoluteFile: null,
+        hash: row.hash,
+        bytes: row.bytes ?? 0,
+      });
+    }
+    return out;
+  }
   for (const file of pdfsIn(folder)) {
     const number = chapterNumber(file);
     if (!number) continue;
