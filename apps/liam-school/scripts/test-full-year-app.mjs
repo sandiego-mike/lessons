@@ -103,6 +103,14 @@ assert.ok(!/Table<\/span>.*Coordinate plane/s.test(context.__inequalityWorksheet
   "inequality webpage must not show the coordinate-graph response scaffold");
 assert.ok(/Given<\/span>.*Operation<\/span>.*Solution<\/span>.*Check/s.test(context.__inequalityWorksheetHtml),
   "inequality webpage must show the solve-and-check response scaffold");
+vm.runInContext("S.subject='math';S.chapter=2;globalThis.__mentalHtml=guidedLesson(chap(),guideFor(chap()));globalThis.__mentalBanks=S.data.math.chapters.map(ch=>mentalMathBank(ch,0).length)", context);
+assert.ok(/Mental Math Lab|Solve mentally first|Incorrect answers show the fastest reliable method/.test(context.__mentalHtml),
+  "Math lessons must use the rapid mental-practice interface");
+assert.ok(!/This section is about/.test(context.__mentalHtml),
+  "Math lessons must not begin with dense generated section prose");
+assert.ok(context.__mentalBanks.every(count => count >= 5),
+  "Every Math chapter needs at least five rapid-practice questions");
+assert.match(source, /Here is the fastest clean path/, "incorrect Math answers must display a direct worked correction");
 
 vm.runInContext(`globalThis.__writingChecks=[
   writingReview('The Pacific Ocean is apart of the hydrosphere.'),
