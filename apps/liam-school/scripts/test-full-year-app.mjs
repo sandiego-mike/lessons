@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import vm from "node:vm";
 
 const appUrl = new URL("../materials/liam-learning-app/app.js", import.meta.url);
@@ -101,8 +101,21 @@ for (const skill of [/write an inequality/i,/addition|x - 9/i,/-4x|z\/\(-3\)/i,/
 vm.runInContext("S.subject='math';S.chapter=2;globalThis.__inequalityWorksheetHtml=worksheet(chap())", context);
 assert.ok(!/Table<\/span>.*Coordinate plane/s.test(context.__inequalityWorksheetHtml),
   "inequality webpage must not show the coordinate-graph response scaffold");
-assert.ok(/Given<\/span>.*Operation<\/span>.*Solution<\/span>.*Check/s.test(context.__inequalityWorksheetHtml),
-  "inequality webpage must show the solve-and-check response scaffold");
+assert.ok(/Solve and write the final inequality.*sign reversal.*Graph the endpoint.*Check one value/s.test(context.__inequalityWorksheetHtml),
+  "inequality webpage must show every required understanding step");
+assert.ok(/<svg[^>]*Blank number line/s.test(context.__inequalityWorksheetHtml),
+  "inequality webpage must include a visible number line for graphing");
+context.__mathPdfMode = process.env.MATH_PDF_MODE || "blank";
+vm.runInContext("globalThis.__mathPdf=mathWorksheetPdfBlob(chap(),globalThis.__mathPdfMode);globalThis.__graphSpecs=[inequalityGraphSpec('x <= -7'),inequalityGraphSpec('-3 < x <= 5'),inequalityGraphSpec('x < 3 or x >= 6')]", context);
+assert.ok(context.__mathPdf.size > 12000, "Math worksheet PDF must contain rendered workspace and number lines");
+assert.equal(context.__graphSpecs[0].segments[0].hiClosed, true, "closed inequality endpoint was not parsed");
+assert.equal(context.__graphSpecs[1].segments[0].lo, -3, "compound inequality lower endpoint was not parsed");
+assert.equal(context.__graphSpecs[2].segments.length, 2, "union inequality must render two rays");
+vm.runInContext("S.chapter=3;globalThis.__functionWorksheetHtml=worksheet(chap());globalThis.__functionPdf=mathWorksheetPdfBlob(chap(),'blank')", context);
+assert.ok(/Blank coordinate grid/.test(context.__functionWorksheetHtml),
+  "function worksheets must include coordinate grids where graphing is required");
+assert.ok(context.__functionPdf.size > 12000, "graphing worksheet PDF must contain coordinate-grid workspace");
+if (process.env.MATH_PDF_OUTPUT) await writeFile(process.env.MATH_PDF_OUTPUT, Buffer.from(await context.__mathPdf.arrayBuffer()));
 vm.runInContext("S.subject='math';S.chapter=2;globalThis.__mentalHtml=guidedLesson(chap(),guideFor(chap()));globalThis.__mentalBanks=S.data.math.chapters.map(ch=>mentalMathBank(ch,0).length)", context);
 assert.ok(/Mental Math Lab|Solve mentally first|Incorrect answers show the fastest reliable method/.test(context.__mentalHtml),
   "Math lessons must use the rapid mental-practice interface");
