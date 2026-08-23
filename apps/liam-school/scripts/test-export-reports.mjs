@@ -17,5 +17,11 @@ assert.doesNotMatch(source, /hex='FEFF'/,
   "Helvetica PDF strings must not be emitted as unsupported UTF-16 text");
 assert.match(source, /endsWith\('-worksheet'\)&&hasResponses/,
   "progress reports must ignore empty worksheet records");
+assert.match(source, /function installWritingCoach\(\)/,
+  "every text-entry area must receive the writing coach");
+assert.doesNotMatch(source, /let assess = assessStructuredResponse\(q, respRaw\)/,
+  "completed exports must not use fragment parsing to claim a response is incomplete");
+assert.match(source, /'Response recorded':'No response saved'/,
+  "completed exports must report saved-response status honestly");
 
 console.log("Export/report regression checks passed.");

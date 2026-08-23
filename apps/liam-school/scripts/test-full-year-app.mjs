@@ -71,8 +71,21 @@ assert.equal(context.__coverage.length, 62, "runtime coverage must include all 6
 for (const row of context.__coverage) {
   assert.ok(row.steps >= 2, `${row.subject} chapter ${row.chapter} has too few guided blocks`);
   assert.ok(row.worksheet >= 1, `${row.subject} chapter ${row.chapter} has no worksheet`);
+  if (row.subject === "geography") {
+    assert.ok(row.worksheet >= 12 && row.worksheet <= 15,
+      `geography chapter ${row.chapter} must have 12-15 balanced worksheet questions`);
+  }
   assert.ok(row.check >= 1, `${row.subject} chapter ${row.chapter} has no knowledge check`);
   assert.equal(row.invalid, 0, `${row.subject} chapter ${row.chapter} has an invalid guided activity`);
 }
+
+vm.runInContext(`globalThis.__writingChecks=[
+  writingReview('The Pacific Ocean is apart of the hydrosphere.'),
+  writingReview('Earths water is limited'),
+  writingReview('Earth’s water is limited.')
+]`, context);
+assert.ok(context.__writingChecks[0].issues.some(x => x.includes('a part of')), "writing coach must catch apart of");
+assert.ok(context.__writingChecks[1].issues.some(x => x.includes('Earth’s')), "writing coach must catch Earths");
+assert.equal(context.__writingChecks[2].issues.length, 0, "correct writing should not receive a false warning");
 
 console.log("Full-year app coverage checks passed for Biology, World Geography, and Integrated Math I.");

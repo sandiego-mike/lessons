@@ -15,3 +15,4 @@
 .math-mini span{background:#fff8e6}
 .math-profile{border-left:6px solid #8a6f18;background:#fffdf6}.math-profile.compact{margin-top:18px}.profile-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}.profile-grid span{border:1px solid #eadba8;background:#fff8e6;border-radius:12px;padding:10px;font-weight:800;color:#5f4709}
 @media(max-width:800px){.profile-grid{grid-template-columns:1fr}}
+.writing-coach{margin-top:8px;border:1px solid #d7e2ef;border-radius:11px;background:#f8fbff;padding:10px 12px}.writing-coach-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.writing-coach-head .secondary{padding:7px 10px}.writing-coach-result{margin-top:7px;font-size:13px;line-height:1.45}.writing-coach-result ul{margin:6px 0;padding-left:20px}.writing-ok{color:#0f5e44;font-weight:700}
