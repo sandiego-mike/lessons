@@ -66,7 +66,7 @@ context.window.scrollTo = () => {};
 vm.createContext(context);
 vm.runInContext(pacing, context);
 vm.runInContext(inline, context);
-vm.runInContext(`${source}\n;globalThis.__coverage=(()=>{let rows=[];for(let subject of subjectIds()){S.subject=subject;for(let chapter of S.data[subject].chapters){let guide=guideFor(chapter),worksheet=worksheetItems(chapter),check=knowledgeItems(chapter);rows.push({subject,chapter:chapter.number,steps:guide.steps.length,worksheet:worksheet.length,check:check.length,invalid:guide.steps.flatMap((step,index)=>validateActivity(normalizeStepActivity(step,index))).length})}}return rows})()`, context);
+vm.runInContext(`${source}\n;globalThis.__coverage=(()=>{let rows=[];for(let subject of subjectIds()){S.subject=subject;for(let chapter of S.data[subject].chapters){let guide=guideFor(chapter),worksheet=worksheetItems(chapter),check=knowledgeItems(chapter);rows.push({subject,chapter:chapter.number,steps:guide.steps.length,worksheet:worksheet.length,sourceQuestions:worksheet.filter(q=>q.type==='source_question').length,testStyle:worksheet.filter(q=>/SAT\\/ACT|Error analysis/i.test(q.prompt)).length,check:check.length,invalid:guide.steps.flatMap((step,index)=>validateActivity(normalizeStepActivity(step,index))).length})}}return rows})()`, context);
 assert.equal(context.__coverage.length, 62, "runtime coverage must include all 62 available chapters");
 for (const row of context.__coverage) {
   assert.ok(row.steps >= 2, `${row.subject} chapter ${row.chapter} has too few guided blocks`);
@@ -75,9 +75,17 @@ for (const row of context.__coverage) {
     assert.ok(row.worksheet >= 12 && row.worksheet <= 15,
       `geography chapter ${row.chapter} must have 12-15 balanced worksheet questions`);
   }
+  if (row.subject === "biology") assert.ok(row.worksheet >= 9 && row.worksheet <= 15,
+    `biology chapter ${row.chapter} must have a substantial worksheet`);
+  if (row.subject === "math") {
+    assert.equal(row.worksheet, 15, `math chapter ${row.chapter} must include concrete test-prep practice`);
+    assert.ok(row.testStyle >= 1, `math chapter ${row.chapter} needs SAT/ACT or error-analysis practice`);
+  }
   assert.ok(row.check >= 1, `${row.subject} chapter ${row.chapter} has no knowledge check`);
   assert.equal(row.invalid, 0, `${row.subject} chapter ${row.chapter} has an invalid guided activity`);
 }
+assert.ok(context.__coverage.filter(r=>r.subject==='biology').reduce((sum,row)=>sum+row.sourceQuestions,0)>=12,
+  "biology worksheets must include a meaningful set of curated textbook section questions");
 
 vm.runInContext(`globalThis.__writingChecks=[
   writingReview('The Pacific Ocean is apart of the hydrosphere.'),
