@@ -6,12 +6,16 @@ const appUrl = new URL("../materials/liam-learning-app/app.js", import.meta.url)
 const dataUrl = new URL("../materials/liam-learning-app/data/course-data.json", import.meta.url);
 const pacingUrl = new URL("../materials/liam-learning-app/pacing.js", import.meta.url);
 const inlineUrl = new URL("../materials/liam-learning-app/data-inline.js", import.meta.url);
-const [source, pacing, inline, data] = await Promise.all([
+const indexUrl = new URL("../materials/liam-learning-app/index.html", import.meta.url);
+const [source, pacing, inline, data, indexHtml] = await Promise.all([
   readFile(appUrl, "utf8"),
   readFile(pacingUrl, "utf8"),
   readFile(inlineUrl, "utf8"),
   readFile(dataUrl, "utf8").then(JSON.parse),
+  readFile(indexUrl, "utf8"),
 ]);
+assert.ok(!/Print chapter:|teacherToggle|chapterSelect/.test(indexHtml),
+  "legacy floating print controls must not appear over the live worksheet");
 
 const expected = { biology: 16, geography: 34, math: 12 };
 for (const [subject, count] of Object.entries(expected)) {
@@ -94,6 +98,11 @@ assert.equal(new Set(inequalities.prompts).size, 15, "inequality worksheet quest
 for (const skill of [/write an inequality/i,/addition|x - 9/i,/-4x|z\/\(-3\)/i,/multi|5\(2x/i,/compound|-5 < 2x/i,/absolute|\|x - 2\|/i]) {
   assert.ok(inequalities.prompts.some(prompt => skill.test(prompt)), `inequality worksheet is missing ${skill}`);
 }
+vm.runInContext("S.subject='math';S.chapter=2;globalThis.__inequalityWorksheetHtml=worksheet(chap())", context);
+assert.ok(!/Table<\/span>.*Coordinate plane/s.test(context.__inequalityWorksheetHtml),
+  "inequality webpage must not show the coordinate-graph response scaffold");
+assert.ok(/Given<\/span>.*Operation<\/span>.*Solution<\/span>.*Check/s.test(context.__inequalityWorksheetHtml),
+  "inequality webpage must show the solve-and-check response scaffold");
 
 vm.runInContext(`globalThis.__writingChecks=[
   writingReview('The Pacific Ocean is apart of the hydrosphere.'),
