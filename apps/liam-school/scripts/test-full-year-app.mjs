@@ -201,6 +201,12 @@ assert.match(styles, /@media\(max-width:900px\)\{\.math3-guide \.visual-box\.car
   "Math III worked steps must stack on smaller screens");
 assert.doesNotMatch(styles, /\.math3-guide \.visual-box\.cards span\{[^}]*word-break:break-all/,
   "Math III equations must never break one character at a time");
+assert.match(styles, /@media\(max-width:600px\)\{html,body\{max-width:100%;overflow-x:hidden\}/,
+  "The app must contain page-level overflow on phones");
+assert.match(styles, /\.top\{position:relative;display:grid;grid-template-columns:minmax\(0,1fr\) minmax\(0,1fr\)/,
+  "The phone header must use a responsive two-column grid");
+assert.match(styles, /\.math-question span:last-child\{min-width:0;overflow-x:auto;overflow-wrap:normal;word-break:normal\}/,
+  "Long phone equations must scroll inside their question instead of widening the page");
 assert.match(context.__math3TestPrep, /integrated-math-3-resources.*Carnegie Integrated Math III assignments/s,
   "Leilani's Carnegie resource must point to Integrated Math III");
 assert.ok(context.__math3Pdf.size > 12000,
