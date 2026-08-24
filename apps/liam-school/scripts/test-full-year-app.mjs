@@ -211,15 +211,20 @@ assert.match(context.__math3TestPrep, /integrated-math-3-resources.*Carnegie Int
   "Leilani's Carnegie resource must point to Integrated Math III");
 assert.ok(context.__math3Pdf.size > 12000,
   "Math III worksheet PDF must contain complete printable learning workspace");
+const math3PdfBytes = Buffer.from(await context.__math3Pdf.arrayBuffer()).toString("latin1");
+assert.match(math3PdfBytes, /3 Ts \/F1 7 Tf/,
+  "Math III worksheet PDFs must render powers as positioned superscripts");
+assert.match(source, /function pdfMathTextCmd\(/,
+  "Math worksheet exports need a dedicated mathematical text renderer");
 if (process.env.MATH3_PDF_OUTPUT) await writeFile(process.env.MATH3_PDF_OUTPUT, Buffer.from(await context.__math3Pdf.arrayBuffer()));
 
 vm.runInContext(`globalThis.__writingChecks=[
   writingReview('The Pacific Ocean is apart of the hydrosphere.'),
   writingReview('Earths water is limited'),
-  writingReview('Earthâs water is limited.')
+  writingReview('Earth’s water is limited.')
 ]`, context);
 assert.ok(context.__writingChecks[0].issues.some(x => x.includes('a part of')), "writing coach must catch apart of");
-assert.ok(context.__writingChecks[1].issues.some(x => x.includes('Earthâs')), "writing coach must catch Earths");
+assert.ok(context.__writingChecks[1].issues.some(x => x.includes('Earth’s')), "writing coach must catch Earths");
 assert.equal(context.__writingChecks[2].issues.length, 0, "correct writing should not receive a false warning");
 
 console.log("Full-year app coverage checks passed for Liam's three courses and Leilani's Integrated Math III.");
