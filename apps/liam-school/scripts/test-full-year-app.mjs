@@ -7,12 +7,14 @@ const dataUrl = new URL("../materials/liam-learning-app/data/course-data.json", 
 const pacingUrl = new URL("../materials/liam-learning-app/pacing.js", import.meta.url);
 const inlineUrl = new URL("../materials/liam-learning-app/data-inline.js", import.meta.url);
 const indexUrl = new URL("../materials/liam-learning-app/index.html", import.meta.url);
-const [source, pacing, inline, data, indexHtml] = await Promise.all([
+const stylesUrl = new URL("../materials/liam-learning-app/styles.css", import.meta.url);
+const [source, pacing, inline, data, indexHtml, styles] = await Promise.all([
   readFile(appUrl, "utf8"),
   readFile(pacingUrl, "utf8"),
   readFile(inlineUrl, "utf8"),
   readFile(dataUrl, "utf8").then(JSON.parse),
   readFile(indexUrl, "utf8"),
+  readFile(stylesUrl, "utf8"),
 ]);
 assert.ok(!/Print chapter:|teacherToggle|chapterSelect/.test(indexHtml),
   "legacy floating print controls must not appear over the live worksheet");
@@ -191,6 +193,14 @@ for (const lesson of context.__math3LessonRows) {
 }
 assert.match(context.__math3LessonHtml, /Worked example.*Step 1.*Step 2.*Step 3.*Try It - new problem/s,
   "Math III learning screen must visibly break down a worked example before Try It");
+assert.match(styles, /\.math3-guide \.guide-layout\{grid-template-columns:1fr\}/,
+  "Math III worked examples must use the full card width");
+assert.match(styles, /\.math3-guide \.visual-box\.cards\{[^}]*grid-template-columns:repeat\(3,minmax\(0,1fr\)\)/,
+  "Math III worked steps must use three readable desktop columns");
+assert.match(styles, /@media\(max-width:900px\)\{\.math3-guide \.visual-box\.cards\{grid-template-columns:1fr\}/,
+  "Math III worked steps must stack on smaller screens");
+assert.doesNotMatch(styles, /\.math3-guide \.visual-box\.cards span\{[^}]*word-break:break-all/,
+  "Math III equations must never break one character at a time");
 assert.match(context.__math3TestPrep, /integrated-math-3-resources.*Carnegie Integrated Math III assignments/s,
   "Leilani's Carnegie resource must point to Integrated Math III");
 assert.ok(context.__math3Pdf.size > 12000,
@@ -200,10 +210,10 @@ if (process.env.MATH3_PDF_OUTPUT) await writeFile(process.env.MATH3_PDF_OUTPUT, 
 vm.runInContext(`globalThis.__writingChecks=[
   writingReview('The Pacific Ocean is apart of the hydrosphere.'),
   writingReview('Earths water is limited'),
-  writingReview('Earth’s water is limited.')
+  writingReview('Earthâs water is limited.')
 ]`, context);
 assert.ok(context.__writingChecks[0].issues.some(x => x.includes('a part of')), "writing coach must catch apart of");
-assert.ok(context.__writingChecks[1].issues.some(x => x.includes('Earth’s')), "writing coach must catch Earths");
+assert.ok(context.__writingChecks[1].issues.some(x => x.includes('Earthâs')), "writing coach must catch Earths");
 assert.equal(context.__writingChecks[2].issues.length, 0, "correct writing should not receive a false warning");
 
 console.log("Full-year app coverage checks passed for Liam's three courses and Leilani's Integrated Math III.");
