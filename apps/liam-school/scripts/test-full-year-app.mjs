@@ -155,6 +155,10 @@ assert.match(context.__math3WorksheetHtml, /Leilani DeVries.*Grade: 11/s,
   "Math III worksheet must identify Leilani and Grade 11");
 assert.match(context.__math3WorksheetHtml, /Think first - write only what matters.*Notice.*Fast route.*Solve.*Verify/s,
   "Math III worksheet must use the efficient structured-work scaffold");
+assert.match(context.__math3WorksheetHtml, /3x<sup>2<\/sup>.*x<sup>2<\/sup>/s,
+  "Math III equations must render exponents as mathematical superscripts");
+assert.doesNotMatch(context.__math3WorksheetHtml, /3x\^2/,
+  "Math III webpage must not show keyboard-style exponents");
 assert.doesNotMatch(context.__math3WorksheetHtml, /transfer: solve the lesson problem/i,
   "Math III worksheet must not contain vague transfer prompts");
 assert.match(context.__math3WorksheetHtml, /A student gave this result.*independent check.*verdict/s,
