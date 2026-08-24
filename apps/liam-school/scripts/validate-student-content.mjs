@@ -71,7 +71,7 @@ const badTellMorePatterns = [
 const rows = [];
 const tellMoreRows = [];
 function stripHtml(value) {
-  return String(value || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+  return String(value || "").replace(/<[^>]*>/g, " ").replace(/\\s+/g, " ").trim();
 }
 function wordSet(value) {
   return new Set(String(value || "").toLowerCase().match(/[a-z0-9]+/g) || []);
