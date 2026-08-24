@@ -153,6 +153,12 @@ assert.match(context.__leilaniHome, /Leilani DeVries|Integrated Math III/,
   "Leilani's home screen must identify her and her course");
 assert.match(context.__math3WorksheetHtml, /Leilani DeVries.*Grade: 11/s,
   "Math III worksheet must identify Leilani and Grade 11");
+assert.match(context.__math3WorksheetHtml, /Think first - write only what matters.*Notice.*Fast route.*Solve.*Verify/s,
+  "Math III worksheet must use the efficient structured-work scaffold");
+assert.doesNotMatch(context.__math3WorksheetHtml, /transfer: solve the lesson problem/i,
+  "Math III worksheet must not contain vague transfer prompts");
+assert.match(context.__math3WorksheetHtml, /A student gave this result.*independent check.*verdict/s,
+  "Math III worksheet must include concrete verification practice");
 assert.match(context.__math3TestPrep, /integrated-math-3-resources.*Carnegie Integrated Math III assignments/s,
   "Leilani's Carnegie resource must point to Integrated Math III");
 assert.ok(context.__math3Pdf.size > 12000,
