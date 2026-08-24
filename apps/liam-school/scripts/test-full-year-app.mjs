@@ -144,7 +144,7 @@ assert.ok(context.__mentalBanks.every(count => count >= 5),
   "Every Math chapter needs at least five rapid-practice questions");
 assert.match(source, /Here is the fastest clean path/, "incorrect Math answers must display a direct worked correction");
 
-vm.runInContext("S.student='liam';globalThis.__liamSubjects=subjectIds();S.student='leilani';globalThis.__leilaniSubjects=subjectIds();S.subject='math3';S.chapter=1;globalThis.__leilaniHome=home();globalThis.__math3WorksheetHtml=worksheet(chap());globalThis.__math3Pdf=mathWorksheetPdfBlob(chap(),'blank')", context);
+vm.runInContext("S.student='liam';globalThis.__liamSubjects=subjectIds();S.student='leilani';globalThis.__leilaniSubjects=subjectIds();S.subject='math3';S.chapter=1;globalThis.__leilaniHome=home();globalThis.__math3WorksheetHtml=worksheet(chap());globalThis.__math3TestPrep=mathTestPrepPanel(chap());globalThis.__math3Pdf=mathWorksheetPdfBlob(chap(),'blank')", context);
 assert.deepEqual(Array.from(context.__liamSubjects), ["biology", "geography", "math"],
   "Liam must retain his three courses");
 assert.deepEqual(Array.from(context.__leilaniSubjects), ["math3"],
@@ -153,6 +153,8 @@ assert.match(context.__leilaniHome, /Leilani DeVries|Integrated Math III/,
   "Leilani's home screen must identify her and her course");
 assert.match(context.__math3WorksheetHtml, /Leilani DeVries.*Grade: 11/s,
   "Math III worksheet must identify Leilani and Grade 11");
+assert.match(context.__math3TestPrep, /integrated-math-3-resources.*Carnegie Integrated Math III assignments/s,
+  "Leilani's Carnegie resource must point to Integrated Math III");
 assert.ok(context.__math3Pdf.size > 12000,
   "Math III worksheet PDF must contain complete printable learning workspace");
 if (process.env.MATH3_PDF_OUTPUT) await writeFile(process.env.MATH3_PDF_OUTPUT, Buffer.from(await context.__math3Pdf.arrayBuffer()));
