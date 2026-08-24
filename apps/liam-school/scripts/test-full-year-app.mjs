@@ -17,7 +17,7 @@ const [source, pacing, inline, data, indexHtml] = await Promise.all([
 assert.ok(!/Print chapter:|teacherToggle|chapterSelect/.test(indexHtml),
   "legacy floating print controls must not appear over the live worksheet");
 
-const expected = { biology: 16, geography: 34, math: 12 };
+const expected = { biology: 16, geography: 34, math: 12, math3: 9 };
 for (const [subject, count] of Object.entries(expected)) {
   const course = data[subject];
   assert.ok(course, `${subject} course is missing`);
@@ -39,6 +39,10 @@ for (const title of [
   "Conjectures and Counterexamples", "Compositions of Transformations", "Symmetry",
   "Proving Right Triangles Congruent", "Proving the Slope Criteria", "Constructing Inscribed Polygons"
 ]) assert.ok(revealLessons.has(title), `Reveal Math alignment is missing ${title}`);
+assert.equal(data.math3.scopeAlignment?.units, 9, "Math III must cover all 9 Reveal Integrated III units");
+assert.equal(data.math3.scopeAlignment?.lessons, 47, "Math III must include all 47 Reveal Integrated III lessons");
+assert.equal(data.math3.studentId, "leilani", "Math III must belong to Leilani");
+assert.equal(data.math3.grade, 11, "Leilani's Math III course must export Grade 11 documents");
 
 assert.match(source, /function generatedGuideFor\(ch\)/, "all chapters need a generated guided path");
 assert.match(source, /customGuideFor\(ch\)\|\|generatedGuideFor\(ch\)/, "custom and generated guides must share one engine");
@@ -80,8 +84,13 @@ context.window.scrollTo = () => {};
 vm.createContext(context);
 vm.runInContext(pacing, context);
 vm.runInContext(inline, context);
-vm.runInContext(`${source}\n;globalThis.__coverage=(()=>{let rows=[];for(let subject of subjectIds()){S.subject=subject;for(let chapter of S.data[subject].chapters){let guide=guideFor(chapter),worksheet=worksheetItems(chapter),check=knowledgeItems(chapter);rows.push({subject,chapter:chapter.number,steps:guide.steps.length,worksheet:worksheet.length,prompts:worksheet.map(q=>q.prompt),sourceQuestions:worksheet.filter(q=>q.type==='source_question').length,testStyle:worksheet.filter(q=>/SAT\\/ACT|Error analysis/i.test(q.prompt)).length,check:check.length,invalid:guide.steps.flatMap((step,index)=>validateActivity(normalizeStepActivity(step,index))).length})}}return rows})()`, context);
-assert.equal(context.__coverage.length, 62, "runtime coverage must include all 62 available chapters");
+const math3Pacing = context.LiamPacing.summary("math3", data.math3, {});
+assert.ok(math3Pacing.plans.some(plan => plan.type === "chapter" && plan.chapter === 9),
+  "Leilani's pacing must schedule all nine Math III units");
+assert.equal(math3Pacing.validations.length, 0,
+  "Leilani's Math III pacing must have no calendar validation issues");
+vm.runInContext(`${source}\n;globalThis.__coverage=(()=>{let rows=[];for(let subject of allSubjectIds()){S.subject=subject;S.student=S.data[subject].studentId||'liam';for(let chapter of S.data[subject].chapters){let guide=guideFor(chapter),worksheet=worksheetItems(chapter),check=knowledgeItems(chapter);rows.push({subject,chapter:chapter.number,steps:guide.steps.length,worksheet:worksheet.length,prompts:worksheet.map(q=>q.prompt),sourceQuestions:worksheet.filter(q=>q.type==='source_question').length,testStyle:worksheet.filter(q=>/SAT\\/ACT|Error analysis/i.test(q.prompt)).length,check:check.length,invalid:guide.steps.flatMap((step,index)=>validateActivity(normalizeStepActivity(step,index))).length})}}return rows})()`, context);
+assert.equal(context.__coverage.length, 71, "runtime coverage must include all 71 available chapters and units");
 for (const row of context.__coverage) {
   assert.ok(row.steps >= 2, `${row.subject} chapter ${row.chapter} has too few guided blocks`);
   assert.ok(row.worksheet >= 1, `${row.subject} chapter ${row.chapter} has no worksheet`);
@@ -91,9 +100,9 @@ for (const row of context.__coverage) {
   }
   if (row.subject === "biology") assert.ok(row.worksheet >= 9 && row.worksheet <= 15,
     `biology chapter ${row.chapter} must have a substantial worksheet`);
-  if (row.subject === "math") {
+  if (row.subject === "math" || row.subject === "math3") {
     assert.equal(row.worksheet, 15, `math chapter ${row.chapter} must include concrete test-prep practice`);
-    assert.ok(row.testStyle >= 1, `math chapter ${row.chapter} needs SAT/ACT or error-analysis practice`);
+    if (row.subject === "math") assert.ok(row.testStyle >= 1, `math chapter ${row.chapter} needs SAT/ACT or error-analysis practice`);
   }
   assert.ok(row.check >= 1, `${row.subject} chapter ${row.chapter} has no knowledge check`);
   assert.equal(row.invalid, 0, `${row.subject} chapter ${row.chapter} has an invalid guided activity`);
@@ -135,6 +144,19 @@ assert.ok(context.__mentalBanks.every(count => count >= 5),
   "Every Math chapter needs at least five rapid-practice questions");
 assert.match(source, /Here is the fastest clean path/, "incorrect Math answers must display a direct worked correction");
 
+vm.runInContext("S.student='liam';globalThis.__liamSubjects=subjectIds();S.student='leilani';globalThis.__leilaniSubjects=subjectIds();S.subject='math3';S.chapter=1;globalThis.__leilaniHome=home();globalThis.__math3WorksheetHtml=worksheet(chap());globalThis.__math3Pdf=mathWorksheetPdfBlob(chap(),'blank')", context);
+assert.deepEqual(Array.from(context.__liamSubjects), ["biology", "geography", "math"],
+  "Liam must retain his three courses");
+assert.deepEqual(Array.from(context.__leilaniSubjects), ["math3"],
+  "Leilani must see only her Integrated Math III course");
+assert.match(context.__leilaniHome, /Leilani DeVries|Integrated Math III/,
+  "Leilani's home screen must identify her and her course");
+assert.match(context.__math3WorksheetHtml, /Leilani DeVries.*Grade: 11/s,
+  "Math III worksheet must identify Leilani and Grade 11");
+assert.ok(context.__math3Pdf.size > 12000,
+  "Math III worksheet PDF must contain complete printable learning workspace");
+if (process.env.MATH3_PDF_OUTPUT) await writeFile(process.env.MATH3_PDF_OUTPUT, Buffer.from(await context.__math3Pdf.arrayBuffer()));
+
 vm.runInContext(`globalThis.__writingChecks=[
   writingReview('The Pacific Ocean is apart of the hydrosphere.'),
   writingReview('Earths water is limited'),
@@ -144,4 +166,4 @@ assert.ok(context.__writingChecks[0].issues.some(x => x.includes('a part of')), 
 assert.ok(context.__writingChecks[1].issues.some(x => x.includes('Earth’s')), "writing coach must catch Earths");
 assert.equal(context.__writingChecks[2].issues.length, 0, "correct writing should not receive a false warning");
 
-console.log("Full-year app coverage checks passed for Biology, World Geography, and Integrated Math I.");
+console.log("Full-year app coverage checks passed for Liam's three courses and Leilani's Integrated Math III.");
