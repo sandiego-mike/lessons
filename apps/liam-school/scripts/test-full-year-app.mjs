@@ -30,6 +30,16 @@ for (const [subject, count] of Object.entries(expected)) {
   }
 }
 
+assert.equal(data.math.scopeAlignment?.units, 13, "Math must cover all 13 Reveal Integrated I units");
+const revealLessons = new Set(data.math.chapters.flatMap(chapter => chapter.sections.map(section => section.title)));
+for (const title of [
+  "Properties of Real Numbers", "Piecewise and Step Functions", "Absolute Value Functions",
+  "Linear Regression", "Inverses of Linear Functions", "Transformations of Exponential Functions",
+  "Summarizing Categorical Data", "Two- and Three-Dimensional Figures", "Precision and Accuracy",
+  "Conjectures and Counterexamples", "Compositions of Transformations", "Symmetry",
+  "Proving Right Triangles Congruent", "Proving the Slope Criteria", "Constructing Inscribed Polygons"
+]) assert.ok(revealLessons.has(title), `Reveal Math alignment is missing ${title}`);
+
 assert.match(source, /function generatedGuideFor\(ch\)/, "all chapters need a generated guided path");
 assert.match(source, /customGuideFor\(ch\)\|\|generatedGuideFor\(ch\)/, "custom and generated guides must share one engine");
 assert.match(source, /function chapterCompletionStatus\(ch\)/, "chapter completion requirements are missing");
