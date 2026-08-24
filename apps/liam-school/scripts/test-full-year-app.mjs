@@ -171,6 +171,26 @@ assert.match(source, /Degree buckets:.*Synthetic route:.*Pattern route:.*Structu
 vm.runInContext("S.subject='math3';S.student='leilani';S.chapter=1;S.tab='check';globalThis.__math3CheckHtml=check(chap())", context);
 assert.doesNotMatch(context.__math3CheckHtml, /Check answer/,
   "Math knowledge checks must not expose an immediate answer button");
+vm.runInContext(`S.subject='math3';S.student='leilani';S.chapter=1;S.tab='learn';
+  globalThis.__math3LessonRows=Object.entries(MATH3_LESSON_BANK).map(([id,x])=>({id,...x}));
+  globalThis.__math3LessonHtml=guidedLesson(chap(),guideFor(chap()));`, context);
+assert.equal(context.__math3LessonRows.length, 47,
+  "Every Integrated Math III section must have a separate worked example and Try It problem");
+for (const lesson of context.__math3LessonRows) {
+  const [unit, section] = lesson.id.split('.').map(Number);
+  const worksheetPrompts = context.__coverage
+    .find(row => row.subject === 'math3' && row.chapter === unit).prompts
+    .map(text => text.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim());
+  for (const learningText of [lesson.e, lesson.t]) {
+    const normalized = learningText.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    assert.ok(!worksheetPrompts.includes(normalized),
+      `Math III ${lesson.id} learning equation must not duplicate a worksheet question: ${learningText}`);
+  }
+  assert.ok(lesson.s.length >= 3 && lesson.w.length >= 35 && lesson.a,
+    `Math III ${lesson.id} must explain steps, why the method works, and the Try It answer`);
+}
+assert.match(context.__math3LessonHtml, /Worked example.*Step 1.*Step 2.*Step 3.*Try It - new problem/s,
+  "Math III learning screen must visibly break down a worked example before Try It");
 assert.match(context.__math3TestPrep, /integrated-math-3-resources.*Carnegie Integrated Math III assignments/s,
   "Leilani's Carnegie resource must point to Integrated Math III");
 assert.ok(context.__math3Pdf.size > 12000,
