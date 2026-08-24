@@ -16385,5 +16385,2823 @@
       "status": "lesson-level aligned",
       "note": "Reveal-only lessons are integrated into the related source-textbook chapters so Liam keeps one coherent course path."
     }
+  },
+  "math3": {
+    "id": "math3",
+    "studentId": "leilani",
+    "name": "Integrated Math III",
+    "grade": 11,
+    "description": "California Reveal Math Integrated III full-year course with SAT/ACT preparation.",
+    "scopeAlignment": {
+      "source": "California Reveal Math Integrated III Scope and Sequence (2025)",
+      "units": 9,
+      "lessons": 47,
+      "status": "lesson-level aligned"
+    },
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Polynomials and Polynomial Functions",
+        "sections": [
+          {
+            "number": "1.1",
+            "title": "Operations with Polynomials",
+            "blocks": [
+              "Learn the structure behind Operations with Polynomials before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "operations",
+                "with",
+                "polynomials"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Simplify (3x^2-2x+5)+(x^2+7x-4).",
+                "answer": "4x^2+5x+1.",
+                "conceptId": "operations-with-polynomials"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "1.2",
+            "title": "Dividing Polynomials",
+            "blocks": [
+              "Learn the structure behind Dividing Polynomials before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "dividing",
+                "polynomials"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Divide x^3-4x^2+x+6 by x-2.",
+                "answer": "x^2-2x-3 with remainder 0.",
+                "conceptId": "dividing-polynomials"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "1.3",
+            "title": "Powers of Binomials",
+            "blocks": [
+              "Learn the structure behind Powers of Binomials before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "powers",
+                "binomials"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Expand (x-3)^3. Show the most efficient valid method.",
+                "answer": "x^3-9x^2+27x-27.",
+                "conceptId": "powers-of-binomials"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "1.4",
+            "title": "Polynomial Functions",
+            "blocks": [
+              "Learn the structure behind Polynomial Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "reasoning",
+              "terms": [
+                "polynomial",
+                "functions"
+              ],
+              "activity": {
+                "type": "reasoning",
+                "prompt": "For f(x)=2x^3-x+4, identify degree and leading coefficient.",
+                "answer": "Degree 3; leading coefficient 2.",
+                "conceptId": "polynomial-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "1.5",
+            "title": "Analyzing Graphs of Polynomial Functions",
+            "blocks": [
+              "Learn the structure behind Analyzing Graphs of Polynomial Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "analyzing",
+                "graphs",
+                "polynomial",
+                "functions"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "Predict the end behavior of f(x)=-2x^4+3x^2-1.",
+                "answer": "Both ends fall because the degree is even and the leading coefficient is negative.",
+                "conceptId": "analyzing-graphs-of-polynomial-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "Simplify (3x^2-2x+5)+(x^2+7x-4).",
+          "Divide x^3-4x^2+x+6 by x-2.",
+          "Expand (x-3)^3. Show the most efficient valid method.",
+          "For f(x)=2x^3-x+4, identify degree and leading coefficient.",
+          "Predict the end behavior of f(x)=-2x^4+3x^2-1."
+        ],
+        "worksheet": [
+          {
+            "type": "math-solve",
+            "prompt": "Simplify (3x^2-2x+5)+(x^2+7x-4).",
+            "answer": "4x^2+5x+1.",
+            "conceptId": "operations-with-polynomials"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Divide x^3-4x^2+x+6 by x-2.",
+            "answer": "x^2-2x-3 with remainder 0.",
+            "conceptId": "dividing-polynomials"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Expand (x-3)^3. Show the most efficient valid method.",
+            "answer": "x^3-9x^2+27x-27.",
+            "conceptId": "powers-of-binomials"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "For f(x)=2x^3-x+4, identify degree and leading coefficient.",
+            "answer": "Degree 3; leading coefficient 2.",
+            "conceptId": "polynomial-functions"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "math-solve",
+            "prompt": "Simplify (3x^2-2x+5)+(x^2+7x-4).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "4x^2+5x+1.",
+            "conceptId": "operations-with-polynomials",
+            "objectiveId": "math3-1.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Divide x^3-4x^2+x+6 by x-2.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "x^2-2x-3 with remainder 0.",
+            "conceptId": "dividing-polynomials",
+            "objectiveId": "math3-1.2"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Expand (x-3)^3. Show the most efficient valid method.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "x^3-9x^2+27x-27.",
+            "conceptId": "powers-of-binomials",
+            "objectiveId": "math3-1.3"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "For f(x)=2x^3-x+4, identify degree and leading coefficient.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Degree 3; leading coefficient 2.",
+            "conceptId": "polynomial-functions",
+            "objectiveId": "math3-1.4"
+          },
+          {
+            "type": "graph",
+            "prompt": "Predict the end behavior of f(x)=-2x^4+3x^2-1.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Both ends fall because the degree is even and the leading coefficient is negative.",
+            "conceptId": "analyzing-graphs-of-polynomial-functions",
+            "objectiveId": "math3-1.5"
+          }
+        ],
+        "standards": [
+          {
+            "id": "A-APR.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Perform arithmetic operations on polynomials.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "polynomial",
+            "definition": "An expression made from variables and nonnegative whole-number exponents.",
+            "example": "3x^2-2x+7",
+            "context": "3x^2-2x+7"
+          },
+          {
+            "term": "leading coefficient",
+            "definition": "The coefficient of the highest-degree term.",
+            "example": "In 4x^3-x, it is 4.",
+            "context": "In 4x^3-x, it is 4."
+          },
+          {
+            "term": "end behavior",
+            "definition": "How a function behaves as x moves far left or right.",
+            "example": "An even-degree positive-leading polynomial rises on both ends.",
+            "context": "An even-degree positive-leading polynomial rises on both ends."
+          },
+          {
+            "term": "binomial",
+            "definition": "A polynomial with exactly two terms.",
+            "example": "x+5",
+            "context": "x+5"
+          },
+          {
+            "term": "degree",
+            "definition": "The greatest exponent in a polynomial.",
+            "example": "The degree of 2x^4-x is 4.",
+            "context": "The degree of 2x^4-x is 4."
+          }
+        ],
+        "cover": "assets/math3-01-visual.svg",
+        "visual": "assets/math3-01-visual.svg",
+        "semester": 1
+      },
+      {
+        "number": 2,
+        "title": "Polynomial Equations",
+        "sections": [
+          {
+            "number": "2.1",
+            "title": "Solving Polynomial Equations by Graphing",
+            "blocks": [
+              "Learn the structure behind Solving Polynomial Equations by Graphing before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "solving",
+                "polynomial",
+                "equations",
+                "graphing"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "A graph crosses the x-axis at -2, 1 and 4. State the real zeros.",
+                "answer": "-2, 1 and 4.",
+                "conceptId": "solving-polynomial-equations-by-graphing"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "2.2",
+            "title": "Solving Polynomial Equations Algebraically",
+            "blocks": [
+              "Learn the structure behind Solving Polynomial Equations Algebraically before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "solving",
+                "polynomial",
+                "equations",
+                "algebraically"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Solve x^3-4x=0. Show the most efficient valid method.",
+                "answer": "x(x-2)(x+2)=0, so x=-2,0,2.",
+                "conceptId": "solving-polynomial-equations-algebraically"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "2.3",
+            "title": "Proving Polynomial Identities",
+            "blocks": [
+              "Learn the structure behind Proving Polynomial Identities before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "reasoning",
+              "terms": [
+                "proving",
+                "polynomial",
+                "identities"
+              ],
+              "activity": {
+                "type": "reasoning",
+                "prompt": "Verify (x+y)^2-(x-y)^2=4xy.",
+                "answer": "Expansion gives 4xy on the left.",
+                "conceptId": "proving-polynomial-identities"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "2.4",
+            "title": "Remainder and Factor Theorems",
+            "blocks": [
+              "Learn the structure behind Remainder and Factor Theorems before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "remainder",
+                "factor",
+                "theorems"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Find the remainder when f(x)=x^3+2x-5 is divided by x-2.",
+                "answer": "f(2)=8+4-5=7.",
+                "conceptId": "remainder-and-factor-theorems"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "2.5",
+            "title": "Roots and Zeros",
+            "blocks": [
+              "Learn the structure behind Roots and Zeros before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "roots",
+                "zeros"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Write a polynomial with zeros 3 and -2.",
+                "answer": "Any nonzero multiple of (x-3)(x+2); simplest x^2-x-6.",
+                "conceptId": "roots-and-zeros"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "A graph crosses the x-axis at -2, 1 and 4. State the real zeros.",
+          "Solve x^3-4x=0. Show the most efficient valid method.",
+          "Verify (x+y)^2-(x-y)^2=4xy.",
+          "Find the remainder when f(x)=x^3+2x-5 is divided by x-2.",
+          "Write a polynomial with zeros 3 and -2."
+        ],
+        "worksheet": [
+          {
+            "type": "graph",
+            "prompt": "A graph crosses the x-axis at -2, 1 and 4. State the real zeros.",
+            "answer": "-2, 1 and 4.",
+            "conceptId": "solving-polynomial-equations-by-graphing"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve x^3-4x=0. Show the most efficient valid method.",
+            "answer": "x(x-2)(x+2)=0, so x=-2,0,2.",
+            "conceptId": "solving-polynomial-equations-algebraically"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "Verify (x+y)^2-(x-y)^2=4xy.",
+            "answer": "Expansion gives 4xy on the left.",
+            "conceptId": "proving-polynomial-identities"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the remainder when f(x)=x^3+2x-5 is divided by x-2.",
+            "answer": "f(2)=8+4-5=7.",
+            "conceptId": "remainder-and-factor-theorems"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "graph",
+            "prompt": "A graph crosses the x-axis at -2, 1 and 4. State the real zeros.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "-2, 1 and 4.",
+            "conceptId": "solving-polynomial-equations-by-graphing",
+            "objectiveId": "math3-2.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve x^3-4x=0. Show the most efficient valid method.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "x(x-2)(x+2)=0, so x=-2,0,2.",
+            "conceptId": "solving-polynomial-equations-algebraically",
+            "objectiveId": "math3-2.2"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "Verify (x+y)^2-(x-y)^2=4xy.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Expansion gives 4xy on the left.",
+            "conceptId": "proving-polynomial-identities",
+            "objectiveId": "math3-2.3"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the remainder when f(x)=x^3+2x-5 is divided by x-2.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "f(2)=8+4-5=7.",
+            "conceptId": "remainder-and-factor-theorems",
+            "objectiveId": "math3-2.4"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Write a polynomial with zeros 3 and -2.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Any nonzero multiple of (x-3)(x+2); simplest x^2-x-6.",
+            "conceptId": "roots-and-zeros",
+            "objectiveId": "math3-2.5"
+          }
+        ],
+        "standards": [
+          {
+            "id": "A-APR.B.3",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Identify zeros of polynomials and use them to sketch graphs.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "zero",
+            "definition": "An input where a function equals zero.",
+            "example": "x=3 is a zero of (x-3)(x+1).",
+            "context": "x=3 is a zero of (x-3)(x+1)."
+          },
+          {
+            "term": "multiplicity",
+            "definition": "How many times a factor occurs.",
+            "example": "(x-2)^3 has a zero of multiplicity 3.",
+            "context": "(x-2)^3 has a zero of multiplicity 3."
+          },
+          {
+            "term": "factor theorem",
+            "definition": "x-a is a factor exactly when f(a)=0.",
+            "example": "If f(4)=0, x-4 is a factor.",
+            "context": "If f(4)=0, x-4 is a factor."
+          },
+          {
+            "term": "remainder theorem",
+            "definition": "Dividing f(x) by x-a leaves remainder f(a).",
+            "example": "The remainder for x-2 is f(2).",
+            "context": "The remainder for x-2 is f(2)."
+          },
+          {
+            "term": "polynomial identity",
+            "definition": "An equation true for all permitted values.",
+            "example": "(a+b)^2=a^2+2ab+b^2.",
+            "context": "(a+b)^2=a^2+2ab+b^2."
+          }
+        ],
+        "cover": "assets/math3-02-visual.svg",
+        "visual": "assets/math3-02-visual.svg",
+        "semester": 1
+      },
+      {
+        "number": 3,
+        "title": "Inverse and Radical Functions",
+        "sections": [
+          {
+            "number": "3.1",
+            "title": "nth Roots and Rational Exponents",
+            "blocks": [
+              "Learn the structure behind nth Roots and Rational Exponents before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "roots",
+                "rational",
+                "exponents"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Rewrite 27^(2/3) and evaluate.",
+                "answer": "(cube root of 27)^2=9.",
+                "conceptId": "nth-roots-and-rational-exponents"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "3.2",
+            "title": "Operations with Radical Expressions",
+            "blocks": [
+              "Learn the structure behind Operations with Radical Expressions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "operations",
+                "with",
+                "radical",
+                "expressions"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Simplify sqrt(50)+2sqrt(8).",
+                "answer": "5sqrt(2)+4sqrt(2)=9sqrt(2).",
+                "conceptId": "operations-with-radical-expressions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "3.3",
+            "title": "Solving Radical Equations and Inequalities",
+            "blocks": [
+              "Learn the structure behind Solving Radical Equations and Inequalities before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "solving",
+                "radical",
+                "equations",
+                "inequalities"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Solve sqrt(x+5)=x-1 and check.",
+                "answer": "x=4 works; other algebraic candidates must be rejected if they fail.",
+                "conceptId": "solving-radical-equations-and-inequalities"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "3.4",
+            "title": "Operations on Functions",
+            "blocks": [
+              "Learn the structure behind Operations on Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "operations",
+                "functions"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "If f(x)=x^2 and g(x)=x+3, find (f+g)(x) and f(g(x)).",
+                "answer": "x^2+x+3; (x+3)^2.",
+                "conceptId": "operations-on-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "3.5",
+            "title": "Inverse Relations and Functions",
+            "blocks": [
+              "Learn the structure behind Inverse Relations and Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "inverse",
+                "relations",
+                "functions"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Find the inverse of f(x)=3x-7.",
+                "answer": "f^-1(x)=(x+7)/3.",
+                "conceptId": "inverse-relations-and-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "Rewrite 27^(2/3) and evaluate.",
+          "Simplify sqrt(50)+2sqrt(8).",
+          "Solve sqrt(x+5)=x-1 and check.",
+          "If f(x)=x^2 and g(x)=x+3, find (f+g)(x) and f(g(x)).",
+          "Find the inverse of f(x)=3x-7."
+        ],
+        "worksheet": [
+          {
+            "type": "math-solve",
+            "prompt": "Rewrite 27^(2/3) and evaluate.",
+            "answer": "(cube root of 27)^2=9.",
+            "conceptId": "nth-roots-and-rational-exponents"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Simplify sqrt(50)+2sqrt(8).",
+            "answer": "5sqrt(2)+4sqrt(2)=9sqrt(2).",
+            "conceptId": "operations-with-radical-expressions"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve sqrt(x+5)=x-1 and check.",
+            "answer": "x=4 works; other algebraic candidates must be rejected if they fail.",
+            "conceptId": "solving-radical-equations-and-inequalities"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "If f(x)=x^2 and g(x)=x+3, find (f+g)(x) and f(g(x)).",
+            "answer": "x^2+x+3; (x+3)^2.",
+            "conceptId": "operations-on-functions"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "math-solve",
+            "prompt": "Rewrite 27^(2/3) and evaluate.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "(cube root of 27)^2=9.",
+            "conceptId": "nth-roots-and-rational-exponents",
+            "objectiveId": "math3-3.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Simplify sqrt(50)+2sqrt(8).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "5sqrt(2)+4sqrt(2)=9sqrt(2).",
+            "conceptId": "operations-with-radical-expressions",
+            "objectiveId": "math3-3.2"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve sqrt(x+5)=x-1 and check.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "x=4 works; other algebraic candidates must be rejected if they fail.",
+            "conceptId": "solving-radical-equations-and-inequalities",
+            "objectiveId": "math3-3.3"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "If f(x)=x^2 and g(x)=x+3, find (f+g)(x) and f(g(x)).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "x^2+x+3; (x+3)^2.",
+            "conceptId": "operations-on-functions",
+            "objectiveId": "math3-3.4"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the inverse of f(x)=3x-7.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "f^-1(x)=(x+7)/3.",
+            "conceptId": "inverse-relations-and-functions",
+            "objectiveId": "math3-3.5"
+          }
+        ],
+        "standards": [
+          {
+            "id": "N-RN.A.2",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Rewrite expressions involving radicals and rational exponents.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "radical",
+            "definition": "An expression containing a root.",
+            "example": "sqrt(x+4)",
+            "context": "sqrt(x+4)"
+          },
+          {
+            "term": "rational exponent",
+            "definition": "An exponent that represents a root and a power.",
+            "example": "x^(1/2)=sqrt(x).",
+            "context": "x^(1/2)=sqrt(x)."
+          },
+          {
+            "term": "inverse function",
+            "definition": "A function that reverses another function.",
+            "example": "If f(x)=2x+3, f^-1(x)=(x-3)/2.",
+            "context": "If f(x)=2x+3, f^-1(x)=(x-3)/2."
+          },
+          {
+            "term": "composition",
+            "definition": "Using the output of one function as the input of another.",
+            "example": "f(g(x))",
+            "context": "f(g(x))"
+          },
+          {
+            "term": "domain restriction",
+            "definition": "A limit on allowable inputs.",
+            "example": "x must be at least 0 for sqrt(x) over real numbers.",
+            "context": "x must be at least 0 for sqrt(x) over real numbers."
+          }
+        ],
+        "cover": "assets/math3-03-visual.svg",
+        "visual": "assets/math3-03-visual.svg",
+        "semester": 1
+      },
+      {
+        "number": 4,
+        "title": "Exponential Functions",
+        "sections": [
+          {
+            "number": "4.1",
+            "title": "Graphing Exponential Functions",
+            "blocks": [
+              "Learn the structure behind Graphing Exponential Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "graphing",
+                "exponential",
+                "functions"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "For y=3(2)^x-4, state the y-intercept and horizontal asymptote.",
+                "answer": "y-intercept -1; asymptote y=-4.",
+                "conceptId": "graphing-exponential-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "4.2",
+            "title": "Solving Exponential Equations and Inequalities",
+            "blocks": [
+              "Learn the structure behind Solving Exponential Equations and Inequalities before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "solving",
+                "exponential",
+                "equations",
+                "inequalities"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Solve 5^(x+1)=125. Show the most efficient valid method.",
+                "answer": "125=5^3, so x+1=3 and x=2.",
+                "conceptId": "solving-exponential-equations-and-inequalities"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "4.3",
+            "title": "Special Exponential Functions",
+            "blocks": [
+              "Learn the structure behind Special Exponential Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "reasoning",
+              "terms": [
+                "special",
+                "exponential",
+                "functions"
+              ],
+              "activity": {
+                "type": "reasoning",
+                "prompt": "Explain why e^x is useful in continuous growth.",
+                "answer": "Its rate of change is proportional to its current value.",
+                "conceptId": "special-exponential-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "4.4",
+            "title": "Geometric Sequences and Series",
+            "blocks": [
+              "Learn the structure behind Geometric Sequences and Series before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "geometric",
+                "sequences",
+                "series"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Find the sum of the first 5 terms of 3,6,12,...",
+                "answer": "3(2^5-1)/(2-1)=93.",
+                "conceptId": "geometric-sequences-and-series"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "4.5",
+            "title": "Modeling Data",
+            "blocks": [
+              "Learn the structure behind Modeling Data before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "model",
+              "terms": [
+                "modeling",
+                "data"
+              ],
+              "activity": {
+                "type": "model",
+                "prompt": "A population begins at 800 and decreases 7% yearly. Write the model.",
+                "answer": "P(t)=800(0.93)^t.",
+                "conceptId": "modeling-data"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "For y=3(2)^x-4, state the y-intercept and horizontal asymptote.",
+          "Solve 5^(x+1)=125. Show the most efficient valid method.",
+          "Explain why e^x is useful in continuous growth.",
+          "Find the sum of the first 5 terms of 3,6,12,...",
+          "A population begins at 800 and decreases 7% yearly. Write the model."
+        ],
+        "worksheet": [
+          {
+            "type": "graph",
+            "prompt": "For y=3(2)^x-4, state the y-intercept and horizontal asymptote.",
+            "answer": "y-intercept -1; asymptote y=-4.",
+            "conceptId": "graphing-exponential-functions"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve 5^(x+1)=125. Show the most efficient valid method.",
+            "answer": "125=5^3, so x+1=3 and x=2.",
+            "conceptId": "solving-exponential-equations-and-inequalities"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "Explain why e^x is useful in continuous growth.",
+            "answer": "Its rate of change is proportional to its current value.",
+            "conceptId": "special-exponential-functions"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the sum of the first 5 terms of 3,6,12,...",
+            "answer": "3(2^5-1)/(2-1)=93.",
+            "conceptId": "geometric-sequences-and-series"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "graph",
+            "prompt": "For y=3(2)^x-4, state the y-intercept and horizontal asymptote.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "y-intercept -1; asymptote y=-4.",
+            "conceptId": "graphing-exponential-functions",
+            "objectiveId": "math3-4.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve 5^(x+1)=125. Show the most efficient valid method.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "125=5^3, so x+1=3 and x=2.",
+            "conceptId": "solving-exponential-equations-and-inequalities",
+            "objectiveId": "math3-4.2"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "Explain why e^x is useful in continuous growth.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Its rate of change is proportional to its current value.",
+            "conceptId": "special-exponential-functions",
+            "objectiveId": "math3-4.3"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the sum of the first 5 terms of 3,6,12,...",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "3(2^5-1)/(2-1)=93.",
+            "conceptId": "geometric-sequences-and-series",
+            "objectiveId": "math3-4.4"
+          },
+          {
+            "type": "model",
+            "prompt": "A population begins at 800 and decreases 7% yearly. Write the model.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "P(t)=800(0.93)^t.",
+            "conceptId": "modeling-data",
+            "objectiveId": "math3-4.5"
+          }
+        ],
+        "standards": [
+          {
+            "id": "F-LE.A.4",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use logarithms to solve exponential equations in context.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "exponential function",
+            "definition": "A function with the variable in the exponent.",
+            "example": "y=3(1.05)^t",
+            "context": "y=3(1.05)^t"
+          },
+          {
+            "term": "growth factor",
+            "definition": "The repeated multiplier greater than 1.",
+            "example": "A 5% growth factor is 1.05.",
+            "context": "A 5% growth factor is 1.05."
+          },
+          {
+            "term": "decay factor",
+            "definition": "The repeated multiplier between 0 and 1.",
+            "example": "A 12% decay factor is 0.88.",
+            "context": "A 12% decay factor is 0.88."
+          },
+          {
+            "term": "geometric series",
+            "definition": "A sum whose terms have a constant ratio.",
+            "example": "2+6+18+54",
+            "context": "2+6+18+54"
+          },
+          {
+            "term": "asymptote",
+            "definition": "A line a graph approaches.",
+            "example": "y=0 is an asymptote of 2^x.",
+            "context": "y=0 is an asymptote of 2^x."
+          }
+        ],
+        "cover": "assets/math3-04-visual.svg",
+        "visual": "assets/math3-04-visual.svg",
+        "semester": 1
+      },
+      {
+        "number": 5,
+        "title": "Logarithmic Functions",
+        "sections": [
+          {
+            "number": "5.1",
+            "title": "Logarithms and Logarithmic Functions",
+            "blocks": [
+              "Learn the structure behind Logarithms and Logarithmic Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "logarithms",
+                "logarithmic",
+                "functions"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Rewrite 2^5=32 in logarithmic form.",
+                "answer": "log base 2 of 32 equals 5.",
+                "conceptId": "logarithms-and-logarithmic-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "5.2",
+            "title": "Properties of Logarithms",
+            "blocks": [
+              "Learn the structure behind Properties of Logarithms before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "properties",
+                "logarithms"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Expand log((x^3 sqrt(y))/z).",
+                "answer": "3log x + (1/2)log y - log z.",
+                "conceptId": "properties-of-logarithms"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "5.3",
+            "title": "Common Logarithms",
+            "blocks": [
+              "Learn the structure behind Common Logarithms before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "common",
+                "logarithms"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Solve 10^x=750 using a common logarithm.",
+                "answer": "x=log(750), approximately 2.8751.",
+                "conceptId": "common-logarithms"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "5.4",
+            "title": "Natural Logarithms",
+            "blocks": [
+              "Learn the structure behind Natural Logarithms before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "natural",
+                "logarithms"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Solve e^(2x)=15. Show the most efficient valid method.",
+                "answer": "x=ln(15)/2, approximately 1.354.",
+                "conceptId": "natural-logarithms"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "5.5",
+            "title": "Using Exponential and Logarithmic Functions",
+            "blocks": [
+              "Learn the structure behind Using Exponential and Logarithmic Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "model",
+              "terms": [
+                "using",
+                "exponential",
+                "logarithmic",
+                "functions"
+              ],
+              "activity": {
+                "type": "model",
+                "prompt": "How long for $1000 to double at 6% continuous growth?",
+                "answer": "2000=1000e^(0.06t), so t=ln2/0.06, about 11.55 years.",
+                "conceptId": "using-exponential-and-logarithmic-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "Rewrite 2^5=32 in logarithmic form.",
+          "Expand log((x^3 sqrt(y))/z).",
+          "Solve 10^x=750 using a common logarithm.",
+          "Solve e^(2x)=15. Show the most efficient valid method.",
+          "How long for $1000 to double at 6% continuous growth?"
+        ],
+        "worksheet": [
+          {
+            "type": "math-solve",
+            "prompt": "Rewrite 2^5=32 in logarithmic form.",
+            "answer": "log base 2 of 32 equals 5.",
+            "conceptId": "logarithms-and-logarithmic-functions"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Expand log((x^3 sqrt(y))/z).",
+            "answer": "3log x + (1/2)log y - log z.",
+            "conceptId": "properties-of-logarithms"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve 10^x=750 using a common logarithm.",
+            "answer": "x=log(750), approximately 2.8751.",
+            "conceptId": "common-logarithms"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve e^(2x)=15. Show the most efficient valid method.",
+            "answer": "x=ln(15)/2, approximately 1.354.",
+            "conceptId": "natural-logarithms"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "math-solve",
+            "prompt": "Rewrite 2^5=32 in logarithmic form.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "log base 2 of 32 equals 5.",
+            "conceptId": "logarithms-and-logarithmic-functions",
+            "objectiveId": "math3-5.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Expand log((x^3 sqrt(y))/z).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "3log x + (1/2)log y - log z.",
+            "conceptId": "properties-of-logarithms",
+            "objectiveId": "math3-5.2"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve 10^x=750 using a common logarithm.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "x=log(750), approximately 2.8751.",
+            "conceptId": "common-logarithms",
+            "objectiveId": "math3-5.3"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve e^(2x)=15. Show the most efficient valid method.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "x=ln(15)/2, approximately 1.354.",
+            "conceptId": "natural-logarithms",
+            "objectiveId": "math3-5.4"
+          },
+          {
+            "type": "model",
+            "prompt": "How long for $1000 to double at 6% continuous growth?",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "2000=1000e^(0.06t), so t=ln2/0.06, about 11.55 years.",
+            "conceptId": "using-exponential-and-logarithmic-functions",
+            "objectiveId": "math3-5.5"
+          }
+        ],
+        "standards": [
+          {
+            "id": "F-BF.B.5",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Understand inverse relationships between exponents and logarithms.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "logarithm",
+            "definition": "The exponent needed to produce a number from a base.",
+            "example": "log_2(8)=3.",
+            "context": "log_2(8)=3."
+          },
+          {
+            "term": "common logarithm",
+            "definition": "A logarithm with base 10.",
+            "example": "log(100)=2.",
+            "context": "log(100)=2."
+          },
+          {
+            "term": "natural logarithm",
+            "definition": "A logarithm with base e.",
+            "example": "ln(e^4)=4.",
+            "context": "ln(e^4)=4."
+          },
+          {
+            "term": "change of base",
+            "definition": "A formula for evaluating logs in another base.",
+            "example": "log_b(x)=ln(x)/ln(b).",
+            "context": "log_b(x)=ln(x)/ln(b)."
+          },
+          {
+            "term": "logarithmic property",
+            "definition": "A rule that rewrites products, quotients or powers.",
+            "example": "log(ab)=log(a)+log(b).",
+            "context": "log(ab)=log(a)+log(b)."
+          }
+        ],
+        "cover": "assets/math3-05-visual.svg",
+        "visual": "assets/math3-05-visual.svg",
+        "semester": 1
+      },
+      {
+        "number": 6,
+        "title": "Rational Functions",
+        "sections": [
+          {
+            "number": "6.1",
+            "title": "Multiplying and Dividing Rational Expressions",
+            "blocks": [
+              "Learn the structure behind Multiplying and Dividing Rational Expressions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "multiplying",
+                "dividing",
+                "rational",
+                "expressions"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Simplify ((x^2-9)/(x^2-x-6))*((x-3)/(x+3)).",
+                "answer": "(x-3)/(x-2), with original exclusions x not equal -2,3,-3 as applicable.",
+                "conceptId": "multiplying-and-dividing-rational-expressions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "6.2",
+            "title": "Adding and Subtracting Rational Expressions",
+            "blocks": [
+              "Learn the structure behind Adding and Subtracting Rational Expressions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "adding",
+                "subtracting",
+                "rational",
+                "expressions"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Simplify 2/x + 3/(x+1). Show the most efficient valid method.",
+                "answer": "(5x+2)/(x(x+1)); x cannot equal 0 or -1.",
+                "conceptId": "adding-and-subtracting-rational-expressions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "6.3",
+            "title": "Graphing Reciprocal Functions",
+            "blocks": [
+              "Learn the structure behind Graphing Reciprocal Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "graphing",
+                "reciprocal",
+                "functions"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "Describe y=1/(x-2)+3. Show the most efficient valid method.",
+                "answer": "Shift right 2 and up 3; asymptotes x=2 and y=3.",
+                "conceptId": "graphing-reciprocal-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "6.4",
+            "title": "Graphing Rational Functions",
+            "blocks": [
+              "Learn the structure behind Graphing Rational Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "graphing",
+                "rational",
+                "functions"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "Find holes and vertical asymptotes of (x^2-1)/(x^2-3x+2).",
+                "answer": "Factor: (x-1)(x+1)/((x-1)(x-2)); hole at x=1, vertical asymptote x=2.",
+                "conceptId": "graphing-rational-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "6.5",
+            "title": "Solving Rational Equations and Inequalities",
+            "blocks": [
+              "Learn the structure behind Solving Rational Equations and Inequalities before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "solving",
+                "rational",
+                "equations",
+                "inequalities"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Solve 1/x + 1/(x+2)=3/4. Show the most efficient valid method.",
+                "answer": "Multiply by 4x(x+2), solve, then reject excluded values; solutions x=2 and x=-4/3.",
+                "conceptId": "solving-rational-equations-and-inequalities"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "Simplify ((x^2-9)/(x^2-x-6))*((x-3)/(x+3)).",
+          "Simplify 2/x + 3/(x+1). Show the most efficient valid method.",
+          "Describe y=1/(x-2)+3. Show the most efficient valid method.",
+          "Find holes and vertical asymptotes of (x^2-1)/(x^2-3x+2).",
+          "Solve 1/x + 1/(x+2)=3/4. Show the most efficient valid method."
+        ],
+        "worksheet": [
+          {
+            "type": "math-solve",
+            "prompt": "Simplify ((x^2-9)/(x^2-x-6))*((x-3)/(x+3)).",
+            "answer": "(x-3)/(x-2), with original exclusions x not equal -2,3,-3 as applicable.",
+            "conceptId": "multiplying-and-dividing-rational-expressions"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Simplify 2/x + 3/(x+1). Show the most efficient valid method.",
+            "answer": "(5x+2)/(x(x+1)); x cannot equal 0 or -1.",
+            "conceptId": "adding-and-subtracting-rational-expressions"
+          },
+          {
+            "type": "graph",
+            "prompt": "Describe y=1/(x-2)+3. Show the most efficient valid method.",
+            "answer": "Shift right 2 and up 3; asymptotes x=2 and y=3.",
+            "conceptId": "graphing-reciprocal-functions"
+          },
+          {
+            "type": "graph",
+            "prompt": "Find holes and vertical asymptotes of (x^2-1)/(x^2-3x+2).",
+            "answer": "Factor: (x-1)(x+1)/((x-1)(x-2)); hole at x=1, vertical asymptote x=2.",
+            "conceptId": "graphing-rational-functions"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "math-solve",
+            "prompt": "Simplify ((x^2-9)/(x^2-x-6))*((x-3)/(x+3)).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "(x-3)/(x-2), with original exclusions x not equal -2,3,-3 as applicable.",
+            "conceptId": "multiplying-and-dividing-rational-expressions",
+            "objectiveId": "math3-6.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Simplify 2/x + 3/(x+1). Show the most efficient valid method.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "(5x+2)/(x(x+1)); x cannot equal 0 or -1.",
+            "conceptId": "adding-and-subtracting-rational-expressions",
+            "objectiveId": "math3-6.2"
+          },
+          {
+            "type": "graph",
+            "prompt": "Describe y=1/(x-2)+3. Show the most efficient valid method.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Shift right 2 and up 3; asymptotes x=2 and y=3.",
+            "conceptId": "graphing-reciprocal-functions",
+            "objectiveId": "math3-6.3"
+          },
+          {
+            "type": "graph",
+            "prompt": "Find holes and vertical asymptotes of (x^2-1)/(x^2-3x+2).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Factor: (x-1)(x+1)/((x-1)(x-2)); hole at x=1, vertical asymptote x=2.",
+            "conceptId": "graphing-rational-functions",
+            "objectiveId": "math3-6.4"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Solve 1/x + 1/(x+2)=3/4. Show the most efficient valid method.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Multiply by 4x(x+2), solve, then reject excluded values; solutions x=2 and x=-4/3.",
+            "conceptId": "solving-rational-equations-and-inequalities",
+            "objectiveId": "math3-6.5"
+          }
+        ],
+        "standards": [
+          {
+            "id": "A-APR.D.6",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Rewrite rational expressions using polynomial division.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "rational expression",
+            "definition": "A quotient of polynomials.",
+            "example": "(x+1)/(x-3)",
+            "context": "(x+1)/(x-3)"
+          },
+          {
+            "term": "excluded value",
+            "definition": "A value that makes a denominator zero.",
+            "example": "x cannot equal 3 in 1/(x-3).",
+            "context": "x cannot equal 3 in 1/(x-3)."
+          },
+          {
+            "term": "reciprocal function",
+            "definition": "A function built from 1/x.",
+            "example": "f(x)=1/x",
+            "context": "f(x)=1/x"
+          },
+          {
+            "term": "vertical asymptote",
+            "definition": "A vertical line approached by a graph.",
+            "example": "x=3 for 1/(x-3).",
+            "context": "x=3 for 1/(x-3)."
+          },
+          {
+            "term": "extraneous solution",
+            "definition": "A result introduced by algebra that fails the original equation.",
+            "example": "Always check rational equations.",
+            "context": "Always check rational equations."
+          }
+        ],
+        "cover": "assets/math3-06-visual.svg",
+        "visual": "assets/math3-06-visual.svg",
+        "semester": 2
+      },
+      {
+        "number": 7,
+        "title": "Inferential Statistics",
+        "sections": [
+          {
+            "number": "7.1",
+            "title": "Random Sampling and Studies",
+            "blocks": [
+              "Learn the structure behind Random Sampling and Studies before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "data-analysis",
+              "terms": [
+                "random",
+                "sampling",
+                "studies"
+              ],
+              "activity": {
+                "type": "data-analysis",
+                "prompt": "Which design best estimates student sleep: voluntary social-media poll or stratified random sample?",
+                "answer": "A stratified random sample is less vulnerable to voluntary-response bias.",
+                "conceptId": "random-sampling-and-studies"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "7.2",
+            "title": "Using Statistics to Make Decisions",
+            "blocks": [
+              "Learn the structure behind Using Statistics to Make Decisions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "data-analysis",
+              "terms": [
+                "using",
+                "statistics",
+                "make",
+                "decisions"
+              ],
+              "activity": {
+                "type": "data-analysis",
+                "prompt": "A 95% interval for a difference is entirely above zero. What does that support?",
+                "answer": "Evidence supports a positive population difference at the stated confidence level.",
+                "conceptId": "using-statistics-to-make-decisions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "7.3",
+            "title": "Analyzing Population Data",
+            "blocks": [
+              "Learn the structure behind Analyzing Population Data before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "reasoning",
+              "terms": [
+                "analyzing",
+                "population",
+                "data"
+              ],
+              "activity": {
+                "type": "reasoning",
+                "prompt": "Explain why correlation from an observational study does not prove causation.",
+                "answer": "Confounding variables and lack of random assignment prevent a causal conclusion.",
+                "conceptId": "analyzing-population-data"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "7.4",
+            "title": "Probability Distributions",
+            "blocks": [
+              "Learn the structure behind Probability Distributions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "data-analysis",
+              "terms": [
+                "probability",
+                "distributions"
+              ],
+              "activity": {
+                "type": "data-analysis",
+                "prompt": "For a fair die, find the expected value.",
+                "answer": "(1+2+3+4+5+6)/6=3.5.",
+                "conceptId": "probability-distributions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "7.5",
+            "title": "Normal Distributions",
+            "blocks": [
+              "Learn the structure behind Normal Distributions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "data-analysis",
+              "terms": [
+                "normal",
+                "distributions"
+              ],
+              "activity": {
+                "type": "data-analysis",
+                "prompt": "A value is one standard deviation above the mean. What is its z-score?",
+                "answer": "z=1.",
+                "conceptId": "normal-distributions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "7.6",
+            "title": "Estimating Population Parameters",
+            "blocks": [
+              "Learn the structure behind Estimating Population Parameters before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "data-analysis",
+              "terms": [
+                "estimating",
+                "population",
+                "parameters"
+              ],
+              "activity": {
+                "type": "data-analysis",
+                "prompt": "Interpret 48% plus or minus 4%.",
+                "answer": "A plausible interval for the population proportion is 44% to 52%, under the study assumptions.",
+                "conceptId": "estimating-population-parameters"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "Which design best estimates student sleep: voluntary social-media poll or stratified random sample?",
+          "A 95% interval for a difference is entirely above zero. What does that support?",
+          "Explain why correlation from an observational study does not prove causation.",
+          "For a fair die, find the expected value.",
+          "A value is one standard deviation above the mean. What is its z-score?",
+          "Interpret 48% plus or minus 4%."
+        ],
+        "worksheet": [
+          {
+            "type": "data-analysis",
+            "prompt": "Which design best estimates student sleep: voluntary social-media poll or stratified random sample?",
+            "answer": "A stratified random sample is less vulnerable to voluntary-response bias.",
+            "conceptId": "random-sampling-and-studies"
+          },
+          {
+            "type": "data-analysis",
+            "prompt": "A 95% interval for a difference is entirely above zero. What does that support?",
+            "answer": "Evidence supports a positive population difference at the stated confidence level.",
+            "conceptId": "using-statistics-to-make-decisions"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "Explain why correlation from an observational study does not prove causation.",
+            "answer": "Confounding variables and lack of random assignment prevent a causal conclusion.",
+            "conceptId": "analyzing-population-data"
+          },
+          {
+            "type": "data-analysis",
+            "prompt": "For a fair die, find the expected value.",
+            "answer": "(1+2+3+4+5+6)/6=3.5.",
+            "conceptId": "probability-distributions"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "data-analysis",
+            "prompt": "Which design best estimates student sleep: voluntary social-media poll or stratified random sample?",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "A stratified random sample is less vulnerable to voluntary-response bias.",
+            "conceptId": "random-sampling-and-studies",
+            "objectiveId": "math3-7.1"
+          },
+          {
+            "type": "data-analysis",
+            "prompt": "A 95% interval for a difference is entirely above zero. What does that support?",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Evidence supports a positive population difference at the stated confidence level.",
+            "conceptId": "using-statistics-to-make-decisions",
+            "objectiveId": "math3-7.2"
+          },
+          {
+            "type": "reasoning",
+            "prompt": "Explain why correlation from an observational study does not prove causation.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Confounding variables and lack of random assignment prevent a causal conclusion.",
+            "conceptId": "analyzing-population-data",
+            "objectiveId": "math3-7.3"
+          },
+          {
+            "type": "data-analysis",
+            "prompt": "For a fair die, find the expected value.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "(1+2+3+4+5+6)/6=3.5.",
+            "conceptId": "probability-distributions",
+            "objectiveId": "math3-7.4"
+          },
+          {
+            "type": "data-analysis",
+            "prompt": "A value is one standard deviation above the mean. What is its z-score?",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "z=1.",
+            "conceptId": "normal-distributions",
+            "objectiveId": "math3-7.5"
+          },
+          {
+            "type": "data-analysis",
+            "prompt": "Interpret 48% plus or minus 4%.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "A plausible interval for the population proportion is 44% to 52%, under the study assumptions.",
+            "conceptId": "estimating-population-parameters",
+            "objectiveId": "math3-7.6"
+          }
+        ],
+        "standards": [
+          {
+            "id": "S-IC.B.6",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Evaluate reports based on statistical data.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "population",
+            "definition": "The full group being studied.",
+            "example": "All students in a district.",
+            "context": "All students in a district."
+          },
+          {
+            "term": "sample",
+            "definition": "A subset used to learn about a population.",
+            "example": "A random selection of 200 students.",
+            "context": "A random selection of 200 students."
+          },
+          {
+            "term": "sampling distribution",
+            "definition": "The distribution of a statistic over repeated samples.",
+            "example": "Repeated sample means.",
+            "context": "Repeated sample means."
+          },
+          {
+            "term": "normal distribution",
+            "definition": "A symmetric bell-shaped distribution.",
+            "example": "Many measurement errors are approximately normal.",
+            "context": "Many measurement errors are approximately normal."
+          },
+          {
+            "term": "margin of error",
+            "definition": "A range expressing sampling uncertainty.",
+            "example": "An estimate of 52% plus or minus 3%.",
+            "context": "An estimate of 52% plus or minus 3%."
+          }
+        ],
+        "cover": "assets/math3-07-visual.svg",
+        "visual": "assets/math3-07-visual.svg",
+        "semester": 2
+      },
+      {
+        "number": 8,
+        "title": "Advanced Geometry",
+        "sections": [
+          {
+            "number": "8.1",
+            "title": "Cross Sections and Solids of Revolution",
+            "blocks": [
+              "Learn the structure behind Cross Sections and Solids of Revolution before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "model",
+              "terms": [
+                "cross",
+                "sections",
+                "solids",
+                "revolution"
+              ],
+              "activity": {
+                "type": "model",
+                "prompt": "Rotate y=3 from x=0 to x=5 around the x-axis. Describe the solid.",
+                "answer": "A cylinder with radius 3 and height 5.",
+                "conceptId": "cross-sections-and-solids-of-revolution"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "8.2",
+            "title": "Density",
+            "blocks": [
+              "Learn the structure behind Density before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "density"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "A metal object has mass 540 g and volume 60 cm^3. Find density.",
+                "answer": "9 g/cm^3.",
+                "conceptId": "density"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "8.3",
+            "title": "Trigonometry and Area",
+            "blocks": [
+              "Learn the structure behind Trigonometry and Area before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "trigonometry",
+                "area"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Find the area of a triangle with sides 8 and 11 and included angle 40 degrees.",
+                "answer": "A=(1/2)(8)(11)sin40 degrees, about 28.28 square units.",
+                "conceptId": "trigonometry-and-area"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "8.4",
+            "title": "The Law of Sines",
+            "blocks": [
+              "Learn the structure behind The Law of Sines before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "sines"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "In a triangle, A=35 degrees, a=10 and B=72 degrees. Find b.",
+                "answer": "b=10 sin72/sin35, about 16.58.",
+                "conceptId": "the-law-of-sines"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "8.5",
+            "title": "The Law of Cosines",
+            "blocks": [
+              "Learn the structure behind The Law of Cosines before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "cosines"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Find the side opposite a 60-degree angle between sides 7 and 9.",
+                "answer": "c=sqrt(7^2+9^2-2(7)(9)cos60)=sqrt67, about 8.19.",
+                "conceptId": "the-law-of-cosines"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "Rotate y=3 from x=0 to x=5 around the x-axis. Describe the solid.",
+          "A metal object has mass 540 g and volume 60 cm^3. Find density.",
+          "Find the area of a triangle with sides 8 and 11 and included angle 40 degrees.",
+          "In a triangle, A=35 degrees, a=10 and B=72 degrees. Find b.",
+          "Find the side opposite a 60-degree angle between sides 7 and 9."
+        ],
+        "worksheet": [
+          {
+            "type": "model",
+            "prompt": "Rotate y=3 from x=0 to x=5 around the x-axis. Describe the solid.",
+            "answer": "A cylinder with radius 3 and height 5.",
+            "conceptId": "cross-sections-and-solids-of-revolution"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "A metal object has mass 540 g and volume 60 cm^3. Find density.",
+            "answer": "9 g/cm^3.",
+            "conceptId": "density"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the area of a triangle with sides 8 and 11 and included angle 40 degrees.",
+            "answer": "A=(1/2)(8)(11)sin40 degrees, about 28.28 square units.",
+            "conceptId": "trigonometry-and-area"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "In a triangle, A=35 degrees, a=10 and B=72 degrees. Find b.",
+            "answer": "b=10 sin72/sin35, about 16.58.",
+            "conceptId": "the-law-of-sines"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "model",
+            "prompt": "Rotate y=3 from x=0 to x=5 around the x-axis. Describe the solid.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "A cylinder with radius 3 and height 5.",
+            "conceptId": "cross-sections-and-solids-of-revolution",
+            "objectiveId": "math3-8.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "A metal object has mass 540 g and volume 60 cm^3. Find density.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "9 g/cm^3.",
+            "conceptId": "density",
+            "objectiveId": "math3-8.2"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the area of a triangle with sides 8 and 11 and included angle 40 degrees.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "A=(1/2)(8)(11)sin40 degrees, about 28.28 square units.",
+            "conceptId": "trigonometry-and-area",
+            "objectiveId": "math3-8.3"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "In a triangle, A=35 degrees, a=10 and B=72 degrees. Find b.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "b=10 sin72/sin35, about 16.58.",
+            "conceptId": "the-law-of-sines",
+            "objectiveId": "math3-8.4"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find the side opposite a 60-degree angle between sides 7 and 9.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "c=sqrt(7^2+9^2-2(7)(9)cos60)=sqrt67, about 8.19.",
+            "conceptId": "the-law-of-cosines",
+            "objectiveId": "math3-8.5"
+          }
+        ],
+        "standards": [
+          {
+            "id": "G-GMD.B.4",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Identify cross sections and solids of revolution.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "cross section",
+            "definition": "Cross sections are two-dimensional slices of solids.",
+            "example": "A plane through a cylinder can make a circle.",
+            "context": "A plane through a cylinder can make a circle."
+          },
+          {
+            "term": "solid of revolution",
+            "definition": "Solids of revolution form by rotating plane figures.",
+            "example": "Rotating a rectangle around an edge makes a cylinder.",
+            "context": "Rotating a rectangle around an edge makes a cylinder."
+          },
+          {
+            "term": "density",
+            "definition": "Density measures mass contained in each unit of volume.",
+            "example": "density=mass/volume",
+            "context": "density=mass/volume"
+          },
+          {
+            "term": "law of sines",
+            "definition": "Law of sines relates each side to the sine of its opposite angle.",
+            "example": "a/sin A=b/sin B",
+            "context": "a/sin A=b/sin B"
+          },
+          {
+            "term": "law of cosines",
+            "definition": "Law of cosines relates three sides and one included angle.",
+            "example": "c^2=a^2+b^2-2ab cos C.",
+            "context": "c^2=a^2+b^2-2ab cos C."
+          }
+        ],
+        "cover": "assets/math3-08-visual.svg",
+        "visual": "assets/math3-08-visual.svg",
+        "semester": 2
+      },
+      {
+        "number": 9,
+        "title": "Trigonometric Functions",
+        "sections": [
+          {
+            "number": "9.1",
+            "title": "Angles and Angle Measure",
+            "blocks": [
+              "Learn the structure behind Angles and Angle Measure before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "angles",
+                "angle",
+                "measure"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Convert 225 degrees to radians.",
+                "answer": "225(pi/180)=5pi/4.",
+                "conceptId": "angles-and-angle-measure"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "9.2",
+            "title": "Trigonometric Functions of General Angles",
+            "blocks": [
+              "Learn the structure behind Trigonometric Functions of General Angles before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "trigonometric",
+                "functions",
+                "general",
+                "angles"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "Find sin, cos and tan for the unit-circle point (-sqrt(2)/2,sqrt(2)/2).",
+                "answer": "sin=sqrt(2)/2, cos=-sqrt(2)/2, tan=-1.",
+                "conceptId": "trigonometric-functions-of-general-angles"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "9.3",
+            "title": "Circular and Periodic Functions",
+            "blocks": [
+              "Learn the structure behind Circular and Periodic Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "math-solve",
+              "terms": [
+                "circular",
+                "periodic",
+                "functions"
+              ],
+              "activity": {
+                "type": "math-solve",
+                "prompt": "A wheel completes one turn every 8 seconds. Find angular frequency.",
+                "answer": "2pi/8=pi/4 radians per second.",
+                "conceptId": "circular-and-periodic-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "9.4",
+            "title": "Graphing Sine and Cosine Functions",
+            "blocks": [
+              "Learn the structure behind Graphing Sine and Cosine Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "graphing",
+                "sine",
+                "cosine",
+                "functions"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "State amplitude and period of y=4sin(3x).",
+                "answer": "Amplitude 4; period 2pi/3.",
+                "conceptId": "graphing-sine-and-cosine-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "9.5",
+            "title": "Graphing Other Trigonometric Functions",
+            "blocks": [
+              "Learn the structure behind Graphing Other Trigonometric Functions before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "graphing",
+                "other",
+                "trigonometric",
+                "functions"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "State the period and vertical asymptotes of y=tan x.",
+                "answer": "Period pi; asymptotes x=pi/2+kpi.",
+                "conceptId": "graphing-other-trigonometric-functions"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          },
+          {
+            "number": "9.6",
+            "title": "Translations of Trigonometric Graphs",
+            "blocks": [
+              "Learn the structure behind Translations of Trigonometric Graphs before calculating. Identify the form, choose the shortest valid method, and predict what the answer should look like.",
+              "Fast approach: organize the given information, use algebraic structure or a graph to reduce the work, and keep exact values until the final step.",
+              "Verification matters: substitute, compare a graph, check units or domain restrictions, and explain what the result means."
+            ],
+            "pages": [],
+            "math": {
+              "kind": "graph",
+              "terms": [
+                "translations",
+                "trigonometric",
+                "graphs"
+              ],
+              "activity": {
+                "type": "graph",
+                "prompt": "Describe y=2cos(x-pi/3)+1.",
+                "answer": "Amplitude 2, right shift pi/3, up 1, period 2pi.",
+                "conceptId": "translations-of-trigonometric-graphs"
+              },
+              "standard": {
+                "id": "F-IF.B.4",
+                "authority": "California Common Core State Standards for Mathematics - Integrated III",
+                "shortDescription": "Interpret key features of functions.",
+                "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+              }
+            }
+          }
+        ],
+        "reviewQuestions": [
+          "Convert 225 degrees to radians.",
+          "Find sin, cos and tan for the unit-circle point (-sqrt(2)/2,sqrt(2)/2).",
+          "A wheel completes one turn every 8 seconds. Find angular frequency.",
+          "State amplitude and period of y=4sin(3x).",
+          "State the period and vertical asymptotes of y=tan x.",
+          "Describe y=2cos(x-pi/3)+1."
+        ],
+        "worksheet": [
+          {
+            "type": "math-solve",
+            "prompt": "Convert 225 degrees to radians.",
+            "answer": "225(pi/180)=5pi/4.",
+            "conceptId": "angles-and-angle-measure"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find sin, cos and tan for the unit-circle point (-sqrt(2)/2,sqrt(2)/2).",
+            "answer": "sin=sqrt(2)/2, cos=-sqrt(2)/2, tan=-1.",
+            "conceptId": "trigonometric-functions-of-general-angles"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "A wheel completes one turn every 8 seconds. Find angular frequency.",
+            "answer": "2pi/8=pi/4 radians per second.",
+            "conceptId": "circular-and-periodic-functions"
+          },
+          {
+            "type": "graph",
+            "prompt": "State amplitude and period of y=4sin(3x).",
+            "answer": "Amplitude 4; period 2pi/3.",
+            "conceptId": "graphing-sine-and-cosine-functions"
+          }
+        ],
+        "knowledgeCheck": [
+          {
+            "type": "math-solve",
+            "prompt": "Convert 225 degrees to radians.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "225(pi/180)=5pi/4.",
+            "conceptId": "angles-and-angle-measure",
+            "objectiveId": "math3-9.1"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "Find sin, cos and tan for the unit-circle point (-sqrt(2)/2,sqrt(2)/2).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "sin=sqrt(2)/2, cos=-sqrt(2)/2, tan=-1.",
+            "conceptId": "trigonometric-functions-of-general-angles",
+            "objectiveId": "math3-9.2"
+          },
+          {
+            "type": "math-solve",
+            "prompt": "A wheel completes one turn every 8 seconds. Find angular frequency.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "2pi/8=pi/4 radians per second.",
+            "conceptId": "circular-and-periodic-functions",
+            "objectiveId": "math3-9.3"
+          },
+          {
+            "type": "graph",
+            "prompt": "State amplitude and period of y=4sin(3x).",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Amplitude 4; period 2pi/3.",
+            "conceptId": "graphing-sine-and-cosine-functions",
+            "objectiveId": "math3-9.4"
+          },
+          {
+            "type": "graph",
+            "prompt": "State the period and vertical asymptotes of y=tan x.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Period pi; asymptotes x=pi/2+kpi.",
+            "conceptId": "graphing-other-trigonometric-functions",
+            "objectiveId": "math3-9.5"
+          },
+          {
+            "type": "graph",
+            "prompt": "Describe y=2cos(x-pi/3)+1.",
+            "guidance": "Show the essential method and verify the result.",
+            "answer": "Amplitude 2, right shift pi/3, up 1, period 2pi.",
+            "conceptId": "translations-of-trigonometric-graphs",
+            "objectiveId": "math3-9.6"
+          }
+        ],
+        "standards": [
+          {
+            "id": "F-TF.B.5",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Choose trigonometric functions to model periodic phenomena.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          },
+          {
+            "id": "N-Q.A.1",
+            "authority": "California Common Core State Standards for Mathematics - Integrated III",
+            "shortDescription": "Use units and quantities to solve problems and interpret answers.",
+            "sourceUrl": "https://www2.cde.ca.gov/cacs/math"
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "radian",
+            "definition": "An angle measure based on arc length and radius.",
+            "example": "pi radians equals 180 degrees.",
+            "context": "pi radians equals 180 degrees."
+          },
+          {
+            "term": "unit circle",
+            "definition": "A radius-one circle used to define trig functions.",
+            "example": "A point is (cos theta,sin theta).",
+            "context": "A point is (cos theta,sin theta)."
+          },
+          {
+            "term": "period",
+            "definition": "The horizontal length of one repeated cycle.",
+            "example": "sin x has period 2pi.",
+            "context": "sin x has period 2pi."
+          },
+          {
+            "term": "amplitude",
+            "definition": "Half the vertical distance from minimum to maximum.",
+            "example": "y=3sin x has amplitude 3.",
+            "context": "y=3sin x has amplitude 3."
+          },
+          {
+            "term": "phase shift",
+            "definition": "A horizontal translation of a periodic graph.",
+            "example": "sin(x-pi/2) shifts right pi/2.",
+            "context": "sin(x-pi/2) shifts right pi/2."
+          }
+        ],
+        "cover": "assets/math3-09-visual.svg",
+        "visual": "assets/math3-09-visual.svg",
+        "semester": 2
+      }
+    ],
+    "missing": [],
+    "semesters": {
+      "1": {
+        "chapters": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "review": [
+          {
+            "chapter": 1,
+            "prompt": "Simplify (3x^2-2x+5)+(x^2+7x-4).",
+            "answer": "4x^2+5x+1."
+          },
+          {
+            "chapter": 1,
+            "prompt": "Divide x^3-4x^2+x+6 by x-2.",
+            "answer": "x^2-2x-3 with remainder 0."
+          },
+          {
+            "chapter": 2,
+            "prompt": "A graph crosses the x-axis at -2, 1 and 4. State the real zeros.",
+            "answer": "-2, 1 and 4."
+          },
+          {
+            "chapter": 2,
+            "prompt": "Solve x^3-4x=0. Show the most efficient valid method.",
+            "answer": "x(x-2)(x+2)=0, so x=-2,0,2."
+          },
+          {
+            "chapter": 3,
+            "prompt": "Rewrite 27^(2/3) and evaluate.",
+            "answer": "(cube root of 27)^2=9."
+          },
+          {
+            "chapter": 3,
+            "prompt": "Simplify sqrt(50)+2sqrt(8).",
+            "answer": "5sqrt(2)+4sqrt(2)=9sqrt(2)."
+          },
+          {
+            "chapter": 4,
+            "prompt": "For y=3(2)^x-4, state the y-intercept and horizontal asymptote.",
+            "answer": "y-intercept -1; asymptote y=-4."
+          },
+          {
+            "chapter": 4,
+            "prompt": "Solve 5^(x+1)=125. Show the most efficient valid method.",
+            "answer": "125=5^3, so x+1=3 and x=2."
+          },
+          {
+            "chapter": 5,
+            "prompt": "Rewrite 2^5=32 in logarithmic form.",
+            "answer": "log base 2 of 32 equals 5."
+          },
+          {
+            "chapter": 5,
+            "prompt": "Expand log((x^3 sqrt(y))/z).",
+            "answer": "3log x + (1/2)log y - log z."
+          }
+        ],
+        "final": [
+          {
+            "chapter": 1,
+            "prompt": "Simplify (3x^2-2x+5)+(x^2+7x-4).",
+            "answer": "4x^2+5x+1."
+          },
+          {
+            "chapter": 1,
+            "prompt": "Divide x^3-4x^2+x+6 by x-2.",
+            "answer": "x^2-2x-3 with remainder 0."
+          },
+          {
+            "chapter": 2,
+            "prompt": "A graph crosses the x-axis at -2, 1 and 4. State the real zeros.",
+            "answer": "-2, 1 and 4."
+          },
+          {
+            "chapter": 2,
+            "prompt": "Solve x^3-4x=0. Show the most efficient valid method.",
+            "answer": "x(x-2)(x+2)=0, so x=-2,0,2."
+          },
+          {
+            "chapter": 3,
+            "prompt": "Rewrite 27^(2/3) and evaluate.",
+            "answer": "(cube root of 27)^2=9."
+          },
+          {
+            "chapter": 3,
+            "prompt": "Simplify sqrt(50)+2sqrt(8).",
+            "answer": "5sqrt(2)+4sqrt(2)=9sqrt(2)."
+          },
+          {
+            "chapter": 4,
+            "prompt": "For y=3(2)^x-4, state the y-intercept and horizontal asymptote.",
+            "answer": "y-intercept -1; asymptote y=-4."
+          },
+          {
+            "chapter": 4,
+            "prompt": "Solve 5^(x+1)=125. Show the most efficient valid method.",
+            "answer": "125=5^3, so x+1=3 and x=2."
+          },
+          {
+            "chapter": 5,
+            "prompt": "Rewrite 2^5=32 in logarithmic form.",
+            "answer": "log base 2 of 32 equals 5."
+          },
+          {
+            "chapter": 5,
+            "prompt": "Expand log((x^3 sqrt(y))/z).",
+            "answer": "3log x + (1/2)log y - log z."
+          }
+        ]
+      },
+      "2": {
+        "chapters": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "review": [
+          {
+            "chapter": 6,
+            "prompt": "Simplify ((x^2-9)/(x^2-x-6))*((x-3)/(x+3)).",
+            "answer": "(x-3)/(x-2), with original exclusions x not equal -2,3,-3 as applicable."
+          },
+          {
+            "chapter": 6,
+            "prompt": "Simplify 2/x + 3/(x+1). Show the most efficient valid method.",
+            "answer": "(5x+2)/(x(x+1)); x cannot equal 0 or -1."
+          },
+          {
+            "chapter": 7,
+            "prompt": "Which design best estimates student sleep: voluntary social-media poll or stratified random sample?",
+            "answer": "A stratified random sample is less vulnerable to voluntary-response bias."
+          },
+          {
+            "chapter": 7,
+            "prompt": "A 95% interval for a difference is entirely above zero. What does that support?",
+            "answer": "Evidence supports a positive population difference at the stated confidence level."
+          },
+          {
+            "chapter": 8,
+            "prompt": "Rotate y=3 from x=0 to x=5 around the x-axis. Describe the solid.",
+            "answer": "A cylinder with radius 3 and height 5."
+          },
+          {
+            "chapter": 8,
+            "prompt": "A metal object has mass 540 g and volume 60 cm^3. Find density.",
+            "answer": "9 g/cm^3."
+          },
+          {
+            "chapter": 9,
+            "prompt": "Convert 225 degrees to radians.",
+            "answer": "225(pi/180)=5pi/4."
+          },
+          {
+            "chapter": 9,
+            "prompt": "Find sin, cos and tan for the unit-circle point (-sqrt(2)/2,sqrt(2)/2).",
+            "answer": "sin=sqrt(2)/2, cos=-sqrt(2)/2, tan=-1."
+          }
+        ],
+        "final": [
+          {
+            "chapter": 6,
+            "prompt": "Simplify ((x^2-9)/(x^2-x-6))*((x-3)/(x+3)).",
+            "answer": "(x-3)/(x-2), with original exclusions x not equal -2,3,-3 as applicable."
+          },
+          {
+            "chapter": 6,
+            "prompt": "Simplify 2/x + 3/(x+1). Show the most efficient valid method.",
+            "answer": "(5x+2)/(x(x+1)); x cannot equal 0 or -1."
+          },
+          {
+            "chapter": 7,
+            "prompt": "Which design best estimates student sleep: voluntary social-media poll or stratified random sample?",
+            "answer": "A stratified random sample is less vulnerable to voluntary-response bias."
+          },
+          {
+            "chapter": 7,
+            "prompt": "A 95% interval for a difference is entirely above zero. What does that support?",
+            "answer": "Evidence supports a positive population difference at the stated confidence level."
+          },
+          {
+            "chapter": 8,
+            "prompt": "Rotate y=3 from x=0 to x=5 around the x-axis. Describe the solid.",
+            "answer": "A cylinder with radius 3 and height 5."
+          },
+          {
+            "chapter": 8,
+            "prompt": "A metal object has mass 540 g and volume 60 cm^3. Find density.",
+            "answer": "9 g/cm^3."
+          },
+          {
+            "chapter": 9,
+            "prompt": "Convert 225 degrees to radians.",
+            "answer": "225(pi/180)=5pi/4."
+          },
+          {
+            "chapter": 9,
+            "prompt": "Find sin, cos and tan for the unit-circle point (-sqrt(2)/2,sqrt(2)/2).",
+            "answer": "sin=sqrt(2)/2, cos=-sqrt(2)/2, tan=-1."
+          }
+        ]
+      }
+    }
   }
 }
