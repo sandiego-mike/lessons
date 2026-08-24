@@ -163,6 +163,14 @@ assert.doesNotMatch(context.__math3WorksheetHtml, /transfer: solve the lesson pr
   "Math III worksheet must not contain vague transfer prompts");
 assert.match(context.__math3WorksheetHtml, /A student gave this result.*independent check.*verdict/s,
   "Math III worksheet must include concrete verification practice");
+for (const requirement of [/Math learning coach/, /Check my work/, /Attempt required/, /Show worked solution/]) {
+  assert.match(source, requirement, "Math must use an attempt-gated work coach instead of a grammar checker");
+}
+assert.match(source, /Degree buckets:.*Synthetic route:.*Pattern route:.*Structure-first factoring:/s,
+  "Math coach must include topic-specific efficient alternate methods");
+vm.runInContext("S.subject='math3';S.student='leilani';S.chapter=1;S.tab='check';globalThis.__math3CheckHtml=check(chap())", context);
+assert.doesNotMatch(context.__math3CheckHtml, /Check answer/,
+  "Math knowledge checks must not expose an immediate answer button");
 assert.match(context.__math3TestPrep, /integrated-math-3-resources.*Carnegie Integrated Math III assignments/s,
   "Leilani's Carnegie resource must point to Integrated Math III");
 assert.ok(context.__math3Pdf.size > 12000,
