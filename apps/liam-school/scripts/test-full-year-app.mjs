@@ -104,6 +104,8 @@ for (const row of context.__coverage) {
     `biology chapter ${row.chapter} must have a substantial worksheet`);
   if (row.subject === "math" || row.subject === "math3") {
     assert.equal(row.worksheet, 15, `math chapter ${row.chapter} must include concrete test-prep practice`);
+    assert.ok(row.check >= 5 && row.check <= 8,
+      `${row.subject} chapter ${row.chapter} must have a substantial but focused knowledge check`);
     if (row.subject === "math") assert.ok(row.testStyle >= 1, `math chapter ${row.chapter} needs SAT/ACT or error-analysis practice`);
   }
   assert.ok(row.check >= 1, `${row.subject} chapter ${row.chapter} has no knowledge check`);
@@ -173,6 +175,13 @@ assert.match(source, /Degree buckets:.*Synthetic route:.*Pattern route:.*Structu
 vm.runInContext("S.subject='math3';S.student='leilani';S.chapter=1;S.tab='check';globalThis.__math3CheckHtml=check(chap())", context);
 assert.doesNotMatch(context.__math3CheckHtml, /Check answer/,
   "Math knowledge checks must not expose an immediate answer button");
+assert.match(context.__math3CheckHtml, /Independent mastery check.*essential calculation.*feedback unlocks only after an honest attempt/s,
+  "Math knowledge checks must require independent work before feedback");
+vm.runInContext("S.tab='notes';globalThis.__math3StudyHtml=notes(chap());S.subject='math';S.student='liam';S.chapter=2;globalThis.__math1StudyHtml=notes(chap())", context);
+for (const html of [context.__math3StudyHtml, context.__math1StudyHtml]) {
+  assert.match(html, /Review · understand · retrieve.*Worked-example review.*Fast-method checklist.*Ready for the knowledge check/s,
+    "Both Math courses need the optimized retrieval-based study guide");
+}
 vm.runInContext(`S.subject='math3';S.student='leilani';S.chapter=1;S.tab='learn';
   globalThis.__math3LessonRows=Object.entries(MATH3_LESSON_BANK).map(([id,x])=>({id,...x}));
   globalThis.__math3LessonHtml=guidedLesson(chap(),guideFor(chap()));`, context);
