@@ -25,10 +25,10 @@ const context={console,S,saved,
   conceptDepth:()=> 'This section connects evidence to the biological process.',
   activityRequiresCompletion:a=>a&&['choice','sort','sequence'].includes(a.type),
   activityComplete:()=>false,
-  normalizeStepActivity:st=>st.try?{type:'shortResponse'}:null,
+  normalizeStepActivity:st=>st.questions?{type:'shortResponseGroup'}:null,
   isStepReady:()=>true,
   mathGuidedLesson:()=>'',subjectLabel:x=>x,esc:x=>String(x),injectTerms:x=>String(x),
-  formatMathNotation:x=>x,guideHelp:()=>'',guideMore:()=>'',guideVisual:()=>'',guideTry:(ch,st)=>`TRY:${st.try}`,
+  formatMathNotation:x=>x,guideHelp:()=>'',guideMore:()=>'',guideVisual:()=>'',guideTry:(ch,st)=>`TRY:${(st.questions||[]).join('|')}`,
   guideText:()=>'<textarea></textarea>',render:()=>{}
 };
 vm.createContext(context);
@@ -41,15 +41,14 @@ assert.match(guide.steps[1].learn,/Density-dependent factors include competition
 assert.notEqual(guide.steps[0].learn,guide.steps[1].learn,'different PDF sections must not collapse into the same lesson');
 assert.equal(guide.steps[0].noApply,true);
 assert.equal(guide.steps[1].noApply,true);
-assert.notEqual(guide.steps[0].try,guide.steps[1].try,'activity type should change the practice prompt');
+assert.equal(guide.steps[0].questions.length,1,'each deep lesson needs an answerable Try It control');
+assert.equal(guide.steps[1].questions.length,1,'each deep lesson needs an answerable Try It control');
+assert.notEqual(guide.steps[0].questions[0],guide.steps[1].questions[0],'activity type should change the practice prompt');
 context.S.chapter=4;
 const html=context.guidedLesson(chapter,guide);
 assert.match(html,/<h3>Lesson<\/h3>/);
+assert.match(html,/TRY:/);
 assert.doesNotMatch(html,/<h3>Apply<\/h3>/,'written Try It should not receive a duplicate explanation box');
-
-const ch3={number:3,title:'Climate',sections:[],vocabulary:[]};
-context.guideFor=()=>({title:'Chapter 3',big:'textbook',steps:[{t:'Greenhouse effect',learn:'lesson',questions:['Describe the energy path.'],apply:'Now explain your reasoning in 1–2 sentences. Use at least one specific fact from the chapter to support your answer.'}]});
-// The deployed patch already transforms this generic Chapter 3 follow-up before rendering; verify the matcher itself is present.
 assert.match(source,/REDUNDANT_APPLY/);
 assert.match(source,/Now explain your reasoning/);
-console.log('PASS: later chapters use distinct PDF text and redundant Apply prompts are suppressed');
+console.log('PASS: later chapters use distinct PDF text, answerable Try It blocks, and no redundant Apply prompt');
