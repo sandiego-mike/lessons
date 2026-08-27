@@ -13,7 +13,8 @@
     "validate-learning-alignment": "node scripts/validate-learning-alignment.mjs",
     "test:pacing": "node scripts/test-pacing.mjs",
     "test:exports": "node scripts/test-export-reports.mjs",
-    "test:full-year": "node scripts/test-full-year-app.mjs"
+    "test:full-year": "node scripts/test-full-year-app.mjs",
+    "test:chapter3": "node scripts/test-pdf-grounded-chapter3.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
