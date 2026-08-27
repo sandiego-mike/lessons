@@ -96,15 +96,16 @@ function deepenGuide(ch,guide){
     const vocabLine=vocab.length
       ? ` Key terms for this section: ${vocab.map(v=>`${v.term} — ${v.definition}`).join(' ')}`
       : '';
+    const practice=practicePrompt(meta,facts,ch,i);
     next.t=meta.title||next.t;
     next.learn=`From the chapter PDF: ${paras.join(' ')}${vocabLine}`;
     next.see=(facts.length?facts:paras).slice(0,4);
     next.v=visualType(meta);
-    next.try=practicePrompt(meta,facts,ch,i);
+    delete next.try;
     delete next.choices;
     delete next.sort;
     delete next.sequence;
-    delete next.questions;
+    next.questions=[practice];
     next.noApply=true;
     next.apply='';
     next.more=`Why this section matters: ${conceptDepth(meta,ch)}`;
