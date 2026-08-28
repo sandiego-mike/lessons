@@ -1,0 +1,215 @@
+(function(){
+'use strict';
+if(typeof document==='undefined'||typeof S==='undefined')return;
+
+const LABS={
+  1:['Equation Balance Lab','Change an equation, solve it, and verify that both sides balance.','equation'],
+  2:['Inequality Number Line Lab','Move the boundary, choose the comparison symbol, and see the solution set.','inequality'],
+  3:['Linear Graph Lab','Tap or drag points, or use slope and y-intercept sliders to build a line.','linear'],
+  4:['Linear Forms & Sequences Lab','Explore how slope and intercept change a linear rule and graph.','linear'],
+  5:['Systems Graph Lab','Move two lines and watch their intersection and solution type change.','systems'],
+  6:['Exponential Graph Lab','Change the initial value and growth factor and watch the curve respond.','exponential'],
+  7:['Statistics Data Lab','Enter a data set and inspect mean, median, range, and a simple distribution display.','statistics'],
+  8:['Coordinate Geometry Lab','Place two points and calculate slope, midpoint, and distance.','coordinate'],
+  9:['Logic & Proof Lab','Build the converse, inverse, and contrapositive of a conditional statement.','logic'],
+ 10:['Parallel & Perpendicular Lab','Move two lines and test their slope relationship.','relation'],
+ 11:['Transformation Lab','Translate, rotate, reflect, and dilate a figure on the coordinate plane.','transform'],
+ 12:['Triangle Geometry Lab','Place three vertices and inspect side lengths, area, and triangle type.','triangle']
+};
+globalThis.__MATH1_CHAPTER_LABS__=LABS;
+
+const STYLE=`
+#math-course-lab{border:2px solid #a7c7df;background:#f9fcff}
+#math-course-lab h2{margin:.1rem 0 .35rem}
+#math-course-lab .lab-sub{margin:0 0 12px;color:#5a7085}
+#math-course-lab .tool-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(245px,.8fr);gap:16px;align-items:start}
+#math-course-lab .panel{display:flex;flex-direction:column;gap:10px}
+#math-course-lab .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+#math-course-lab label{font-weight:700}
+#math-course-lab input[type=text],#math-course-lab input[type=number],#math-course-lab select{min-height:42px;border:1px solid #b9cbdc;border-radius:10px;padding:8px 10px;font-size:16px;background:#fff}
+#math-course-lab input[type=range]{width:100%}
+#math-course-lab button{min-height:42px}
+#math-course-lab .readout{background:#edf7f4;color:#135e50;border-radius:11px;padding:10px;font-weight:750}
+#math-course-lab .status{min-height:22px;font-weight:700}
+#math-course-lab .status.good{color:#12684f}#math-course-lab .status.bad{color:#994b26}
+#math-course-lab .plot{width:100%;aspect-ratio:1/1;border:1px solid #bdd0df;border-radius:14px;background:#fff;touch-action:none;user-select:none}
+#math-course-lab .gridline{stroke:#dce7ef;stroke-width:1}#math-course-lab .axis{stroke:#17324f;stroke-width:2.4}
+#math-course-lab .line-a{stroke:#167a64;stroke-width:4;stroke-linecap:round}.line-b{stroke:#8b5aaf;stroke-width:4;stroke-linecap:round}.curve{stroke:#167a64;stroke-width:4;fill:none}
+#math-course-lab .dot{fill:#167a64;stroke:#fff;stroke-width:3}.dot-b{fill:#8b5aaf;stroke:#fff;stroke-width:3}.hit{fill:transparent}.labtext{font-size:12px;fill:#17324f;font-weight:700;pointer-events:none}
+#math-course-lab .numberline{width:100%;height:125px;border:1px solid #d0deea;border-radius:12px;background:#fff}
+#math-course-lab .proof-box{border:1px solid #d1deea;border-radius:12px;padding:12px;background:#fff}
+#math-course-lab .stat-bars{display:flex;align-items:flex-end;gap:5px;height:150px;border-bottom:2px solid #17324f;padding:6px 8px 24px}
+#math-course-lab .stat-bar{flex:1;min-width:16px;background:#dcebe6;border:1px solid #8bb9aa;border-radius:5px 5px 0 0;position:relative}.stat-bar span{position:absolute;bottom:-22px;left:50%;transform:translateX(-50%);font-size:10px}
+.math-symbol-palette{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.math-symbol-palette button{min-width:42px;min-height:36px;padding:5px 9px}
+@media(max-width:760px){#math-course-lab .tool-grid{grid-template-columns:1fr}}
+`;
+if(!document.getElementById('math-course-upgrade-style')){let s=document.createElement('style');s.id='math-course-upgrade-style';s.textContent=STYLE;document.head.appendChild(s)}
+
+function fmt(n){n=Number(n);if(!Number.isFinite(n))return 'undefined';let v=Math.round(n*100)/100;return Number.isInteger(v)?String(v):String(v)}
+function pretty(v){return String(v??'').replace(/<=/g,'≤').replace(/>=/g,'≥').replace(/!=/g,'≠').replace(/\bpi\b/gi,'π')}
+function canonical(v){
+ let s=String(v??'').toLowerCase().replace(/[−–—]/g,'-').replace(/≤/g,'<=').replace(/≥/g,'>=').replace(/≠/g,'!=').replace(/[×·]/g,'*').replace(/÷/g,'/').replace(/\s+/g,'');
+ if(s.includes('or'))s=s.split('or').filter(Boolean).sort().join('or');
+ if(s.includes('and'))s=s.split('and').filter(Boolean).sort().join('and');
+ return s;
+}
+globalThis.__prettyMath=pretty;
+globalThis.__canonicalMathAnswer=canonical;
+if(typeof normalizedMathAnswer==='function')normalizedMathAnswer=function(v){return canonical(v)};
+
+function beautify(root=document){
+ if(S.subject!=='math')return;
+ let w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(n){let p=n.parentElement;if(!p||['SCRIPT','STYLE','TEXTAREA','INPUT','OPTION'].includes(p.tagName))return NodeFilter.FILTER_REJECT;return NodeFilter.FILTER_ACCEPT}});
+ let nodes=[],n;while(n=w.nextNode())nodes.push(n);
+ for(let x of nodes){let old=x.nodeValue||'',next=pretty(old);if(next!==old)x.nodeValue=next}
+ let hint=[...document.querySelectorAll('p,.muted,small')].find(el=>/Use\s*(?:≤|<=)\s*or\s*(?:≥|>=)\s*when needed/i.test(el.textContent||''));
+ if(hint)hint.textContent='You may type ≤ or ≥ directly, or use <= / >= on the keyboard.';
+}
+function insertAt(input,text){let a=input.selectionStart??input.value.length,b=input.selectionEnd??input.value.length;input.value=input.value.slice(0,a)+text+input.value.slice(b);input.dispatchEvent(new Event('input',{bubbles:true}));input.focus();try{input.setSelectionRange(a+text.length,a+text.length)}catch(_){}}
+function symbols(){
+ if(S.subject!=='math')return;
+ let input=document.getElementById('mental-answer');if(!input||input.dataset.symbols)return;input.dataset.symbols='1';
+ let row=document.createElement('div');row.className='math-symbol-palette no-print';
+ ['≤','≥','≠','π','√','°'].forEach(sym=>{let b=document.createElement('button');b.type='button';b.className='secondary';b.textContent=sym;b.onclick=()=>insertAt(input,sym);row.appendChild(b)});
+ (input.closest('.mental-answer')||input.parentElement).insertAdjacentElement('afterend',row);
+}
+function improveChecker(){
+ if(typeof checkMentalAnswer!=='function'||typeof mentalMathBank!=='function'||checkMentalAnswer.__courseUpgrade)return;
+ let upgraded=function(idx){
+   let ch=chap(),bank=mentalMathBank(ch,idx),key=mentalKey(idx),state=saved[key]||{at:0,correct:0,attempts:0},at=Number(state.at||0)%bank.length,q=bank[at],input=document.getElementById('mental-answer'),given=canonical(input?.value),ok=q.answers.some(a=>canonical(a)===given),attempts=(state.attempts||0)+1;
+   if(ok)state={...state,correct:(state.correct||0)+1,attempts,at:(at+1)%bank.length,feedback:'<div class="feedback correct"><strong>Correct — good move.</strong><p>Now do another one while the pattern is fresh.</p></div>'};
+   else{
+     let expected=canonical(q.answers[0]),parts=expected.split(/or|and/),givenParts=given.split(/or|and/),partial=parts.length>1&&given&&givenParts.length<parts.length?'<p>You have part of the solution. Include every branch of the compound inequality.</p>':'';
+     state={...state,attempts,feedback:`<div class="feedback correction"><strong>Not yet.</strong>${partial}<ol>${q.steps.map(x=>`<li>${esc(pretty(x))}</li>`).join('')}</ol><p><strong>Correct answer:</strong> ${esc(pretty(q.answers[0]))}</p><button class="secondary" onclick="nextMentalProblem(${idx})">Try a similar problem</button></div>`};
+   }
+   saved[key]=state;save();render(false);
+ };
+ upgraded.__courseUpgrade=true;checkMentalAnswer=upgraded;
+}
+improveChecker();
+
+function skey(){return `math-${S.chapter}-chapter-tool-lab`}
+function read(def){let r=saved[skey()];return r&&typeof r==='object'?{...def,...r}:{...def}}
+function store(st){saved[skey()]={...st,updatedAt:new Date().toISOString()};if(typeof save==='function')save()}
+function head(cfg,body){return `<div class="eyebrow">Integrated Math I · Chapter ${S.chapter}</div><h2>${cfg[0]}</h2><p class="lab-sub">${cfg[1]}</p>${body}`}
+
+function grid(){
+ let out=[];for(let n=-5;n<=5;n++){let p=300+n*50;out.push(`<line class="gridline" x1="50" y1="${p}" x2="550" y2="${p}"/><line class="gridline" x1="${p}" y1="50" x2="${p}" y2="550"/>`)}
+ return out.join('')+'<line class="axis" x1="50" y1="300" x2="550" y2="300"/><line class="axis" x1="300" y1="50" x2="300" y2="550"/>';
+}
+function toSvg(p){return{x:300+p.x*50,y:300-p.y*50}}
+function fromPointer(svg,e){let r=svg.getBoundingClientRect(),px=(e.clientX-r.left)/r.width*600,py=(e.clientY-r.top)/r.height*600;return{x:Math.max(-5,Math.min(5,Math.round(((px-300)/50)*2)/2)),y:Math.max(-5,Math.min(5,Math.round(((300-py)/50)*2)/2))}}
+function clip(m,b){let out=[],add=(x,y)=>{if(x>=-5&&x<=5&&y>=-5&&y<=5&&!out.some(p=>Math.abs(p.x-x)<1e-6&&Math.abs(p.y-y)<1e-6))out.push({x,y})};add(-5,m*-5+b);add(5,m*5+b);if(Math.abs(m)>1e-9){add((-5-b)/m,-5);add((5-b)/m,5)}return out.slice(0,2)}
+function drawLine(el,m,b){let ep=clip(m,b);if(ep.length!==2){el.setAttribute('visibility','hidden');return}let a=toSvg(ep[0]),c=toSvg(ep[1]);[['x1',a.x],['y1',a.y],['x2',c.x],['y2',c.y]].forEach(([k,v])=>el.setAttribute(k,v));el.setAttribute('visibility','visible')}
+function eq(m,b){let mx=Math.abs(m-1)<1e-9?'x':Math.abs(m+1)<1e-9?'-x':fmt(m)+'x';return `y = ${mx}${Math.abs(b)<1e-9?'':b>0?' + '+fmt(b):' - '+fmt(Math.abs(b))}`}
+
+function equationLab(card,cfg){
+ let st=read({a:3,b:5,c:20,answer:''});
+ card.innerHTML=head(cfg,`<div class="tool-grid"><div class="panel"><label>Coefficient a <input data-a type="range" min="-6" max="6" step="1"></label><label>Constant b <input data-b type="range" min="-12" max="12" step="1"></label><label>Right side c <input data-c type="range" min="-30" max="30" step="1"></label><div class="readout" data-eq></div></div><div class="panel"><label>Solve for x</label><input data-answer type="text" inputmode="decimal" placeholder="x = ?"><button class="primary" data-check>Check solution</button><button class="secondary" data-new>New equation</button><div class="status" data-status></div><div class="readout" data-steps></div></div></div>`);
+ let a=card.querySelector('[data-a]'),b=card.querySelector('[data-b]'),c=card.querySelector('[data-c]'),ans=card.querySelector('[data-answer]');a.value=st.a;b.value=st.b;c.value=st.c;ans.value=st.answer||'';
+ function calc(){st.a=Number(a.value)||1;if(st.a===0){st.a=1;a.value=1}st.b=Number(b.value);st.c=Number(c.value);st.answer=ans.value;card.querySelector('[data-eq]').textContent=`${st.a}x ${st.b<0?'−':'+'} ${Math.abs(st.b)} = ${st.c}`;card.querySelector('[data-steps]').textContent=`Inverse path: subtract ${fmt(st.b)}, then divide by ${fmt(st.a)}.`;store(st);return (st.c-st.b)/st.a}
+ [a,b,c].forEach(x=>x.oninput=calc);ans.oninput=calc;
+ card.querySelector('[data-check]').onclick=()=>{let x=calc(),g=Number(String(ans.value).replace(/^x\s*=\s*/i,'')),ok=Number.isFinite(g)&&Math.abs(g-x)<.01,el=card.querySelector('[data-status]');el.className='status '+(ok?'good':'bad');el.textContent=ok?'Correct — both sides balance.':`Not yet. x = ${fmt(x)}. Check the inverse operations.`};
+ card.querySelector('[data-new]').onclick=()=>{let vals=[-5,-4,-3,-2,2,3,4,5],x=Math.floor(Math.random()*11)-5;st.a=vals[Math.floor(Math.random()*vals.length)];st.b=Math.floor(Math.random()*17)-8;st.c=st.a*x+st.b;a.value=st.a;b.value=st.b;c.value=st.c;ans.value='';calc()};calc();
+}
+
+function inequalityLab(card,cfg){
+ let st=read({n:2,op:'≤'});
+ card.innerHTML=head(cfg,`<div class="tool-grid"><svg class="numberline" viewBox="0 0 700 125"><line x1="50" y1="58" x2="650" y2="58" stroke="#17324f" stroke-width="3"/><g data-ticks></g><line data-shade y1="58" y2="58" stroke="#167a64" stroke-width="8"/><circle data-end cy="58" r="9" stroke="#167a64" stroke-width="3"/></svg><div class="panel"><label>Boundary <input data-n type="range" min="-10" max="10" step="1"></label><div class="row">${['<','≤','>','≥'].map(op=>`<button class="secondary" data-op="${op}">${op}</button>`).join('')}</div><div class="readout" data-readout></div><label>Test a value <input data-test type="number" value="0"></label><button class="primary" data-check>Check test value</button><div class="status" data-status></div></div></div>`);
+ let n=card.querySelector('[data-n]'),ticks=card.querySelector('[data-ticks]'),shade=card.querySelector('[data-shade]'),end=card.querySelector('[data-end]');n.value=st.n;let xp=v=>350+v*30;
+ function draw(){st.n=Number(n.value);card.querySelectorAll('[data-op]').forEach(b=>b.classList.toggle('active',b.dataset.op===st.op));ticks.innerHTML=Array.from({length:21},(_,i)=>i-10).map(v=>`<line x1="${xp(v)}" y1="48" x2="${xp(v)}" y2="68" stroke="#66798c"/><text x="${xp(v)}" y="90" text-anchor="middle" font-size="10">${v}</text>`).join('');let x=xp(st.n),left=st.op.includes('<');shade.setAttribute('x1',left?50:x);shade.setAttribute('x2',left?x:650);end.setAttribute('cx',x);end.setAttribute('fill',st.op.includes('=')?'#167a64':'white');card.querySelector('[data-readout]').textContent=`x ${st.op} ${st.n}`;store(st)}
+ n.oninput=draw;card.querySelectorAll('[data-op]').forEach(b=>b.onclick=()=>{st.op=b.dataset.op;draw()});
+ card.querySelector('[data-check]').onclick=()=>{let v=Number(card.querySelector('[data-test]').value),ok=st.op==='<'?v<st.n:st.op==='≤'?v<=st.n:st.op==='>'?v>st.n:v>=st.n,el=card.querySelector('[data-status]');el.className='status '+(ok?'good':'bad');el.textContent=`${fmt(v)} ${ok?'is':'is not'} in the solution set.`};draw();
+}
+
+function linearLab(card,cfg){
+ let st=read({m:2,b:-4,mode:'slider',points:[]});
+ card.innerHTML=head(cfg,`<div class="tool-grid"><svg class="plot" viewBox="0 0 600 600">${grid()}<line class="line-a" data-line visibility="hidden"/><g data-points></g></svg><div class="panel"><div class="row"><button class="secondary" data-mode="points">Plot points</button><button class="secondary" data-mode="slider">Slope & intercept</button></div><div data-sliders><label>Slope m <output data-mo></output><input data-m type="range" min="-5" max="5" step=".5"></label><label>y-intercept b <output data-bo></output><input data-b type="range" min="-5" max="5" step=".5"></label></div><div class="readout" data-eq></div><div data-summary></div><button class="secondary" data-clear>Clear points</button></div></div>`);
+ let svg=card.querySelector('.plot'),m=card.querySelector('[data-m]'),b=card.querySelector('[data-b]'),line=card.querySelector('[data-line]'),pts=card.querySelector('[data-points]');m.value=st.m;b.value=st.b;let drag=-1,moved=false;
+ function draw(){card.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('active',x.dataset.mode===st.mode));card.querySelector('[data-sliders]').style.display=st.mode==='slider'?'block':'none';card.querySelector('[data-mo]').textContent=fmt(st.m);card.querySelector('[data-bo]').textContent=fmt(st.b);card.querySelector('[data-eq]').textContent=eq(st.m,st.b);if(st.mode==='slider')drawLine(line,st.m,st.b);else if(st.points.length>=2){let a=st.points[0],c=st.points[1],dx=c.x-a.x;if(Math.abs(dx)<1e-9){let x=toSvg(a).x;line.setAttribute('x1',x);line.setAttribute('x2',x);line.setAttribute('y1',50);line.setAttribute('y2',550);line.setAttribute('visibility','visible')}else{let sl=(c.y-a.y)/dx;drawLine(line,sl,a.y-sl*a.x)}}else line.setAttribute('visibility','hidden');pts.innerHTML=st.points.map((p,i)=>{let q=toSvg(p);return `<circle class="hit" data-i="${i}" cx="${q.x}" cy="${q.y}" r="20"/><circle class="dot" data-i="${i}" cx="${q.x}" cy="${q.y}" r="8"/><text class="labtext" x="${q.x+10}" y="${q.y-10}">(${fmt(p.x)},${fmt(p.y)})</text>`}).join('');card.querySelector('[data-summary]').textContent=st.points.length?'Points: '+st.points.map(p=>`(${fmt(p.x)}, ${fmt(p.y)})`).join(', '):'Tap the grid to place points.';store(st)}
+ m.oninput=()=>{st.m=Number(m.value);draw()};b.oninput=()=>{st.b=Number(b.value);draw()};card.querySelectorAll('[data-mode]').forEach(x=>x.onclick=()=>{st.mode=x.dataset.mode;draw()});card.querySelector('[data-clear]').onclick=()=>{st.points=[];draw()};
+ svg.addEventListener('pointerdown',e=>{let h=e.target.closest('[data-i]');if(!h||st.mode!=='points')return;drag=Number(h.dataset.i);moved=false;svg.setPointerCapture?.(e.pointerId);e.preventDefault()});
+ svg.addEventListener('pointermove',e=>{if(drag<0)return;st.points[drag]=fromPointer(svg,e);moved=true;draw();e.preventDefault()});svg.addEventListener('pointerup',()=>drag=-1);svg.addEventListener('pointercancel',()=>drag=-1);
+ svg.addEventListener('click',e=>{if(st.mode!=='points'||e.target.closest('[data-i]'))return;if(moved){moved=false;return}st.points=[...st.points,fromPointer(svg,e)].slice(-8);draw()});draw();
+}
+
+function systemsLab(card,cfg,relationMode){
+ let st=read({m1:1,b1:0,m2:-1,b2:4});
+ card.innerHTML=head(cfg,`<div class="tool-grid"><svg class="plot" viewBox="0 0 600 600">${grid()}<line class="line-a" data-la/><line class="line-b" data-lb/></svg><div class="panel">${['m1','b1','m2','b2'].map(k=>`<label>${k==='m1'?'Line A slope':k==='b1'?'Line A intercept':k==='m2'?'Line B slope':'Line B intercept'} <output data-${k}o></output><input data-${k} type="range" min="-5" max="5" step=".5"></label>`).join('')}<div class="readout" data-readout></div>${relationMode?'<div class="row"><button class="secondary" data-rel="parallel">Parallel</button><button class="secondary" data-rel="perpendicular">Perpendicular</button><button class="secondary" data-rel="neither">Neither</button></div><div class="status" data-status></div>':''}</div></div>`);
+ let inputs={};['m1','b1','m2','b2'].forEach(k=>{inputs[k]=card.querySelector(`[data-${k}]`);inputs[k].value=st[k];inputs[k].oninput=()=>{st[k]=Number(inputs[k].value);draw()}});
+ function relation(){if(Math.abs(st.m1-st.m2)<1e-9)return'parallel';if(Math.abs(st.m1*st.m2+1)<1e-9)return'perpendicular';return'neither'}
+ function draw(){drawLine(card.querySelector('[data-la]'),st.m1,st.b1);drawLine(card.querySelector('[data-lb]'),st.m2,st.b2);['m1','b1','m2','b2'].forEach(k=>card.querySelector(`[data-${k}o]`).textContent=fmt(st[k]));let t=`A: ${eq(st.m1,st.b1)} · B: ${eq(st.m2,st.b2)}`;if(!relationMode){if(Math.abs(st.m1-st.m2)<1e-9)t+=Math.abs(st.b1-st.b2)<1e-9?' · infinitely many solutions':' · no solution';else{let x=(st.b2-st.b1)/(st.m1-st.m2),y=st.m1*x+st.b1;t+=` · intersection (${fmt(x)}, ${fmt(y)})`}}card.querySelector('[data-readout]').textContent=t;store(st)}
+ if(relationMode)card.querySelectorAll('[data-rel]').forEach(b=>b.onclick=()=>{let r=relation(),ok=b.dataset.rel===r,el=card.querySelector('[data-status]');el.className='status '+(ok?'good':'bad');el.textContent=ok?`Correct — the lines are ${r}.`:`Check the slopes. These lines are ${r}.`});draw();
+}
+
+function exponentialLab(card,cfg){
+ let st=read({a:1,base:2});
+ card.innerHTML=head(cfg,`<div class="tool-grid"><svg class="plot" viewBox="0 0 600 600">${grid()}<path class="curve" data-curve/></svg><div class="panel"><label>Initial value a <output data-ao></output><input data-a type="range" min=".5" max="5" step=".5"></label><label>Growth factor b <output data-bo></output><input data-base type="range" min=".25" max="3" step=".25"></label><div class="readout" data-eq></div><div class="readout" data-behavior></div></div></div>`);
+ let a=card.querySelector('[data-a]'),base=card.querySelector('[data-base]');a.value=st.a;base.value=st.base;
+ function draw(){st.a=Number(a.value);st.base=Number(base.value);card.querySelector('[data-ao]').textContent=fmt(st.a);card.querySelector('[data-bo]').textContent=fmt(st.base);card.querySelector('[data-eq]').textContent=`y = ${fmt(st.a)}(${fmt(st.base)})^x`;card.querySelector('[data-behavior]').textContent=st.base>1?'Growth: the outputs increase as x increases.':st.base<1?'Decay: the outputs decrease as x increases.':'Base 1 produces a constant function.';let d='';for(let i=0;i<=160;i++){let x=-4+i*.05,y=st.a*Math.pow(st.base,x);if(y<-5||y>5||!Number.isFinite(y))continue;let p=toSvg({x,y});d+=(d?' L ':'M ')+p.x+' '+p.y}card.querySelector('[data-curve]').setAttribute('d',d);store(st)}
+ a.oninput=base.oninput=draw;draw();
+}
+
+function statisticsLab(card,cfg){
+ let st=read({data:'4, 6, 6, 8, 10, 12'});
+ card.innerHTML=head(cfg,`<div class="tool-grid"><div><div class="stat-bars" data-bars></div></div><div class="panel"><label>Data values</label><input data-data type="text" inputmode="text"><button class="primary" data-calc>Analyze data</button><div class="readout" data-readout></div><div class="status" data-status></div></div></div>`);
+ let input=card.querySelector('[data-data]');input.value=st.data;
+ function draw(){let vals=input.value.split(/[,\s]+/).map(Number).filter(Number.isFinite);st.data=input.value;store(st);let el=card.querySelector('[data-readout]');if(!vals.length){el.textContent='Enter at least one number.';return}vals.sort((a,b)=>a-b);let mean=vals.reduce((a,b)=>a+b,0)/vals.length,mid=Math.floor(vals.length/2),median=vals.length%2?vals[mid]:(vals[mid-1]+vals[mid])/2,range=vals.at(-1)-vals[0],freq={};vals.forEach(v=>freq[v]=(freq[v]||0)+1);let max=Math.max(...Object.values(freq));card.querySelector('[data-bars]').innerHTML=Object.entries(freq).map(([v,c])=>`<div class="stat-bar" style="height:${Math.max(15,c/max*110)}px"><span>${v}</span></div>`).join('');el.textContent=`n = ${vals.length} · mean = ${fmt(mean)} · median = ${fmt(median)} · range = ${fmt(range)}`}
+ card.querySelector('[data-calc]').onclick=draw;input.onchange=draw;draw();
+}
+
+function pointLab(card,cfg,triangleMode){
+ let count=triangleMode?3:2,defaults=triangleMode?[{x:-3,y:-2},{x:3,y:-2},{x:0,y:3}]:[{x:-2,y:-1},{x:3,y:3}],st=read({points:defaults});
+ if(!Array.isArray(st.points)||st.points.length<count)st.points=defaults;
+ card.innerHTML=head(cfg,`<div class="tool-grid"><svg class="plot" viewBox="0 0 600 600">${grid()}${triangleMode?'<polygon data-poly fill="rgba(22,122,100,.12)" stroke="#167a64" stroke-width="3"/>':''}<g data-points></g></svg><div class="panel"><p>Tap the grid to set ${triangleMode?'vertices A, B, and C':'points A and B'}. Drag any point to adjust it.</p><button class="secondary" data-reset>Reset</button><div class="readout" data-readout></div></div></div>`);
+ let svg=card.querySelector('.plot'),layer=card.querySelector('[data-points]'),drag=-1,next=0,moved=false;
+ function metrics(){if(triangleMode){let [a,b,c]=st.points,d=(p,q)=>Math.hypot(q.x-p.x,q.y-p.y),ab=d(a,b),bc=d(b,c),ca=d(c,a),area=Math.abs(a.x*(b.y-c.y)+b.x*(c.y-a.y)+c.x*(a.y-b.y))/2,sorted=[ab,bc,ca].sort((x,y)=>x-y),right=Math.abs(sorted[0]**2+sorted[1]**2-sorted[2]**2)<.15,equi=Math.max(ab,bc,ca)-Math.min(ab,bc,ca)<.15,iso=!equi&&(Math.abs(ab-bc)<.15||Math.abs(bc-ca)<.15||Math.abs(ca-ab)<.15),type=equi?'equilateral':right?'right':iso?'isosceles':'scalene';return `AB ${fmt(ab)} · BC ${fmt(bc)} · CA ${fmt(ca)} · area ${fmt(area)} · ${type}`}let [a,b]=st.points,dx=b.x-a.x,dy=b.y-a.y,slope=Math.abs(dx)<1e-9?'undefined':fmt(dy/dx),mid=`(${fmt((a.x+b.x)/2)}, ${fmt((a.y+b.y)/2)})`,dist=fmt(Math.hypot(dx,dy));return `slope ${slope} · midpoint ${mid} · distance ${dist}`}
+ function draw(){layer.innerHTML=st.points.slice(0,count).map((p,i)=>{let q=toSvg(p),label=String.fromCharCode(65+i);return `<circle class="hit" data-i="${i}" cx="${q.x}" cy="${q.y}" r="22"/><circle class="dot" data-i="${i}" cx="${q.x}" cy="${q.y}" r="9"/><text class="labtext" x="${q.x+12}" y="${q.y-12}">${label} (${fmt(p.x)},${fmt(p.y)})</text>`}).join('');if(triangleMode){card.querySelector('[data-poly]').setAttribute('points',st.points.slice(0,3).map(p=>{let q=toSvg(p);return `${q.x},${q.y}`}).join(' '))}card.querySelector('[data-readout]').textContent=metrics();store(st)}
+ svg.addEventListener('pointerdown',e=>{let h=e.target.closest('[data-i]');if(!h)return;drag=Number(h.dataset.i);moved=false;svg.setPointerCapture?.(e.pointerId);e.preventDefault()});svg.addEventListener('pointermove',e=>{if(drag<0)return;st.points[drag]=fromPointer(svg,e);moved=true;draw();e.preventDefault()});svg.addEventListener('pointerup',()=>drag=-1);svg.addEventListener('pointercancel',()=>drag=-1);svg.addEventListener('click',e=>{if(e.target.closest('[data-i]'))return;if(moved){moved=false;return}st.points[next%count]=fromPointer(svg,e);next++;draw()});card.querySelector('[data-reset]').onclick=()=>{st.points=defaults.map(p=>({...p}));draw()};draw();
+}
+
+function logicLab(card,cfg){
+ let st=read({p:'a figure is a square',q:'it has four right angles'});
+ card.innerHTML=head(cfg,`<div class="tool-grid"><div class="proof-box"><label>If <input data-p type="text"></label><br><label>then <input data-q type="text"></label></div><div class="panel"><button class="secondary" data-kind="converse">Show converse</button><button class="secondary" data-kind="inverse">Show inverse</button><button class="secondary" data-kind="contrapositive">Show contrapositive</button><div class="readout" data-out></div><div class="status" data-status></div></div></div>`);
+ let p=card.querySelector('[data-p]'),q=card.querySelector('[data-q]');p.value=st.p;q.value=st.q;
+ function saveState(){st.p=p.value.trim()||'p';st.q=q.value.trim()||'q';store(st)}
+ card.querySelectorAll('[data-kind]').forEach(b=>b.onclick=()=>{saveState();let kind=b.dataset.kind,text=kind==='converse'?`If ${st.q}, then ${st.p}.`:kind==='inverse'?`If not (${st.p}), then not (${st.q}).`:`If not (${st.q}), then not (${st.p}).`;card.querySelector('[data-out]').textContent=text;card.querySelector('[data-status]').textContent=kind==='contrapositive'?'A conditional and its contrapositive are logically equivalent.':'This form is related to the original, but it is not automatically equivalent.'});p.oninput=q.oninput=saveState;saveState();
+}
+
+function transformLab(card,cfg){
+ let st=read({dx:2,dy:1,rot:0,scale:1,reflect:'none'}),base=[{x:-2,y:-1},{x:1,y:-1},{x:0,y:2}];
+ card.innerHTML=head(cfg,`<div class="tool-grid"><svg class="plot" viewBox="0 0 600 600">${grid()}<polygon data-base fill="rgba(139,90,175,.10)" stroke="#8b5aaf" stroke-width="3"/><polygon data-new fill="rgba(22,122,100,.14)" stroke="#167a64" stroke-width="3"/></svg><div class="panel"><label>Translate x <output data-dxo></output><input data-dx type="range" min="-5" max="5" step="1"></label><label>Translate y <output data-dyo></output><input data-dy type="range" min="-5" max="5" step="1"></label><label>Rotation <select data-rot><option value="0">0°</option><option value="90">90°</option><option value="180">180°</option><option value="270">270°</option></select></label><label>Reflection <select data-ref><option value="none">None</option><option value="x">Across x-axis</option><option value="y">Across y-axis</option></select></label><label>Dilation scale <output data-so></output><input data-scale type="range" min=".5" max="2" step=".5"></label><div class="readout" data-readout></div></div></div>`);
+ let dx=card.querySelector('[data-dx]'),dy=card.querySelector('[data-dy]'),rot=card.querySelector('[data-rot]'),ref=card.querySelector('[data-ref]'),scale=card.querySelector('[data-scale]');dx.value=st.dx;dy.value=st.dy;rot.value=st.rot;ref.value=st.reflect;scale.value=st.scale;
+ function change(p){let x=p.x,y=p.y;if(st.reflect==='x')y=-y;if(st.reflect==='y')x=-x;let r=Number(st.rot);if(r===90)[x,y]=[-y,x];else if(r===180){x=-x;y=-y}else if(r===270)[x,y]=[y,-x];x=x*st.scale+st.dx;y=y*st.scale+st.dy;return{x,y}}
+ function points(arr){return arr.map(p=>{let q=toSvg(p);return `${q.x},${q.y}`}).join(' ')}
+ function draw(){st.dx=Number(dx.value);st.dy=Number(dy.value);st.rot=Number(rot.value);st.reflect=ref.value;st.scale=Number(scale.value);card.querySelector('[data-dxo]').textContent=fmt(st.dx);card.querySelector('[data-dyo]').textContent=fmt(st.dy);card.querySelector('[data-so]').textContent=fmt(st.scale);card.querySelector('[data-base]').setAttribute('points',points(base));let out=base.map(change);card.querySelector('[data-new]').setAttribute('points',points(out));card.querySelector('[data-readout]').textContent='Image vertices: '+out.map(p=>`(${fmt(p.x)}, ${fmt(p.y)})`).join(', ');store(st)}
+ [dx,dy,rot,ref,scale].forEach(x=>x.oninput=draw);draw();
+}
+
+function mount(){
+ if(S.subject!=='math'||S.view!=='chapter'||(S.tab&&S.tab!=='learn')){document.getElementById('math-course-lab')?.remove();return}
+ let cfg=LABS[Number(S.chapter)];if(!cfg)return;
+ document.getElementById('linear-graph-lab')?.remove();
+ let existing=document.getElementById('math-course-lab');if(existing&&Number(existing.dataset.chapter)===Number(S.chapter)){beautify(document);symbols();return}
+ existing?.remove();
+ let anchor=document.querySelector('.mental-drill,.guide-card,.math1-varied-task,.card');if(!anchor)return;
+ let card=document.createElement('div');card.id='math-course-lab';card.className='card';card.dataset.chapter=S.chapter;anchor.insertAdjacentElement('afterend',card);
+ let type=cfg[2];
+ if(type==='equation')equationLab(card,cfg);
+ else if(type==='inequality')inequalityLab(card,cfg);
+ else if(type==='linear')linearLab(card,cfg);
+ else if(type==='systems')systemsLab(card,cfg,false);
+ else if(type==='exponential')exponentialLab(card,cfg);
+ else if(type==='statistics')statisticsLab(card,cfg);
+ else if(type==='coordinate')pointLab(card,cfg,false);
+ else if(type==='logic')logicLab(card,cfg);
+ else if(type==='relation')systemsLab(card,cfg,true);
+ else if(type==='transform')transformLab(card,cfg);
+ else if(type==='triangle')pointLab(card,cfg,true);
+ beautify(document);symbols();
+}
+
+let timer=0;function schedule(){clearTimeout(timer);timer=setTimeout(()=>{improveChecker();mount();beautify(document);symbols()},0)}
+new MutationObserver(schedule).observe(document.getElementById('app')||document.body,{childList:true,subtree:true,characterData:true});
+window.addEventListener('hashchange',schedule);setTimeout(schedule,0);
+})();
