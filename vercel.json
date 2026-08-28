@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd apps/liam-school && npm install && npm run test:math1-deep && npm run test:math-interactions && npm run build",
+  "buildCommand": "cd apps/liam-school && npm install && npm run test:math1-deep && npm run test:math-interactions && npm run test:graph-lab && npm run build",
   "outputDirectory": "apps/liam-school/dist",
   "cleanUrls": false
 }
