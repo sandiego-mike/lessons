@@ -1,0 +1,25 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import { fileURLToPath } from 'node:url';
+
+const here=path.dirname(fileURLToPath(import.meta.url));
+const source=fs.readFileSync(path.resolve(here,'../materials/liam-learning-app/linear-graph-lab.js'),'utf8');
+const sandbox={console,globalThis:{},S:{subject:'math',chapter:3,view:'home',tab:'learn'}};
+vm.createContext(sandbox);
+vm.runInContext(source,sandbox,{filename:'linear-graph-lab.js'});
+const tools=sandbox.globalThis.__linearGraphLabTools;
+assert.ok(tools,'pure graph tools should be exposed before DOM startup');
+assert.deepEqual(JSON.parse(JSON.stringify(tools.parseEquation('y = 2x - 4'))),{m:2,b:-4});
+assert.deepEqual(JSON.parse(JSON.stringify(tools.parseEquation('y=-x+3'))),{m:-1,b:3});
+assert.equal(tools.onLine({x:0,y:-4},{m:2,b:-4}),true);
+assert.equal(tools.onLine({x:2,y:0},{m:2,b:-4}),true);
+const line=tools.lineFromTwo({x:0,y:-4},{x:2,y:0});
+assert.equal(line.m,2);assert.equal(line.b,-4);
+assert.match(source,/pointerdown/,'touch\/drag plotting must be supported');
+assert.match(source,/type=\"range\"/,'slope and intercept sliders must exist');
+assert.match(source,/data-check/,'graph checker must exist');
+assert.match(source,/MutationObserver/,'lab must survive dynamic re-renders');
+assert.match(source,/Number\(S\.chapter\)===3/,'Chapter 3 must receive the persistent lab');
+console.log('PASS: persistent Chapter 3 linear graph lab');
