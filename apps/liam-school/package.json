@@ -18,7 +18,8 @@
     "test:chapter3-activity": "node scripts/test-chapter3-activity-contract.mjs",
     "test:vocabulary": "node scripts/test-vocabulary-check.mjs",
     "test:deep-pdf": "node scripts/test-deep-pdf-lessons.mjs",
-    "test:math1-deep": "node scripts/test-math1-deep-lessons.mjs"
+    "test:math1-deep": "node scripts/test-math1-deep-lessons.mjs",
+    "test:math-interactions": "node scripts/test-math-interactions.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
