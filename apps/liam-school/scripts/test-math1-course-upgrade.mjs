@@ -24,4 +24,6 @@ assert.ok(source.includes("split(/or|and/)"),'Compound inequality partial-answer
 assert.ok(source.includes("sort().join('or')"),'Equivalent OR branch order should normalize.');
 assert.ok(source.includes("sort().join('and')"),'Equivalent AND branch order should normalize.');
 assert.ok(source.includes("document.getElementById('linear-graph-lab')?.remove()"),'Legacy Chapter 3 special-case lab should be superseded.');
-console.log('PASS: Math I Chapters 1-12 have topic-matched tools, symbols, and interaction contracts');
+assert.ok(source.includes('drawPdfRelationGlyph'),'PDF export must draw proper ≤/≥/≠ glyphs rather than leave ASCII operators.');
+assert.ok(source.includes('__pdfRelationGlyphs'),'PDF glyph renderer should be exposed for regression inspection.');
+console.log('PASS: Math I Chapters 1-12 have topic-matched tools, symbols, PDF glyphs, and interaction contracts');
