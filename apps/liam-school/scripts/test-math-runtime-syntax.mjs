@@ -17,4 +17,7 @@ assert.ok(!/oninput\s*=/.test(fix),'Fix script must not generate inline oninput 
 assert.ok(fix.includes("S.subject==='math'||S.subject==='math3'"),'Fix must cover Math I and Math III');
 const index=fs.readFileSync(path.join(root,'index.html'),'utf8');
 assert.ok(index.includes('math-course-upgrade-v2.js'),'Math course v2 must load');
+assert.ok(index.includes('math-graph-points.js'),'Graph point layer must load');
+assert.ok(index.includes('math-answer-input-fix.js'),'Safe Try It autosave patch must load');
+assert.ok(!index.includes('math-course-upgrade.js?v=42'),'Broken legacy course-upgrade script must stay out of startup');
 console.log('PASS: loaded math upgrade scripts parse and Try It autosave is event-based');
