@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/test-math1-deep-lessons.mjs && node scripts/test-math-interactions.mjs && node scripts/test-math-course-upgrade-v2.mjs && node scripts/test-math-graph-points.mjs && node scripts/test-math-runtime-syntax.mjs && node scripts/build-learning-app.mjs",
+    "build": "node scripts/test-math1-deep-lessons.mjs && node scripts/test-math-interactions.mjs && node scripts/test-math-course-upgrade-v2.mjs && node scripts/test-math-graph-points.mjs && node scripts/test-math-runtime-syntax.mjs && node scripts/test-geography-course-quality-v2.mjs && node scripts/build-learning-app.mjs",
     "typecheck": "tsc --noEmit",
     "validate-curriculum": "node scripts/validate-liam-learning-app.mjs",
     "validate-activities": "node scripts/validate-activities.mjs",
@@ -24,7 +24,8 @@
     "test:math1-all": "node scripts/test-math1-course-upgrade.mjs",
     "test:math-all": "node scripts/test-math-course-upgrade-v2.mjs",
     "test:math-graph-points": "node scripts/test-math-graph-points.mjs",
-    "test:math-runtime": "node scripts/test-math-runtime-syntax.mjs"
+    "test:math-runtime": "node scripts/test-math-runtime-syntax.mjs",
+    "test:geography-all": "node scripts/test-geography-course-quality-v2.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
