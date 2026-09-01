@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url));
+const source=fs.readFileSync(path.resolve(here,'../materials/liam-learning-app/math-course-quality-v4.js'),'utf8');
+assert.doesNotThrow(()=>new Function(source),'Math quality v4 must parse');
+const duplicate='Independent practice 2 for Functions: A line passes through (1,4) and (5,12). Find its slope and equation.';
+const makeChapter=n=>({number:n,title:`Chapter ${n}`,sections:Array.from({length:6},(_,i)=>({title:`Section ${i+1}`}))});
+const S={subject:'math',view:'home',chapter:3,data:{math:{chapters:Array.from({length:12},(_,i)=>makeChapter(i+1))},math3:{chapters:Array.from({length:9},(_,i)=>makeChapter(i+1))}}};
+const baseGuide=ch=>({title:`Chapter ${ch.number}`,steps:[...Array.from({length:6},(_,i)=>({t:`Section ${i+1}`,try:i<4?duplicate:`Solve ${i+2}x=${(i+2)*3}.`,tryAnswer:i<4?'slope 2; y=2x+2':'x=3'})),{t:'Chapter mastery check',questions:Array.from({length:6},()=>duplicate)}]});
+const baseWorksheet=()=>Array.from({length:15},()=>({prompt:duplicate,answer:'slope 2; y=2x+2'}));
+const baseKnowledge=()=>Array.from({length:8},()=>({prompt:duplicate,answer:'slope 2; y=2x+2'}));
+const sandbox={console,S,guideFor:baseGuide,worksheetItems:baseWorksheet,knowledgeItems:baseKnowledge,mathTestQuestions:()=>[]};sandbox.globalThis=sandbox;
+vm.createContext(sandbox);vm.runInContext(source,sandbox,{filename:'math-course-quality-v4.js'});
+const core=p=>sandbox.__mathTaskCoreV4(p);
+for(const subject of ['math','math3']){S.subject=subject;for(const ch of S.data[subject].chapters){const g=sandbox.guideFor(ch);const lessonPrompts=g.steps.filter(s=>!/mastery/i.test(s.t)).map(s=>s.try).filter(Boolean);assert.equal(new Set(lessonPrompts.map(core)).size,lessonPrompts.length,`${subject} chapter ${ch.number}: guided Try It tasks must be semantically unique`);const mastery=g.steps.find(s=>/mastery/i.test(s.t)).questions;assert.ok(mastery.length>=5,`${subject} chapter ${ch.number}: mastery must have at least 5 problems`);assert.equal(new Set(mastery.map(core)).size,mastery.length,`${subject} chapter ${ch.number}: mastery tasks must be unique`);const w=sandbox.worksheetItems(ch);assert.equal(w.length,15,`${subject} chapter ${ch.number}: worksheet must have 15 problems`);assert.equal(new Set(w.map(x=>core(x.prompt))).size,15,`${subject} chapter ${ch.number}: worksheet tasks must be semantically unique`);const k=sandbox.knowledgeItems(ch);assert.equal(k.length,8,`${subject} chapter ${ch.number}: knowledge check must have 8 problems`);assert.equal(new Set(k.map(x=>core(x.prompt))).size,8,`${subject} chapter ${ch.number}: knowledge tasks must be semantically unique`);assert.ok(!w.some(x=>/Independent practice \d+ for .*A line passes through \(1,4\) and \(5,12\)/i.test(x.prompt)),`${subject} chapter ${ch.number}: screenshot duplicate must not survive worksheet generation`)}}
+const report=sandbox.__auditMathCourseQualityV4();assert.equal(report.rows.length,21,'Audit must cover all 12 Math I chapters and all 9 Math III units');assert.equal(report.passed,true,'All Math I/III chapters must pass v4 semantic-duplicate audit');
+console.log('PASS: 12 Math I + 9 Math III chapters have concrete, semantically unique lesson/mastery/worksheet/check problems');
