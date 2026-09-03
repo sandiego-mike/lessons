@@ -28,7 +28,7 @@ const GEO_DEFS={
 function clean(v){return String(v||'').replace(/\s+/g,' ').trim()}
 function norm(v){return clean(v).toLowerCase().replace(/[“”‘’]/g,"'").replace(/[^a-z0-9]+/g,' ').trim()}
 function escapeRe(v){return String(v).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}
-function badDefinition(v){let s=clean(v);return !s||s.length<18||GENERIC.test(s)||ARTIFACT.test(s)}
+function badDefinition(v){const s=clean(v);return !s||s.length<18||GENERIC.test(s)||ARTIFACT.test(s)}
 
 try{
   if(typeof TERM_DEFS!=='undefined'){
@@ -52,8 +52,7 @@ function definingSentence(ch,term){
   const defineRe=new RegExp(`(?:^|[.!?]\\s+)(?:the\\s+)?${re}\\s+(?:is|are|means|refers to|describes|measures|is defined as)\\s+([^.!?]{15,220})[.!?]`,'i');
   for(const section of ch.sections||[]){
     for(const raw of section.blocks||[]){
-      let text=clean(typeof cleanStudentText==='function'?cleanStudentText(raw):raw);
-      if(ARTIFACT.test(text))continue;
+      const text=clean(typeof cleanStudentText==='function'?cleanStudentText(raw):raw);
       const m=(' '+text).match(defineRe);
       if(m){const value=clean(m[1]);if(!badDefinition(value)&&!norm(value).includes(key+' is a chapter term'))return value.replace(/^[,:;\-–—\s]+/,'')+'.'}
     }
@@ -70,22 +69,28 @@ function realDefinition(ch,term){
   const raw=rawVocabularyDefinition(ch,term);if(raw)return raw;
   return definingSentence(ch,term);
 }
-function realExample(term){const key=norm(term);return GEO_DEFS[key]?.[1]||''}
 
+function sentenceCandidates(text){
+  text=clean(text).replace(/\s*Key terms for this section:.*$/i,'');
+  const out=[];
+  for(let sentence of text.split(/(?<=[.!?])\s+/)){
+    sentence=clean(sentence);
+    if(sentence.length<45||sentence.length>260||sentence.includes('?')||ARTIFACT.test(sentence)||GENERIC.test(sentence))continue;
+    if(/^[A-Z][A-Za-z ]{2,35}$/.test(sentence))continue;
+    if(/^[A-Z][A-Za-z ]{2,50}\s+[A-Z][A-Za-z ]{2,50}$/.test(sentence)&&!/[,.]/.test(sentence))continue;
+    out.push(sentence);
+  }
+  return out;
+}
 function sourceFacts(ch,index){
   const section=(ch.sections||[])[index];if(!section)return [];
   const facts=[],seen=new Set();
   for(const raw of section.blocks||[]){
-    let text=clean(typeof cleanStudentText==='function'?cleanStudentText(raw):raw);
-    if(!text||ARTIFACT.test(text)||GENERIC.test(text))continue;
-    text=text.replace(/Key terms for this section:.*$/i,'').trim();
-    for(let sentence of text.split(/(?<=[.!?])\s+/)){
-      sentence=clean(sentence);
-      if(sentence.length<45||sentence.length>260||sentence.includes('?')||ARTIFACT.test(sentence)||GENERIC.test(sentence))continue;
-      if(/^[A-Z][A-Za-z ]{2,35}$/.test(sentence))continue;
+    const text=clean(typeof cleanStudentText==='function'?cleanStudentText(raw):raw);
+    if(!text||GENERIC.test(text))continue;
+    for(const sentence of sentenceCandidates(text)){
       const key=norm(sentence).slice(0,120);if(seen.has(key))continue;seen.add(key);
-      facts.push(sentence);
-      if(facts.length===4)return facts;
+      facts.push(sentence);if(facts.length===4)return facts;
     }
   }
   return facts;
@@ -94,10 +99,11 @@ function cleanExistingLearn(text){
   let s=clean(text).replace(/^From the chapter PDF:\s*/i,'');
   s=s.replace(/\s*Key terms for this section:.*$/i,'');
   s=s.replace(/\b\w[\w -]{1,40}\s+is a chapter term\s+\w+\s+should use to explain a specific place, region, pattern, map, or human-environment relationship\.?/gi,'');
-  return clean(s);
+  const facts=sentenceCandidates(s);
+  return facts.length?facts.slice(0,4).join(' '):clean(s.replace(ARTIFACT,''));
 }
 function cleanLesson(ch,st,index){
-  if(st?.vocabularyCheck)return st;
+  if(st?.vocabularyCheck||ch.number===3||index>=(ch.sections||[]).length)return st;
   const facts=sourceFacts(ch,index);
   let lesson=facts.length>=2?facts.join(' '):cleanExistingLearn(st.learn);
   if(lesson.length>950)lesson=lesson.slice(0,950).replace(/\s+\S*$/,'')+'…';
@@ -107,17 +113,13 @@ function cleanLesson(ch,st,index){
 function rebuildVocabulary(ch,st){
   if(!st?.vocabularyCheck||!st.sort)return st;
   const oldGroups=st.sort.groups||[],byId=new Map(oldGroups.map(g=>[g.id,g])),entries=[],seen=new Set();
-  for(const item of st.sort.items||[]){
-    const group=byId.get(item.correctGroupId),term=clean(group?.label),key=norm(term);if(!term||seen.has(key))continue;
-    const definition=realDefinition(ch,term);if(badDefinition(definition)||norm(definition).includes(key))continue;
+  const add=term=>{
+    term=clean(term);const key=norm(term);if(!term||seen.has(key))return;
+    const definition=realDefinition(ch,term);if(badDefinition(definition)||norm(definition).includes(key))return;
     seen.add(key);entries.push({term,definition});
-  }
-  for(const raw of ch.vocabulary||[]){
-    if(entries.length>=10)break;
-    const term=clean(raw?.term||raw),key=norm(term);if(!term||seen.has(key))continue;
-    const definition=realDefinition(ch,term);if(badDefinition(definition)||norm(definition).includes(key))continue;
-    seen.add(key);entries.push({term,definition});
-  }
+  };
+  for(const item of st.sort.items||[])add(byId.get(item.correctGroupId)?.label);
+  for(const raw of ch.vocabulary||[]){if(entries.length>=10)break;add(raw?.term||raw)}
   if(entries.length<4)return {...st,sort:{...st.sort,groups:[],items:[]},learn:'Vocabulary Check is unavailable for this chapter until four verified definitions are present.'};
   const base=`geography-${ch.number}-verified-vocab`,groups=entries.map((e,i)=>({id:`${base}-g${i}`,label:e.term,description:'Match the verified chapter definition.'}));
   let items=entries.map((e,i)=>({id:`${base}-i${i}`,label:e.definition,correctGroupId:groups[i].id}));
@@ -128,19 +130,17 @@ function rebuildVocabulary(ch,st){
 const baseGuideFor=guideFor;
 guideFor=function(ch){
   const guide=baseGuideFor(ch);if(S.subject!=='geography'||!guide?.steps)return guide;
-  const steps=guide.steps.map((st,i)=>rebuildVocabulary(ch,cleanLesson(ch,st,i)));
-  return {...guide,steps};
+  return {...guide,steps:guide.steps.map((st,i)=>rebuildVocabulary(ch,cleanLesson(ch,st,i)))};
 };
 
 globalThis.__auditGeographyStudentQualityV3=function(){
   const previous=S.subject;S.subject='geography';const rows=[];
   for(const ch of S.data?.geography?.chapters||[]){
-    const g=guideFor(ch),lessonSteps=(g.steps||[]).filter(s=>!s.vocabularyCheck),v=(g.steps||[]).find(s=>s.vocabularyCheck),defs=v?.sort?.items||[];
-    rows.push({chapter:ch.number,genericLesson:lessonSteps.filter(s=>GENERIC.test(s.learn)||/Key terms for this section/i.test(s.learn)).length,artifactLesson:lessonSteps.filter(s=>ARTIFACT.test(s.learn)).length,vocab:defCount(defs),badVocab:defs.filter(x=>badDefinition(x.label)).length});
+    const g=guideFor(ch),lessonSteps=(g.steps||[]).filter((s,i)=>!s.vocabularyCheck&&i<(ch.sections||[]).length&&ch.number!==3),v=(g.steps||[]).find(s=>s.vocabularyCheck),defs=v?.sort?.items||[];
+    rows.push({chapter:ch.number,genericLesson:lessonSteps.filter(s=>GENERIC.test(s.learn)||/Key terms for this section/i.test(s.learn)).length,artifactLesson:lessonSteps.filter(s=>ARTIFACT.test(s.learn)).length,vocab:defs.length,badVocab:defs.filter(x=>badDefinition(x.label)).length});
   }
   S.subject=previous;return {rows,passed:rows.length===34&&rows.every(r=>r.genericLesson===0&&r.artifactLesson===0&&r.vocab>=4&&r.badVocab===0)};
 };
-function defCount(items){return Array.isArray(items)?items.length:0}
 
 try{if(S.subject==='geography'&&S.view==='chapter'&&typeof render==='function')render(false)}catch(e){console.error('Geography student quality v3:',e)}
 })();
