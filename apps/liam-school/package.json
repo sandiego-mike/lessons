@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/test-runtime-loaded-scripts.mjs && node scripts/test-all-weeks-latest-standards.mjs && node scripts/test-biology-course-quality-v2.mjs && node scripts/test-vocabulary-quality-v2.mjs && node scripts/test-math1-deep-lessons.mjs && node scripts/test-math-interactions.mjs && node scripts/test-math-course-upgrade-v2.mjs && node scripts/test-math-graph-points.mjs && node scripts/test-math-runtime-syntax.mjs && node scripts/test-math-course-quality-v3.mjs && node scripts/test-math-course-quality-v4.mjs && node scripts/test-geography-course-quality-v2.mjs && node scripts/build-learning-app.mjs",
+    "build": "node scripts/test-runtime-loaded-scripts.mjs && node scripts/test-all-weeks-latest-standards.mjs && node scripts/test-biology-course-quality-v2.mjs && node scripts/test-vocabulary-quality-v2.mjs && node scripts/test-geography-student-quality-v3.mjs && node scripts/test-math1-deep-lessons.mjs && node scripts/test-math-interactions.mjs && node scripts/test-math-course-upgrade-v2.mjs && node scripts/test-math-graph-points.mjs && node scripts/test-math-runtime-syntax.mjs && node scripts/test-math-course-quality-v3.mjs && node scripts/test-math-course-quality-v4.mjs && node scripts/test-geography-course-quality-v2.mjs && node scripts/build-learning-app.mjs",
     "typecheck": "tsc --noEmit",
     "validate-curriculum": "node scripts/validate-liam-learning-app.mjs",
     "validate-activities": "node scripts/validate-activities.mjs",
@@ -21,6 +21,7 @@
     "test:biology-all": "node scripts/test-biology-course-quality-v2.mjs",
     "test:vocabulary-all": "node scripts/test-vocabulary-quality-v2.mjs",
     "test:all-weeks": "node scripts/test-all-weeks-latest-standards.mjs",
+    "test:geography-student": "node scripts/test-geography-student-quality-v3.mjs",
     "test:math1-deep": "node scripts/test-math1-deep-lessons.mjs",
     "test:math-interactions": "node scripts/test-math-interactions.mjs",
     "test:graph-lab": "node scripts/test-linear-graph-lab.mjs",
