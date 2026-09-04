@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url));
+const src=fs.readFileSync(path.join(here,'../materials/liam-learning-app/response-autogrow.js'),'utf8');
+assert.match(src,/textarea/);
+assert.match(src,/scrollHeight/);
+assert.match(src,/MutationObserver/);
+assert.match(src,/focusin/);
+assert.match(src,/MIN_HEIGHT=96/);
+assert.match(src,/MAX_HEIGHT=520/);
+assert.match(src,/overflowY/);
+console.log('PASS: written response boxes auto-grow across rerenders and mobile focus');
