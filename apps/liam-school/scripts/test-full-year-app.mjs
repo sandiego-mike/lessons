@@ -49,6 +49,10 @@ assert.equal(data.math3.grade, 11, "Leilani's Math III course must export Grade 
 assert.match(source, /function generatedGuideFor\(ch\)/, "all chapters need a generated guided path");
 assert.match(source, /customGuideFor\(ch\)\|\|generatedGuideFor\(ch\)/, "custom and generated guides must share one engine");
 assert.match(source, /function chapterCompletionStatus\(ch\)/, "chapter completion requirements are missing");
+assert.match(source, /worksheetRequired=Math\.min\(worksheetTotal,isMathSubject\(\)\?8:6\)/,
+  "chapter completion must distinguish core practice from optional extra practice");
+assert.match(source, /checkRequired=Math\.min\(checkTotal,isMathSubject\(\)\?5:4\)/,
+  "chapter completion must use a focused mastery sample instead of requiring every check item");
 assert.match(source, /function portfolioWeekMap\(\)/, "full-year portfolio calendar is missing");
 assert.doesNotMatch(source, /\$\{week2Parent\(\)\}/, "parent mode must not remain Week-2-only");
 assert.match(pacing, /Concept and foundation/, "math concept sessions are missing");
@@ -92,6 +96,17 @@ assert.ok(math3Pacing.plans.some(plan => plan.type === "chapter" && plan.chapter
 assert.equal(math3Pacing.validations.length, 0,
   "Leilani's Math III pacing must have no calendar validation issues");
 vm.runInContext(`${source}\n;globalThis.__coverage=(()=>{let rows=[];for(let subject of allSubjectIds()){S.subject=subject;S.student=S.data[subject].studentId||'liam';for(let chapter of S.data[subject].chapters){let guide=guideFor(chapter),worksheet=worksheetItems(chapter),check=knowledgeItems(chapter);rows.push({subject,chapter:chapter.number,steps:guide.steps.length,worksheet:worksheet.length,prompts:worksheet.map(q=>q.prompt),sourceQuestions:worksheet.filter(q=>q.type==='source_question').length,testStyle:worksheet.filter(q=>/SAT\\/ACT|Error analysis/i.test(q.prompt)).length,check:check.length,invalid:guide.steps.flatMap((step,index)=>validateActivity(normalizeStepActivity(step,index))).length})}}return rows})()`, context);
+vm.runInContext(`S.subject='biology';S.chapter=5;globalThis.__studentLesson=studentLessonText('What you need to know: Then, as you read Chapter 5, list factors in the left column. Biodiversity is the variety of species in an area. A rain forest usually contains more species than a cornfield.');globalThis.__termHtml=injectTerms('Biodiversity describes variety. Biodiversity can be measured by species. Many species may live together.',chap());globalThis.__mathCleanup=cleanStudentText('Simplify (4x^2 - x + 5) + (2x^2 + 3x - 8).')`, context);
+assert.doesNotMatch(context.__studentLesson, /as you read|left column|What you need to know/i,
+  "student lessons must remove textbook-only directions and wrapper labels");
+assert.match(context.__studentLesson, /Biodiversity is the variety of species/i,
+  "removing textbook directions must preserve the actual teaching content");
+assert.equal((context.__termHtml.match(/class="term"/g) || []).length, 2,
+  "a repeated vocabulary word must be interactive only on first use");
+assert.equal((context.__termHtml.match(/>Biodiversity<\/button>/gi) || []).length, 1,
+  "repeated vocabulary highlighting must not interrupt normal reading flow");
+assert.equal(context.__mathCleanup, "Simplify (4x^2 - x + 5) + (2x^2 + 3x - 8).",
+  "student-text cleanup must never remove constants or parentheses from Math expressions");
 assert.equal(context.__coverage.length, 71, "runtime coverage must include all 71 available chapters and units");
 for (const row of context.__coverage) {
   assert.ok(row.steps >= 2, `${row.subject} chapter ${row.chapter} has too few guided blocks`);
