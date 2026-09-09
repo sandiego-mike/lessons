@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/test-runtime-loaded-scripts.mjs && node scripts/test-response-autogrow.mjs && node scripts/test-all-weeks-latest-standards.mjs && node scripts/test-biology-course-quality-v2.mjs && node scripts/test-vocabulary-quality-v2.mjs && node scripts/test-geography-student-quality-v3.mjs && node scripts/test-science-geography-teaching-v4.mjs && node scripts/test-math1-deep-lessons.mjs && node scripts/test-math-interactions.mjs && node scripts/test-math-course-upgrade-v2.mjs && node scripts/test-math-graph-points.mjs && node scripts/test-math-runtime-syntax.mjs && node scripts/test-math-course-quality-v3.mjs && node scripts/test-math-course-quality-v4.mjs && node scripts/test-geography-course-quality-v2.mjs && node scripts/build-learning-app.mjs",
+    "build": "node scripts/test-runtime-loaded-scripts.mjs && node scripts/test-response-autogrow.mjs && node scripts/test-all-weeks-latest-standards.mjs && node scripts/test-biology-course-quality-v2.mjs && node scripts/test-vocabulary-quality-v2.mjs && node scripts/test-geography-student-quality-v3.mjs && node scripts/test-science-geography-teaching-v4.mjs && node scripts/test-math1-deep-lessons.mjs && node scripts/test-math-interactions.mjs && node scripts/test-math-course-upgrade-v2.mjs && node scripts/test-math-graph-points.mjs && node scripts/test-math-runtime-syntax.mjs && node scripts/test-math-course-quality-v3.mjs && node scripts/test-math-course-quality-v4.mjs && node scripts/test-geography-course-quality-v2.mjs && node scripts/test-full-year-app.mjs && node scripts/test-liam-final-chapter-experience.mjs && node scripts/build-learning-app.mjs",
     "typecheck": "tsc --noEmit",
     "validate-curriculum": "node scripts/validate-liam-learning-app.mjs",
     "validate-activities": "node scripts/validate-activities.mjs",
@@ -14,6 +14,7 @@
     "test:pacing": "node scripts/test-pacing.mjs",
     "test:exports": "node scripts/test-export-reports.mjs",
     "test:full-year": "node scripts/test-full-year-app.mjs",
+    "test:liam-chapters": "node scripts/test-liam-final-chapter-experience.mjs",
     "test:chapter3": "node scripts/test-pdf-grounded-chapter3.mjs",
     "test:chapter3-activity": "node scripts/test-chapter3-activity-contract.mjs",
     "test:vocabulary": "node scripts/test-vocabulary-check.mjs",
