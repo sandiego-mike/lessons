@@ -1,0 +1,65 @@
+name: Extract Chapter 6 source questions
+
+on:
+  push:
+    paths:
+      - '.github/workflows/extract-ch6-source.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pypdf
+      - name: Extract chapter 6 text and candidate questions
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          from pypdf import PdfReader
+
+          sources = [
+              ('biology', Path('apps/liam-school/materials/biology/Chapter_6.pdf')),
+              ('geography', Path('apps/liam-school/materials/world-geography/chapter-06.pdf')),
+          ]
+          out = []
+          cue = re.compile(r'^(?:\d+[\.)]?\s*)?(?:analyze|apply|compare|contrast|describe|determine|draw|evaluate|explain|identify|infer|interpret|list|observe|predict|review|summarize|think|use|what|when|where|which|why|how|name|define|calculate|classify|distinguish)\b', re.I)
+          num = re.compile(r'^\s*\d+[\.)]\s+')
+          for subject, path in sources:
+              out.append(f'===== {subject.upper()} CHAPTER 6 =====')
+              out.append(f'SOURCE: {path}')
+              reader = PdfReader(str(path))
+              out.append(f'PAGES: {len(reader.pages)}')
+              for pno, page in enumerate(reader.pages, 1):
+                  text = (page.extract_text() or '').replace('\r','\n')
+                  lines = [re.sub(r'\s+',' ', x).strip() for x in text.split('\n')]
+                  lines = [x for x in lines if x]
+                  out.append(f'--- PAGE {pno} TEXT ---')
+                  out.extend(lines)
+                  out.append(f'--- PAGE {pno} CANDIDATE QUESTIONS ---')
+                  for i, line in enumerate(lines):
+                      isq = '?' in line or cue.search(line) or num.search(line)
+                      if not isq:
+                          continue
+                      prev = lines[i-1] if i else ''
+                      nxt = lines[i+1] if i+1 < len(lines) else ''
+                      out.append(f'Q? {line}')
+                      if prev: out.append(f'  PREV: {prev}')
+                      if nxt: out.append(f'  NEXT: {nxt}')
+              out.append('')
+          dest = Path('apps/liam-school/materials/liam-learning-app/ch6-source-extraction.txt')
+          dest.write_text('\n'.join(out), encoding='utf-8')
+          PY
+      - name: Commit extraction
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add apps/liam-school/materials/liam-learning-app/ch6-source-extraction.txt
+          git commit -m 'Extract Chapter 6 PDF text and source questions'
+          git push
