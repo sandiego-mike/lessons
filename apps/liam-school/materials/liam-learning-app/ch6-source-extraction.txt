@@ -1,0 +1,5304 @@
+===== BIOLOGY CHAPTER 6 =====
+SOURCE: apps/liam-school/materials/biology/Chapter_6.pdf
+PAGES: 32
+--- PAGE 1 TEXT ---
+The Life
+of a Cell
+What You’ll Learn
+Chapter 6
+The Chemistry of Life
+Chapter 7
+A View of the Cell
+Chapter 8
+Cellular Transport and the Cell Cycle
+Chapter 9
+Energy in a Cell
+Unit 3 Review
+BioDigest & Standardized Test Practice
+Why It’s Important
+A cell is the most basic unit of living organisms. No matter
+how complex an organism is, at its core it is a collection of
+cells. In many organisms, cells work together, forming
+more complex structures.
+Understanding the Photo
+This is a color-enhanced image of a plant cell
+taken with a transmission electron micro-
+scope. Note the many compartments within
+the cell. These compartments keep the cell’s
+functions separated.
+Color-enhanced TEM Magnification: 4200 /H11003
+138
+1620
+Pilgrims aboard the Mayflower
+land at Plymouth, Massachusetts.
+1665
+Robert Hooke first
+describes and
+names cells when
+he observes a
+slice of cork using
+a hand-crafted
+microscope
+that magnifies
+30 times.
+1674
+The first living cells—
+single-celled organ-
+isms—are observed.
+They are called
+animalcules meaning
+“little animals.”
+(t)Science Museum/Science & Society Picture Library, (crossover)Biophoto Associates/Science Source/Photo Reseachers
+The following objectives are covered in Unit 3:
+1.02, 1.03, 1.04, 1.05, 2.01, 2.02, 2.03, 2.04, 2.05, 3.01, 4.01, 4.03, 4.04, 5.01, 5.02
+North Carolina Objectives
+nc.bdol.glencoe.com/webquest
+0138-0139 UO3 BDOL-829900 8/4/04 6:07 PM Page 138
+--- PAGE 1 CANDIDATE QUESTIONS ---
+Q? What You’ll Learn
+  PREV: of a Cell
+  NEXT: Chapter 6
+Q? Why It’s Important
+  PREV: BioDigest & Standardized Test Practice
+  NEXT: A cell is the most basic unit of living organisms. No matter
+Q? how complex an organism is, at its core it is a collection of
+  PREV: A cell is the most basic unit of living organisms. No matter
+  NEXT: cells. In many organisms, cells work together, forming
+--- PAGE 2 TEXT ---
+139
+1776
+The Declaration of Independence
+is signed by the Second
+Continental Congress.
+1950s
+Development of the electron
+microscope allows cell biolo-
+gists to see organelles.1839
+It is determined
+that all animals
+consist of cells.
+1972
+A model for the struc-
+ture of the membrane
+that surrounds the cell
+is proposed.
+1831
+The cell nucleus
+is discovered and
+named.
+1945
+First atomic bomb explodes
+over Hiroshima, Japan, during
+World War II.
+1838
+It is determined
+that all living
+plants consist
+of cells.
+1991
+Molecular
+motors, which
+move molecules
+through the
+cell along the
+cytoskeleton,
+are discovered.
+0138-0139 UO3 BDOL-829900 8/3/04 10:56 PM Page 139
+--- PAGE 2 CANDIDATE QUESTIONS ---
+--- PAGE 3 TEXT ---
+140
+Visit to
+• study the entire chapter
+online
+• access Web Links for more
+information and activities
+on the chemistry of life
+• review content with the
+Interactive Tutor and
+self-check quizzes
+The Chemistry
+of Life
+The Chemistry
+of Life
+What You’ll Learn
+■ You will relate an atom’s
+interactions with other atoms
+to its structure.
+■ You will explain why water
+is important to life.
+■ You will compare the role
+of biomolecules in organisms.
+Why It’s Important
+Living organisms are made of
+simple elements as well as com-
+plex carbon compounds. With
+an understanding of these ele-
+ments and compounds, you will
+be able to relate them to how
+living organisms function.
+This butterfly, as well as the col-
+orful flower, is made of atoms.
+Atoms also make up the break-
+fast you ate this morning, the
+air you breathe, and the pages
+of this book. Why, then, are all
+these things different?
+Understanding
+the Photo
+nc.bdol.glencoe.com
+Robert Lubeck/Animals Animals/Earth Scenes
+0140-0140 C06CO BDOL-829900 8/4/04 9:22 PM Page 140
+--- PAGE 3 CANDIDATE QUESTIONS ---
+Q? What You’ll Learn
+  PREV: of Life
+  NEXT: ■ You will relate an atom’s
+Q? Why It’s Important
+  PREV: of biomolecules in organisms.
+  NEXT: Living organisms are made of
+Q? these things different?
+  PREV: of this book. Why, then, are all
+  NEXT: Understanding
+--- PAGE 4 TEXT ---
+SECTION PREVIEW
+Objectives
+Relate the structure of an
+atom to the identity of
+elements.
+Relate the formation of
+covalent and ionic chemical
+bonds to the stability of
+atoms.
+Distinguish mixtures and
+solutions.
+Define acids and bases and
+relate their importance to
+biological systems.
+Review Vocabulary
+energy: the ability to cause
+change (p. 9)
+New Vocabulary
+element
+atom
+nucleus
+isotope
+compound
+covalent bond
+molecule
+ion
+ionic bond
+metabolism
+mixture
+solution
+pH
+acid
+base
+6.1 ATOMS AND THEIR INTERACTIONS 141
+Atoms: The Building
+Blocks of Rocks—
+and You!
+Using Prior Knowledge The
+difference between living and
+nonliving things may be readily
+apparent to you. For example,
+these corals are responding to
+their surroundings, something
+you would not expect a rock to
+do. We know, however, that liv-
+ing things have a great deal in
+common with rocks, CDs, com-
+puter chips, and other nonliving
+objects. Both living and nonliv-
+ing things are composed of the
+basic building blocks called atoms.
+Compare and Contrast What makes a living thing different from a nonliving
+thing? How are the particles that make up a rock similar to those of a coral?
+Atoms and Their
+Interactions6.1
+Cup corals eat a juvenile octopus.
+Elements
+Everything—whether it is a rock, frog, or flower—is made of sub-
+stances called elements. Suppose you find a nugget of pure gold. Y ou
+could grind it into a billion bits of powder and every particle would still
+be gold. Y ou could treat the gold with every known chemical, but you
+could never break it down into simpler substances. That’s because gold is
+an element. An element is a substance that can’t be broken down into
+simpler chemical substances.
+Natural elements in living things
+Of the naturally occurring elements on Earth, only about 25 are essen-
+tial to living organisms. T able 6.1on the next page lists some elements
+found in the human body. Notice that four of the elements—carbon,
+hydrogen, oxygen, and nitrogen—together make up more than 96 per-
+cent of the mass of a human body. Each element is identified by a one- or
+two-letter abbreviation called a symbol. For example, the symbol C rep-
+resents the element carbon, Ca represents the element calcium, and Cl
+represents the element chlorine.
+Jeffrey Rotman/Photo Researchers
+0141-0151 C06S1 BDOL-829900 8/3/04 10:00 PM Page 141
+--- PAGE 4 CANDIDATE QUESTIONS ---
+Q? Distinguish mixtures and
+  PREV: atoms.
+  NEXT: solutions.
+Q? Define acids and bases and
+  PREV: solutions.
+  NEXT: relate their importance to
+Q? Review Vocabulary
+  PREV: biological systems.
+  NEXT: energy: the ability to cause
+Q? Compare and Contrast What makes a living thing different from a nonliving
+  PREV: basic building blocks called atoms.
+  NEXT: thing? How are the particles that make up a rock similar to those of a coral?
+Q? thing? How are the particles that make up a rock similar to those of a coral?
+  PREV: Compare and Contrast What makes a living thing different from a nonliving
+  NEXT: Atoms and Their
+--- PAGE 5 TEXT ---
+142 THE CHEMISTRY OF LIFE
+Mammals use iodine (I) to produce
+hormones, substances that affect
+chemical activities in the body.
+A Plants use magnesium (Mg) to form
+chlorophyll, which captures light
+energy for sugar production.
+B
+Trace elements
+Some of the elements listed in
+T able 6.1, such as iron and copper,
+are present in living things in very
+small amounts. Such elements are
+known as trace elements. They play
+a vital role in maintaining healthy
+cells in all organisms, as shown by
+the examples in Figure 6.1. Plants
+obtain trace elements by absorbing
+them through their roots; animals
+get them from the foods they eat.
+Atoms: The Building
+Blocks of Elements
+Whether elements are found in liv-
+ing things, like cup corals, mammals,
+or plants, or in nonliving things, like
+rocks, they are made of atoms. An
+atom is the smallest particle of an ele-
+ment that has the characteristics of
+that element. Atoms are the basic
+building blocks of all matter. The way
+they are structured affects their prop-
+erties and their chemical behavior.
+Figure 6.1
+Some elements that are
+needed in small amounts
+are involved in cell
+metabolism.
+Table 6.1 Some Elements That Make Up the Human Body
+Percent By Percent By
+Element Symbol Mass in Element Symbol Mass in
+Human Body Human Body
+Oxygen 0 65.0 Iron Fe trace
+Carbon C 18.5 Zinc Zn trace
+Hydrogen H 9.5 Copper Cu trace
+Nitrogen N 3.3 Iodine I trace
+Calcium Ca 1.5 Manganese Mn trace
+Phosphorus P 1.0 Boron B trace
+Potassium K 0.4 Chromium Cr trace
+Sulfur S 0.3 Molybdenum Mo trace
+Sodium Na 0.2 Cobalt Co trace
+Chlorine Cl 0.2 Selenium Se trace
+Magnesium Mg 0.1 Fluorine F trace
+(l)A.B. Joyce/Photo Researchers, (r)F . Stuart Westmoreland/Photo Researchers
+0141-0151 C06S1 BDOL-829900 8/3/04 10:01 PM Page 142
+--- PAGE 5 CANDIDATE QUESTIONS ---
+--- PAGE 6 TEXT ---
+The structure of an atom
+All atoms have the same general
+structure. The center of an atom is
+called the nucleus (NEW klee us)
+(plural, nuclei). All nuclei contain
+positively charged particles called
+protons ( p/H11001). Most contain particles
+that have no charge, called neutrons
+(n0). All nuclei are positively charged
+because of the presence of protons.
+Each element has distinct character-
+istics that result from the number
+of protons in the nuclei of the
+atoms that compose the element. For
+example, the element iron differs
+from the element aluminum because
+iron atoms have a different number
+of protons than aluminum atoms.
+The region of space surrounding
+the nucleus contains extremely
+small, negatively charged particles
+called electrons ( e/H11002). The electrons
+are held in this region by their
+attraction to the positively charged
+nucleus. Y ou can visualize this region
+as an electron cloud. Although it is
+impossible to pinpoint the exact loca-
+tion of an electron, the electron cloud
+is the area where it is most likely to be
+found.
+Electron energy levels
+Electrons exist around the nucleus
+in regions known as energy levels, as
+indicated in Figure 6.2A. The first
+energy level can hold only two elec-
+trons. The second level can hold a
+maximum of eight electrons. The
+third level can hold up to 18 electrons.
+The oxygen atom in Figure 6.2C has
+a total of eight electrons. T wo elec-
+trons fill the first energy level. The
+remaining six electrons occupy the
+second energy level.
+Atoms contain equal numbers of
+electrons and protons; therefore, they
+have no net charge. The hydrogen (H)
+atom in Figure 6.2B has just one
+electron and one proton. Oxygen (O)
+has eight electrons and eight protons.
+6.1 ATOMS AND THEIR INTERACTIONS 143
+Hydrogen atom
+Oxygen atom
+Nucleus
+8 protons (p )
+8 neutrons (n )
+/H11001
+0
+Nucleus
+1 proton (p )
+0 neutrons (n )
+/H11001
+0
+Electron energy levels
+Nucleus
+Figure 6.2
+Electrons move rapidly
+around nuclei composed
+of protons and neutrons. Hydrogen, the
+simplest atom,
+has just one
+electron in its
+first energy level
+and one proton
+in its nucleus.
+B
+Oxygen has two electrons in its first energy
+level and six electrons in the second level.
+C
+An atom has a nucleus and electrons
+in energy levels.
+A
+0141-0151 C06S1 BDOL-829900 8/3/04 10:02 PM Page 143
+--- PAGE 6 CANDIDATE QUESTIONS ---
+--- PAGE 7 TEXT ---
+Figure 6.3shows three other elements
+whose properties differ because of the
+number of protons in their nuclei.
+Describe the struc-
+ture of an oxygen atom.
+Isotopes of an Element
+Atoms of the same element always
+have the same number of protons but
+may contain different numbers of
+neutrons. Atoms of the same element
+that have different numbers of neu-
+trons are called isotopes (I suh tohps)
+of that element. For example, most
+carbon nuclei contain six neutrons.
+However, some have seven or eight
+neutrons. Each of these atoms is
+an isotope of the element carbon.
+Scientists refer to isotopes by stating
+the combined total of protons and
+neutrons in the nucleus. Thus, the
+most common carbon atom is referred
+to as carbon-12 because it has six
+protons and six neutrons. Other
+isotopes of carbon include carbon-13
+and carbon-14.
+Isotopes are often useful to scien-
+tists. The nuclei of some isotopes,
+such as carbon-14, are unstable and
+tend to break apart. As nuclei break,
+they give off radiation. These iso-
+topes are said to be radioactive.
+Because radiation is detectable and
+can damage or kill cells, scientists
+have developed some useful applica-
+tions for radioactive isotopes, as
+described in Figure 6.4.
+Atomic models like those dis-
+cussed in the Problem-Solving Lab
+on the next page help scientists
+and students visualize the structure
+of atoms and understand complex
+intermolecular interactions.
+Figure 6.4
+Radioactive isotopes are
+used in medicine to diag-
+nose and/or treat some
+diseases. Radiation given
+off when radioactive iso-
+topes break apart is
+deadly to many rapidly
+growing cancer cells. This
+patient is being treated
+with radiation from a
+radioactive isotope of
+cobalt (Co).
+144
+Figure 6.3
+The properties of an
+element are deter-
+mined by its atoms. As
+you can see, carbon,
+gold, and sulfur have
+very different
+properties.
+Carbon
+Sulfur
+Gold
+(tl)Elaine Shay, (tc)Ross Frid/Photo Researchers, (tr)Photolibrary/Photolibrary/PictureQuest, (b)Matt Meadows/Peter Arnold, Inc.
+0141-0151 C06S1 BDOL-829900 8/3/04 10:02 PM Page 144
+--- PAGE 7 CANDIDATE QUESTIONS ---
+Q? Describe the struc-
+  PREV: number of protons in their nuclei.
+  NEXT: ture of an oxygen atom.
+--- PAGE 8 TEXT ---
+Compounds
+and Bonding
+T able salt is a substance that is
+familiar to everyone; however, table
+salt is not an element. Rather, salt is
+a type of substance called a com-
+pound. A compound is a substance
+that is composed of atoms of two
+or more different elements that
+are chemically combined. T able salt
+(NaCl) is a compound composed of
+the elements sodium and chlorine. If
+an electric current is passed through
+molten salt in an industrial process,
+the salt breaks down into these ele-
+ments. Y ou can see in Figure 6.5 that
+the properties of a compound are
+different from those of its individual
+elements.
+How covalent bonds form
+Most elements in nature are
+found combined in the form of
+compounds. But how and why do
+atoms combine, and what is it that
+holds the atoms together in a com-
+pound? Atoms combine with other
+atoms only when the resulting
+compound is more stable than the
+individual atoms.
+For many elements, an atom
+becomes stable when its outermost
+energy level is full, as when eight
+electrons are in the second level.
+An exception is hydrogen, which
+becomes stable when its first energy
+level is full (two electrons). How do
+elements fill the energy levels and
+become stable? One way is to share
+electrons with other atoms.
+Interpret Scientific Illustrations
+What can be learned by studying the nucleus of an
+atom? Looking at a model of the particles in an atom’s
+nucleus can reveal certain information about that particular
+atom. Models may help predict electron number, the distribu-
+tion of electrons in energy levels, and how isotopes of an ele-
+ment differ from each other.
+Solve the Problem
+Examine diagrams A and B. Both are models of an atom of
+beryllium. Only the nucleus of each atom is shown.
+Thinking Critically
+1. Infer What is the neutron number for A? For B?
+2. Evaluate Which diagram represents an isotope of beryl-
+lium? Explain how you were able to tell.
+3. Predict How many electrons are present in atoms A and
+B? Explain how you were able to tell.
+4. Predict How many energy levels would be present in
+atoms of A and B? How might the electrons in A and B be
+distributed in these levels?
+Beryllium nucleus Beryllium nucleus
+Most common form
+Proton
+Figure 6.5
+Table salt is made from
+the elements sodium (Na)
+and chlorine (Cl). The
+flask contains the poison-
+ous, yellow-green chlo-
+rine gas. The lump of
+silver-white metal is the
+element sodium. The
+white crystals of table salt
+no longer resemble either
+sodium or chlorine.
+6.1 ATOMS AND THEIR INTERACTIONS 145
+Chip Clark
+BBAA
+0141-0151 C06S1 BDOL-829900 8/3/04 10:03 PM Page 145
+--- PAGE 8 CANDIDATE QUESTIONS ---
+Q? How covalent bonds form
+  PREV: elements.
+  NEXT: Most elements in nature are
+Q? pound? Atoms combine with other
+  PREV: holds the atoms together in a com-
+  NEXT: atoms only when the resulting
+Q? become stable? One way is to share
+  PREV: elements fill the energy levels and
+  NEXT: electrons with other atoms.
+Q? Interpret Scientific Illustrations
+  PREV: electrons with other atoms.
+  NEXT: What can be learned by studying the nucleus of an
+Q? What can be learned by studying the nucleus of an
+  PREV: Interpret Scientific Illustrations
+  NEXT: atom? Looking at a model of the particles in an atom’s
+Q? atom? Looking at a model of the particles in an atom’s
+  PREV: What can be learned by studying the nucleus of an
+  NEXT: nucleus can reveal certain information about that particular
+Q? 1. Infer What is the neutron number for A? For B?
+  PREV: Thinking Critically
+  NEXT: 2. Evaluate Which diagram represents an isotope of beryl-
+Q? 2. Evaluate Which diagram represents an isotope of beryl-
+  PREV: 1. Infer What is the neutron number for A? For B?
+  NEXT: lium? Explain how you were able to tell.
+Q? lium? Explain how you were able to tell.
+  PREV: 2. Evaluate Which diagram represents an isotope of beryl-
+  NEXT: 3. Predict How many electrons are present in atoms A and
+Q? 3. Predict How many electrons are present in atoms A and
+  PREV: lium? Explain how you were able to tell.
+  NEXT: B? Explain how you were able to tell.
+Q? B? Explain how you were able to tell.
+  PREV: 3. Predict How many electrons are present in atoms A and
+  NEXT: 4. Predict How many energy levels would be present in
+Q? 4. Predict How many energy levels would be present in
+  PREV: B? Explain how you were able to tell.
+  NEXT: atoms of A and B? How might the electrons in A and B be
+Q? atoms of A and B? How might the electrons in A and B be
+  PREV: 4. Predict How many energy levels would be present in
+  NEXT: distributed in these levels?
+Q? distributed in these levels?
+  PREV: atoms of A and B? How might the electrons in A and B be
+  NEXT: Beryllium nucleus Beryllium nucleus
+--- PAGE 9 TEXT ---
+146 THE CHEMISTRY OF LIFE
+Figure 6.6
+Sometimes atoms combine by sharing
+electrons to form covalent bonds.
+Hydrogen gas (H2) exists as two hydrogen
+atoms sharing electrons with each other.
+The electrons move around the nuclei of
+both atoms.
+A
+When two
+hydrogens share
+electrons with
+oxygen, they
+form covalent
+bonds to produce
+a molecule of
+water (H2O).
+B
+++pp
+Hydrogen molecule
+/H11001
+/H11001
+n0
+8
+8
+p
+Water
+molecule
+p
+/H11001p
+Physical
+Science
+Connection
+Chemical bond-
+ing and the
+periodic table
+Living things are
+made up mainly of
+four elements:
+hydrogen, carbon,
+nitrogen, and
+oxygen. Nonmetal
+elements that are
+close to each other
+on the periodic
+table tend to com-
+bine by forming
+covalent bonds. As
+a result, almost all
+the compounds
+formed from these
+four elements are
+covalently bonded.
+Look at Figure 6.6A. Y ou will see
+that two hydrogen atoms can com-
+bine with each other by sharing
+their electrons. As you know, hydro-
+gen atoms contain only one elec-
+tron. Each atom becomes stable by
+sharing its electron with the other
+atom. The two shared electrons
+move about the nuclei of both
+atoms. The attraction of the posi-
+tively charged nuclei for the shared,
+negatively charged electrons holds
+the atoms together. When two
+atoms share electrons, such as two
+hydrogen atoms sharing electrons,
+the force that holds them together is
+called a covalent (koh VAY lunt)
+bond. Most compounds in organ-
+isms have covalent bonds. Examples
+include sugars, fats, proteins, and
+water.
+A molecule is a group of atoms
+held together by covalent bonds. It has
+no overall charge. In a molecule of
+water, Figure 6.6B, two hydrogen
+atoms and one oxygen atom share
+eight electrons. Each of the hydrogen
+atoms contributes one electron, and
+the oxygen atom contributes six elec-
+trons. Thus, all three atoms are stable.
+Michael P . Gadomski/Photo Researchers
+0141-0151 C06S1 BDOL-829900 8/4/04 9:29 PM Page 146
+--- PAGE 9 CANDIDATE QUESTIONS ---
+Q? When two
+  PREV: A
+  NEXT: hydrogens share
+--- PAGE 10 TEXT ---
+A molecule of water is represented
+by the chemical formula H 2O. The
+subscript 2 represents two atoms of
+hydrogen (H) combined with one
+atom of oxygen (O). As you will see,
+many compounds in living things
+have more complex formulas.
+How ionic bonds form
+Not all atoms bond with each other
+by sharing electrons. Sometimes
+atoms combine with each other by
+first gaining or losing electrons in
+their outer energy levels. An atom (or
+group of atoms) that gains or loses
+electrons has an electrical charge and
+is called an ion. An ion is a charged
+particle made of atoms.
+A different type of chemical bond
+holds ions together. The bond formed
+between a sodium atom (Na) and
+chlorine atom (Cl) in table salt is a
+good example of this. A sodium atom
+contains 11 electrons, including one
+in the third energy level. A chlorine
+atom has 17 electrons, with the outer
+level holding seven electrons. The
+sodium atom loses one electron to the
+chlorine atom, and the chlorine atom
+gains one electron from the sodium
+atom. With eight electrons in its
+outer level, the chloride ion formed
+is stable and has a negative charge.
+The sodium ion has eight electrons in
+its outer energy level. The sodium ion
+is stable and has a positive charge.
+The attractive force between two ions
+of opposite charge is known as an
+ionic bond. The bond between
+sodium and chlorine when they com-
+bine is an ionic bond, as shown in
+Figure 6.7.
+Ionic compounds are less abundant
+in living things than are covalent
+molecules, but ions are important in
+biological processes. For example,
+sodium and potassium ions are
+required for transmission of nerve
+impulses. Calcium ions are necessary
+for muscles to contract. Plant roots
+absorb essential minerals in the form
+of ions.
+Chemical Reactions
+Chemical reactions occur when
+bonds are formed or broken, causing
+substances to recombine into differ-
+ent substances. In organisms, chemi-
+cal reactions occur inside cells. All of
+the chemical reactions that occur
+within an organism are referred
+to as that organism’s metabolism.
+These reactions break down and
+build molecules that are important
+for the functioning of organisms.
+Scientists represent chemical reac-
+tions by writing chemical equations.
+6.1 ATOMS AND THEIR INTERACTIONS 147
+metabolism from
+the Greek word
+metabole, mean-
+ing “change”;
+Metabolism
+involves many
+chemical changes.
++
+/H11001
+11 p/H11001
+11e /H11002 e /H11002
+/H11001Sodium atom Chlorine atom Sodium /H11001 ion Chloride /H11002ion
+Ionic bond
+17 p/H11001
+17
+Na atom: Cl atom: 11 p/H11001
+10e /H11002 e /H11002
+17 p/H11001
+18
+Na/H11001 ion: Cl /H11002 ion:
+Na Cl Na Cl
+Figure 6.7
+The positive charge of a
+sodium ion attracts the
+negative charge of a
+chloride ion. This attrac-
+tion is called an ionic
+bond. Use Models How
+many electrons does
+sodium lose in bond
+formation?
+0141-0151 C06S1 BDOL-829900 8/3/04 10:04 PM Page 147
+--- PAGE 10 CANDIDATE QUESTIONS ---
+Q? How ionic bonds form
+  PREV: have more complex formulas.
+  NEXT: Not all atoms bond with each other
+Q? formation?
+  PREV: sodium lose in bond
+  NEXT: 0141-0151 C06S1 BDOL-829900 8/3/04 10:04 PM Page 147
+--- PAGE 11 TEXT ---
+Writing chemical equations
+The reaction that takes place when
+hydrogen gas combines with oxygen
+gas is shown in Figure 6.8.In a chem-
+ical reaction, substances that undergo
+chemical reactions, such as hydrogen
+and oxygen, are called reactants.
+Substances formed by chemical reac-
+tions, such as water, are called products.
+It’s easy to tell how many molecules
+are involved in a reaction. In a chemi-
+cal equation the number before each
+chemical formula indicates the num-
+ber of molecules of each substance.
+The subscript numbers in a formula
+indicate the number of atoms of each
+element in a molecule of the substance.
+A molecule of table sugar can be repre-
+sented by the formula C12H22O11. The
+lack of a number before a formula or
+under a symbol indicates that only one
+molecule or atom is present.
+Looking at Figure 6.8, you can see
+that each molecule of hydrogen gas is
+composed of two atoms of hydrogen.
+Likewise, a molecule of oxygen gas is
+made of two oxygen atoms. Perhaps
+the easiest way to understand chemi-
+cal equations is to know that atoms
+are neither created nor destroyed in
+chemical reactions. They are simply
+rearranged. An equation is written so
+that the same numbers of atoms of
+each element appear on both sides of
+the arrow. In other words, equations
+must always be written so that they
+balance.
+Mixtures and Solutions
+When elements combine chemi-
+cally to form a compound, the ele-
+ments no longer have their original
+properties. What happens if sub-
+stances are just mixed together and do
+not combine chemically? A mixture is
+a combination of substances in which
+the individual components retain their
+own properties. Figure 6.9 shows a
+mixture of sand and sugar crystals.
+Figure 6.8
+This balanced equation shows two molecules of hydrogen gas reacting
+with one molecule of oxygen gas to produce two molecules of water.
+Interpret Scientific Illustrations Which of the molecules shown
+here are reactants? Which are products?
++
++2H2 O2 2H2O
+148 THE CHEMISTRY OF LIFE
+Physical
+Science
+Connection
+Conservation of
+mass in chemical
+reactions In a
+chemical reaction,
+atoms are neither
+created nor
+destroyed. As a
+result, mass is
+conserved as a
+chemical reaction.
+This means that
+the mass of the
+reactants equals
+the mass of the
+products.
+Figure 6.9
+In this illustration of a
+mixture, both the sand
+and sugar retain their
+original properties.
+Matt Meadows
+0141-0151 C06S1 BDOL-829900 8/4/04 9:29 PM Page 148
+--- PAGE 11 CANDIDATE QUESTIONS ---
+Q? When elements combine chemi-
+  PREV: Mixtures and Solutions
+  NEXT: cally to form a compound, the ele-
+Q? not combine chemically? A mixture is
+  PREV: stances are just mixed together and do
+  NEXT: a combination of substances in which
+Q? Interpret Scientific Illustrations Which of the molecules shown
+  PREV: with one molecule of oxygen gas to produce two molecules of water.
+  NEXT: here are reactants? Which are products?
+Q? here are reactants? Which are products?
+  PREV: Interpret Scientific Illustrations Which of the molecules shown
+  NEXT: +
+--- PAGE 12 TEXT ---
+When you stir sand and sugar together,
+you can still tell the sand from the
+sugar. Neither component of the mix-
+ture changes; that is, the components
+would not combine chemically. Y ou
+can easily separate them by adding
+water to dissolve the sugar and then fil-
+tering the mixture to collect the sand.
+A solution is a mixture in which
+one or more substances (solutes) are
+distributed evenly in another sub-
+stance (solvent). In other words, one
+substance is dissolved in another and
+will not settle out of solution. Y ou may
+remember using powdered drink mix
+when you were younger. The sugar
+molecules in the powdered drink mix
+dissolve easily in water to form a solu-
+tion, as shown in Figure 6.10.
+Solutions are important in living
+things. In organisms, many vital
+substances, such as sugars and mineral
+ions, are dissolved in water. The more
+solute that is dissolved in a given
+amount of solvent, the greater is the
+solution’s concentration. The con-
+centration of a solute is important to
+organisms. Organisms can’t live unless
+the concentration of dissolved sub-
+stances stays within a specific, narrow
+range. Organisms have many mecha-
+nisms to keep the concentrations of
+molecules and ions within this range.
+For example, the pancreas and other
+organs in your body produce sub-
+stances such as insulin and glucagon
+that keep the amount of sugar dis-
+solved in your bloodstream within a
+critical range.
+Acids and bases
+Chemical reactions can occur only
+when conditions are right. A reaction
+may depend on available energy, tem-
+perature, or a certain concentration
+of a substance dissolved in solution.
+Figure 6.10
+The sugar molecules in the powdered drink mix dissolve
+in the water, making a solution. Here, sugar is the solute
+and water is the solvent.
+Water
+molecules
+Sugar
+molecules
+Sugar
+crystal
+6.1 ATOMS AND THEIR INTERACTIONS 149
+Aaron Haupt
+0141-0151 C06S1 BDOL-829900 8/3/04 10:05 PM Page 149
+--- PAGE 12 CANDIDATE QUESTIONS ---
+Q? When you stir sand and sugar together,
+  NEXT: you can still tell the sand from the
+Q? when you were younger. The sugar
+  PREV: remember using powdered drink mix
+  NEXT: molecules in the powdered drink mix
+Q? when conditions are right. A reaction
+  PREV: Chemical reactions can occur only
+  NEXT: may depend on available energy, tem-
+--- PAGE 13 TEXT ---
+Weed/Pest Control
+Technician
+A
+career working with chemi-
+cals does not always require a
+Ph.D. Weed and pest control tech-
+nicians use chemicals to get rid of
+unwanted weeds, insects, and
+other pests.
+Skills for the Job
+After high school, most techni-
+cians receive on-the-job training in
+pest control or take correspondence
+courses to earn a degree in this
+field. In many states, you must pass
+a test to become licensed.
+As a technician, you may visit
+homes, office buildings, restaurants, hotels, and other
+places where insects, animals, or weeds have become a
+problem. You will choose the correct chemical and form,
+such as a spray or gas, to get rid of or prevent infestations
+of flies, roaches, termites, or other creatures. You will select
+different chemicals to deal with weeds. You might also set
+traps to catch rats, mice, moles, or other animals.
+For more careers in related fields, visit
+01234567
+Neutral
+More acidic
+89 1 0
+Lemon
+pH 2
+Tomato
+pH 4
+Egg
+pH 8
+Antacid
+pH 10
+Milk
+pH 6
+Chemical reactions in organisms also
+depend on the pH of the environment
+within the organism. The pH is a
+measure of how acidic or basic a solu-
+tion is. A scale with values ranging
+from below 0 to above 14 is used to
+measure pH. Figure 6.11 shows the
+pH of some common substances.
+Substances with a pH below 7 are
+acidic. An acid is any substance that
+forms hydrogen ions (H /H11001) in water.
+When hydrogen chloride (HCl) is
+added to water, hydrogen ions (H /H11001)
+and chloride ions (Cl /H11002) are formed.
+Thus, hydrogen chloride in solution
+with water as a solvent is called
+hydrochloric acid. This acidic solu-
+tion contains an abundance of H /H11001
+ions and has a pH below 7. A solution
+is neutral if its pH equals 7.
+Substances with a pH above 7 are
+basic. A base is any substance that
+forms hydroxide ions (OH/H11002) in water.
+For example, if sodium hydroxide
+(NaOH) is dissolved in water, it forms
+sodium ions (Na/H11001) and hydroxide ions
+(OH/H11002). This basic solution contains
+an abundance of OH /H11002ions and has a
+pH above 7.
+Figure 6.11
+Substances commonly found in the house-
+hold are acids and bases. Lemon and
+tomato are acidic (pH < 7). Pure water is
+neutral (pH 7). Ammonia (pH 11) is basic.
+150 THE CHEMISTRY OF LIFE
+nc.bdol.glencoe.com/careers
+(top, l to r)Mark Steinmetz, Mark Burnett, J. Sekowski, Mark Burnett, Aaron Haupt, (b)Aaron Haupt
+0141-0151 C06S1 BDOL-829900 8/4/04 9:30 PM Page 150
+--- PAGE 13 CANDIDATE QUESTIONS ---
+Q? When hydrogen chloride (HCl) is
+  PREV: forms hydrogen ions (H /H11001) in water.
+  NEXT: added to water, hydrogen ions (H /H11001)
+--- PAGE 14 TEXT ---
+Understanding Main Ideas
+1. Describe where the electrons are located in an atom.
+2. A nitrogen atom contains seven protons, seven
+neutrons, and seven electrons. Make a labeled
+drawing of the structure of a nitrogen atom.
+How can this atom become stable?
+3. How does the formation of an ionic bond differ
+from the formation of a covalent bond?
+4. What can you say about the amount of hydrogen
+ions relative to the amount of hydroxide ions in a
+solution that has a pH of 2?
+Thinking Critically
+5. Are all mixtures solutions? Are all solutions mix-
+tures? Give an example.
+6. Interpret Scientific Illustrations Figure 6.10
+shows the process of a compound dissolving in
+water. Describe what is happening to the mole-
+cules. Describe the nature of the mixture after
+the sugar completely dissolves. For more help,
+refer to Interpret Scientific Illustrations in the
+Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+6.1 ATOMS AND THEIR INTERACTIONS 151
+More basic
+11 12 13 14
+Household
+ammonia
+pH 11
+Drain
+cleaner
+pH 13
+Many of the foods you eat, such as
+oranges and grapefruits, are acidic.
+Some plants grow well only in acidic
+soil, whereas others require soil that is
+basic. Acids and bases are important
+to living systems, but strong acids and
+bases can be dangerous. The MiniLab
+describes how you can investigate sev-
+eral household solutions to determine
+if they are acids or bases.
+Describe the behav-
+ior of an acid in water.
+Experiment
+Determine pH The pH of a solution
+is a measurement of how acidic or
+basic that solution is. An easy way to
+measure the pH of a solution is to use
+pH paper.
+Procedure
+! Pour a small amount (about 5 mL)
+of each of the following into sepa-
+rate clean, labeled beakers or other
+small glass containers: lemon juice,
+prepared household ammonia solu-
+tion, liquid detergent, shampoo,
+and vinegar.
+@ Dip a fresh strip of pH paper briefly into each solution and
+remove.
+# Compare the color of the wet paper with the pH color
+chart; record the pH of each material. CAUTION: Wash
+your hands with soap after handling lab materials.
+Analysis
+1. Evaluate Data Which solutions are acids?
+2. Evaluate Data Which solutions are bases?
+3. Draw Conclusions What ions in the solution caused the
+pH paper to change color? Which solution contained the
+highest concentration of hydroxide ions? How do you
+know?
+Household solutions
+(l)Elaine Shay, (c r)Aaron Haupt
+nc.bdol.glencoe.com/self_check_quiz
+0141-0151 C06S1 BDOL-829900 8/4/04 9:31 PM Page 151
+--- PAGE 14 CANDIDATE QUESTIONS ---
+Q? 1. Describe where the electrons are located in an atom.
+  PREV: Understanding Main Ideas
+  NEXT: 2. A nitrogen atom contains seven protons, seven
+Q? 2. A nitrogen atom contains seven protons, seven
+  PREV: 1. Describe where the electrons are located in an atom.
+  NEXT: neutrons, and seven electrons. Make a labeled
+Q? How can this atom become stable?
+  PREV: drawing of the structure of a nitrogen atom.
+  NEXT: 3. How does the formation of an ionic bond differ
+Q? 3. How does the formation of an ionic bond differ
+  PREV: How can this atom become stable?
+  NEXT: from the formation of a covalent bond?
+Q? from the formation of a covalent bond?
+  PREV: 3. How does the formation of an ionic bond differ
+  NEXT: 4. What can you say about the amount of hydrogen
+Q? 4. What can you say about the amount of hydrogen
+  PREV: from the formation of a covalent bond?
+  NEXT: ions relative to the amount of hydroxide ions in a
+Q? solution that has a pH of 2?
+  PREV: ions relative to the amount of hydroxide ions in a
+  NEXT: Thinking Critically
+Q? 5. Are all mixtures solutions? Are all solutions mix-
+  PREV: Thinking Critically
+  NEXT: tures? Give an example.
+Q? tures? Give an example.
+  PREV: 5. Are all mixtures solutions? Are all solutions mix-
+  NEXT: 6. Interpret Scientific Illustrations Figure 6.10
+Q? 6. Interpret Scientific Illustrations Figure 6.10
+  PREV: tures? Give an example.
+  NEXT: shows the process of a compound dissolving in
+Q? Describe the behav-
+  PREV: if they are acids or bases.
+  NEXT: ior of an acid in water.
+Q? Determine pH The pH of a solution
+  PREV: Experiment
+  NEXT: is a measurement of how acidic or
+Q? 1. Evaluate Data Which solutions are acids?
+  PREV: Analysis
+  NEXT: 2. Evaluate Data Which solutions are bases?
+Q? 2. Evaluate Data Which solutions are bases?
+  PREV: 1. Evaluate Data Which solutions are acids?
+  NEXT: 3. Draw Conclusions What ions in the solution caused the
+Q? 3. Draw Conclusions What ions in the solution caused the
+  PREV: 2. Evaluate Data Which solutions are bases?
+  NEXT: pH paper to change color? Which solution contained the
+Q? pH paper to change color? Which solution contained the
+  PREV: 3. Draw Conclusions What ions in the solution caused the
+  NEXT: highest concentration of hydroxide ions? How do you
+Q? highest concentration of hydroxide ions? How do you
+  PREV: pH paper to change color? Which solution contained the
+  NEXT: know?
+Q? know?
+  PREV: highest concentration of hydroxide ions? How do you
+  NEXT: Household solutions
+--- PAGE 15 TEXT ---
+6.2
+SECTION PREVIEW
+Objectives
+Relate water’s unique fea-
+tures to polarity.
+Identify how the process
+of diffusion occurs and
+why it is important to cells.
+Review Vocabulary
+homeostasis: regulation of
+the internal environment
+of a cell or organism to
+maintain conditions suit-
+able for life (p. 9)
+New Vocabulary
+polar molecule
+hydrogen bond
+diffusion
+dynamic equilibrium
+152 THE CHEMISTRY OF LIFE
+Water—It’s One of
+a Kind!
+Finding Main Ideas Most of
+us take water for granted. We
+turn on the kitchen faucet at
+home to get a drink and
+expect water to come out of
+the faucet. We don’t think
+about how important
+water’s properties are to life.
+Organize Information As
+you read this section, make a list
+of the properties of water. Next to
+each property, write how it is impor-
+tant in maintaining homeostasis in
+living organisms.
+Water and Its Importance
+Water is perhaps the most important compound in living organisms.
+Most life processes can occur only when molecules and ions are free to
+move and collide with one another. This condition exists when they are
+dissolved in water. Water also serves to transport materials in organisms.
+For example, blood and plant sap, which are mostly water, transport
+materials in animals and plants. In fact, water makes up 70 to 95 percent
+of most organisms.
+Water is polar
+Sometimes, when atoms form covalent bonds, they do not share the
+electrons equally. The water molecule pictured in Figure 6.12A shows
+that the shared electrons are attracted by the oxygen nucleus more
+strongly than by the hydrogen nuclei. As a result, the electrons spend
+more time near the oxygen nucleus than they do near the hydrogen nuclei.
+When atoms in a covalent bond do not share the electrons equally, they
+form a polar bond. A polar molecule is a molecule with an unequal dis-
+tribution of charge; that is, each molecule has a positive end and a nega-
+tive end. As illustrated in Figure 6.12B, water is an example of a polar
+molecule. Polar water molecules attract ions as well as other polar mole-
+cules. Because of this attraction, water can dissolve many ionic com-
+pounds, such as salt, and many other polar molecules, such as sugar.
+Water and Diffusion
+Water is vital to the living world.
+Physical
+Science
+Connection
+The structure of
+water molecules
+Water is sometimes
+called the universal
+solvent because of
+its ability to dis-
+solve a wide range
+of materials. This
+ability is related to
+the polarity of the
+water molecule,
+which is due to its
+“V” shape as well
+as the polarity of
+the hydrogen-
+oxygen bonds.
+Water molecules
+would not be polar
+if they were linear,
+with hydrogen
+atoms on opposite
+sides of the oxygen
+atom.
+Jim Steinberg/Photo Researchers
+Objective 2.03 Investigate the cell as a living system
+including: Movement of materials into and out of cells
+North Carolina Objectives
+0152-0156 C06S2 BDOL-829900 8/4/04 9:46 PM Page 152
+--- PAGE 15 CANDIDATE QUESTIONS ---
+Q? Identify how the process
+  PREV: tures to polarity.
+  NEXT: of diffusion occurs and
+Q? why it is important to cells.
+  PREV: of diffusion occurs and
+  NEXT: Review Vocabulary
+Q? Review Vocabulary
+  PREV: why it is important to cells.
+  NEXT: homeostasis: regulation of
+Q? When atoms in a covalent bond do not share the electrons equally, they
+  PREV: more time near the oxygen nucleus than they do near the hydrogen nuclei.
+  NEXT: form a polar bond. A polar molecule is a molecule with an unequal dis-
+Q? which is due to its
+  PREV: water molecule,
+  NEXT: “V” shape as well
+--- PAGE 16 TEXT ---
+Water molecules also attract other
+water molecules. The positively
+charged hydrogen atoms of one water
+molecule attract the negatively
+charged oxygen atoms of another
+water molecule. This attraction of
+opposite charges between hydrogen
+and oxygen forms a weak bond called
+a hydrogen bond. Hydrogen bonds
+are important to organisms because
+they help hold many biomolecules,
+such as proteins, together.
+Also because of its polarity, water
+has the unique property of being able
+to creep up thin tubes. Plants in par-
+ticular take advantage of this prop-
+erty, called capillary action, to get
+water from the ground. Capillary
+action and the tension on the water’s
+surface, which is also a result of polar-
+ity, play major roles in getting water
+from the soil to the tops of even the
+tallest trees.
+Water resists
+temperature changes
+Water resists changes in tempera-
+ture. Therefore, water requires more
+heat to increase its temperature than
+do most other common liquids.
+Likewise, water loses a lot of heat
+when it cools. In fact, water is like an
+insulator that helps maintain a steady
+environment when conditions fluctu-
+ate. Because cells exist in an aqueous
+environment, this property of water
+is extremely important to cellular
+functions as it helps cells maintain
+homeostasis.
+Water expands when it freezes
+Water is one of the few substances
+that expands when it freezes. Because
+of this property, ice is less dense than
+liquid water so it floats as it forms in a
+body of water. Use the Problem-
+Solving Lab on the next page to inves-
+tigate this property. Water expands as
+it freezes inside the cracks of rocks. As
+it expands, it often breaks apart the
+rocks. Over long time periods, this
+process helps form soil.
+The properties of water make it an
+excellent vehicle for carrying sub-
+stances in living systems. One way to
+move substances is by diffusion.
+Infer why coastal
+communities usually experience
+milder temperatures than cities
+that are not located near large
+bodies of water.
+6.2 WATER AND DIFFUSION 153
+p/H11001
+p/H11001
+/H11001
+n0
+8
+8
+p
+Hydrogen atom
+Oxygen atom
+Hydrogen atom
+In a covalent bond
+between hydrogen
+and oxygen, the
+electrons spend
+more time near the
+oxygen nucleus than
+near the hydrogen
+nucleus.
+A
+Because oxygen tends to attract
+the shared electrons more strongly
+than hydrogen does, the protrud-
+ing oxygen end of a water mole-
+cule has a slight negative charge,
+and the ends with protruding
+hydrogen atoms have a slight
+positive charge.
+B
+Figure 6.12
+Electrons are not
+shared equally in a
+water molecule.
+/H11001
+/H11002
+/H11001
+Negatively
+charged end
+Positively
+charged end
+Physical
+Science
+Connection
+Density of
+liquids Water is
+most dense at
+about 4ºC. When
+the surface of a
+lake cools to 4ºC,
+the surface water
+sinks and warmer
+water takes its
+place. This process
+continues until all
+the water has
+cooled to 4ºC. Only
+then can the
+surface start
+freezing if it is
+cooled further.
+Even if the surface
+is frozen and air
+temperatures are
+well below
+freezing, the
+water near the
+bottom of the lake
+is at 4ºC—warm
+enough for aquatic
+life to survive.
+0152-0156 C06S2 BDOL-829900 8/4/04 9:47 PM Page 153
+--- PAGE 16 CANDIDATE QUESTIONS ---
+Q? when it cools. In fact, water is like an
+  PREV: Likewise, water loses a lot of heat
+  NEXT: insulator that helps maintain a steady
+Q? Infer why coastal
+  PREV: move substances is by diffusion.
+  NEXT: communities usually experience
+--- PAGE 17 TEXT ---
+154 THE CHEMISTRY OF LIFE
+Figure 6.13
+Like these table tennis balls, atoms and molecules have
+kinetic energy, the energy of motion. Describe What
+happens when two balls collide?
+Diffusion
+All objects in motion have energy of
+motion called kinetic energy. A mov-
+ing particle of matter moves in a
+straight line until it collides with
+another particle, much like the table
+tennis balls shown in Figure 6.13.
+After the collision, both particles
+rebound. Particles of matter, like the
+table tennis balls, are in constant
+motion, colliding with each other.
+Early observations:
+Brownian motion
+In 1827, Scottish scientist Robert
+Brown used a microscope to observe
+pollen grains suspended in water. He
+noticed that the grains moved con-
+stantly in little jerks, as if being struck
+by invisible objects. This motion, he
+thought, was the result of a life force
+hidden within the pollen grains.
+However, when he repeated his exper-
+iment using dye particles, which are
+nonliving, he saw the same motion.
+This motion is now called Brownian
+motion. Brown had no explanation for
+the motion, but today we know that
+Brown was observing evidence of the
+random motion of atoms and mole-
+cules. The random movement that
+Brown observed is characteristic of
+gases, liquids, and some solids.
+Use Numbers
+Why does ice float? Most
+liquids contract when fro-
+zen. Water is different; it
+expands. The density of
+water changes when ice
+forms, allowing ice to float.
+Density refers to compact-
+ness and is often described
+as the mass of a substance
+per unit of volume. A math-
+ematical expression of den-
+sity would read as follows:
+Solve the Problem
+Examine the following table. It shows the volume and mass
+for a sample of water and ice.
+Thinking Critically
+1. Compare How does the density of ice compare with the
+density of water? Use specific values and proper units
+expressing density in your answer. Which of the two, ice
+or water, is less compact? Explain your answer.
+2. Think Critically Are the molecules of water moving
+closer together or farther apart as water freezes? Explain.
+3. Infer Explain why a glass bottle filled with water might
+shatter if placed in a freezer.
+4. Recognize Cause and Effect Explain why ice forming
+within a living organism may result in its death.
+Density /H11005Mass
+Volume
+Data Table
+Source of Sample Volume (cm 3) Mass (g)
+Water 126 126
+Ice 140 126
+(t)Matt Meadows, (b)Aaron Haupt
+0152-0156 C06S2 BDOL-829900 8/3/04 11:25 PM Page 154
+--- PAGE 17 CANDIDATE QUESTIONS ---
+Q? happens when two balls collide?
+  PREV: kinetic energy, the energy of motion. Describe What
+  NEXT: Diffusion
+Q? Use Numbers
+  PREV: gases, liquids, and some solids.
+  NEXT: Why does ice float? Most
+Q? Why does ice float? Most
+  PREV: Use Numbers
+  NEXT: liquids contract when fro-
+Q? 1. Compare How does the density of ice compare with the
+  PREV: Thinking Critically
+  NEXT: density of water? Use specific values and proper units
+Q? density of water? Use specific values and proper units
+  PREV: 1. Compare How does the density of ice compare with the
+  NEXT: expressing density in your answer. Which of the two, ice
+Q? or water, is less compact? Explain your answer.
+  PREV: expressing density in your answer. Which of the two, ice
+  NEXT: 2. Think Critically Are the molecules of water moving
+Q? 2. Think Critically Are the molecules of water moving
+  PREV: or water, is less compact? Explain your answer.
+  NEXT: closer together or farther apart as water freezes? Explain.
+Q? closer together or farther apart as water freezes? Explain.
+  PREV: 2. Think Critically Are the molecules of water moving
+  NEXT: 3. Infer Explain why a glass bottle filled with water might
+Q? 3. Infer Explain why a glass bottle filled with water might
+  PREV: closer together or farther apart as water freezes? Explain.
+  NEXT: shatter if placed in a freezer.
+Q? 4. Recognize Cause and Effect Explain why ice forming
+  PREV: shatter if placed in a freezer.
+  NEXT: within a living organism may result in its death.
+--- PAGE 18 TEXT ---
+6.2 WATER AND DIFFUSION 155
+The process of diffusion
+Particles of different substances
+that are in constant motion have an
+effect on each other. For example, if
+you layer pure corn syrup on top of
+corn syrup colored with food color-
+ing in a beaker as illustrated in
+Figure 6.14, over time you will
+observe that the colored corn syrup
+has mixed with the pure corn syrup.
+This mixture is the result of the ran-
+dom movement of corn syrup and
+water molecules. Diffusion is the net
+movement of particles from an area
+of higher concentration to an area
+of lower concentration. Diffusion
+results because of the random move-
+ment of particles (Brownian motion).
+Diffusion is a slow process because
+it relies on the random motion of
+atoms and molecules. Y ou will see
+evidence that the corn syrup in
+Figure 6.14 has begun to diffuse
+within hours but it will take months
+to mix completely if undisturbed.
+Three key factors—concentration,
+temperature, and pressure—affect
+the rate of diffusion. The concentra-
+tion of the substances involved
+is the primary controlling factor.
+The more concentrated the sub-
+stances, the more rapidly diffusion
+occurs because there are more
+collisions between the particles of
+the substances. T wo external fac-
+tors—temperature and pressure—can
+change the rate of diffusion. An
+increase in temperature increases
+energy and will cause more rapid
+particle motion. This will increase
+the rate of diffusion. Similarly, in-
+creasing pressure will accelerate
+particle motion and, therefore, diffu-
+sion. With common materials, you
+can use the MiniLab shown here to
+learn more about diffusion in a cell.
+Explain why diffu-
+sion is a slow process.
+Figure 6.14
+The random movement
+of molecules of corn
+syrup and water will
+cause the uncolored
+sample to diffuse into
+the colored sample.
+Apply Concepts
+Investigate the Rate
+of Diffusion In this
+lab, you will place a
+small potato cube in a
+solution of purple dye
+and observe how far
+the dark purple color
+diffuses into the
+potato after a given
+length of time.
+Procedure
+! Using a single-edge razor blade, cut a cube 1 cm on each
+side from a raw, peeled potato. CAUTION: Be careful with
+sharp objects. Do not cut objects while holding them in
+your hand.
+@ Use forceps to carefully place the cube in a cup or beaker
+containing the purple solution. The solution should cover
+the cube. Note and record the time. Let the cube stand in
+the solution for between 10 and 30 minutes.
+# Using forceps, remove the cube from the solution and
+note the time. Cut the cube in half.
+$ Measure, in millimeters, how far the purple solution has
+diffused, and divide this number by the number of min-
+utes you allowed your potato to remain in the solution.
+This is the diffusion rate.
+Analysis
+1. Measure How far did the purple solution diffuse?
+2. Calculate What was the diffusion rate per minute?
+Aaron Haupt
+0152-0156 C06S2 BDOL-829900 8/3/04 11:25 PM Page 155
+--- PAGE 18 CANDIDATE QUESTIONS ---
+Q? observe that the colored corn syrup
+  PREV: Figure 6.14, over time you will
+  NEXT: has mixed with the pure corn syrup.
+Q? Explain why diffu-
+  PREV: learn more about diffusion in a cell.
+  NEXT: sion is a slow process.
+Q? Apply Concepts
+  PREV: the colored sample.
+  NEXT: Investigate the Rate
+Q? 1. Measure How far did the purple solution diffuse?
+  PREV: Analysis
+  NEXT: 2. Calculate What was the diffusion rate per minute?
+Q? 2. Calculate What was the diffusion rate per minute?
+  PREV: 1. Measure How far did the purple solution diffuse?
+  NEXT: Aaron Haupt
+--- PAGE 19 TEXT ---
+156 THE CHEMISTRY OF LIFE
+The results of diffusion
+As the pure corn syrup continues
+to diffuse into the colored corn
+syrup, the two will become evenly
+distributed eventually. After this
+point, the molecules continue to
+move randomly and collide with one
+another; however, no further change
+in concentration will occur. This
+condition, in which there is continu-
+ous movement but no overall con-
+centration change, is called dynamic
+equilibrium. Figure 6.15 illustrates
+dynamic equilibrium in a cell.
+Diffusion in living systems
+Most substances in and around a
+cell are in water solutions where the
+ions and molecules of solute are dis-
+tributed evenly among water mole-
+cules, as in the powdered drink
+mix and water example. The differ-
+ence in concentration of a substance
+across space is called a concentra tion
+gradient. Because ions and mole-
+cules diffuse from an area of higher
+concentration to an area of lower
+concentration, they are said to move
+with the gradient. If no other pro-
+cesses interfere, diffusion will con-
+tinue until there is no longer a
+concentration gradient. At this point,
+dynamic equilibrium occurs. Diffu-
+sion is one of the methods by which
+cells move substances in and out of
+the cell.
+Diffusion in biological systems is
+also evident outside of the cell and
+can involve substances other than
+molecules in an aqueous environ-
+ment. For example, oxygen (a gas)
+diffuses into the capillaries of the
+lungs because there is a greater con-
+centration of oxygen in the air sacs of
+the lungs than in the capillaries.
+Material moving out
+of cell equals material
+moving into cell
+Figure 6.15
+When a cell is in dynamic equilibrium with its
+environment, materials move into and out of
+the cell at equal rates. As a result, there is no
+net change in concentration inside or outside
+the cell.
+Understanding Main Ideas
+1. Explain why water is a polar molecule.
+2. How does a hydrogen bond compare to a
+covalent bond?
+3. What property of water explains why it can travel
+to the tops of trees?
+4. What is the eventual result of the cellular process
+of diffusion? Describe concentration prior to and
+at this point.
+Thinking Critically
+5. If a substance is known to enter a cell by diffu-
+sion, what effect would raising the temperature
+have on the cell? Why does it have this effect?
+6. Get the Big Picture Explain why water dissolves
+so many different substances. For more help, refer
+to Get the Big Picture in the Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+nc.bdol.glencoe.com/self_check_quiz
+0152-0156 C06S2 BDOL-829900 8/4/04 9:48 PM Page 156
+--- PAGE 19 CANDIDATE QUESTIONS ---
+Q? When a cell is in dynamic equilibrium with its
+  PREV: Figure 6.15
+  NEXT: environment, materials move into and out of
+Q? 1. Explain why water is a polar molecule.
+  PREV: Understanding Main Ideas
+  NEXT: 2. How does a hydrogen bond compare to a
+Q? 2. How does a hydrogen bond compare to a
+  PREV: 1. Explain why water is a polar molecule.
+  NEXT: covalent bond?
+Q? covalent bond?
+  PREV: 2. How does a hydrogen bond compare to a
+  NEXT: 3. What property of water explains why it can travel
+Q? 3. What property of water explains why it can travel
+  PREV: covalent bond?
+  NEXT: to the tops of trees?
+Q? to the tops of trees?
+  PREV: 3. What property of water explains why it can travel
+  NEXT: 4. What is the eventual result of the cellular process
+Q? 4. What is the eventual result of the cellular process
+  PREV: to the tops of trees?
+  NEXT: of diffusion? Describe concentration prior to and
+Q? of diffusion? Describe concentration prior to and
+  PREV: 4. What is the eventual result of the cellular process
+  NEXT: at this point.
+Q? 5. If a substance is known to enter a cell by diffu-
+  PREV: Thinking Critically
+  NEXT: sion, what effect would raising the temperature
+Q? have on the cell? Why does it have this effect?
+  PREV: sion, what effect would raising the temperature
+  NEXT: 6. Get the Big Picture Explain why water dissolves
+Q? 6. Get the Big Picture Explain why water dissolves
+  PREV: have on the cell? Why does it have this effect?
+  NEXT: so many different substances. For more help, refer
+--- PAGE 20 TEXT ---
+Double Bond Triple Bond
+Life Substances6.3
+Figure 6.16
+When two carbon atoms
+form a covalent bond,
+they can share one, two,
+or three electrons each.
+Single Bond
+SECTION PREVIEW
+Objectives
+Classify the variety of
+organic compounds.
+Describe how polymers are
+formed and broken down in
+organisms.
+Compare the chemical
+structures of carbohydrates,
+lipids, proteins, and nucleic
+acids, and relate their
+importance to living things.
+Identify the effects of
+enzymes.
+Review Vocabulary
+organism: anything that
+possesses all the charac-
+teristics of life (p. 6)
+New Vocabulary
+isomer
+polymer
+carbohydrate
+lipid
+protein
+amino acid
+peptide bond
+enzyme
+nucleic acid
+nucleotide
+6.3 LIFE SUBSTANCES 157
+The Role of Carbon in Organisms
+A carbon atom has four electrons available for bonding in its outer
+energy level. In order to become stable, a carbon atom forms four cova-
+lent bonds that fill its outer energy level. Look at the model showing car-
+bon atoms and bond types in Figure 6.16. Carbon can bond with other
+carbon atoms, as well as with many other elements. When each atom
+shares two electrons, a double bond is formed. A double bond is repre-
+sented by two bars between carbon atoms. When each atom shares three
+electrons, a triple bond is formed. T riple bonds are represented by three
+bars between carbon atoms.
+Carbohydrates Lipids
+Proteins Nucleic
+Acids
+Classify As you read Section 6.3, draw the structure and list the characteristics
+of carbohydrates, lipids, proteins, and nucleic acids under the appropriate tab.
+Biomolecules Make the following Foldable to help you
+compare the structures and functions of four types of organic
+compounds called biomolecules.
+Label each tab.
+Draw a mark at the midpoint
+of a sheet of paper along the side edge.
+Then fold the top and bottom edges in
+to touch the midpoint.
+Fold in half from
+side to side.
+Open and cut along the inside
+fold lines to form four tabs.
+STEP 1
+STEP 3
+STEP 2
+STEP 4
+Objective 2.01 Compare and contrast the structure and
+functions of the following organic molecules: Carbohydrates; Proteins; Lipids; Nucleic acids
+North Carolina Objectives
+0157-0169 C06S3 BDOL-829900 8/3/04 11:43 PM Page 157
+--- PAGE 20 CANDIDATE QUESTIONS ---
+Q? When two carbon atoms
+  PREV: Figure 6.16
+  NEXT: form a covalent bond,
+Q? Classify the variety of
+  PREV: Objectives
+  NEXT: organic compounds.
+Q? Describe how polymers are
+  PREV: organic compounds.
+  NEXT: formed and broken down in
+Q? Compare the chemical
+  PREV: organisms.
+  NEXT: structures of carbohydrates,
+Q? Identify the effects of
+  PREV: importance to living things.
+  NEXT: enzymes.
+Q? Review Vocabulary
+  PREV: enzymes.
+  NEXT: organism: anything that
+Q? Classify As you read Section 6.3, draw the structure and list the characteristics
+  PREV: Acids
+  NEXT: of carbohydrates, lipids, proteins, and nucleic acids under the appropriate tab.
+Q? compare the structures and functions of four types of organic
+  PREV: Biomolecules Make the following Foldable to help you
+  NEXT: compounds called biomolecules.
+Q? Draw a mark at the midpoint
+  PREV: Label each tab.
+  NEXT: of a sheet of paper along the side edge.
+--- PAGE 21 TEXT ---
+When carbon atoms bond to each
+other, they can form straight chains,
+branched chains, or rings. These
+chains and rings can have almost any
+number of carbon atoms and can
+include atoms of other elements as
+well. This ability to bond in so many
+ways makes a huge number of carbon
+structures possible. In addition,
+compounds with the same chemical
+formula often differ in structure.
+Compounds that have the same
+chemical formula but different three-
+dimensional structures are called
+isomers (I suh murz). The glucose
+and fructose molecules shown in
+Figure 6.17 have the same formula,
+C6H12O6, but different structures.
+Molecular chains
+Carbon compounds vary greatly
+in size. Some compounds contain
+just one or two carbon atoms,
+whereas others contain tens, hun-
+dreds, or even thousands of carbon
+atoms. These large organic com-
+pounds are called biomolecules.
+Proteins are examples of biomole-
+cules that are found in organisms.
+Cells build biomolecules by bonding
+small molecules together to form
+chains called polymers. A polymer
+is a large molecule formed when
+many smaller molecules bond
+together.
+Many polymers are formed by a
+chemical reaction known as condensa-
+tion. In condensation, the small mole-
+cules that are bonded together to
+make a polymer have an –H and an
+–OH group that can be removed to
+form H–O–H, a water molecule. The
+subunits become bonded by a covalent
+bond, as shown in Figure 6.18. These
+polymers can be broken apart by
+hydrolysis. Hydrogen and hydroxyl
+groups from water attach to the bonds
+between the subunits that make up the
+polymer, thus breaking the polymer as
+shown in Figure 6.18.
+The structure of carbohydrates
+Y ou may have heard of runners eat-
+ing large quantities of spaghetti or
+bread the day before a race. This
+practice is called “carbohydrate load-
+ing.” It works because carbohydrates
+are used by cells to provide energy.
+A carbohydrate is a biomolecule
+composed of carbon, hydrogen, and
+oxygen with a ratio of about two
+hydrogen atoms and one oxygen atom
+for every carbon atom.
+158 THE CHEMISTRY OF LIFE
+polymer from the
+Greek words poly,
+meaning “many,”
+and meros, mean-
+ing “part”; A poly-
+mer has many
+bonded subunits
+(parts).
+hydrolysis from
+the Greek words
+hydro, meaning
+“water,” and lysis,
+meaning “to split
+or loosen”; In
+hydrolysis, mole-
+cules are split by
+water.
+Figure 6.17
+The different arrange-
+ment of hydrogen (–H)
+and hydroxide (–OH)
+groups around each
+carbon atom gives glu-
+cose and fructose mole-
+cules different chemical
+properties. When glu-
+cose and fructose com-
+bine, they form the
+disaccharide sucrose,
+also known as table
+sugar. Use Models
+What other product
+is formed in this
+reaction?
+OH
+OH
+CH2OH CH 2OH
+Glucose
+O
+HO
+OH
+OH
+OHHOCH2
+Fructose
+Sucrose
+O
+HO
++
+OH
+O H2O
+CH2OH
+O
+HO
+OH
+OH
+CH2OH
+HOCH2
+O
+HO
++
+0157-0169 C06S3 BDOL-829900 8/3/04 11:44 PM Page 158
+--- PAGE 21 CANDIDATE QUESTIONS ---
+Q? When carbon atoms bond to each
+  NEXT: other, they can form straight chains,
+Q? What other product
+  PREV: sugar. Use Models
+  NEXT: is formed in this
+Q? reaction?
+  PREV: is formed in this
+  NEXT: OH
+--- PAGE 22 TEXT ---
+The simplest type of carbohydrate
+is a simple sugar called a monosac-
+charide (mah noh SA kuh ride).
+Common examples are the isomers
+glucose and fructose. T wo monosac-
+charide molecules can combine to
+form a disaccharide, a two-sugar car-
+bohydrate. When glucose and fruc-
+tose link together by a condensation
+reaction, a molecule of sucrose,
+known as table sugar, is formed.
+The largest carbohydrate mole-
+cules are polysaccharides, polymers
+composed of many monosaccharide
+subunits. The starch, glycogen, and
+cellulose pictured in Figure 6.19 are
+examples of polysaccharides. Starch
+consists of branched chains of glu-
+cose units and is used as energy stor-
+age by plant cells and as food
+reservoirs in seeds and bulbs.
+Mammals store energy in the liver in
+the form of glycogen, a highly
+branched glucose polymer. Cellulose
+is another glucose polymer that
+forms the cell walls of plants and
+gives plants structural support.
+Cellulose is made of long chains
+of glucose units linked together
+in arrangements somewhat like a
+chain-link fence.
+H
+OH H
+OH
+H
+OH
+H2O
+H OH
+OH
+H
+H2O
+Condensation
+Subunits
+HydrolysisPolymer
+Figure 6.18
+Many polymers are formed by condensation and
+can be broken by hydrolysis, the reactions that
+occur when water is added to or removed from
+a polymer.
+Figure 6.19
+Look at the structural differences among the polysaccharides starch,
+glycogen, and cellulose. Notice that all three are polymers of glucose.
+Compare and Contrast What are some similarities and differences
+between these polysaccharides?
+Potato
+Liver
+Cotton
+6.3 LIFE SUBSTANCES 159
+Glucose
+subunits
+Glucose
+subunits
+Glucose
+subunits
+Crosslink
+bonds
+(t c)Aaron Haupt, (b)C. Allan Morgan/Peter Arnold, Inc.
+Starch
+Glycogen
+Cellulose
+0157-0169 C06S3 BDOL-829900 8/3/04 11:44 PM Page 159
+--- PAGE 22 CANDIDATE QUESTIONS ---
+Q? Compare and Contrast What are some similarities and differences
+  PREV: glycogen, and cellulose. Notice that all three are polymers of glucose.
+  NEXT: between these polysaccharides?
+Q? between these polysaccharides?
+  PREV: Compare and Contrast What are some similarities and differences
+  NEXT: Potato
+--- PAGE 23 TEXT ---
+The structure of lipids
+Lipids are large biomolecules that
+are made mostly of carbon and
+hydrogen with a small amount of
+oxygen. Fats, oils, waxes, and steroids
+are all lipids. They are insoluble in
+water because their molecules are
+nonpolar and are not attracted by
+water molecules.
+A common type of lipid, shown
+in Figure 6.20, consists of three
+fatty acids linked with a molecule
+of glycerol. A fatty acid is a long
+chain of carbon and hydrogen. If
+each carbon in the chain is bonded
+to other carbons by single bonds,
+the fatty acid is said to be saturated.
+If a double bond is present in the
+chain, the fatty acid is unsaturated.
+Fatty acids with more than one
+double bond are polyunsaturated.
+Lipids are very important for the
+proper functioning of organisms. Cells
+use lipids for energy storage, insula-
+tion, and protective coverings. In fact,
+lipids are the major components of the
+membranes that surround all living
+cells. T o learn more about lipids
+in your body, read the Biotechnology
+feature at the end of this chapter.
+The structure of proteins
+Proteins are essential to all life.
+They provide structure for tissues and
+organs and carry out cell metabolism.
+A protein is a large, complex polymer
+composed of carbon, hydrogen, oxy-
+gen, nitrogen, and sometimes sulfur.
+Figure 6.20
+Glycerol is a three-
+carbon molecule that
+serves as a backbone
+for a lipid molecule.
+Attached to the glyc-
+erol are three fatty
+acid groups.
+160 THE CHEMISTRY OF LIFE
+CH2 O
+O
+CH2C CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH3CH CH
+CH2 CH2O
+O
+C CH2 CH2 CH2 CH CH CH 2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH3CH CH
+CH O
+O
+CH2 CH2CH2C CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH2 CH3
+Glycerol
+Unsaturated fatty acid group
+Polyunsaturated fatty acid group
+Saturated fatty acid group
+Double bond
+Double bonds
+The carbon atoms in saturated
+fatty acid groups, like those
+found in some meat and dairy
+products, cannot bond with any
+more hydrogen atoms.
+A
+The carbon atoms in unsaturated
+and polyunsaturated fatty acid
+groups can bond with more
+hydrogen atoms when the
+double bonds are broken. These
+types of lipids can be found in
+some vegetable oils.
+B
+Meat
+Butter
+Peanut butter
+(tl b)Aaron Haupt, (tr)Elaine Shay
+0157-0169 C06S3 BDOL-829900 8/3/04 11:44 PM Page 160
+--- PAGE 23 CANDIDATE QUESTIONS ---
+Q? use lipids for energy storage, insula-
+  PREV: proper functioning of organisms. Cells
+  NEXT: tion, and protective coverings. In fact,
+--- PAGE 24 TEXT ---
+6.3 LIFE SUBSTANCES 161
+H Hydrogen atom
+CarboxylAmino group NH 2 — C — COOH group
+R Variable group
+Peptide
+bond
+HH H
+NH2 — C — C ——— N — C — COOH
+R O R
+Figure 6.22
+Proteins, such as those
+found in hair, finger-
+nails, horns, and hoofs,
+make up much of the
+structure of organisms.
+AA BB
+Figure 6.21
+(A) Each amino acid contains a central carbon atom to which are attached a carboxyl group
+(–COOH), a hydrogen atom, an amino group (–NH2), and a variable group (–R) that makes
+each amino acid different. (B) Amino acids are linked together by peptide bonds.
+The basic building blocks of proteins
+are called amino acids, shown in
+Figure 6.21A. There are about 20
+common amino acids. These building
+blocks, in various combinations, make
+literally thousands of proteins.
+Amino acids are linked together
+when an –H from the amino group of
+one amino acid and an –OH group
+from the carboxyl group of another
+amino acid are removed to form a
+water molecule. The covalent bond
+formed between the amino acids, like
+the bond labeled in Figure 6.21B, is
+called a peptide bond.
+Proteins come in a large variety of
+shapes and sizes. The number and
+sequence of amino acids that make up
+a protein are important in determin-
+ing its shape. Certain amino acids are
+acidic, some are basic, and some are
+not charged. These properties cause
+the amino acids to attract or repel
+each other in different ways. The
+amino acid chain that makes up the
+protein twists and turns as the amino
+acids interact. Many proteins consist
+of two or more amino acid chains
+that are held together by hydrogen
+bonds. The ultimate three-dimensional
+shape that the protein folds into is
+extremely important to the function-
+ing of the protein. If the sequence of
+amino acids in the protein were to
+change, the protein might fold differ-
+ently and not be able to carry out its
+function in the cell.
+Proteins are the building blocks of
+many structural components of organ-
+isms, as illustrated in Figure 6.22.
+Proteins are also important in the con-
+tracting of muscle tissue, transporting
+oxygen in the bloodstream, providing
+immunity, regulating other proteins,
+and carrying out chemical reactions.
+Enzymes are important proteins
+found in living things. An enzyme is
+a protein that changes the rate of a
+chemical reaction. In some cases,
+enzymes increase the speed of reac-
+tions that would otherwise occur
+slowly.
+Enzymes are involved in nearly all
+metabolic processes. They speed
+the reactions in digestion of food.
+The activities of enzymes depend on
+the temperature, ionic conditions,
+and the pH of the surroundings.
+William S. Lea
+0157-0169 C06S3 BDOL-829900 8/3/04 11:45 PM Page 161
+--- PAGE 24 CANDIDATE QUESTIONS ---
+Q? when an –H from the amino group of
+  PREV: Amino acids are linked together
+  NEXT: one amino acid and an –OH group
+--- PAGE 25 TEXT ---
+162 THE CHEMISTRY OF LIFE
+Enzymes act
+on specific sub-
+strates, such as
+sucrose, a
+disaccharide
+made up of
+glucose and
+fructose bonded
+together.
+A
++H2OGlucose Fructose
+Substrate (sucrose)
+Active sites
+Active
+sites
+Enzyme
+Enzyme
+Products
+The products are
+released; in this case
+the sucrose bonds are
+hydrolyzed, releasing
+glucose and fructose.
+C
+Action of Enzymes
+Figure 6.23
+An enzyme enables molecules, called substrates, to
+undergo a chemical change to form new substances,
+called products. The enzyme has an area called an active
+site on its surface that fits the shape of the substrate.
+When the substrate binds to the active site, the enzyme
+alters its shape slightly as shown below. Enzymes change
+the rate of a reaction but they do not change the
+amount of end product. Critical Thinking Carefully eval-
+uate this model. What is another way that enzyme
+activity could be represented?
+Substrate
+Active
+site
+Lysozyme action
+Each substrate fits into the
+active site. This fitting together
+is often compared to a lock-
+and-key mechanism. However,
+the enzyme changes shape
+a little to fit with the
+substrate. The enzyme-
+substrate complex puts
+stress on the substrate
+due to the binding of
+the substrate to the
+enzyme.
+B
+After the reaction, the enzyme released
+is in its original shape and can go on to carry
+out the same reaction again and again. In
+doing so, enzymes change the speed at
+which chemical reactions occur without
+being altered themselves by the reaction.
+D
+0157-0169 C06S3 BDOL-829900 8/3/04 11:45 PM Page 162
+--- PAGE 25 CANDIDATE QUESTIONS ---
+Q? When the substrate binds to the active site, the enzyme
+  PREV: site on its surface that fits the shape of the substrate.
+  NEXT: alters its shape slightly as shown below. Enzymes change
+Q? activity could be represented?
+  PREV: uate this model. What is another way that enzyme
+  NEXT: Substrate
+Q? which chemical reactions occur without
+  PREV: doing so, enzymes change the speed at
+  NEXT: being altered themselves by the reaction.
+--- PAGE 26 TEXT ---
+How do enzymes act like a lock and key
+to facilitate chemical reactions within a
+cell? Examine Figure 6.23 to find out.
+The BioLab at the end of this chapter
+also experiments with enzymes.
+Identify what deter-
+mines the shape of a protein.
+The structure of nucleic acids
+Nucleic acids are another important
+type of organic compound that is nec-
+essary for life. A nucleic (noo KLAY ihk)
+acid is a complex biomolecule that
+stores cellular information in the form
+of a code. Nucleic acids are polymers
+made of smaller subunits called
+nucleotides.
+Nucleotides consist of carbon,
+hydrogen, oxygen, nitrogen, and
+phosphorus atoms arranged in three
+groups—a nitrogenous base, a sim-
+ple sugar, and a phosphate group—
+as shown in Figure 6.24. Y ou have
+probably heard of the nucleic acid
+DNA, which stands for deoxyri-
+bonucleic acid. DNA is the master
+copy of an organism’s information
+code. The information coded in
+DNA contains the instructions used
+to form all of an organism’s enzymes
+and structural proteins. Thus, DNA
+forms the genetic code that deter-
+mines how an organism looks and
+acts. DNA ’s instructions are passed
+on every time a cell divides and from
+one generation of an organism to
+the next.
+Another important nucleic acid is
+RNA, which stands for ribonucleic
+acid. RNA is a nucleic acid that
+forms a copy of DNA for use in
+making proteins. The chemical dif-
+ferences between RNA and DNA
+are minor but important. A later
+chapter discusses how DNA and
+RNA work together to produce
+proteins.
+Understanding Main Ideas
+1. List three important functions of lipids in living
+organisms.
+2. Describe the process by which many polymers in
+living things are formed from
+smaller molecules.
+3. How does a monosaccharide differ
+from a disaccharide?
+4. Describe the basic components of
+DNA (deoxyribonucleic acid).
+5. Complete the concept map by
+using the following vocabulary
+terms: nucleotides, protein,
+enzymes, nucleic acids.
+Thinking Critically
+6. Enzymes are proteins that facilitate chemical reac-
+tions. Based on your knowledge of enzymes, what
+might the result be if one particular enzyme mal-
+functioned or was not present?
+7. Make and Use Tables Make a table comparing
+polysaccharides, lipids, proteins, and nucleic acids.
+List these four types of biomolecules in the first
+column. In the second column, list the subunits
+that make up each substance. In the third column,
+describe the functions of each of these organic
+compounds in living organisms. In the last column,
+provide some examples of each from the chapter.
+For more help, refer to Make and Use Tables in
+the Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+6.3 LIFE SUBSTANCES 163
+P
+O
+OHO
+HO
+OCH2
+OH OH
+NH2O N
+NPhosphate
+Sugar Nitrogenous
+base
+made of
+breakdown
+to form
+1.
+2.
+3.
+4.
+Figure 6.24
+Each nucleic acid is
+built of subunits called
+nucleotides that are
+formed from a sugar
+molecule bonded to a
+phosphate group and
+a nitrogenous base.
+nc.bdol.glencoe.com/self_check_quiz
+0157-0169 C06S3 BDOL-829900 8/4/04 9:51 PM Page 163
+--- PAGE 26 CANDIDATE QUESTIONS ---
+Q? How do enzymes act like a lock and key
+  NEXT: to facilitate chemical reactions within a
+Q? cell? Examine Figure 6.23 to find out.
+  PREV: to facilitate chemical reactions within a
+  NEXT: The BioLab at the end of this chapter
+Q? Identify what deter-
+  PREV: also experiments with enzymes.
+  NEXT: mines the shape of a protein.
+Q? 1. List three important functions of lipids in living
+  PREV: Understanding Main Ideas
+  NEXT: organisms.
+Q? 2. Describe the process by which many polymers in
+  PREV: organisms.
+  NEXT: living things are formed from
+Q? 3. How does a monosaccharide differ
+  PREV: smaller molecules.
+  NEXT: from a disaccharide?
+Q? from a disaccharide?
+  PREV: 3. How does a monosaccharide differ
+  NEXT: 4. Describe the basic components of
+Q? 4. Describe the basic components of
+  PREV: from a disaccharide?
+  NEXT: DNA (deoxyribonucleic acid).
+Q? 5. Complete the concept map by
+  PREV: DNA (deoxyribonucleic acid).
+  NEXT: using the following vocabulary
+Q? 6. Enzymes are proteins that facilitate chemical reac-
+  PREV: Thinking Critically
+  NEXT: tions. Based on your knowledge of enzymes, what
+Q? functioned or was not present?
+  PREV: might the result be if one particular enzyme mal-
+  NEXT: 7. Make and Use Tables Make a table comparing
+Q? 7. Make and Use Tables Make a table comparing
+  PREV: functioned or was not present?
+  NEXT: polysaccharides, lipids, proteins, and nucleic acids.
+Q? List these four types of biomolecules in the first
+  PREV: polysaccharides, lipids, proteins, and nucleic acids.
+  NEXT: column. In the second column, list the subunits
+Q? describe the functions of each of these organic
+  PREV: that make up each substance. In the third column,
+  NEXT: compounds in living organisms. In the last column,
+--- PAGE 27 TEXT ---
+Before You
+Begin
+The compound hydrogen
+peroxide, H2O2, is a by-
+product of metabolic reac-
+tions in most living things.
+However, hydrogen perox-
+ide is damaging to delicate
+molecules inside cells. As
+a result, nearly all organ-
+isms, such as potatoes,
+contain the enzyme perox-
+idase, which speeds up the
+breakdown of H2O2 into
+water and gaseous oxygen.
+You will detect this reac-
+tion by observing the oxy-
+gen bubbles generated.
+Does temperature affect
+an enzyme reaction?
+Problem
+Does the enzyme peroxidase work in cold temperatures?
+Does peroxidase work better at higher temperatures? Does
+peroxidase work after being frozen or boiled?
+Hypotheses
+Make a hypothesis regarding how you think temperature
+will affect the rate at which the enzyme peroxidase breaks
+down hydrogen peroxide. Consider both low and high
+temperatures.
+Objectives
+In this BioLab, you will:
+■ Investigate the activity of an enzyme.
+■ Compare the activity of the enzyme at various
+temperatures.
+Possible Materials
+clock or timer ice
+400-mL beaker hot plate
+kitchen knife non-mercury thermometer
+tongs or large forceps or temperature probe
+5-mm thick potato slices 3% hydrogen peroxide
+Safety Precautions
+CAUTION: Be sure to wash your hands with soap before and
+after handling the lab materials. Always wear goggles in the
+lab. Use only GFCI protected circuits for electrical devices.
+Skill Handbook
+If you need help with this lab, refer to the Skill Handbook.
+1. Decide on a way to test your group’s hypothesis. Choose
+your materials from those available.
+2. When testing the activity of the enzyme at a certain tem-
+perature, consider the length of time it will take for the
+potato to reach that temperature, and how the tempera-
+ture will be measured.
+PLAN THE EXPERIMENTPLAN THE EXPERIMENT
+PREPARATIONPREPARATION
+Matt Meadows
+0157-0169 C06S3 BDOL-829900 8/3/04 11:47 PM Page 164
+--- PAGE 27 CANDIDATE QUESTIONS ---
+Q? an enzyme reaction?
+  PREV: Does temperature affect
+  NEXT: Problem
+Q? Does the enzyme peroxidase work in cold temperatures?
+  PREV: Problem
+  NEXT: Does peroxidase work better at higher temperatures? Does
+Q? Does peroxidase work better at higher temperatures? Does
+  PREV: Does the enzyme peroxidase work in cold temperatures?
+  NEXT: peroxidase work after being frozen or boiled?
+Q? peroxidase work after being frozen or boiled?
+  PREV: Does peroxidase work better at higher temperatures? Does
+  NEXT: Hypotheses
+Q? 1. Decide on a way to test your group’s hypothesis. Choose
+  PREV: If you need help with this lab, refer to the Skill Handbook.
+  NEXT: your materials from those available.
+Q? 2. When testing the activity of the enzyme at a certain tem-
+  PREV: your materials from those available.
+  NEXT: perature, consider the length of time it will take for the
+--- PAGE 28 TEXT ---
+ANALYZE AND CONCLUDEANALYZE AND CONCLUDE
+6.3 LIFE SUBSTANCES 165
+1. Identify Effects Describe your observations
+of the effects of peroxidase on hydrogen
+peroxide.
+2. Check Your Hypothesis Do your data sup-
+port or reject your hypothesis? Explain.
+3. Analyze Data At what temperature did per-
+oxidase work best?
+4. Recognize Cause and Effect If you’ve ever
+used hydrogen peroxide as an antiseptic to
+treat a cut or scrape, you know that it foams
+as soon as it touches an open wound. How
+can you account for this observation?
+5. What factors did you need
+to control in your tests? What might have
+caused errors in your results?
+ERROR ANALYSIS
+Change Variables To carry this experiment
+further, you may wish to use hydrogen per-
+oxide to test for the presence of peroxidase
+in other materials, such as cut pieces of dif-
+ferent vegetables. Also, test raw beef and
+diced bits of raw liver.
+Web Links To find out more
+about enzymes, visit
+nc.bdol.glencoe.com/enzymes
+3. T o test for peroxidase activity, add 1 drop of hydrogen
+peroxide to the potato slice and observe what happens.
+CAUTION: Hydrogen peroxide is a skin and eye irritant.
+4. When heating a thin potato slice, first place it in a
+small amount of water in a beaker. Then heat the
+beaker slowly so that the temperature of the water and
+the temperature of the slice are always the same. T ry
+to make observations at several temperatures between
+10°C and 100°C.
+Check the Plan
+Discuss the following points with other groups to decide
+on the final procedure for your experiment.
+1. What data will you collect? How will you record them?
+2. What factors should be controlled?
+3. What temperatures will you test?
+4. How will you achieve those temperatures?
+5. Make sure your teacher approves your experimental
+plan before you proceed further.
+6. Carry out your experiment. CAUTION: Be careful with
+chemicals and heat. Do not heat hydrogen peroxide.
+7. Clean all equipment as
+instructed by your teacher and return everything to its
+proper place. Wash your hands thoroughly.
+CLEANUP AND DISPOSAL
+Matt Meadows
+0157-0169 C06S3 BDOL-829900 8/4/04 9:52 PM Page 165
+--- PAGE 28 CANDIDATE QUESTIONS ---
+Q? ANALYZE AND CONCLUDEANALYZE AND CONCLUDE
+  NEXT: 6.3 LIFE SUBSTANCES 165
+Q? 1. Identify Effects Describe your observations
+  PREV: 6.3 LIFE SUBSTANCES 165
+  NEXT: of the effects of peroxidase on hydrogen
+Q? 2. Check Your Hypothesis Do your data sup-
+  PREV: peroxide.
+  NEXT: port or reject your hypothesis? Explain.
+Q? port or reject your hypothesis? Explain.
+  PREV: 2. Check Your Hypothesis Do your data sup-
+  NEXT: 3. Analyze Data At what temperature did per-
+Q? 3. Analyze Data At what temperature did per-
+  PREV: port or reject your hypothesis? Explain.
+  NEXT: oxidase work best?
+Q? oxidase work best?
+  PREV: 3. Analyze Data At what temperature did per-
+  NEXT: 4. Recognize Cause and Effect If you’ve ever
+Q? 4. Recognize Cause and Effect If you’ve ever
+  PREV: oxidase work best?
+  NEXT: used hydrogen peroxide as an antiseptic to
+Q? can you account for this observation?
+  PREV: as soon as it touches an open wound. How
+  NEXT: 5. What factors did you need
+Q? 5. What factors did you need
+  PREV: can you account for this observation?
+  NEXT: to control in your tests? What might have
+Q? to control in your tests? What might have
+  PREV: 5. What factors did you need
+  NEXT: caused errors in your results?
+Q? caused errors in your results?
+  PREV: to control in your tests? What might have
+  NEXT: ERROR ANALYSIS
+Q? 3. T o test for peroxidase activity, add 1 drop of hydrogen
+  PREV: nc.bdol.glencoe.com/enzymes
+  NEXT: peroxide to the potato slice and observe what happens.
+Q? 4. When heating a thin potato slice, first place it in a
+  PREV: CAUTION: Hydrogen peroxide is a skin and eye irritant.
+  NEXT: small amount of water in a beaker. Then heat the
+Q? 1. What data will you collect? How will you record them?
+  PREV: on the final procedure for your experiment.
+  NEXT: 2. What factors should be controlled?
+Q? 2. What factors should be controlled?
+  PREV: 1. What data will you collect? How will you record them?
+  NEXT: 3. What temperatures will you test?
+Q? 3. What temperatures will you test?
+  PREV: 2. What factors should be controlled?
+  NEXT: 4. How will you achieve those temperatures?
+Q? 4. How will you achieve those temperatures?
+  PREV: 3. What temperatures will you test?
+  NEXT: 5. Make sure your teacher approves your experimental
+Q? 5. Make sure your teacher approves your experimental
+  PREV: 4. How will you achieve those temperatures?
+  NEXT: plan before you proceed further.
+Q? 6. Carry out your experiment. CAUTION: Be careful with
+  PREV: plan before you proceed further.
+  NEXT: chemicals and heat. Do not heat hydrogen peroxide.
+Q? 7. Clean all equipment as
+  PREV: chemicals and heat. Do not heat hydrogen peroxide.
+  NEXT: instructed by your teacher and return everything to its
+--- PAGE 29 TEXT ---
+The “Good” News
+and the “Bad”
+News About
+Cholesterol
+A
+bout 10 percent of people ages 12 to 19
+have blood cholesterol levels which put
+them at risk later in life for developing heart
+disease––the leading cause of death in the
+United States. Biotechnology can help scientists
+understand the link between cholesterol and
+heart disease.
+Cholesterol is critical to certain body func-
+tions, including the formation of cell membranes
+and some hormones. Cholesterol is a lipid; it
+will not dissolve in a watery liquid like blood.
+However, blood must absorb it so that it can be
+transported. Molecules called lipoproteins are
+the water-soluble “packages” that transport cho-
+lesterol and other lipids to the tissues where they
+are needed.
+Are all lipoproteins created equal? Lipo-
+proteins vary in density and function. High-
+density lipoproteins (HDL) and low-density
+lipoproteins (LDL) have both been studied
+extensively. HDL carries excess cholesterol from
+tissues and blood vessels to the liver where the
+cholesterol is discarded from the body. HDL is
+often called “good cholesterol” because higher
+levels of this substance appear to provide some
+protection against coronary artery disease. LDL
+(“bad cholesterol”) deposits cholesterol in body
+tissues and on blood vessel walls. While body
+tissues need some cholesterol, excess buildup
+on arterial walls can lead to blockages and
+heart disease.
+Using technology T o measure the amount of
+HDL and LDL in the blood, the lipoproteins
+must be separated. A blood sample is spun at
+high speed in a centrifuge for a long period of
+time. This process of centrifugation causes the
+densest lipoproteins to settle to the bottom.
+Each type of lipoprotein is then measured with
+an electrophoresis system. Electrophoresis is
+based on the principle that lipoproteins, like all
+proteins, have an electric charge. The blood
+sample is placed in a gel and an electric current
+is applied. The lipoproteins migrate through the
+gel and each quantity is measured.
+Changes in thinking Scientists once thought
+a person with a total cholesterol level below
+200 milligrams per deciliter (mg/dL) was less
+likely to develop heart disease. Research has
+shown that the ratio of LDL to HDL, not the
+total amount of cholesterol, is a more accurate
+measure of the risk of heart disease. Based on
+this research, a person with a total cholesterol
+level below 200 mg/dL still may be at risk for
+heart disease.
+Proactive measures Elevated cholesterol
+levels can begin in childhood so it is vital to
+form healthy habits early in life. A diet low in
+fat and cholesterol––including a variety of fruits,
+vegetables, and whole grains––can help keep
+LDL levels low. T o keep HDL levels high,
+maintain a healthy weight, exercise regularly,
+and refrain from smoking. A healthy lifestyle in
+the teenage years can help reduce the risk of
+developing heart disease later on.
+Think Critically Explain how a centrifuge works.
+How do electrophoresis and centrifugation differ?
+166 THE CHEMISTRY OF LIFE
+nc.bdol.glencoe.com/biotechnology
+An electrophoresis system is used to separate lipoproteins.
+Gabridge/Custom Medical Stock Photo
+0157-0169 C06S3 BDOL-829900 8/4/04 9:54 PM Page 166
+--- PAGE 29 CANDIDATE QUESTIONS ---
+Q? Are all lipoproteins created equal? Lipo-
+  PREV: are needed.
+  NEXT: proteins vary in density and function. High-
+Q? Think Critically Explain how a centrifuge works.
+  PREV: developing heart disease later on.
+  NEXT: How do electrophoresis and centrifugation differ?
+Q? How do electrophoresis and centrifugation differ?
+  PREV: Think Critically Explain how a centrifuge works.
+  NEXT: 166 THE CHEMISTRY OF LIFE
+--- PAGE 30 TEXT ---
+Section 6.1
+STUDY GUIDESTUDY GUIDE
+CHAPTER 6 ASSESSMENT 167
+Atoms and
+Their
+Interactions
+Vocabulary
+acid (p. 150)
+atom (p. 142)
+base (p. 150)
+compound (p. 145)
+covalent bond (p. 146)
+element (p. 141)
+ion (p. 147)
+ionic bond (p. 147)
+isotope (p. 144)
+metabolism (p. 147)
+mixture (p. 148)
+molecule (p. 146)
+nucleus (p. 143)
+pH (p. 150)
+solution (p. 149)
+Section 6.3
+Vocabulary
+diffusion (p. 155)
+dynamic equilibrium
+(p. 156)
+hydrogen bond (p. 153)
+polar molecule (p. 152)
+Vocabulary
+amino acid (p. 161)
+carbohydrate (p. 158)
+enzyme (p. 161)
+isomer (p. 158)
+lipid (p. 160)
+nucleic acid (p. 163)
+nucleotide (p. 163)
+peptide bond (p. 161)
+polymer (p. 158)
+protein (p. 160)
+Water and
+Diffusion
+Life Substances
+Section 6.2
+To help you review bio-
+molecules, use the Organizational
+Study Fold on page 157.
+Key Concepts
+■ Atoms are the basic building blocks of all
+matter.
+■ Atoms consist of a nucleus containing pro-
+tons and usually neutrons. The positively
+charged nucleus is surrounded by rapidly
+moving, negatively charged electrons.
+■ Atoms become stable by bonding to other
+atoms through covalent or ionic bonds.
+■ Components of mixtures retain their
+properties.
+■ Solutions are mixtures in which the com-
+ponents are evenly distributed.
+■ Acids are substances that form hydrogen
+ions in water. Bases are substances that
+form hydroxide ions in water.
+Key Concepts
+■ Water is the most abundant compound in
+living things.
+■ Water is an excellent solvent due to the
+polar property of its molecules.
+■ Particles of matter are in constant motion.
+■ Diffusion occurs from areas of higher con-
+centration to areas of lower concentration.
+Key Concepts
+■ All organic compounds contain carbon
+atoms.
+■ There are four principal types of organic
+compounds, or biomolecules, that make up
+living things: carbohydrates, lipids, pro-
+teins, and nucleic acids.
+■ The structure of a biomolecule will help
+determine its properties and functions.
+nc.bdol.glencoe.com/vocabulary_puzzlemaker
+0157-0169 C06S3 BDOL-829900 8/4/04 9:55 PM Page 167
+--- PAGE 30 CANDIDATE QUESTIONS ---
+Q? determine its properties and functions.
+  PREV: ■ The structure of a biomolecule will help
+  NEXT: nc.bdol.glencoe.com/vocabulary_puzzlemaker
+--- PAGE 31 TEXT ---
+168 CHAPTER 6 ASSESSMENT
+Review the Chapter 6 vocabulary words listed in
+the Study Guide on page 167. Match the words
+with the definitions below.
+1. the smallest particle of an element that has
+the properties of that element
+2. all of the chemical reactions within an
+organism
+3. the net movement of particles from an area
+of higher concentration to an area of lower
+concentration
+4. a protein that changes the rate of a chemical
+reaction
+5. Which feature of water explains why water
+has high surface tension?
+A. water diffuses into cells
+B. water’s resistance to temperature changes
+C. water is a polar molecule
+D. water expands when it freezes
+6. Which of the following carbohydrates is a
+polysaccharide?
+A. glucose C. sucrose
+B. fructose D. starch
+7. Which of the following pairs is unrelated?
+A. sugar—carbohydrate
+B. fat—lipid
+C. amino acid—protein
+D. starch—nucleic acid
+8. An acid is any substance that forms
+________ in water.
+A. hydroxide ions C. hydrogen ions
+B. oxygen ions D. sodium ions
+9. Which of these is NOT made up of
+proteins?
+A. hair C. fingernails
+B. enzymes D. cellulose
+10. Which of the following is NOT a smaller
+subunit of a nucleotide?
+A. phosphate C. sugar
+B. nitrogenous base D. glycerol
+11. The calcium atom shown here
+has 20 protons. How many
+electrons does it have?
+A. 10 C. 40
+B. 20 D. 80
+12. A(n) ________ bond involves
+sharing of electrons.
+A. ionic C. hydrogen
+B. covalent D. molecular
+13. The first energy level of an atom holds a
+maximum of ________ electrons.
+A. 8 C. 16
+B. 2 D. 32
+14. Open Ended Explain how substrates and
+enzymes fit together.
+15. Open Ended Discuss how the structure of a
+water molecule affects its properties.
+16. Open Ended Explain why an increase in
+temperature would increase the rate of
+diffusion of substances into or out of cells.
+17. Interpret Scientific
+Illustrations Is the
+liquid in the beaker
+classified as a solu-
+tion? Explain your
+answer.
+18. Many genetic
+disorders are caused by proteins that are
+made incorrectly in the body. Visit
+to investigate the
+protein error in hemoglobin that causes
+sickle cell anemia. How does the error in
+the hemoglobin affect the capacity of red
+blood cells to deliver oxygen to the tissues?
+Communicate your conclusions to the class.
+REAL WORLD BIOCHALLENGE
+Oil
+Water
+nc.bdol.glencoe.com
+nc.bdol.glencoe.com/chapter_test
+0157-0169 C06S3 BDOL-829900 8/4/04 9:56 PM Page 168
+--- PAGE 31 CANDIDATE QUESTIONS ---
+Q? Review the Chapter 6 vocabulary words listed in
+  PREV: 168 CHAPTER 6 ASSESSMENT
+  NEXT: the Study Guide on page 167. Match the words
+Q? 1. the smallest particle of an element that has
+  PREV: with the definitions below.
+  NEXT: the properties of that element
+Q? 2. all of the chemical reactions within an
+  PREV: the properties of that element
+  NEXT: organism
+Q? 3. the net movement of particles from an area
+  PREV: organism
+  NEXT: of higher concentration to an area of lower
+Q? 4. a protein that changes the rate of a chemical
+  PREV: concentration
+  NEXT: reaction
+Q? 5. Which feature of water explains why water
+  PREV: reaction
+  NEXT: has high surface tension?
+Q? has high surface tension?
+  PREV: 5. Which feature of water explains why water
+  NEXT: A. water diffuses into cells
+Q? 6. Which of the following carbohydrates is a
+  PREV: D. water expands when it freezes
+  NEXT: polysaccharide?
+Q? polysaccharide?
+  PREV: 6. Which of the following carbohydrates is a
+  NEXT: A. glucose C. sucrose
+Q? 7. Which of the following pairs is unrelated?
+  PREV: B. fructose D. starch
+  NEXT: A. sugar—carbohydrate
+Q? 8. An acid is any substance that forms
+  PREV: D. starch—nucleic acid
+  NEXT: ________ in water.
+Q? 9. Which of these is NOT made up of
+  PREV: B. oxygen ions D. sodium ions
+  NEXT: proteins?
+Q? proteins?
+  PREV: 9. Which of these is NOT made up of
+  NEXT: A. hair C. fingernails
+Q? 10. Which of the following is NOT a smaller
+  PREV: B. enzymes D. cellulose
+  NEXT: subunit of a nucleotide?
+Q? subunit of a nucleotide?
+  PREV: 10. Which of the following is NOT a smaller
+  NEXT: A. phosphate C. sugar
+Q? 11. The calcium atom shown here
+  PREV: B. nitrogenous base D. glycerol
+  NEXT: has 20 protons. How many
+Q? electrons does it have?
+  PREV: has 20 protons. How many
+  NEXT: A. 10 C. 40
+Q? 12. A(n) ________ bond involves
+  PREV: B. 20 D. 80
+  NEXT: sharing of electrons.
+Q? 13. The first energy level of an atom holds a
+  PREV: B. covalent D. molecular
+  NEXT: maximum of ________ electrons.
+Q? 14. Open Ended Explain how substrates and
+  PREV: B. 2 D. 32
+  NEXT: enzymes fit together.
+Q? 15. Open Ended Discuss how the structure of a
+  PREV: enzymes fit together.
+  NEXT: water molecule affects its properties.
+Q? 16. Open Ended Explain why an increase in
+  PREV: water molecule affects its properties.
+  NEXT: temperature would increase the rate of
+Q? 17. Interpret Scientific
+  PREV: diffusion of substances into or out of cells.
+  NEXT: Illustrations Is the
+Q? tion? Explain your
+  PREV: classified as a solu-
+  NEXT: answer.
+Q? 18. Many genetic
+  PREV: answer.
+  NEXT: disorders are caused by proteins that are
+Q? blood cells to deliver oxygen to the tissues?
+  PREV: the hemoglobin affect the capacity of red
+  NEXT: Communicate your conclusions to the class.
+--- PAGE 32 TEXT ---
+CHAPTER 6 ASSESSMENT 169
+Constructed Response/Grid In
+The graph at the right compares the abundance of four ele-
+ments in living things to their abundance in Earth’s crust,
+oceans, and atmosphere. Use it to answer questions 24 and
+25. Record your answers on your answer document.
+24. Open Ended Compare the general composition
+of living things to nonliving matter near Earth’s
+surface.
+25. Open Ended Explain why carbon is the most
+critical element to living things even though it
+is not the most abundant.
+Percent abundance
+(numbers of atoms)
+Elements
+C H O N Others
+10
+0
+20
+30
+40
+50
+Abundance of Four Elements
+In living
+things
+In Earth's
+crust, oceans,
+and
+atmosphere
+Multiple Choice
+Two students were studying the effect of tempera-
+ture on two naturally occurring enzymes. Study the
+graph of their data to answer questions 19–21.
+19. At what temperature does the maximum
+activity of enzyme B occur?
+A. 0°
+B. 35°
+C. 60°
+D. 75°
+20. At what temperature do both enzymes have
+an equal rate of reaction?
+A. 10°
+B. 20°
+C. 50°
+D. 60°
+21. Which description best explains the patterns
+of temperature effects shown?
+A. Each enzyme has its own optimal temperature
+range.
+B. Both enzymes have the same optimal
+temperature ranges.
+C. Each enzyme will function at room
+temperature.
+D. Both enzymes are inactivated by freezing
+temperatures.
+Use the table to answer questions 22 and 23.
+22. Which element listed above would have four
+electrons in its outer energy level?
+A. A C. C
+B. B D. D
+23. Which two items listed above are isotopes of
+the same element?
+A. A and B
+B. C and D
+C. B and C
+D. A and D
+Rates of r eaction
+Temperature (C ˚)
+02 0 40 60 80 100
+Effects of Temperature on Two
+Naturally Occuring Enzymes
+Enzyme A
+Enzyme B
+Element Number of Protons Number of Neutrons
+A6 6
+B7 7
+C2 0 4 0
+D2 0 4 1
+1.02
+1.02
+2.04
+1.02
+1.02
+The assessed North Carolina objective appears next to the question.
+nc.bdol.glencoe.com/standardized_test
+0157-0169 C06S3 BDOL-829900 8/4/04 9:58 PM Page 169
+--- PAGE 32 CANDIDATE QUESTIONS ---
+Q? 25. Record your answers on your answer document.
+  PREV: oceans, and atmosphere. Use it to answer questions 24 and
+  NEXT: 24. Open Ended Compare the general composition
+Q? 24. Open Ended Compare the general composition
+  PREV: 25. Record your answers on your answer document.
+  NEXT: of living things to nonliving matter near Earth’s
+Q? 25. Open Ended Explain why carbon is the most
+  PREV: surface.
+  NEXT: critical element to living things even though it
+Q? 19. At what temperature does the maximum
+  PREV: graph of their data to answer questions 19–21.
+  NEXT: activity of enzyme B occur?
+Q? activity of enzyme B occur?
+  PREV: 19. At what temperature does the maximum
+  NEXT: A. 0°
+Q? 20. At what temperature do both enzymes have
+  PREV: D. 75°
+  NEXT: an equal rate of reaction?
+Q? an equal rate of reaction?
+  PREV: 20. At what temperature do both enzymes have
+  NEXT: A. 10°
+Q? 21. Which description best explains the patterns
+  PREV: D. 60°
+  NEXT: of temperature effects shown?
+Q? of temperature effects shown?
+  PREV: 21. Which description best explains the patterns
+  NEXT: A. Each enzyme has its own optimal temperature
+Q? Use the table to answer questions 22 and 23.
+  PREV: temperatures.
+  NEXT: 22. Which element listed above would have four
+Q? 22. Which element listed above would have four
+  PREV: Use the table to answer questions 22 and 23.
+  NEXT: electrons in its outer energy level?
+Q? electrons in its outer energy level?
+  PREV: 22. Which element listed above would have four
+  NEXT: A. A C. C
+Q? 23. Which two items listed above are isotopes of
+  PREV: B. B D. D
+  NEXT: the same element?
+Q? the same element?
+  PREV: 23. Which two items listed above are isotopes of
+  NEXT: A. A and B
+
+===== GEOGRAPHY CHAPTER 6 =====
+SOURCE: apps/liam-school/materials/world-geography/chapter-06.pdf
+PAGES: 24
+--- PAGE 1 TEXT ---
+GeoJournal
+As you read this chapter, use your journal
+to note specific examples of the role the
+geography of North America has played in
+the history, arts, and lifestyles of people in
+the United States and Canada.
+Chapter Overview Visit the Glencoe World
+Geography Web site at tx.geography.glencoe.com
+and click on Chapter Overviews—Chapter 6
+to preview information about the cultural
+geography of the region.
+--- PAGE 1 CANDIDATE QUESTIONS ---
+--- PAGE 2 TEXT ---
+Population Patterns
+A Geographic View
+The Next Wave
+For a century and a half this part of
+lower Manhattan has functioned as a
+catchment [holding place] for succes-
+sive waves of poor immigrants,
+including Irish, Germans, Italians,
+and East European Jews. Each
+enclave [separate cultural commu-
+nity] dissolved as second and
+third generations seized the
+opportunities that education
+afforded them and then moved
+on to better neighborhoods,
+greener suburbs, or distant
+cities. But lower Manhattan,
+with its inexpensive housing,
+remained, ready to absorb the next wave.
+—Joel L. Swerdlow, “New York’s Chinatown,”
+National Geographic, August 1998
+Lower Manhattan, a part of New York City, has a history
+that reflects population patterns throughout the United States
+and Canada. Both of these North American countries have been
+shaped by immigration, the movement of people into one country
+from another. In this section you will read about the peoples of the
+United States and Canada—who they are, why they came to the
+region, and where they live.
+The People
+About 5 percent of the world’s population lives in the United
+States and Canada. The 285 million people of the United States and
+the 31 million people of Canada all are immigrants or descendants
+of immigrants. Some arrived only recently. Others belong to fami-
+lies whose ancestors came to North America centuries ago.
+Guide to Reading
+Consider What You Know
+Think about news reports, movies,
+and songs you know that feature
+large, densely populated cities as
+topics or settings. What factors make
+urban living appealing to people?
+Read to Find Out
+• Who are the peoples of the United
+States and Canada?
+• How are population patterns in
+the United States and Canada
+influenced by the region’s physical
+geography?
+• What geographic factors encour-
+aged the industrialization and
+urbanization of the United States
+and Canada?
+Terms to Know
+• immigration
+• Native American
+• Sunbelt
+• urbanization
+• metropolitan area
+• suburb
+• megalopolis
+• mobility
+Places to Locate
+• Washington, D.C. • Los Angeles
+• Miami • Vancouver
+• New Orleans • Ottawa
+• Houston • Detroit
+Chapter 6 133
+The city skyline rises behind
+an outdoor ice rink in
+Toronto, Ontario, Canada.
+Chinatown, New Y ork City
+--- PAGE 2 CANDIDATE QUESTIONS ---
+Q? Think about news reports, movies,
+  PREV: Consider What You Know
+  NEXT: and songs you know that feature
+Q? urban living appealing to people?
+  PREV: topics or settings. What factors make
+  NEXT: Read to Find Out
+Q? States and Canada?
+  PREV: • Who are the peoples of the United
+  NEXT: • How are population patterns in
+Q? geography?
+  PREV: influenced by the region’s physical
+  NEXT: • What geographic factors encour-
+Q? and Canada?
+  PREV: urbanization of the United States
+  NEXT: Terms to Know
+--- PAGE 3 TEXT ---
+134 Unit 2
+History
+Waves of Immigrants
+North America’s first immigrants probably
+moved into the region from Asia thousands of
+years ago. Today their descendants, known as
+Native Americans , number 2.5 million in the
+United States and 700,000 in Canada. Other peo-
+ples—Europeans, Asians, Africans, and Latin
+Americans—came later. As a result of these waves of
+immigrants, the populations of the United States
+and Canada are among the world’s most diverse.
+Some immigrants came to the United States and
+Canada to seek political and religious freedom
+and to find better economic opportunities. Others
+fled wars or natural disasters. For example, the
+Irish potato famine of the 1840s caused about 1.5
+million Irish people to immigrate to the United
+States.
+Rich natural resources and the region’s rapid
+industrial and economic development made the
+United States and Canada attractive destinations.
+Popular songs among European immigrants in the
+1800s referred to the United States as the land
+“where the streets are paved with gold.” Chinese
+immigrants nicknamed it “Gold Mountain.” The
+rumors of gold were exaggerated, but the opportuni-
+ties were real. Some immigrants faced discrimination
+at first, but they offered hard work, talent, enthusi-
+asm, and diverse cultural practices. Throughout their
+histories, the United States and Canada have bene-
+fited from the contributions of immigrants.
+Population Density
+and Distribution
+Although the United States and Canada are
+“nations of immigrants,” their populations differ
+in terms of density and distribution. Slightly larger
+than the United States in land area, Canada has an
+average population density of only 8 people per
+square mile (3 people per sq. km). Much of
+Canada’s vast territory is inhospitable to human
+settlement because of rugged terrain and a bitterly
+cold climate. About 90 percent of Canadians live in
+a narrow strip of land along Canada’s border with
+the United States. The poor soil of the Canadian
+Shield steered settlement toward the fertile land
+and industrial resources of the Great Lakes–St.
+Lawrence lowlands. Other population centers
+include the farming and ranching areas along the
+southern sweep of the Prairie Provinces of Mani-
+toba, Saskatchewan, and Alberta and the Pacific
+coast of British Columbia.
+Compared with Canada, the United States, with
+an average population density of 77 people per
+Student Web Activity Visit the Glencoe World Geography
+Web site at tx.geography.glencoe.comand click on Student Web
+Activities— Chapter 6 for an activity about the history of
+immigration to the United States.
+Northwest California The Yurok Native
+American group is only one of many groups that
+help define the populations of the United States and
+Canada.
+Place About how many Native Americans are there
+in the United States? Canada?
+--- PAGE 3 CANDIDATE QUESTIONS ---
+Q? in the United States? Canada?
+  PREV: Place About how many Native Americans are there
+--- PAGE 4 TEXT ---
+Chapter 6 135
+square mile (30 people per sq. km), may seem
+relatively crowded. Outside large urban areas, how-
+ever, the population is widely distributed. The
+Northeast and the Great Lakes regions are the most
+densely populated areas and the historic centers
+of American commerce and industry. Another pop-
+ulation cluster lies on the Pacific coast, where
+pleasant climate, abundant natural resources, and
+economic opportunities attract residents. More
+people live in California than in any other state.
+Since the 1970s the American South and South-
+west, including California, have become the coun-
+try’s fastest growing areas. Nicknamed the
+Sunbelt for its mild climate, the southern United
+States draws employees to its growing manufac-
+turing, service, and tourism industries. Retirees
+choose the Sunbelt for its mild winters. The area’s
+geographic closeness to Mexico and the Caribbean
+also draws immigrants from those two regions.
+The least densely populated areas of the United
+States include the subarctic region of Alaska, the
+parched Great Basin, and parts of the arid or semi-
+arid Great Plains. These areas owe their sparse
+populations to difficult climate conditions.
+The Cities
+Although both the United States and Canada
+began as agricultural societies, they have experi-
+enced urbanization, the concentration of popula-
+tion in cities. Cities grew as the use of machines in
+agriculture gave rise to large commercial farms. As
+a result, fewer agricultural laborers were needed,
+sending people to urban areas to search for work.
+Jobs, education, health care, and cultural opportu-
+nities also have drawn people to large cities.
+Today most people in the United States and
+Canada live in metropolitan areas. Ametropolitan
+area includes a city with a population of at least
+50,000 and outlying communities called suburbs.
+More than 80 percent of the population of the
+United States lives in the country’s 276 metropoli-
+tan areas. Canada’s 25 metropolitan areas are home
+to about 60 percent of the Canadian population.
+Native American
+(including Inuit)
+2.0 %
+Hispanic
+12.5% African
+American
+12.3%
+White
+70.6%
+Native American,
+Inuit, Aleut
+0.9% Asian,
+Pacific Islander
+3.7%
+Multiple Origin
+or Other
+40%
+French
+23%
+Asian
+7%
+British
+Isles
+28%
+Source: United States Census Bureau, 2000 Source: Statistics Canada, 1996
+GRAPH STUDY
+Ethnic Origins in the United States and Canada
+2. Applying Geography Skills How does the
+percentage of Asians in the United States com-
+pare to the percentage of Asians in Canada?1. Interpreting Graphs What percentage of
+people in the United States are Hispanic?
+--- PAGE 4 CANDIDATE QUESTIONS ---
+Q? 2. Applying Geography Skills How does the
+  PREV: Ethnic Origins in the United States and Canada
+  NEXT: percentage of Asians in the United States com-
+Q? pare to the percentage of Asians in Canada?1. Interpreting Graphs What percentage of
+  PREV: percentage of Asians in the United States com-
+  NEXT: people in the United States are Hispanic?
+Q? people in the United States are Hispanic?
+  PREV: pare to the percentage of Asians in Canada?1. Interpreting Graphs What percentage of
+--- PAGE 5 TEXT ---
+attractive low-rise cities . . . in the world . . .
+[because of] the vision of Pierre L’Enfant who
+conceived the plan for the capital. . . .
+”
+Gilbert M. Grosvenor,
+“Washington, D.C., Reaches
+Its 200th Birthday,” National
+Geographic, August 1991
+Other important U.S. coastal cities include the
+busy ports of Miami, on the Atlantic coast, and
+New Orleans and Houston, on the Gulf of Mexico.
+Houston, connected to the Gulf of Mexico by the
+Houston Ship Channel, is the southern end of a
+developing megalopolis that stretches north to the
+Dallas/Fort Worth metropolitan area.
+Pacific coast cities also provide important com-
+mercial links to the rest of the world, especially to
+the growing Asian economies of the Pacific Rim.
+A developing megalopolis stretches from San
+Francisco south through Los Angeles to San Diego.
+All three cities have major ports. Another western
+port city, Seattle, as well as San Francisco and the
+neighboring area nicknamed the Silicon Valley, fea-
+tures innovative computer and Internet
+industries. These latter two areas also
+have developed aerospace industries,
+enterprises that design and manufacture
+airplanes, satellites, and space vehicles.
+Vancouver is the largest city in the
+Canadian province of British Columbia
+and an important shipping center for
+western Canada. Despite its northern
+location, Vancouver’s harbor never
+freezes, so ships use the busy port year-
+round. Vancouver handles nearly all
+the trade between Canada and Asia.
+Inland Cities
+Rivers, lakes, and inland waterways
+promoted the growth of the region’s
+inland cities. North Am erica’s water-
+ways offered both natural resources
+and transportation routes that con-
+tributed to the region’s rapid industri-
+alization, or the shift from agriculture
+to manufacturing and service indus-
+tries as the basis of an economy.
+In Canada, ships reach the cities of
+Quebec, Montreal, Toronto, and Ottawa
+The United States
+at Night City lights as seen at night from space reveal dense
+population clusters in the east and on the west coast.
+Region What pattern do you observe in the distribution of cities in
+the United States and Canada?
+Coastal Cities
+Many population centers in the United States and
+Canada lie in coastal areas where healthy econ-
+omies support large populations. Along the north-
+ern Atlantic coast of the United States, for example,
+a chain of closely linked metropolitan areas forms
+a megalopolis, or “great city.” Home to about
+42 million people, this megalopolis—nicknamed
+Boswash—includes the cities of Boston, New York,
+Philadelphia, Baltimore, and Washington, D.C.
+Four of the cities—Boston, New York, Philadelphia,
+and Baltimore—are important world trade centers
+because of their coastal or near coastal locations.
+The planned city of Washington, D.C., established
+on the Potomac River near the Chesapeake Bay, is
+the country’s capital. On the capital’s 200th birthday,
+a native Washingtonian commended the city’s chief
+designer:
+“
+Most American cities grew haphazardly . . .
+with little overall planning. . . . But our
+nation’s capital became one of the most
+136 Unit 2
+--- PAGE 5 CANDIDATE QUESTIONS ---
+Q? the United States and Canada?
+  PREV: Region What pattern do you observe in the distribution of cities in
+  NEXT: Coastal Cities
+--- PAGE 6 TEXT ---
+Chapter 6 137
+through the St. Lawrence River, the
+Ottawa River, and the Great Lakes.
+Detroit, the center of the United States
+automobile industry, uses the Great
+Lakes for shipping goods. A megalopo-
+lis links the U.S. Great Lakes cities of
+Chicago, Milw aukee, and Cleveland
+with Pittsbur gh, a freshwater port on
+the Ohio River. Other U.S. river cities
+include Cincinnati, on the Ohio River,
+and Minneapolis and St. Louis, on
+the Mississippi River. W innipeg, on
+the Red River, and Saskatoon and
+Edmonton, on the Saskatchewan
+River, are inland population centers in
+western Canada.
+Other inland cities, such as Atlanta,
+Denver, Dallas, and San Antonio in the
+United States and Regina and Calgary in
+Canada, grew from agricultural and
+trading centers.
+Future Trends
+Like most developed countries, the United States
+and Canada have low birthrates, which increase
+the population by only 0.5 percent annually. Immi-
+gration accounts for most of the region’s popula-
+tion growth. In 1998 more than 9 percent of the
+population of the United States was born in
+another country. Like earlier immigrants, however,
+the people of the United States and Canada cherish
+their mobility, the freedom to move from place to
+place. In a typical year, one in six U.S. residents of
+the United States relocates, often to cities. As immi-
+gration adds to population diversity, living with
+cultural differences and managing urban conges-
+tion are ongoing challenges.
+Checking for Understanding
+1. Define immigration, Native
+American, Sunbelt, urbanization,
+metropolitan area, suburb, mega-
+lopolis, mobility.
+2. Main Ideas Create a word web like
+the one below, listing the various
+peoples of North America.
+Critical Thinking
+3. Comparing and Contrasting How
+are the population patterns of
+Canada and the United States
+similar? How do they differ?
+4. Making Inferences What are
+some of the advantages and
+disadvantages of living in a
+megalopolis?
+5. Categorizing InformationSelect
+three coastal and three inland
+cities and indicate the economic
+activities important to each city.
+Analyzing Maps
+6. Human-Environment Interaction
+Study the population density map
+on page 108. How many cities
+with populations over 1,000,000
+lie along waterways? Explain.
+7. Choosing a Destination
+Imagine that you are an
+immigrant writing a letter
+to relatives about your new
+home in the United States.
+Explain your reasons for
+settling where you live.
+Applying Geography
+Peoples of
+North America
+The Grain Trade Workers load grain sacks for
+export from the port of Vancouver.
+Movement How do port cities sustain an economy?
+--- PAGE 6 CANDIDATE QUESTIONS ---
+Q? 1. Define immigration, Native
+  PREV: Checking for Understanding
+  NEXT: American, Sunbelt, urbanization,
+Q? 2. Main Ideas Create a word web like
+  PREV: lopolis, mobility.
+  NEXT: the one below, listing the various
+Q? 3. Comparing and Contrasting How
+  PREV: Critical Thinking
+  NEXT: are the population patterns of
+Q? similar? How do they differ?
+  PREV: Canada and the United States
+  NEXT: 4. Making Inferences What are
+Q? 4. Making Inferences What are
+  PREV: similar? How do they differ?
+  NEXT: some of the advantages and
+Q? megalopolis?
+  PREV: disadvantages of living in a
+  NEXT: 5. Categorizing InformationSelect
+Q? 5. Categorizing InformationSelect
+  PREV: megalopolis?
+  NEXT: three coastal and three inland
+Q? 6. Human-Environment Interaction
+  PREV: Analyzing Maps
+  NEXT: Study the population density map
+Q? lie along waterways? Explain.
+  PREV: with populations over 1,000,000
+  NEXT: 7. Choosing a Destination
+Q? 7. Choosing a Destination
+  PREV: lie along waterways? Explain.
+  NEXT: Imagine that you are an
+Q? Explain your reasons for
+  PREV: home in the United States.
+  NEXT: settling where you live.
+Q? Movement How do port cities sustain an economy?
+  PREV: export from the port of Vancouver.
+--- PAGE 7 TEXT ---
+C
+ANADA AND THE UNITED
+STATES share the longest unde-
+fended border in the world.The
+3,987-mile (6,416-km) border runs
+through the middle of rivers and
+lakes, crosses fields and forests, and slices
+through towns and farms. Each year more
+than a hundred million tourists, truck driv-
+ers, sports fans, and other visitors pass
+through 96 official border crossings and
+thousands of unofficial ones. Even more
+impressive, though, is the value of goods and
+services that flow between the United States
+and Canada—a total that exceeds trade be-
+tween any other two countries in the world.
+A History of T rade
+Trade has played an important role in the
+growth of both the United States and
+Canada.The fur trade in Canada began in
+the 1500s. Native Americans gave Europeans
+furs in exchange for such items as tools,
+weapons, and kettles. During the 1700s,
+colonists traded numerous raw materials—
+timber and furs—for Europe’s manufactured
+goods. In the early 1800s, the quest for furs
+by American and Canadian companies
+pushed frontiers westward as trading posts
+sprang up in the wilderness.
+Cars line up to enter Canada
+at Fort Erie, Ontario.
+GIVE-AND-TAKE
+ACROSS THE BORDER
+GIVE-AND-TAKE
+ACROSS THE BORDER
+L
+AND
+GEOGRAPHY
+HISTORY
+138 Unit 2
+--- PAGE 7 CANDIDATE QUESTIONS ---
+--- PAGE 8 TEXT ---
+1500s Fur trade starts
+between present-day
+Canada and Europe
+1605 French explorers set up
+first trading post at
+Port Royal, Canada
+(photo above)
+1608 French explorer Samuel
+de Champlain establishes
+settlement at Quebec
+1700s American colonists
+trade raw materials
+for Europe’s manu-
+factured goods
+1800s U.S.-Canada
+border (background
+photo) continues
+to be defined
+1989 U.S.-Canada Free Trade
+Agreement takes effect
+1994 North American Free
+Trade Agreement
+takes effect
+As the neighboring economies grew and prospered, so did coop-
+eration. Since the late 1800s, trade has flourished between Canada
+and the United States. Most goods pass freely across the border, with-
+out tariffs of any kind.Two major agreements have sought to elimi-
+nate remaining tariffs and other trade barriers: the United States-
+Canada Free Trade Agreement (FTA) in 1989 and the North American
+Free Trade Agreement (NAFTA), which includes Mexico, in 1994.
+Cooperation and Conflict
+Today each country has a major stake in the other’s economy.
+Canadian companies operate plants in the United States and vice
+versa. Joint business ventures proliferate.The open border and long
+history of cooperation between the United States and Canada have
+led to good relations and a friendly give-and-take between neighbors.
+Trade disputes do occur, however. Many Canadians dislike the
+effect free trade with the United States has on their culture and
+way of life. Canadians struggle to maintain a separate identity while
+they’re bombarded by American music and movies. Moreover, differ-
+ences arise over shared resources, such as fishing grounds, and over
+solutions to joint problems, such as pollution.
+Looking Ahead
+Will the spirit of cooperation between the United States and
+Canada prevail in this century? Or will trade disputes, disagree-
+ments over cultural issues, and other problems lead to conflict?
+43,857,192
+VISITORS
+42,767,731VISITORS
+10,190
+IM
+M
+IGRANTS
+5,069
+IM
+M
+IGRANTS
+186
+BILLION
+(U.S.)
+U.S.IM
+PORTS
+161BILLION
+(U.S.)
+CANADIAN
+IM
+PORTS
+75
+BILLION
+(U.S.)
+INVESTM
+ENTS
+104
+BILLION
+(U.S.)
+INVESTM
+ENTS
+Each year, Canadians and Americans exchange products and people. Investors
+seek profits in real estate, mines, oil, and other ventures.
+Unit 2 139
+--- PAGE 8 CANDIDATE QUESTIONS ---
+Q? Canada prevail in this century? Or will trade disputes, disagree-
+  PREV: Will the spirit of cooperation between the United States and
+  NEXT: ments over cultural issues, and other problems lead to conflict?
+Q? ments over cultural issues, and other problems lead to conflict?
+  PREV: Canada prevail in this century? Or will trade disputes, disagree-
+  NEXT: 43,857,192
+--- PAGE 9 TEXT ---
+Guide to Reading
+Consider What You Know
+You may know that the early history
+of Canada and the United States fea-
+tured the movement of people from
+east to west. In what ways did that
+movement affect the place where
+you live?
+Read to Find Out
+• What was life like for the earliest
+Americans and for European settlers?
+• How did industrialization and
+technology enable westward
+expansion in North America?
+• How do the governments of the
+United States and Canada differ?
+Terms to Know
+• republic
+• Underground Railroad
+• dry farming
+• Constitution
+• amendment
+• Bill of Rights
+• cabinet
+• dominion
+• Parliament
+Places to Locate
+• Hudson Bay
+• Quebec
+• Ontario
+• Nova Scotia
+• New Brunswick
+• Yukon Territory
+• Northwest Territories
+• Nunavut
+• Texas
+• Alaska
+• Hawaii
+• Pennsylvania
+• Ohio
+History and
+Government
+A Geographic View
+Personality and History
+History has bred the caricatures.
+The United States was born of
+rebellion and the cult of
+independence. It spread west
+two hops ahead of the law. Canada
+was formed by consensus among
+public servants. On its way west the
+law went first. Canadians never
+had a Wild West.
+—Priit J. Vesilind, “Common Ground,
+Different Dreams: The U.S.–Canada Border,”
+National Geographic, February 1990
+The United States and Canada share much in terms
+of geography, but they have taken different historical and cultural
+paths. In this section you will learn how the vast northern part of
+North America, originally inhabited by Native Americans, then colo-
+nized by Europeans, eventually developed into these two indepen-
+dent countries. You also will discover the key role physical
+geography played in the emergence of the United States and Canada
+and their development as industrialized countries.
+History
+Archaeologists generally believe that nomads crossing a land
+bridge from Asia to Alaska first settled North America thousands of
+years ago. Recent evidence suggests, however, that nomads from
+Central and South America may have populated North America at
+the same time as—or even before—those from Asia. Whatever theory
+proves correct, we know that as of 10,000 years ago, people lived in
+almost every part of what is now the United States and Canada.
+140 Unit 2
+Monument V alley, Arizona
+--- PAGE 9 CANDIDATE QUESTIONS ---
+Q? you live?
+  PREV: movement affect the place where
+  NEXT: Read to Find Out
+Q? Americans and for European settlers?
+  PREV: • What was life like for the earliest
+  NEXT: • How did industrialization and
+Q? expansion in North America?
+  PREV: technology enable westward
+  NEXT: • How do the governments of the
+Q? United States and Canada differ?
+  PREV: • How do the governments of the
+  NEXT: Terms to Know
+--- PAGE 10 TEXT ---
+Chapter 6 141
+Native Americans
+Location and climate shaped the various cultures
+later known as Native American. For the peoples
+of the cold Arctic tundra, scarce resources and lack
+of farmland prompted them to hunt caribou and
+other animals for food and fur. By contrast, Pacific
+Coast peoples enjoyed a mild climate and abun-
+dant resources. They harvested salmon with fiber
+nets and used stone and copper tools to split cedar,
+fir, and redwood trees into planks for building
+houses and canoes.
+In the high deserts of the Southwest, Native
+Americans used irrigation to farm the dry land.
+On the Great Plains, other groups hunted the buf-
+falo, parts of which were used for food, clothing,
+shelter, and tools. Native Americans in the wood-
+lands east of the Mississippi River built ceremonial
+mounds, hunted game, grew crops, and traded for
+shells and freshwater pearls. In the northeastern
+woodlands, Native American peoples hunted
+deer, turkeys, geese, and squirrels. These north-
+eastern peoples lived in closely knit villages,
+developed systems of government, and traded
+throughout the region.
+European Colonies
+European migration had begun by the late 1500s.
+Europeans came to North America in search of land
+to farm, valuable minerals, and political and reli-
+gious freedom. Most European migrants came from
+Spain, France, and England and settled in colonies.
+The Spaniards controlled Florida and a large
+area west of the Mississippi River. Many Spanish
+settlements were founded as military posts or as
+missions—religious communities founded to con-
+vert Native Americans to Christianity. Spanish
+colonists also set up farms and huge cattle ranches.
+The French came to North America primarily for
+the fur trade. French trappers canoed down rivers
+such as the St. Lawrence and the Mississippi. They
+set up trading posts, collecting beaver pelts and
+other furs from Native Americans to ship to
+Europe. Those who settled permanently lived
+along the St. Lawrence River and the Mississippi
+River near the Gulf of Mexico.
+By the 1700s England had
+colonies or controlled land
+along much of the Atlantic
+coast and around Hudson
+Bay. The settlers in the north-
+ern English colonies found
+that the thin, rocky soil and
+short growing season made
+farming difficult. The area,
+however, had excellent har-
+bors as well as good timber
+and fishing. Shipbuilding,
+trade, and fishing became
+important industries in this
+region. The middle English
+colonies had wide river val-
+leys, level land, and fertile soil.
+They also had mild winters;
+long, warm summers; and an
+extended growing season.
+Many settlers there raised cash
+crops to be exported. The
+southern English colonies had
+mild climates, rich soils, and
+open land that encouraged
+plantation agriculture. Most
+Fort Ticonderoga
+French, British, and American forces fought over Fort Ticonderoga
+from 1758 through the American Revolution.
+Human-Environment Interaction How did the physical geography
+of the United States influence settlement in the colonies?
+--- PAGE 10 CANDIDATE QUESTIONS ---
+Q? of the United States influence settlement in the colonies?
+  PREV: Human-Environment Interaction How did the physical geography
+--- PAGE 11 TEXT ---
+142 Unit 2
+plantation owners used enslaved Africans to pro-
+vide the labor such large-scale farming required.
+Two New Countries
+In 1763 France was forced to give up much of its
+North American empire to Great Britain (formed
+by the union of England and Scotland in 1707).
+Conflicts soon arose between Native Americans
+and colonial settlers. Occupying the land, many
+settlers pushed out Native American communities
+and nearly destroyed their cultures.
+During the 1760s the British government
+aroused the American colonists’ anger by imposing
+new taxes and limiting their freedoms. Beginning
+in 1775, the thirteen British colonies, all of them
+along or near the Atlantic coast, fought a war for
+independence. The outcome was a new country—
+the United States of America. Rejecting monarchy,
+the Americans set up a republic, a government in
+which people elect their own officials, including
+their head of state. They elected George Washing-
+ton as the first president of the United States.
+Some American colonists, however, did not
+want to break ties with the British monarch. As
+many as 100,000 of these people, known as Loyal-
+ists, left the new country. Most settled in French-
+populated Quebec, which Great Britain controlled.
+During the early 1800s, English- and French-
+speaking communities in British North America
+constantly feuded about colonial government poli-
+cies, but fears of a United States takeover forced
+them together. In 1867, under Prime Minister John
+A. Macdonald, four of the colonies—Quebec,
+Ontario, Nova Scotia , and New Brunswick —
+united as provinces of the Dominion of Canada, a
+new country within the British Empire. Neighbor-
+ing areas—Manitoba, British Columbia, Alberta,
+and Saskatchewan in the west and Prince Edward
+Island and Newfoundland along the Atlantic
+coast—became provinces of Canada during the
+next 100 years. Today Canada encompasses these
+10 provinces and 3 additional territories, the Yukon
+Territory, the Northwest Territories, and Nunavut
+(NOO•nuh•vut).
+From Sea to Shining Sea
+During the 1800s the United States and Canada
+expanded into western North America. In 1803, for
+example, the United States bought from France
+nearly all the land between the Mississippi River
+and the Rocky Mountains. This agreement, known
+as the Louisiana Purchase, nearly doubled the size
+of the country and gave the United States control of
+the Mississippi River and access to the Far West.
+The western lands were rich in natural
+resources. Texas, a former Mexican territory that
+became an independent republic in 1836 and
+joined the United States in 1845, was valued for
+cotton production and cattle ranching. In the late
+1840s, as a result of a war with Mexico, the United
+States gained all of the present-day states
+of California, Utah, and Nevada and parts of
+Colorado, Wyoming, Arizona, and New Mexico.
+The discovery of gold and silver boosted settle-
+ment in the region. A traveler on the California
+Trail during the Gold Rush of 1849 captured the
+attraction of the West in his journal:
+“
+On, on, stay not for those who linger,
+on , on, look not for those behind. . . .
+America with one heave throws her life
+toward Sacramento!
+”
+C. B. Darwin, quoted in “The Way
+West,” National Geographic,
+September 2000
+By trade or treaty, the United States eventually
+gained control of land from the Atlantic to the
+Pacific coasts, and from the Canadian border in the
+north to the Rio Grande in the south. In 1867 the
+United States purchased its last great frontier,
+Alaska, from Russia. Later it acquired Hawaii and
+some other islands located in the Pacific and the
+Caribbean. During this period Canada also
+acquired western l ands, spreading from the
+Atlantic to the Pacific Ocean and from the Arctic
+region in the north to the United States border to
+the south. For Native Americans, however, west-
+ward expansion by both countries signaled the
+steady loss of their lands and restrictions on their
+traditional ways of life.
+Economics
+Growth, Division, and Unity
+In the 1800s industrialization transformed the
+United States and Canada. The first factories in
+North America arose in the northeastern United
+--- PAGE 11 CANDIDATE QUESTIONS ---
+Q? which people elect their own officials, including
+  PREV: the Americans set up a republic, a government in
+  NEXT: their head of state. They elected George Washing-
+--- PAGE 12 TEXT ---
+States, which had many
+waterfalls that could be
+harnessed to produce power
+to run machines. Because
+waterpower was limited to a
+few places, people in indus-
+try later used steam as a
+source of power. Large sup-
+plies of coal in Pennsylvania
+and Ohio, which were used
+to power steam engines,
+made steam power cheap
+and manufacturing very
+profitable. The Midwestern
+United States and the Cana-
+dian provinces of Ontario
+and Quebec became leading
+centers of industry and busi-
+ness. The many rivers and
+lakes in these areas, im-
+proved by the building of
+canals, were used to trans-
+port goods from factories to
+port cities.
+A growing demand for
+cotton by the textile industry
+in the northeastern United
+States made cotton pr oduc-
+tion highly profitable. Cotton became the South’s
+major cash crop. Swamps were drained and pine
+forests cleared for more cotton plantations. For
+plantation owners, the labor of enslaved Africans
+became more important than ever before.
+Other people, however, worked to end slavery
+by enabling enslaved people to escape from bond-
+age. The Underground Railroad, an informal net-
+work of safe houses, helped thousands of escaping
+enslaved people make their way north to freedom.
+Many escapees found shelter in Canada, which
+never practiced slavery and refused to honor U.S.
+laws that punished those who escaped.
+Disputes over slavery, along with economic and
+political differences between Northern and South-
+ern states, led to the American Civil War of 1861–
+1865. Under President Abraham Lincoln, the
+Northern states defeated the Southern states that
+had left the Union. After the war the United States
+abolished slavery and gave formerly enslaved
+African Americans citizenship, equal protection
+Chapter 6 143
+under the law, and the right to vote. Reunited, the
+United States set about rebuilding itself.
+Technological and Social Change
+During the late 1800s, the United States and
+Canada both encouraged settlement of the Great
+Plains. The United States and Canadian govern-
+ments wanted to ease the crowding in eastern cities
+caused by immigration from Europe. They also
+wanted people to farm the region, thus providing
+more food for urban populations. Thousands of
+people from Atlantic coastal areas, as well as
+immigrants from eastern Europe and Scandi-
+navia, started farms on the Great Plains.
+Because of dry conditions, settlers on the Great
+Plains developed a special farming method, called
+dry farming, cultivating the land so that it caught
+and held rainwater. Strong steel plows, better able
+to break the hard prairie sod, soon replaced iron
+plows. Steam tractors made it possible to plant
+and harvest large areas of land faster and easier.
+Underground
+Railroad Harriet Tubman (inset) helped enslaved people
+escape through the Underground Railroad. This was a system
+of safe houses like John Rankin’s home in Ripley, Ohio.
+Place How did geographic and economic factors help lead to
+the Civil War?
+--- PAGE 12 CANDIDATE QUESTIONS ---
+Q? 1865. Under President Abraham Lincoln, the
+  PREV: ern states, led to the American Civil War of 1861–
+  NEXT: Northern states defeated the Southern states that
+Q? the Civil War?
+  PREV: Place How did geographic and economic factors help lead to
+--- PAGE 13 TEXT ---
+Growth of Railroads Thousands of Chinese
+workers, such as these on the Northern Pacific
+Railway, helped build the railroads across western
+North America in the late 1800s.
+Movement How did the completion of transconti-
+nental railroads affect the United States?
+The late 1800s also saw the completion of
+transcontinental railroads in the United States and
+Canada. These made it possible to transport manu-
+factured goods from east to west, as well as food
+products—especially beef cattle—from west to east.
+Immigrants from China, Ireland, Mexico, and other
+countries were recruited to help build the railroads.
+During the early 1900s, the introduction of assem-
+bly lines for mass production cut the cost and the
+time needed to make many industrial products.
+Perhaps the most influential mass-produced item
+was the automobile. At this time people were
+becoming increasingly mobile, and more of them
+lived in urban areas than in rural areas.
+Two world wars during the 1900s spurred eco-
+nomic growth in the United States and Canada.
+After 1940 both countries were linked in a close
+partnership that included increased trade between
+them. By the 1990s certain economic activities,
+mining and steel production, for example, were
+less important than rising high-tech industries.
+Social changes also took place. Immigration
+increased from Latin America and Asia. Women,
+African Americans, Hispanics, and other groups
+began to participate in business and the political
+process. In both Canada and the United States,
+Native Americans have negotiated with govern-
+ments over land claims, mineral rights, and other
+issues. In 1999 the Inuit, one of Canada’s native
+peoples, won the right to their own territory, called
+Nunavut, carved from the eastern half of the
+Northwest Territories.
+Government
+The United States and Canada both are democra-
+cies with federal systems, in which the national gov-
+ernment shares power with state or provincial
+governments. To create a strong national govern-
+ment while preserving the rights of individual states
+and citizens, United States leaders in 1787 drafted
+a plan of government called the Constitution.
+Over the years, changes in the Constitution, called
+amendments, have been made to meet the coun-
+try’s changing needs. The first 10 amendments,
+called the Bill of Rights, guarantee the basic rights
+of citizens, including the freedoms of speech, reli-
+gion, and the press.
+The national government of the United States
+has three branches: executive, legislative, and judi-
+cial. The executive branch includes the president,
+the vice president, and the executive departments
+that administer various divisions of the national
+government. The heads of these departments form
+the president’s cabinet—a group of special advis-
+ers. Congress, consisting of elected state represen-
+tatives to both the Senate and the House of
+Representatives, is the legislative branch. The
+Supreme Court and lower federal courts make up
+the judicial branch.
+Canada was created as a dominion, a partially
+self-governing country with close ties to Great
+Britain. It gained full independence in 1931, but
+the British government kept the right to approve
+changes to Canada’s constitution. In 1982 this leg-
+islative link to Great Britain finally ended. Canada
+at its founding had a strong central government
+with only minor powers given to the individual
+--- PAGE 13 CANDIDATE QUESTIONS ---
+Q? nental railroads affect the United States?
+  PREV: Movement How did the completion of transconti-
+  NEXT: The late 1800s also saw the completion of
+--- PAGE 14 TEXT ---
+provinces. Over the years,
+the power of the provinces
+has increased.
+Today the executive part
+of Canada’s government
+includes the governor-gen-
+eral, the prime minister, and
+the cabinet. The British
+monarch still serves as the
+head of state, appointing
+a governor-general to act
+in his or her place. The
+national legislature, called
+Parliament, is made up of
+the Senate and the House of
+Commons. Canada’s prime
+minister, who is leader of
+the majority political party
+in Parliament, is the actual
+head of government. Nine
+judges sit on the Supreme
+Court of Canada, the coun-
+try’s highest court.
+In the next section, you
+will learn about the culture
+and lifestyles in the United
+States and Canada as they
+enter the new millennium.
+Chapter 6 145
+Checking for Understanding
+1. Define republic, Underground
+Railroad, dry farming, Constitu-
+tion, amendment, Bill of Rights,
+cabinet, dominion, Parliament.
+2. Main Ideas Create a time line
+like the one below, and label
+major events in the settlement
+and development of the United
+States and Canada.
+Critical Thinking
+3. Identifying Cause and Effect How
+did physical geography influence
+the cultures of the region’s first
+settlers?
+4. Drawing Conclusions Why is the
+influence of French culture more
+pronounced in Canada than in
+the United States?
+5. Making Generalizations Trace the
+spread of railroads in the United
+States and Canada. Describe the
+effects of the railroad on cultural
+sharing and national unity in both
+the countries.
+Analyzing Maps
+6. Region Study the political map on
+page 107. Then, without looking
+at this map, label the U.S. states
+and Canadian provinces/territories
+on an outline map.
+7. Effects of Technology How
+did people meet the chal-
+lenges of settling the West
+through innovation and
+change? Write a brief essay
+describing these changes
+and how they affected the
+region’s physical and human
+geography.
+Applying Geography
+House of Parliament
+Ottawa’s location on the border between Quebec and Ontario helped
+determine its role as Canada’s capital city.
+Place How does Canada’s prime minister derive his or her position?
+Native Americans
+settled in region
+circa
+8000 B.C.
+--- PAGE 14 CANDIDATE QUESTIONS ---
+Q? 1. Define republic, Underground
+  PREV: Checking for Understanding
+  NEXT: Railroad, dry farming, Constitu-
+Q? 2. Main Ideas Create a time line
+  PREV: cabinet, dominion, Parliament.
+  NEXT: like the one below, and label
+Q? 3. Identifying Cause and Effect How
+  PREV: Critical Thinking
+  NEXT: did physical geography influence
+Q? settlers?
+  PREV: the cultures of the region’s first
+  NEXT: 4. Drawing Conclusions Why is the
+Q? 4. Drawing Conclusions Why is the
+  PREV: settlers?
+  NEXT: influence of French culture more
+Q? the United States?
+  PREV: pronounced in Canada than in
+  NEXT: 5. Making Generalizations Trace the
+Q? 5. Making Generalizations Trace the
+  PREV: the United States?
+  NEXT: spread of railroads in the United
+Q? 6. Region Study the political map on
+  PREV: Analyzing Maps
+  NEXT: page 107. Then, without looking
+Q? 7. Effects of Technology How
+  PREV: on an outline map.
+  NEXT: did people meet the chal-
+Q? change? Write a brief essay
+  PREV: through innovation and
+  NEXT: describing these changes
+Q? determine its role as Canada’s capital city.
+  PREV: Ottawa’s location on the border between Quebec and Ontario helped
+  NEXT: Place How does Canada’s prime minister derive his or her position?
+Q? Place How does Canada’s prime minister derive his or her position?
+  PREV: determine its role as Canada’s capital city.
+  NEXT: Native Americans
+--- PAGE 15 TEXT ---
+Guide to Reading
+Consider What You Know
+The arts and popular entertainment
+of the United States and Canada
+influence other culture regions of the
+world. What cultural trends can you
+think of that began in this region and
+spread to other parts of the world?
+Read to Find Out
+• How do the religious practices
+and languages of the region
+reflect the immigrant history of
+the United States and Canada?
+• How do the arts of the United
+States and Canada reflect the
+region’s colonial past?
+• What kinds of educational and
+health care systems serve the
+people of the region?
+Terms to Know
+• bilingual
+• jazz
+• socioeconomic status
+• literacy rate
+• patriotism
+Places to Locate
+• New Mexico
+• Hollywood
+Cultures and
+Lifestyles
+A Geographic View
+The Art of
+Everyday Life
+Such attention to reality was at
+odds with artistic convention in
+[painter Winslow] Homer’s time,
+as was his choice of subjects—
+barefoot boys, farm girls, working
+men, freed slaves, North Woods
+guides, ordinary soldiers, and women
+of leisure, all of whom represented
+everyday life in America. Early crit-
+ics complained about it. . . . But like
+other American originals of his
+time—Walt Whitman and Mark
+Twain—Homer kept to his own path.
+—Robert M. Poole, “Winslow Homer: American Original,”
+National Geographic, December 1998
+Winslow Homer, known for his naturalistic style, was one
+of the greatest American painters of the 1800s. His paintings express
+the independent thinking and the enthusiasm for new frontiers that
+mark the cultures of the United States and Canada. The immigrant
+roots of these countries also gives them a respect for diversity. In this
+section you will read about the cultures and lifestyles of the United
+States and Canada.
+Cultural Characteristics
+The United States and Canada are countries of many cultures.
+Like the threads of a brightly colored blanket, the cultures of these
+countries blend into a new pattern without losing their individual
+qualities.
+146 Unit 2
+Fresh Eggs
+by Winslow Hom
+er
+--- PAGE 15 CANDIDATE QUESTIONS ---
+Q? think of that began in this region and
+  PREV: world. What cultural trends can you
+  NEXT: spread to other parts of the world?
+Q? spread to other parts of the world?
+  PREV: think of that began in this region and
+  NEXT: Read to Find Out
+Q? the United States and Canada?
+  PREV: reflect the immigrant history of
+  NEXT: • How do the arts of the United
+Q? region’s colonial past?
+  PREV: States and Canada reflect the
+  NEXT: • What kinds of educational and
+Q? people of the region?
+  PREV: health care systems serve the
+  NEXT: Terms to Know
+--- PAGE 16 TEXT ---
+Chapter 6 147
+History
+Religious Freedom
+Freedom of religion has always been valued in
+the United States and Canada. Many of the people
+who migrated to the region did so to worship freely.
+As early as 1774, the British Parliament passed a
+law recognizing the religious rights of Roman
+Catholic French Canadians. In 1791 the Bill of
+Rights, which became part of the United States
+Constitution, guaranteed Americans religious
+freedom in addition to a number of other rights.
+Today most Americans and Canadians who are
+members of an organized religion are Christians.
+In the United States, the majority of Christians are
+Protestant, while in Canada most Christians are
+Roman Catholic. Judaism, Islam, and Buddhism
+are among other religions practiced in the United
+States and Canada.
+Languages
+English is the main language in the United States.
+In Canada, English and French are the official lan-
+guages. Because of immigration from all over the
+world, however, people in the United States and
+Canada also speak or use various words and
+phrases of other languages. For example, street
+signs in ethnic neighborhoods of the region’s port
+cities—New York, Los Angeles, San Francisco, and
+Vancouver—may be printed in Chinese, Korean,
+Russian, Arabic, or Hindi. A writer describes this
+mix of cultures and languages in New York:
+“
+Store owners [on Third Avenue] are often
+Asian. Corner groceries are run by families
+from the Dominican Republic . . . Arabs
+operate the candy stores . . . Koreans run
+vegetable stands. . . . [Near 118th Street]
+Robert Kosches finished talking in
+Spanish to a young couple. . . . ‘My grand-
+father, who came from Austria, started
+this [furniture] business,’ he said, switch-
+ing to English. . . .
+”
+Jere Van Dyk, “Growing Up
+in East Harlem,” National
+Geographic, May 1990
+music of NORTH AMERICA
+World Music: A Cultural Legacy Hear music of this region on Disc 1, Tracks 1–6.
+The music of North America stems from
+Native American, European, and African
+influences. Music from this region is
+extremely varied and has greatly influ-
+enced other types of music around
+the world.
+Instrument Spotlight
+The Native American flute
+originated among the
+peoples of the Great Plains, and it was often
+played by men to express their feelings of love
+to women. Each flute, made individually by
+hand, has its own unique look and sound.
+Traditional flutes are made from a piece of
+cedar, cut the same length as the distance
+between the armpit and the longest finger of
+the musician. In addition to five or six playing
+holes, four “direction” holes are added to send
+the sound in all directions.
+--- PAGE 16 CANDIDATE QUESTIONS ---
+--- PAGE 17 TEXT ---
+The Arts
+The arts of the United States and Canada go
+back to the first Americans, who interwove art and
+music into daily life. Native Americans made
+detailed carvings from shell and stone, used clay
+to produce pottery, and wove baskets, sandals,
+and mats from local plants. After European settle-
+ment the arts of the region were dominated by
+European traditions. By the mid-1800s, however,
+Americans and Canadians had begun to create art
+forms that reflected their own lives as North
+Americans.
+Music
+In their music Native Americans used drums,
+flutes, whistles, and vocal chanting. Europeans
+later brought European folk and religious music to
+the region. At the beginning of the 1900s, a distinc-
+tive form of music known as jazz developed in
+African American communities throughout the
+United States. Jazz blended African rhythms with
+Immigrants from Great Britain brought the
+English language to the United States and much of
+Canada. In the Canadian province of Quebec, how-
+ever, French is the official language because most of
+the province’s population are descended from French
+settlers who arrived from the 1500s to the 1700s.
+French-speaking Canadians in Quebec and some
+other provinces want greater protection for their
+language and culture. To achieve this goal, many
+Quebecois (kay•beh•KWAH) want Quebec’s
+independence and support a movement for sepa-
+ratism—the breaking away of one part of a country
+to create a separate, independent country.
+The Southwestern United States since colonial
+times has had a large Spanish-speaking pop-
+ulation. In New Mexico , any communications
+with the state government or with local govern-
+ments may be in Spanish or English. Thus, New
+Mexico is bilingual, meaning “having two lan-
+guages.” In California the presence of Asian com-
+munities is evident in the signs written in Chinese,
+Japanese, Korean, and other Asian languages.
+148 Unit 2
+Unity Rally
+Supporters of Canadian unity rally in Hull, Quebec, prior
+to a 1995 referendum on Quebec independence.
+Place Why do some Quebecois desire independence?
+--- PAGE 17 CANDIDATE QUESTIONS ---
+Q? Place Why do some Quebecois desire independence?
+  PREV: to a 1995 referendum on Quebec independence.
+--- PAGE 18 TEXT ---
+Chapter 6 149
+European harmonies. By the end of the century,
+country music and rock ‘n’ roll had become popu-
+lar musical forms, not only in North America but
+around the world. In classical music, dancers and
+choreographers created a modern form of ballet.
+The Visual Arts
+Painting and sculpture in the United States and
+Canada moved away from their European roots
+and explored new themes. In the early 1900s, a
+group of American artists known as the Ashcan
+School painted the grim realities of urban life. A
+group of Canadian painters called the Group of
+Seven showed the rugged landscape of Canada’s
+far north in bright, dynamic colors. American artist
+Georgia O’Keeffe gave the world new visions of
+the American West. In the mid-1900s many artists
+in the region adopted from Europe the abstract
+style, which expresses the artist’s emotions and
+attitudes without depicting recognizable images.
+Architects in the United States and Canada also
+developed innovations. The skyscraper, a tall
+building with many floors, first appeared in the
+United States. The architects Frank Lloyd Wright
+in the United States and Arthur Erickson in
+Canada were noted for designing buildings that
+harmonized with the region’s natural environments.
+Literature
+Literature in the United States and Canada at first
+dealt mainly with European historical and religious
+themes. Later writers, such as James Fenimore
+Cooper, Nathaniel Hawthorne, and Edgar Allan
+Poe, wrote stories about life in North America.
+Since the late 1800s, many American and Canadian
+authors have written about different parts of
+the region. Mark Twain described life on the
+Mississippi River, Margaret Laurence focused on
+the prairies of central Canada, and Willa Cather
+described life on the Great Plains.
+More recently, writers have concentrated on high-
+lighting aspects of the region’s cultures. For example,
+writers such as Richard Wright and Toni Morrison
+depict the African American experience, Maxine
+Hong Kingston and Amy Tan write about the expe-
+rience of Asian immigrants, Isaac Bashevis Singer’s
+stories reflect the world of Jewish Americans,
+and Rudolfo Anaya and Sandra Cisneros focus on
+Hispanic American lives and issues.
+Popular Entertainment
+The cultural influence of the United States and
+Canada on the rest of the world is strongest in the
+area of popular entertainment. During the 1900s the
+United States became the world’s dominant source
+for entertainment and popular fashion, from jeans
+and T-shirts to rock stars, movies, and television
+programs. The motion picture industry began in
+New York City and later moved to southern
+California. Today the name of a Los Angeles district,
+Hollywood, has become synonymous with the
+movie business. Canada’s film industry, supported
+by the government, is known for its innovative doc-
+umentaries. In the performing arts, Canada is noted
+for its Shakespeare Festival, held annually in
+Stratford, Ontario. Br oadway, a New York City
+street name, is internationally identified with popu-
+lar theater. The musical, combining elements of
+Modern Dance Modern dance com-
+bines the techniques of social dance
+and ballet. One of modern dance’s
+best known performers, Twyla Tharp,
+uses movement to
+interpret everyday
+activities.
+performing
+arts of THE UNITED
+STATES
+--- PAGE 18 CANDIDATE QUESTIONS ---
+Q? interpret everyday
+  PREV: uses movement to
+  NEXT: activities.
+--- PAGE 19 TEXT ---
+150 Unit 2
+drama with music, became a popular form of theater
+in the United States.
+Lifestyles
+As citizens of two of the world’s wealthiest
+countries, most people in the United States and
+Canada enjoy a high standard of living. Their
+socioeconomic status , or level of income and
+education, means having the advantage of many
+personal choices and opportunities. Because the
+region has an agricultural surplus, foods are rela-
+tively inexpensive. Housing varies to suit the
+needs of individuals and families, whether it be
+high-rise apartments, multifamily row houses, or
+suburban houses in a variety of styles.
+Economics
+Health Care
+People in both the United States and Canada
+can expect to live longer, generally healthier lives
+than people in many other parts of the world.
+The region’s high level of economic develop-
+ment enables governments to devote substantial
+resources to health care. Health care is adminis-
+tered differently in the two countries. In Canada,
+the government pays for health care. In the United
+States, most people are expected to pay for their
+own health care through health insurance pro-
+vided by employers or other organizations. Fed-
+eral and state governments, however, pay for
+some health insurance for people who are older,
+people with disabilities, or low-income families.
+Still, many people in the United States are unable
+to purchase insurance, and others cannot afford
+health care even with insurance. In the United
+States, the role of the government in providing
+health care for all citizens, regardless of their
+socioeconomic status, is currently under debate.
+Education
+The United States and Canada have similar edu-
+cational systems, including networks of public
+and private schools. Both countries maintain com-
+pulsory education requirements. In the United
+States and most Canadian provinces, school sys-
+tems have 12 grades. Colleges and universities
+exist in every state and province. In the United
+States, the literacy rate, the percentage of people
+who can read and write, is 97 percent; Canada’s lit-
+eracy rate is also 97 percent.
+Sports and Recreation
+Although a strong work ethic is woven into the
+culture of both the Americans and Canadians, they
+also enjoy plenty of leisure time. Some of the most
+popular activities involve watching and partici-
+pating in sports. Most people associate baseball
+and football with the United States and ice hockey
+with Canada. Fans and players of these sports,
+however, come from both sides of the border. Bas-
+ketball, soccer, golf, tennis, and competitive ice-
+skating also have their supporters in both countries.
+Television transformed sports during the late
+1900s. Many people in the United States and Canada
+share in exciting sports telecasts throughout the
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Percent of Population
+Hours
+per week
+worked
+Homes
+with
+electricity
+Own
+a car
+Own
+a TV
+Source: Britannica Book of theYear, 2000
+Canada
+United States
+GRAPH
+STUDY
+The United States and Canada:
+Social Indicators
+1. Interpreting Graphs In which categories do
+the United States and Canada appear to be the
+same?
+2. Applying Geography Skills Compare the
+social indicators in the United States and
+Canada. Explain why they are similar.
+--- PAGE 19 CANDIDATE QUESTIONS ---
+Q? 1. Interpreting Graphs In which categories do
+  PREV: Social Indicators
+  NEXT: the United States and Canada appear to be the
+Q? same?
+  PREV: the United States and Canada appear to be the
+  NEXT: 2. Applying Geography Skills Compare the
+Q? 2. Applying Geography Skills Compare the
+  PREV: same?
+  NEXT: social indicators in the United States and
+--- PAGE 20 TEXT ---
+Chapter 6 151
+year: baseball during the spring and summer and
+its World Series in the early fall; football during the
+fall, capped by the Super Bowl in January; and the
+National Basketball Association (NBA) champi-
+onships in the spring. As a result, sports heroes,
+such as baseball’s Derek Jeter, football’s Brett
+Favre, and basketball’s Michael Jordan, have
+become household names.
+The vast North American landscape is ideal for
+camping, canoeing, and hiking. The first U.S.
+national park was created in 1872. Located in parts
+of Wyoming, Montana, and Idaho, Yellowstone
+National Park covers more than two million acres,
+and dazzles visitors from around the world with its
+spectacular physical features. Since then, the United
+States and Canada have set aside millions of acres
+as national parks for conservation and recreation.
+Celebrations
+Holiday celebrations in the United States and
+Canada are essentially similar. Both countries cele-
+brate many of the same religious holidays, and
+many civic observances are similar although held
+on different dates. Celebrations such as American
+Independence Day (July 4) and Canada Day (July 1)
+are occasions for public displays of patriotism, or
+loyalty to one’s country.
+Checking for Understanding
+1. Define bilingual, jazz, socioeco-
+nomic, literacy rate, patriotism.
+2. Main Ideas Create a diagram like
+the one below, listing aspects of
+the cultures, arts, and lifestyles
+of the region.
+Critical Thinking
+3. Making Generalizations What
+challenges are created for
+government, education, and
+business when a country has
+two official languages?
+4. Making Inferences Why do you
+think immigrants to the United
+States and Canada did not develop
+new styles of art, music, and
+literature at first?
+5. Identifying Cause and Effect How
+has the region’s history of reli-
+gious freedom contributed to the
+development of culturally diverse
+societies in the United States and
+Canada?
+Analyzing Maps
+6. Place Study the physical map in
+the Regional Atlas on page 106.
+Why does the physical geography
+of California make it ideal for
+both surfers and mountain
+climbers?
+7. Sports as Culture Think
+about the popularity of var-
+ious sports in the region.
+Write a paragraph explaining
+how sports can increase cul-
+tural understanding among
+the peoples of Canada and
+the United States.
+Applying Geography
+Cultures and Lifestyles
+Cultural
+Characteristics
+•
+•
+•
+•
+The Arts
+•
+•
+•
+•
+Lifestyles
+•
+•
+•
+•
+United States Patriotism A crowd enjoys a
+Fourth of July celebration in Baton Rouge, Louisiana.
+Place What Canadian holiday is associated with
+patriotism?
+--- PAGE 20 CANDIDATE QUESTIONS ---
+Q? 1. Define bilingual, jazz, socioeco-
+  PREV: Checking for Understanding
+  NEXT: nomic, literacy rate, patriotism.
+Q? 2. Main Ideas Create a diagram like
+  PREV: nomic, literacy rate, patriotism.
+  NEXT: the one below, listing aspects of
+Q? 3. Making Generalizations What
+  PREV: Critical Thinking
+  NEXT: challenges are created for
+Q? two official languages?
+  PREV: business when a country has
+  NEXT: 4. Making Inferences Why do you
+Q? 4. Making Inferences Why do you
+  PREV: two official languages?
+  NEXT: think immigrants to the United
+Q? think immigrants to the United
+  PREV: 4. Making Inferences Why do you
+  NEXT: States and Canada did not develop
+Q? literature at first?
+  PREV: new styles of art, music, and
+  NEXT: 5. Identifying Cause and Effect How
+Q? 5. Identifying Cause and Effect How
+  PREV: literature at first?
+  NEXT: has the region’s history of reli-
+Q? Canada?
+  PREV: societies in the United States and
+  NEXT: Analyzing Maps
+Q? 6. Place Study the physical map in
+  PREV: Analyzing Maps
+  NEXT: the Regional Atlas on page 106.
+Q? Why does the physical geography
+  PREV: the Regional Atlas on page 106.
+  NEXT: of California make it ideal for
+Q? climbers?
+  PREV: both surfers and mountain
+  NEXT: 7. Sports as Culture Think
+Q? 7. Sports as Culture Think
+  PREV: climbers?
+  NEXT: about the popularity of var-
+Q? how sports can increase cul-
+  PREV: Write a paragraph explaining
+  NEXT: tural understanding among
+Q? patriotism?
+  PREV: Place What Canadian holiday is associated with
+--- PAGE 21 TEXT ---
+152 Unit 2
+Learning the Skill
+GPS satellites in space continu-
+ally broadcast signals to Earth. By
+tracking the signals from several
+satellites, a GPS receiver on the
+ground can determine its current
+latitude, longitude, and altitude.
+GPS measurements showed that
+Mt. Everest is actually 7 feet
+(2.1 m) higher than its official
+recorded height! The receiver
+can also report current time and
+the direction and speed of travel.
+The unit even has a feature that
+tells exact sunrise, sunset, and
+moon phase based on location
+and time.
+Originally developed by the
+United States military, GPS is now
+available for many different uses:
+• Hikers use GPS receivers with
+physical maps that show an
+area’s surface features and
+elevations.
+• Drivers use GPS receivers in
+cars to obtain digital street
+maps and plot travel routes.
+• Sailors use GPS technology to
+plot a ship’s course.
+GPS receivers often feed data
+into geographic information sys-
+tems (GIS). GIS are computer tools
+that gather, combine, and display
+information relevant to a specific
+geographic location. After infor-
+mation about an area is entered
+into the GIS database, the com-
+puter can create maps showing
+any combination of the data.
+Businesses use GIS to find
+prime locations to open fran-
+chises. Creating a database with
+information such as traffic pat-
+terns, competitors’ locations,
+average income, and vacant lots
+for sale helps pinpoint the best
+location for a new store. Using
+data from various sources, GIS
+technology might display a map
+that shows the factories, air pol-
+lution count, and cancer rates in
+a particular neighborhood. GIS
+aid in information analysis by
+visually presenting the interac-
+tion among various factors in a
+given location.
+GPS allows people to locate
+themselves inside the map, while
+GIS creates maps that highlight
+the elements affecting a loca-
+tion. GPS and GIS technology
+represents the state of the art in
+geography and mapmaking.
+Practicing the Skill
+Using the data you have read,
+answer the following questions.
+1. What do GPS receivers use
+to plot exact locations?
+2. Why was the military the
+original developer of GPS?
+3. How does seeing various fac-
+tors on a map help people
+make decisions?
+4. How is GPS information used
+with a GIS database?
+5. How could GPS and GIS
+improve traffic safety?
+Your community is planning to
+build a recreation center. If you
+have access to a GIS program,
+use the program to help deter-
+mine the best location. Use three
+types of data—such as roads,
+housing estates, and high school
+gyms—to create maps. Then
+analyze the maps and write your
+proposal.
+Understanding GIS and GPS
+A
+Global Positioning System (GPS) can accurately determine a
+position on the earth to within .08 inches (2 mm). Geographic
+information systems (GIS) are computer tools for handling, process-
+ing, and analyzing geographic data. Both systems help us under-
+stand information about location.
+Soldier using GPS receiver
+--- PAGE 21 CANDIDATE QUESTIONS ---
+Q? 1. What do GPS receivers use
+  PREV: answer the following questions.
+  NEXT: to plot exact locations?
+Q? to plot exact locations?
+  PREV: 1. What do GPS receivers use
+  NEXT: 2. Why was the military the
+Q? 2. Why was the military the
+  PREV: to plot exact locations?
+  NEXT: original developer of GPS?
+Q? original developer of GPS?
+  PREV: 2. Why was the military the
+  NEXT: 3. How does seeing various fac-
+Q? 3. How does seeing various fac-
+  PREV: original developer of GPS?
+  NEXT: tors on a map help people
+Q? make decisions?
+  PREV: tors on a map help people
+  NEXT: 4. How is GPS information used
+Q? 4. How is GPS information used
+  PREV: make decisions?
+  NEXT: with a GIS database?
+Q? with a GIS database?
+  PREV: 4. How is GPS information used
+  NEXT: 5. How could GPS and GIS
+Q? 5. How could GPS and GIS
+  PREV: with a GIS database?
+  NEXT: improve traffic safety?
+Q? improve traffic safety?
+  PREV: 5. How could GPS and GIS
+  NEXT: Your community is planning to
+Q? use the program to help deter-
+  PREV: have access to a GIS program,
+  NEXT: mine the best location. Use three
+Q? analyze the maps and write your
+  PREV: gyms—to create maps. Then
+  NEXT: proposal.
+--- PAGE 22 TEXT ---
+SUMMARY & STUDY GUIDE
+Key Points
+• Both Canada and the United States are home
+to various groups of native peoples and descen-
+dants of immigrants.
+• Physical geography impacts the distribution and
+density of population in the U.S. and Canada.
+• North America’s settlements and its largest
+cities developed along waterways.
+• Natural resources and waterways for trans-
+portation helped North America industrialize.
+Organizing Your Notes
+Use a table like the one below
+to help you organize your notes
+about the region’s population
+patterns.
+Terms to Know
+• republic
+• Underground
+Railroad
+• dry farming
+• Constitution
+• amendment
+• Bill of Rights
+• cabinet
+• dominion
+• Parliament
+Key Points
+• Native Americans are North America’s earliest
+people.
+• Europeans set up colonies in North America for
+trading, conquest, and religious freedom.
+• The thirteen British colonies won their indepen-
+dence from Britain in 1776 and formed their
+own republic, the United States of America.
+• In 1867 the eastern provinces combined to form
+the Dominion of Canada. Canada today encom-
+passes 10 provinces and 3 territories; it became
+an independent country in 1931.
+• Industrialization and technology enabled west-
+ward expansion and spurred social change.
+Organizing Your Notes
+Create an outline using the for-
+mat below to help you organize
+your notes for this section.
+Terms to Know
+• immigration
+• Native American
+• Sunbelt
+• urbanization
+• metropolitan area
+• suburb
+• megalopolis
+• mobility
+SECTION 1 Population Patterns (pp. 133–137)
+SECTION 2 History and Government (pp. 140–145)
+Chapter 6 153
+Peoples Population Patterns
+I. History
+A. Native Americans
+1.
+2.
+B. European Colonies
+1.
+2.
+History and Government
+Terms to Know
+• bilingual
+• jazz
+• socioeconomic
+status
+• literacy rate
+• patriotism
+Key Points
+• The immigrant roots of the United States and
+Canada make these two countries diverse.
+• Both countries have a heritage of religious
+freedom.
+• Musical and artistic expression began with
+immigrants and gradually became uniquely
+North American.
+• Health care is supported by the governments
+of both countries but in different ways.
+• Both countries in the region have high stan-
+dards of living.
+Organizing Your Notes
+Use a cluster map like the one
+below to help you organize your
+notes for this section.
+SECTION 3 Cultures and Lifestyles (pp. 146–151)
+Region’s Cultures
+--- PAGE 22 CANDIDATE QUESTIONS ---
+Q? Use a table like the one below
+  PREV: Organizing Your Notes
+  NEXT: to help you organize your notes
+Q? Use a cluster map like the one
+  PREV: Organizing Your Notes
+  NEXT: below to help you organize your
+--- PAGE 23 TEXT ---
+Critical Thinking
+1. Making Generalizations How did physical
+features influence population patterns and
+urbanization in the United States and Canada?
+2. Drawing Conclusions Explain how diverse
+ethnic groups influenced the development of
+the region’s arts.
+3. Comparing and Contrasting Use a Venn
+diagram to compare and contrast the gov-
+ernments of the United States and Canada.
+Reviewing Key Terms
+On a sheet of paper, write the key term that
+matches the definition. Refer to the Terms to Know
+in the Summary & Study Guide on page 153.
+1. level of income and education
+2. loyalty to one’s country
+3. percentage of people who can read and write
+4. the movement of people into one country
+from another
+5. a central city and outlying communities
+6. a government in which people
+elect their own officials
+7. a chain of closely linked urban
+areas and suburbs
+8. partially self-governing country
+with close British ties
+9. ability to use two languages
+10. cultivating land so that it catches
+and holds rainwater
+Reviewing Facts
+SECTION 1
+1. Most settlers in the United States
+and Canada came from what
+region of the world?
+2. Where is most of Canada’s popu-
+lation concentrated?
+SECTION 2
+3. Explain how the Underground
+Railroad helped enslaved African
+Americans escape to freedom.
+4. What three technological innova-
+tions led to the expansion and
+development of the United States?
+SECTION 3
+5. What is the most widely practiced
+religion in Canada? In the United
+States?
+6. How did the literature of the
+United States begin to change in
+the late 1800s?
+Locating Places
+The United States and Canada: Physical-
+Political Geography
+Match the letters on the map with the places and physical features of the
+United States and Canada. Write your answers on a sheet of paper.
+1. Texas
+2. Great Salt Lake
+3. Nova Scotia
+4. Quebec
+5. Alberta
+6. New Mexico
+7. Miami
+8. Pennsylvania
+9. Detroit
+10. Nunavut
+11. British Columbia
+12. Hudson Bay
+A
+B
+C
+E
+F
+K
+L
+G
+H
+I
+D
+J
+160°W
+140
+°W
+120
+°W
+100
+°W
+80
+°W
+60
+°W
+40°W
+20°W
+180°
+80
+°N70
+°N
+60
+°N
+50°N
+40°N
+30°N
+TROPIC OF CANCER
+ARCTIC
+CIRCLE
+Azimuthal Equidistant
+projection
+500
+5000 mi.
+0 km
+N
+ASSESSMENT & ACTIVITIES
+154 Unit 2
+United
+States Canada
+Government
+Both
+--- PAGE 23 CANDIDATE QUESTIONS ---
+Q? 1. Making Generalizations How did physical
+  PREV: Critical Thinking
+  NEXT: features influence population patterns and
+Q? urbanization in the United States and Canada?
+  PREV: features influence population patterns and
+  NEXT: 2. Drawing Conclusions Explain how diverse
+Q? 2. Drawing Conclusions Explain how diverse
+  PREV: urbanization in the United States and Canada?
+  NEXT: ethnic groups influenced the development of
+Q? 3. Comparing and Contrasting Use a Venn
+  PREV: the region’s arts.
+  NEXT: diagram to compare and contrast the gov-
+Q? 1. level of income and education
+  PREV: in the Summary & Study Guide on page 153.
+  NEXT: 2. loyalty to one’s country
+Q? 2. loyalty to one’s country
+  PREV: 1. level of income and education
+  NEXT: 3. percentage of people who can read and write
+Q? 3. percentage of people who can read and write
+  PREV: 2. loyalty to one’s country
+  NEXT: 4. the movement of people into one country
+Q? 4. the movement of people into one country
+  PREV: 3. percentage of people who can read and write
+  NEXT: from another
+Q? 5. a central city and outlying communities
+  PREV: from another
+  NEXT: 6. a government in which people
+Q? 6. a government in which people
+  PREV: 5. a central city and outlying communities
+  NEXT: elect their own officials
+Q? 7. a chain of closely linked urban
+  PREV: elect their own officials
+  NEXT: areas and suburbs
+Q? 8. partially self-governing country
+  PREV: areas and suburbs
+  NEXT: with close British ties
+Q? 9. ability to use two languages
+  PREV: with close British ties
+  NEXT: 10. cultivating land so that it catches
+Q? 10. cultivating land so that it catches
+  PREV: 9. ability to use two languages
+  NEXT: and holds rainwater
+Q? 1. Most settlers in the United States
+  PREV: SECTION 1
+  NEXT: and Canada came from what
+Q? region of the world?
+  PREV: and Canada came from what
+  NEXT: 2. Where is most of Canada’s popu-
+Q? 2. Where is most of Canada’s popu-
+  PREV: region of the world?
+  NEXT: lation concentrated?
+Q? lation concentrated?
+  PREV: 2. Where is most of Canada’s popu-
+  NEXT: SECTION 2
+Q? 3. Explain how the Underground
+  PREV: SECTION 2
+  NEXT: Railroad helped enslaved African
+Q? 4. What three technological innova-
+  PREV: Americans escape to freedom.
+  NEXT: tions led to the expansion and
+Q? development of the United States?
+  PREV: tions led to the expansion and
+  NEXT: SECTION 3
+Q? 5. What is the most widely practiced
+  PREV: SECTION 3
+  NEXT: religion in Canada? In the United
+Q? religion in Canada? In the United
+  PREV: 5. What is the most widely practiced
+  NEXT: States?
+Q? States?
+  PREV: religion in Canada? In the United
+  NEXT: 6. How did the literature of the
+Q? 6. How did the literature of the
+  PREV: States?
+  NEXT: United States begin to change in
+Q? the late 1800s?
+  PREV: United States begin to change in
+  NEXT: Locating Places
+Q? 1. Texas
+  PREV: United States and Canada. Write your answers on a sheet of paper.
+  NEXT: 2. Great Salt Lake
+Q? 2. Great Salt Lake
+  PREV: 1. Texas
+  NEXT: 3. Nova Scotia
+Q? 3. Nova Scotia
+  PREV: 2. Great Salt Lake
+  NEXT: 4. Quebec
+Q? 4. Quebec
+  PREV: 3. Nova Scotia
+  NEXT: 5. Alberta
+Q? 5. Alberta
+  PREV: 4. Quebec
+  NEXT: 6. New Mexico
+Q? 6. New Mexico
+  PREV: 5. Alberta
+  NEXT: 7. Miami
+Q? 7. Miami
+  PREV: 6. New Mexico
+  NEXT: 8. Pennsylvania
+Q? 8. Pennsylvania
+  PREV: 7. Miami
+  NEXT: 9. Detroit
+Q? 9. Detroit
+  PREV: 8. Pennsylvania
+  NEXT: 10. Nunavut
+Q? 10. Nunavut
+  PREV: 9. Detroit
+  NEXT: 11. British Columbia
+Q? 11. British Columbia
+  PREV: 10. Nunavut
+  NEXT: 12. Hudson Bay
+Q? 12. Hudson Bay
+  PREV: 11. British Columbia
+  NEXT: A
+--- PAGE 24 TEXT ---
+Chapter X 155
+Several of the data elements corre-
+lated by the researchers relate to
+water. Eliminate those answers that
+do not relate to water.
+If you know that GPS technology deals
+with precise positioning data, you can
+eliminate choices H and J, and choose
+the best answer from the answer choices that remain.
+Self-Check Quiz Visit the Glencoe World
+Geography Web site at tx.geography.glencoe.com
+and click on Self-Check Quizzes—Chapter 6 to
+prepare for the Chapter Test.
+Using the Regional Atlas
+Refer to the Regional Atlas on pages 106–109.
+1. Human-Environment Interaction Com-
+pare the political map to the economic
+activity map. What commercial crops are
+grown in the southern United States?
+2. Place Compare the population density map
+to the political map. What states and provinces
+have the highest population density?
+Thinking Like a Geographer
+Describe the effects of cultural diffusion between
+the United States and Canada and other parts of
+the world in recent decades. Trace this process,
+using specific examples, such as films, music,
+foods, and American slang.
+Problem-Solving Activity
+Group Research Project Research U.S. voting
+patterns and the distribution of political power.
+Study a map showing the outcome of the latest
+congressional election, district by district. Then
+compare it to a map of a previous race. Write a
+report explaining the political changes from one
+election to the next as well as the factors shaping
+the formation of congressional voting districts.
+GeoJournal
+Expository Writing Using your GeoJournal
+data, write an essay analyzing the effects of
+processes, such as migration, on the territorial
+growth of the United States and Canada.
+Technology Activity
+Developing Multimedia Presenta-
+tions Choose one Native American or immi-
+grant group and describe its influences on the
+region’s cultures and lifestyles. Include contribu-
+tions such as religion, language, the arts, food,
+clothing, and celebrations. Create a multime-
+dia presentation that displays examples of
+these contributions and explains their origins.
+To enhance your presentation, play music appro-
+priate to the group you choose for the class.
+Choose the best answer for each of the follow-
+ing multiple-choice questions. If you have
+trouble answering the questions, use the
+process of elimination to narrow your choices.
+1. Researchers using GIS and GPS technol-
+ogy to correlate water quality indexes,
+zoning maps, census figures, and maps
+of area rivers and aquifers are most
+likely trying to determine which of the
+following?
+A The relationship between the location of
+industrial plants and water quality
+B The water pressure for new fire hydrants
+for a developing community
+C The location of scenic hiking trails
+D The lung disease rates for various areas in
+the region
+2. Ships at sea use GPS technology
+F as a communication device.
+G as a navigational aid.
+H for inventory control.
+J to maintain personnel files.
+0
+5
+10
+15
+20
+25
+30
+Chapter 6 155
+--- PAGE 24 CANDIDATE QUESTIONS ---
+Q? 1. Human-Environment Interaction Com-
+  PREV: Refer to the Regional Atlas on pages 106–109.
+  NEXT: pare the political map to the economic
+Q? grown in the southern United States?
+  PREV: activity map. What commercial crops are
+  NEXT: 2. Place Compare the population density map
+Q? 2. Place Compare the population density map
+  PREV: grown in the southern United States?
+  NEXT: to the political map. What states and provinces
+Q? have the highest population density?
+  PREV: to the political map. What states and provinces
+  NEXT: Thinking Like a Geographer
+Q? Describe the effects of cultural diffusion between
+  PREV: Thinking Like a Geographer
+  NEXT: the United States and Canada and other parts of
+Q? compare it to a map of a previous race. Write a
+  PREV: congressional election, district by district. Then
+  NEXT: report explaining the political changes from one
+Q? 1. Researchers using GIS and GPS technol-
+  PREV: process of elimination to narrow your choices.
+  NEXT: ogy to correlate water quality indexes,
+Q? following?
+  PREV: likely trying to determine which of the
+  NEXT: A The relationship between the location of
+Q? 2. Ships at sea use GPS technology
+  PREV: the region
+  NEXT: F as a communication device.
