@@ -1,0 +1,68 @@
+name: Extract Chapter 6 questions v2
+
+on:
+  push:
+    paths:
+      - '.github/workflows/extract-ch6-questions-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pypdf
+      - name: Extract concise question lists
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, json
+          from pypdf import PdfReader
+
+          sources={
+            'biology':Path('apps/liam-school/materials/biology/Chapter_6.pdf'),
+            'geography':Path('apps/liam-school/materials/world-geography/chapter-06.pdf')
+          }
+          verbs=r'(?:Analyze|Apply|Calculate|Classify|Compare|Contrast|Describe|Determine|Draw|Evaluate|Explain|Identify|Infer|Interpret|List|Name|Observe|Predict|Recognize|Review|Summarize|Think Critically|Use Numbers|Use Maps|Make and Use Tables|Human-Environment Interaction|Movement|Place|Region|Location)'
+
+          def clean_page(text):
+            text=text.replace('\r','\n').replace('\u00ad','')
+            text=re.sub(r'-\n(?=[a-z])','',text)
+            text=re.sub(r'\n+',' ',text)
+            text=re.sub(r'\s+',' ',text).strip()
+            return text
+
+          for subject,path in sources.items():
+            reader=PdfReader(str(path)); rows=[]; seen=set()
+            for pno,page in enumerate(reader.pages,1):
+              t=clean_page(page.extract_text() or '')
+              # Every explicit question sentence, taking a conservative left boundary.
+              for m in re.finditer(r'([^?]{5,420}\?)',t):
+                q=m.group(1).strip()
+                q=re.split(r'(?<=[.!])\s+',q)[-1].strip()
+                q=re.sub(r'^.*?(?=(?:What|Why|How|Where|When|Which|Who|Does|Do|Did|Can|Could|Would|Should|Is|Are|Was|Were|If|'+verbs+r')\b)','',q,flags=re.I)
+                if 8 <= len(q) <= 420:
+                  k=q.lower()
+                  if k not in seen: rows.append({'page':pno,'question':q}); seen.add(k)
+              # Numbered/instruction prompts that may end with a period instead of ?
+              pat=re.compile(r'(?:^|\s)(\d{1,2})\.\s+('+verbs+r'\b.{5,360}?)(?=(?:\s\d{1,2}\.\s)|$)',re.I)
+              for m in pat.finditer(t):
+                q=(m.group(1)+'. '+m.group(2)).strip()
+                q=re.sub(r'\s+',' ',q)
+                if len(q)<=420 and q.lower() not in seen:
+                  rows.append({'page':pno,'question':q});seen.add(q.lower())
+            dest=Path(f'apps/liam-school/materials/liam-learning-app/ch6-{subject}-source-questions.json')
+            dest.write_text(json.dumps({'subject':subject,'source':str(path),'pages':len(reader.pages),'questions':rows},indent=2,ensure_ascii=False),encoding='utf-8')
+          PY
+      - name: Commit concise extraction
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add apps/liam-school/materials/liam-learning-app/ch6-*-source-questions.json
+          git commit -m 'Extract concise Chapter 6 source question lists'
+          git push
