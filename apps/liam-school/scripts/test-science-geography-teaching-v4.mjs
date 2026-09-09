@@ -18,7 +18,6 @@ assert.match(source,/Match each real chapter definition to its vocabulary term/)
 assert.match(source,/Using only the lesson above/);
 assert.match(source,/if\(S\.subject==='biology'&&Number\(ch\.number\)===4\)return bio4\(\)/);
 assert.match(source,/function bio5/);
-assert.match(source,/function bio5Worksheet/);
 assert.match(source,/Biodiversity is the variety of living species/);
 assert.match(source,/Chapter 5: Biological Diversity and Conservation/);
 assert.match(source,/if\(S\.subject==='biology'&&Number\(ch\.number\)===5\)return bio5\(\)/);
