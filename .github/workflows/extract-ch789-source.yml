@@ -1,0 +1,86 @@
+name: Extract Chapter 7-9 source text
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/extract-ch789-source.yml'
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pypdf
+      - name: Extract Chapter 7-9 PDFs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from pypdf import PdfReader
+          import json,re
+          root=Path('apps/liam-school/materials')
+          outdir=root/'liam-learning-app'/'source-extracts'
+          outdir.mkdir(parents=True,exist_ok=True)
+          jobs=[]
+          for n in (7,8,9):
+              jobs += [
+                ('biology',n,root/'biology'/f'Chapter_{n}.pdf'),
+                ('geography',n,root/'world-geography'/f'chapter-{n:02d}.pdf')]
+          def norm(s):
+              s=s.replace('\u00ad','').replace('–','-').replace('—','-')
+              s=re.sub(r'\s+',' ',s).strip()
+              return s
+          for subject,n,pdf in jobs:
+              if not pdf.exists():
+                  raise SystemExit(f'Missing {pdf}')
+              reader=PdfReader(str(pdf))
+              pages=[]
+              full=[]
+              for i,p in enumerate(reader.pages,1):
+                  text=p.extract_text() or ''
+                  pages.append({'page':i,'text':text})
+                  full.append(f'===== PAGE {i} =====\n{text}\n')
+              (outdir/f'{subject}-chapter-{n:02d}.txt').write_text('\n'.join(full),encoding='utf-8')
+              # Candidate question fragments, retaining page provenance. This is an audit artifact,
+              # not the final student bank.
+              candidates=[]
+              for page in pages:
+                  lines=[norm(x) for x in page['text'].splitlines() if norm(x)]
+                  buf=''
+                  for line in lines:
+                      if buf:
+                          buf += ' '+line
+                          if '?' in line:
+                              candidates.append({'page':page['page'],'question':norm(buf[:buf.find('?')+1])})
+                              buf=''
+                          elif len(buf)>650:
+                              buf=''
+                      elif '?' in line:
+                          # Preserve text through each question mark.
+                          start=0
+                          for m in re.finditer(r'\?',line):
+                              q=norm(line[start:m.end()])
+                              if len(q)>=8: candidates.append({'page':page['page'],'question':q})
+                              start=m.end()
+                      elif re.match(r'^\d+\.\s+(Define|Describe|Explain|Compare|Contrast|Identify|Infer|Predict|Evaluate|Analyze|Interpret|Summarize|List|How|What|Why|Where|Which|Who|When|Make|Create|Trace|Discuss|Distinguish|Recognize|Calculate|Determine|Draw|Write|Use|Study|Examine|Classify|Relate|Apply|Find)\b',line,re.I):
+                          buf=line
+                  # Also catch unnumbered prompts ending in ? that extraction split across lines.
+              # de-dupe exact normalized candidates
+              seen=set(); clean=[]
+              for q in candidates:
+                  k=re.sub(r'[^a-z0-9]+',' ',q['question'].lower()).strip()
+                  if k and k not in seen:
+                      seen.add(k); clean.append(q)
+              data={'subject':subject,'chapter':n,'source':str(pdf),'pages':len(reader.pages),'candidates':clean}
+              (outdir/f'{subject}-chapter-{n:02d}-candidates.json').write_text(json.dumps(data,indent=2,ensure_ascii=False),encoding='utf-8')
+          PY
+      - name: Commit extraction
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add apps/liam-school/materials/liam-learning-app/source-extracts
+          git commit -m 'Extract Chapter 7-9 PDF source text' || exit 0
+          git push
