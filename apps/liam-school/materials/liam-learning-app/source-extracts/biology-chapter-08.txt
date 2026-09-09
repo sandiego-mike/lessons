@@ -1,0 +1,1951 @@
+===== PAGE 1 =====
+194
+Jean Claude Revy/Phototake, NYC
+What You’ll Learn
+■ You will discover how mole-
+cules are transported across
+the plasma membrane.
+■ You will sequence the stages
+of cell division.
+■ You will identify the relation-
+ship between the cell cycle
+and cancer.
+Why It’s Important
+Transportation of molecules and
+particles through the plasma
+membrane and cell reproduction
+are two important functions
+that help cells maintain homeo-
+stasis and keep you healthy.
+Cellular Transport 
+and the Cell Cycle
+Cellular Transport 
+and the Cell Cycle
+Visit to
+• study the entire chapter 
+online
+• access Web Links for more
+information and activities on
+the cell cycle
+• review content with the
+Interactive Tutor and self-
+check quizzes
+This photo shows a cell in a
+plant’s root tip in one stage of
+the cell cycle. Color enhance-
+ment helps distinguish the chro-
+mosomes, which appear yellow
+in this photo.
+Understanding
+the Photo
+nc.bdol.glencoe.com
+Color-enhanced TEM Magnification: 1600 /H11003
+Cell wall
+Chromosomes
+Spindle 
+fibers
+0194-0200 C08S1 BDOL-829900  8/4/04  3:06 AM  Page 194
+
+
+===== PAGE 2 =====
+Cellular Transport
+Osmosis: Diffusion of Water
+Although the plasma membrane of a cell can act as a dam or pump for
+water-soluble molecules that cannot pass freely through the membrane, it
+does not limit the diffusion of water. Recall that diffusion is the move-
+ment of particles from an area of higher concentration to an area of lower
+concentration. In a cell, water always moves to reach an equal concentra-
+tion on both sides of the membrane. The diffusion of water across a selec-
+tively permeable membrane is called osmosis (ahs MOH sus). Regulating
+the water flow through the plasma membrane is an important factor in
+maintaining homeostasis within the cell.
+What controls osmosis?
+If you add sugar to water, the water becomes sweeter as you add more
+sugar. If a strong sugar solution and a weak sugar solution are placed in
+direct contact, water molecules diffuse in one direction and sugar mole-
+cules diffuse in the other direction until all molecules are evenly distrib-
+uted throughout.
+osmosis from the
+Greek word osmos,
+meaning “push-
+ing”; Osmosis can
+push out a cell’s
+plasma membrane.
+8.1 CELLULAR TRANSPORT   195
+Answer Questions  Before you read Chapter 8, write under each tab what 
+you already know about how osmosis affects cells. After you read the chapter, 
+list what you learned about how osmosis affects cells in each type of solution 
+listed on your Foldable.
+ Fold a vertical 
+sheet of paper from side to 
+side. Make the back edge 
+about 2 cm longer than the 
+front edge.
+ Turn lengthwise 
+and fold into thirds.
+ Unfold and cut only the top 
+layer along both folds to make three tabs.
+ Label each tab.
+Osmosis  Make the following Foldable to help identify 
+what you already know about osmosis, and what you learned 
+about how osmosis affects cells.
+STEP 1
+STEP 3
+STEP 2
+STEP 4
+Isotonic
+Solution
+Hypotonic
+Solution
+Hypertonic
+Solution
+How osmosis affects cells in...
+SECTION PREVIEW
+Objectives
+Explain how the processes
+of diffusion, passive trans-
+port, and active transport
+occur and why they are
+important to cells.
+Predict the effect of a
+hypotonic, hypertonic, or
+isotonic solution on a cell.
+Review Vocabulary
+plasma membrane: the
+boundary between the
+cell and its environment
+(p. 175)
+New Vocabulary
+osmosis
+isotonic solution
+hypotonic solution
+hypertonic solution
+passive transport
+facilitated diffusion
+active transport
+endocytosis
+exocytosis
+8.1
+Objective 2.03 Investigate the cell as a living system
+including: Maintenance of homeostasis; Movement of materials into and out of cells
+North Carolina Objectives
+0194-0200 C08S1 BDOL-829900  8/4/04  3:09 AM  Page 195
+
+
+===== PAGE 3 =====
+If the two solutions are separated by
+a selectively permeable membrane
+that allows only water to diffuse across
+it, water flows to the side of the mem-
+brane where the water concentration
+is lower. The water continues to dif-
+fuse until it is in equal concentration
+on both sides of the membrane, as
+shown in Figure 8.1. Therefore, we
+know that unequal distribution of par-
+ticles, called a concentration gradient,
+is one factor that controls osmosis.
+Cells in an isotonic solution 
+It is important to understand how
+osmosis affects cells. Most cells,
+whether in multicellular or unicellu-
+lar organisms, are subject to osmosis
+because they are surrounded by water
+solutions. In an isotonic solution,
+the concentration of dissolved sub-
+stances in the solution is the same as
+the concentration of dissolved sub-
+stances inside the cell. Likewise, the
+concentration of water in the solution
+is the same as the concentration of
+water inside the cell. 
+Cells in an isotonic solution do
+experience osmosis, but because water
+diffuses into and out of the cells at the
+same rate, the cells retain their normal
+shape, as shown in Figure 8.2.
+Cells in a hypotonic solution
+In the hypotonic solution in
+Figure 8.3A, the concentration 
+of dissolved substances is lower in 
+the solution outside the cell than 
+the concentration inside the cell.
+Therefore, there is more water out-
+side the cell than inside. Cells in a
+hypotonic solution experience osmo-
+sis. Water moves through the plasma
+membrane into the cell. The cell
+swells and its internal pressure
+increases. 
+As the pressure increases inside 
+animal cells, the plasma membrane
+swells, like the red blood cells shown
+in Figure 8.3B. If the solution is
+extremely hypotonic, the plasma mem-
+brane may be unable to withstand this
+pressure and may burst. 
+Because plant cells contain a rigid
+cell wall that supports the cell, they
+do not burst when in a hypotonic
+solution. As the pressure increases
+inside the cell, the plasma membrane
+is pressed against the cell wall, as
+shown in Figure 8.3C. Instead of
+bursting, the plant cell becomes more
+firm. Grocers keep produce looking
+fresh by misting the fruits and vegeta-
+bles with water.
+Cells in a hypertonic solution
+In a hypertonic solution, the
+concentration of dissolved sub-
+stances outside the cell is higher than
+the concentration inside the cell.
+Cells in a hypertonic solution experi-
+ence osmosis that causes water to
+flow out.
+Animal cells in a hypertonic solu-
+tion shrivel because of decreased
+pressure in the cells.
+196 CELLULAR TRANSPORT AND THE CELL CYCLE
+Water molecule
+Sugar molecule
+Selectively
+permeable
+membrane
+Before osmosis After osmosis
+Figure 8.1
+During osmosis, water diffuses across a selectively permeable membrane.
+Notice that the number of sugar molecules did not change on each side
+of the membrane, but the number of water molecules on either side of
+the membrane did change.
+iso-, hypo-, hyper-
+from the Greek
+words isos, mean-
+ing “equal,” hypo,
+meaning “under,”
+and hyper, mean-
+ing “over,” 
+respectively.
+0194-0200 C08S1 BDOL-829900  8/4/04  3:10 AM  Page 196
+
+
+===== PAGE 4 =====
+8.1 CELLULAR TRANSPORT   197
+Joseph Kurantsin-Mills, M.Sc.Ph.D
+Water molecule
+Dissolved molecule
+H2O
+H2O
+Figure 8.2
+In an isotonic solu-
+tion, water mole-
+cules move into and
+out of the cell at the
+same rate, and cells
+retain their normal
+shape (A). Notice
+the concave disc
+shape of a red blood
+cell (B). A plant cell
+has its normal shape
+and pressure in an
+isotonic solution (C).
+Figure 8.3
+In a hypotonic solu-
+tion, water enters a
+cell by osmosis, caus-
+ing the cell to swell
+(A). Animal cells,
+like these red blood
+cells, may continue
+to swell until they
+burst (B). Plant cells
+swell beyond their
+normal size as pres-
+sure increases (C).
+Figure 8.4
+In a hypertonic solu-
+tion, water leaves a
+cell by osmosis, caus-
+ing the cell to shrink
+(A). Animal cells like
+these red blood cells
+shrivel up as they
+lose water (B). Plant
+cells lose pressure as
+the plasma mem-
+brane shrinks away
+from the cell wall (C).
+H2O
+H2O
+Water molecule
+Dissolved molecule
+H2O
+H2O
+Water molecule
+Dissolved molecule
+Magnification: unavailable
+Magnification: unavailable
+AA BB CC
+AA BB CC
+Magnification: unavailable
+AA BB CC
+0194-0200 C08S1 BDOL-829900  8/4/04  3:11 AM  Page 197
+
+
+===== PAGE 5 =====
+Plant cells in a hypertonic environ-
+ment lose water, mainly from the cen-
+tral vacuole. The plasma membrane
+and cytoplasm shrink away from the
+cell wall, as shown in Figure 8.4C.Loss
+of water in a plant cell results in a drop
+in pressure and explains why plants wilt.
+Passive Transport
+Some molecules, like water, can pass
+through the plasma membrane by sim-
+ple diffusion, as shown in Figure 8.5A.
+The cell uses no energy to move these
+particles; therefore, this movement of
+particles across the membrane is classi-
+fied as passive transport. Y ou can
+investigate passive transport by per-
+forming the MiniLab on this page.
+Passive transport by proteins
+Recall that transport proteins help
+substances move through the plasma
+membrane. Passive transport of mate-
+rials across the membrane using trans-
+port proteins is called facilitated
+diffusion. 
+Some transport proteins, called
+channel proteins, form channels that
+allow specific molecules to flow
+through, as illustrated in Figure 8.5B.
+198 CELLULAR TRANSPORT AND THE CELL CYCLE
+KS Studio
+Figure 8.5
+Passive transport
+can occur by (A)
+simple diffusion,
+(B) facilitated dif-
+fusion by channel
+proteins, and (C)
+facilitated diffusion
+by carrier proteins.
+Plasma
+membrane Concentration
+gradient
+Plasma
+membrane
+Concentration
+gradient
+Carrier proteins
+Step 1 Step 2
+Plasma
+membrane Concentration
+gradient
+Channel
+proteins
+AA BB
+CC
+Formulate Models
+Cell Membrane Simulation In this
+experiment, a plastic bag is used to
+model a selectively permeable mem-
+brane. Starch is placed inside of the
+bag. When iodine and starch mole-
+cules come in contact with one
+another, a dark purple color results. 
+Procedure
+! Fill a plastic bag with 50 mL of
+starch. Seal the bag with a 
+twist tie.
+@ Fill a beaker with 50 mL of iodine solution. CAUTION:
+Rinse with water if iodine gets on skin. Iodine is toxic.
+# Note and record the color of the starch and iodine.
+$ Place the bag into the beaker. CAUTION: Wash your hands
+with soap after handling lab materials.
+% Note and record the color of the starch and iodine 
+24 hours later.
+Analysis
+1. Describe Compare the color of the iodine and starch at
+the start and at the conclusion of the experiment.
+2. Observe Which molecules crossed the membrane? What
+is your evidence?
+3. Think Critically Evaluate whether or not a plastic bag is
+an adequate model of a selectively permeable membrane.
+0194-0200 C08S1 BDOL-829900  8/4/04  3:11 AM  Page 198
+
+
+===== PAGE 6 =====
+The movement is with the concentra-
+tion gradient, and requires no energy
+input from the cell.
+Carrier proteins are another type
+of transport protein. Carrier proteins
+change shape to allow a substance to
+pass through the plasma membrane,
+as shown in Figure 8.5C. In facili-
+tated diffusion by carrier protein, the
+movement is with the concentration
+gradient and requires no energy input
+from the cell.
+Active Transport
+A cell can move particles from a
+region of lower concentration to a
+region of higher concentration, but it
+must expend energy to counteract the
+force of diffusion that is moving the
+particles in the opposite direction.
+Movement of materials through a
+membrane against a concentration
+gradient is called active transport
+and requires energy from the cell.
+How active transport occurs
+In active transport, a transport
+protein called a carrier protein first
+binds with a particle of the substance
+to be transported. In general, each
+type of carrier protein has a shape
+that fits a specific molecule or ion.
+When the proper molecule binds
+with the protein, chemical energy
+allows the cell to change the shape of
+the carrier protein so that the particle
+to be moved is released on the other
+side of the membrane, something like
+the opening of a door. Once the par-
+ticle is released, the protein’s original
+shape is restored, as illustrated in
+Figure 8.6. Active transport allows
+particle movement into or out of a
+cell against a concentration gradient.
+T ransport of substances across the
+cell membrane is required for cells to
+maintain homeostasis. The types of
+transport are summarized in T able 8.1.
+Compare and 
+contrast active and passive trans-
+port across the cell membrane.
+8.1 CELLULAR TRANSPORT   199
+Carrier 
+proteins
+Cellular
+energy
+Step 1 Step 2
+Plasma
+membrane
+Concentration
+gradient
++
+Table 8.1 Transport Through the Cell Membrane
+Type of Transport Direction of Requires Energy Classification
+Transport Protein Used? Movement Input from Cell? of Transport
+Simple No With No Passive
+Diffusion concentration
+gradient
+Facilitated Yes—channel With No Passive
+Diffusion proteins or concentration 
+carrier proteins gradient
+Active Yes—carrier Against Yes Active
+Transport proteins concentration
+gradient
+Figure 8.6
+Carrier proteins are used in active transport to pick
+up ions or molecules from near the cell membrane,
+carry them across the membrane, and release them
+on the other side. Think Critically Why does active
+transport require energy?
+0194-0200 C08S1 BDOL-829900  8/4/04  3:12 AM  Page 199
+
+
+===== PAGE 7 =====
+Transport of Large
+Particles
+Some cells can take in large mole-
+cules, groups of molecules, or even
+whole cells. Endocytosis is a process
+by which a cell surrounds and takes in
+material from its environment as
+shown in Figure 8.7. This material
+does not pass directly through the
+membrane. Instead, it is engulfed and
+enclosed by a portion of the cell’s
+plasma membrane. That portion of the
+membrane then breaks away, and the
+resulting vacuole with its contents
+moves to the inside of the cell.
+Figure 8.7 also shows the reverse
+process of endocytosis, called exocy-
+tosis. Exocytosis is the expulsion or
+secretion of materials from a cell.
+Cells use exocytosis to expel wastes.
+They also use this method to secrete
+substances, such as hormones pro-
+duced by the cell. Because endocyto-
+sis and exocytosis both move masses
+of material, they both require
+energy.
+With the various mechanisms the
+cell uses to transport materials in and
+out, cells must also have mechanisms
+to regulate size and growth.
+Understanding Main Ideas
+1. What factors affect the diffusion of water
+through a membrane by osmosis?
+2. How do animal cells and plant cells react 
+differently in a hypotonic solution?
+3. Compare and contrast active transport and 
+facilitated diffusion.
+4. How do carrier proteins facilitate passive transport
+of molecules across a membrane?
+Thinking Critically
+5. A paramecium expels water when it is in fresh-
+water. What can you conclude about the concen-
+tration gradient in the organism’s environment? 
+6. Observe and Infer What effect do you think a
+temperature increase has on osmosis? For more
+help, refer to Observe and Infer in the Skill
+Handbook.
+SKILL REVIEWSKILL REVIEW
+200 CELLULAR TRANSPORT AND THE CELL CYCLE
+Exocytosis
+Nucleus
+Wastes
+Digestion
+Endocytosis
+Figure 8.7
+Some unicellular organisms ingest food by
+endocytosis and release wastes or cell prod-
+ucts from a vacuole by exocytosis.
+endo-, exo- from
+the Greek words
+endon, meaning
+“within,” and exo,
+meaning “out”;
+Endocytosis moves
+materials into the
+cell; exocytosis
+moves materials
+out of the cell.
+nc.bdol.glencoe.com/self_check_quiz 
+0194-0200 C08S1 BDOL-829900  8/4/04  3:13 AM  Page 200
+
+
+===== PAGE 8 =====
+8.2 
+SECTION PREVIEW
+Objectives
+Sequence the events of
+the cell cycle.
+Relate the function of a
+cell to its organization in
+tissues, organs, and organ
+systems.
+Review Vocabulary
+organelle: the membrane-
+bound structures within
+eukaryotic cells (p. 173)
+New Vocabulary
+chromosome
+chromatin
+cell cycle
+interphase
+mitosis
+prophase
+sister chromatid
+centromere
+centriole
+spindle
+metaphase
+anaphase
+telophase
+cytokinesis
+tissue
+organ
+organ system
+8.2 CELL GROWTH AND REPRODUCTION   201
+Cell Size Limitations
+The cells that make up a multicellular organism come in a wide variety
+of sizes and shapes. Some cells, such as red blood cells, measure only
+8 /H9262m (micrometers) in diameter. Other cells, such as nerve cells in large
+animals, can reach lengths of up to 1 m but have small diameters. The cell
+with the largest diameter is the yolk of an ostrich egg measuring 8 cm.
+Most living cells, however, are between 2 and 200 µm in diameter.
+Considering this wide range of cell sizes, why then can’t most organisms
+be just one giant cell?
+Diffusion limits cell size
+Y ou know that the plasma membrane allows nutrients to enter the 
+cell and wastes to leave. Within the cell, nutrients and wastes move by
+diffusion.
+Although diffusion is a fast and efficient process over short distances, it
+becomes slow and inefficient as the distances become larger. Imagine a
+mitochondrion at the center of a cell with a diameter of 20 cm. It would
+have to wait months before receiving molecules entering the cell. Because
+of the slow rate of diffusion, organisms can’t be just one giant-sized cell. 
+What makes up your body?
+Using an Analogy Where do you live? This question sounds simple
+enough, but it has many answers. Y ou live at a certain address, which
+is a part of a city. Many cities and towns form the state in which you
+live. The states form a country. Some tasks are performed by the
+country as a whole, while others are performed by states, cities, or
+individuals. In the
+same way, your body
+cells are parts of tis-
+sues, organs, organ
+systems, and the body
+as a whole. 
+Compare and Contrast
+Cells in multicellular and
+unicellular organisms
+undergo cell division.
+Which type of cells do you
+think is more specialized?
+Cell Growth and
+Reproduction
+0201-0210 C08S2 BDOL-829900  8/4/04  3:28 AM  Page 201
+
+
+===== PAGE 9 =====
+DNA limits cell size
+Y ou have learned that the nucleus
+contains blueprints for the cell’s pro-
+teins. Proteins are used throughout
+the cell by almost all organelles to
+perform critical cell functions. But
+there is a limit to how quickly the
+blueprints for these proteins can be
+copied in the nucleus and made into
+proteins in the cytoplasm. The cell
+cannot survive unless there is enough
+DNA to support the protein needs of
+the cell.
+What happens in larger cells where
+an increased amount of cytoplasm
+requires increased supplies of enzymes?
+In many large cells, such as the giant
+amoeba Pelomyxashown in Figure 8.8,
+more than one nucleus is present.
+Large amounts of DNA in many nuclei
+ensure that cell activities are carried out
+quickly and efficiently.
+Surface area-to-volume ratio
+Another size-limiting factor is the
+cell’s surface area-to-volume ratio. As
+a cell’s size increases, its volume
+increases much faster than its surface
+area. Picture a cube-shaped cell like
+those shown in Figure 8.9.The small-
+est cell has 1 mm sides, a surface area
+of 6 mm2, and a volume of 1 mm 3. If
+the side of the cell is doubled to 2 mm,
+the surface area will increase fourfold
+to 6 /H110032 /H110032 /H1100524 mm2. Observe what
+happens to the volume; it increases
+eightfold to 8 mm3.
+What does this mean for cells?
+How does the surface area-to-volume
+ratio affect cell function? If cell size
+doubled, the cell would require eight
+times more nutrients and would have
+eight times more waste to excrete.
+202 CELLULAR TRANSPORT AND THE CELL CYCLE
+Michael Abbey/Visuals Unlimited
+4 mm
+4 mm4 mm
+2 mm
+2 mm2 mm
+1 mm
+1 mm 1 mm
+Surface area = 6 mm2
+Volume = 1 mm3
+Surface area = 24 mm2
+Volume = 8 mm3
+Figure 8.9
+Surface area-to-volume ratio is one of the factors that limits cell size.
+Note how the surface area and the volume change as the sides of a cell
+double in length from 1 mm to 2 mm. 
+Figure 8.8
+This giant amoeba is
+only several millimeters
+in diameter, but it can
+have up to 1000 nuclei.
+Explain How does
+this benefit the
+organism?
+LM Magnification: 100 /H11003
+0201-0210 C08S2 BDOL-829900  8/4/04  3:29 AM  Page 202
+
+
+===== PAGE 10 =====
+8.2 CELL GROWTH AND REPRODUCTION   203
+The surface area, however, would
+increase by a factor of only four.
+Thus, the plasma membrane would
+not have enough surface area
+through which oxygen, nutrients, and
+wastes could diffuse. The cell would
+either starve to death or be poisoned
+from the buildup of waste products.
+Y ou can investigate surface area-to-
+volume ratios yourself in the
+Problem-Solving Lab shown here.
+Because cell size can have dramatic
+and negative effects on a cell, cells
+must have some method of maintain-
+ing optimum size. In fact, cells divide
+before they become too large to func-
+tion properly. Cell division accom-
+plishes other purposes, too, as you
+will read next.
+Cell Reproduction
+Recall that the cell theory states
+that all cells come from preexisting
+cells. Cell division is the process by
+which new cells are produced from
+one cell. Cell division results in two
+cells that are identical to the origi-
+nal, parent cell. Right now, as you
+are reading this page, many of the
+cells in your body are growing,
+dividing, and dying. Old cells on 
+the soles of your feet and on the
+palms of your hands are being shed
+and replaced, cuts and bruises are
+healing, and your intestines are pro-
+ducing millions of new cells each
+second. New cells are produced as
+tadpoles become frogs, and as an ivy
+vine grows and wraps around a
+garden trellis. All organisms grow
+and change; worn-out tissues are
+repaired or are replaced by newly
+produced cells. 
+Explain two reasons
+why cell division is a required cell
+process.
+The discovery of chromosomes
+Early biologists observed that just
+before cell division, several short,
+stringy structures suddenly appeared
+in the nucleus. Scientists also noticed
+that these structures seemed to vanish
+soon after division of a cell. These
+structures, which contain DNA and
+become darkly colored when stained,
+are called chromosomes (KROH muh
+sohmz).
+Eventually, scientists learned that
+chromosomes are the carriers of the
+genetic material that is copied and
+passed from generation to generation
+of cells. This genetic material is cru-
+cial to the identity of the cell.
+Accurate transmission of chromo-
+somes during cell division is critical.
+chromosome from
+the Greek words
+chroma, meaning
+“colored,” and
+soma, meaning
+“body”; Chromo-
+somes are dark-
+staining structures
+that contain
+genetic material.
+Draw Conclusions
+What happens to the surface area of a cell as its volume
+increases? One reason cells are small is that they need a
+large surface area as compared to volume so nutrients can dif-
+fuse in and wastes can diffuse out.
+Solve the Problem 
+Look at the cubes shown below. Note the size and magnitude
+of difference in surface area and volume. 
+Thinking Critically
+1. Estimate How many small cubes (1 mm) do you think it
+would take to fill the largest cube (4 mm)?
+2. Use Models Using the cubes as models, describe how a
+cell is affected by its size. 
+3. Infer Explain how a small change in cell size can have a
+huge impact on cellular processes.
+4 mm4 mm
+4 mm
+2 mm
+2 mm
+2 mm1 mm
+1 mm
+1 mm
+Surface area /H11005 6 mm2
+Volume /H11005 1 mm3
+Surface area /H11005 24 mm2
+Volume /H11005 8 mm3
+0201-0210 C08S2 BDOL-829900  8/4/04  3:29 AM  Page 203
+
+
+===== PAGE 11 =====
+The structure of eukaryotic 
+chromosomes
+For most of a cell’s lifetime, chro-
+mosomes exist as chromatin, long
+strands of DNA wrapped around
+proteins called histones. Under an
+electron microscope, chromatin
+looks like beads on a string. Each
+bead is a group of histones called a
+nucleosome. Before a cell can divide,
+the long strands of chromatin must
+be reorganized, just as you would coil
+a long strand of rope before storing
+it. As the nucleus begins to divide,
+chromosomes take on a different
+structure in which the chromatin
+becomes tightly packed. Look at
+Figure 8.10 for more information on
+chromosome structure.
+The Cell Cycle
+Fall follows summer, night follows
+day, and low tide follows high tide.
+Many events in nature follow a recur-
+ring, cyclical pattern. Living organisms
+are no exception. One cycle common
+to most living things is the cycle of the
+cell. The cell cycle is the sequence of
+growth and division of a cell.
+As a cell proceeds through its cycle,
+it goes through two general periods: a
+period of growth and a period of divi-
+sion. The majority of a cell’s life is
+spent in the growth period known as
+interphase. During interphase, a cell
+grows in size and carries on metabo-
+lism. Also during this period, chromo-
+somes are duplicated in preparation
+for the period of division.
+Following interphase, a cell enters
+its period of nuclear division called
+mitosis (mi TOH sus). Mitosis is the
+process by which two daughter cells
+are formed, each containing a com-
+plete set of chromosomes. Interphase
+and mitosis make up the bulk of the
+cell cycle. Following mitosis, the
+cytoplasm divides, separating the two
+daughter cells. Y ou can use the
+Problem-Solving Lab on this page and
+the BioLab at the end of this chapter
+to investigate the rate of mitosis.
+204 CELLULAR TRANSPORT AND THE CELL CYCLE
+Observe and Infer
+How does the length of the cell cycle vary? The cell cycle
+varies greatly in length from one kind of cell to another. Some
+kinds of cells divide rapidly, while others divide more slowly.
+Solve the Problem
+Examine the cell cycle diagrams of two different types of cells.
+Observe the total length of each cell cycle and the length of
+time each cell spends in each phase of the cell cycle.
+Thinking Critically
+1. Make and Use Graphs Which part of the cell cycle is
+most variable in length? 
+2. Infer What can you infer about the functions of these
+two types of cells? 
+3. Think Critically Why do you think the cycle of some
+types of cells is faster than in others? Explain your 
+answer.
+7 hours 3 hours
+Mitosis
+1 hour
+11 hours
+Interphase
+Total = 22 hours
+37 hours
+7 hours
+Mitosis
+1 hourInterphase
+Total = 48 hours
+3 hours
+0201-0210 C08S2 BDOL-829900  8/4/04  3:30 AM  Page 204
+
+
+===== PAGE 12 =====
+Histone H1
+Nucleosome
+DNA
+Centromere
+Sister
+chromatids
+Chromosome Supercoil within 
+chromosome
+Continued coiling
+within supercoil
+Chromosome Structure
+Figure 8.10
+The chromosomes of a eukaryotic cell undergo changes in shape
+and structure during the different phases of the cell cycle. A
+metaphase chromosome is a compact arrangement of DNA and
+proteins. During interphase, the chromosomes are long and tan-
+gled, resembling a plate of spaghetti. Critical Thinking Why is it
+important for the chromosomes to be compact and untan-
+gled during mitosis?
+8.2 CELL GROWTH AND REPRODUCTION   205
+0201-0210 C08S2 BDOL-829900  8/4/04  3:30 AM  Page 205
+
+
+===== PAGE 13 =====
+Interphase: 
+A Busy Time
+Interphase, the busiest phase of the
+cell cycle, is divided into three parts
+as shown in Figure 8.11. During the
+first part, the cell grows and protein
+production is high. In the next part of
+interphase, the cell copies its chro-
+mosomes. DNA synthesis does not
+occur all through interphase but 
+is confined to this specific time. 
+After the chromosomes have been
+duplicated, the cell enters another
+shorter growth period in which mito-
+chondria and other organelles are
+manufactured and cell parts needed
+for cell division are assembled.
+Following this activity, interphase
+ends and mitosis begins.
+The Phases of Mitosis
+Cells undergo mitosis as they
+approach the maximum cell size at
+which the nucleus can provide blue-
+prints for proteins, and the plasma
+membrane can efficiently transport
+nutrients and wastes into and out of
+the cell.
+Although cell division is a continu-
+ous process, biologists recognize four
+distinct phases of mitosis—each phase
+merging into the next. The four phases
+of mitosis are prophase, metaphase,
+anaphase, and telophase. Refer to
+Figure 8.13 to help you understand
+the process as you read about mitosis. 
+Prophase: The first phase 
+of mitosis
+During prophase, the first and
+longest phase of mitosis, the long,
+stringy chromatin coils up into visible
+chromosomes. As you can see in
+Figure 8.12, each duplicated chro-
+mosome is made up of two halves.
+The two halves of the doubled struc-
+ture are called sister chromatids.
+Sister chromatids and the DNA they
+contain are exact copies of each other
+and are formed when DNA is copied
+during interphase. Sister chromatids
+are held together by a structure called
+a centromere, which plays a role in
+chromosome movement during mito-
+sis. By their characteristic location,
+centromeres also help scientists iden-
+tify and study chromosomes.
+As prophase continues, the nucleus
+begins to disappear as the nuclear enve-
+lope and the nucleolus disintegrate. 
+206 CELLULAR TRANSPORT AND THE CELL CYCLE
+DNA synthesis
+and replication
+Rapid growth
+and metabolic activity
+Centrioles replicate; 
+cell prepares
+for division
+Interphase
+Mitosis
+CytokinesisFigure 8.11
+In preparation for
+mitosis, most of the
+time spent in the cell
+cycle is in interphase.
+The process of mitosis,
+represented here by
+the yellow wedge, is
+shown in detail in
+Figure 8.13.
+Sister 
+chromatids
+Centromere
+Figure 8.12
+The two sister chromatids
+are held together by a
+centromere.
+0201-0210 C08S2 BDOL-829900  8/4/04  3:31 AM  Page 206
+
+
+===== PAGE 14 =====
+8.2 CELL GROWTH AND REPRODUCTION   207
+(t ct b)Ed Reschke/Peter Arnold, Inc., (cb)Carolina Biological Supply/Phototake, NYC
+Figure 8.13
+Mitosis begins after interphase. Follow the stages
+of mitosis as you read the text. The diagrams and
+the photos show mitosis in plant cells.
+Anaphase
+The centromeres
+split and the sister
+chromatids are
+pulled apart to
+opposite poles of
+the cell.
+CC
+Stained LM Magnification: 500 /H11003
+Stained LM Magnification: 360 /H11003
+Spindle fibers
+Disappearing
+nuclear envelope
+Doubled 
+chromosome
+Centromere
+Sister chromatids
+Nuclear 
+envelope
+reappears
+Two daughter
+cells are formed
+Prophase
+The chromatin coils
+to form visible
+chromosomes.
+AA
+Telophase
+Two distinct
+daughter cells are
+formed. The cells
+separate as the cell
+cycle proceeds into
+the next interphase.
+DD
+Metaphase
+The chromosomes
+move to the equator
+of the spindle.
+BB
+Stained LM Magnification: 400 /H11003
+Stained LM Magnification: 640 /H11003
+0201-0210 C08S2 BDOL-829900  8/4/04  3:31 AM  Page 207
+
+
+===== PAGE 15 =====
+208 CELLULAR TRANSPORT AND THE CELL CYCLE
+Barry King, University of California, School of Medicine/Biological Photo Service
+Figure 8.14
+Centrioles duplicate during interphase. In the pho-
+tomicrograph, one centriole is cut crosswise and the
+other longitudinally.
+Microtubule
+Magnification: unavailable
+By late prophase, these structures are
+completely absent. In animal cells,
+two important pairs of structures, the
+centrioles, begin to migrate to oppo-
+site ends of the cell. Centrioles are
+small, dark, cylindrical structures that
+are made of microtubules and are
+located just outside the nucleus,  as
+shown in Figure 8.14. Centrioles
+play a role in chromatid separation.
+As the pairs of centrioles move to
+opposite ends of the cell, another
+important structure, called the spindle,
+begins to form between them. The
+spindle is a football-shaped, cagelike
+structure consisting of thin fibers made
+of microtubules. In plant cells, the
+spindle forms without centrioles. The
+spindle fibers play a vital role in the
+separation of sister chromatids during
+mitosis.
+Metaphase: The second 
+stage of mitosis
+During metaphase, the short sec-
+ond phase of mitosis, the doubled
+chromosomes become attached to the
+spindle fibers by their centromeres.
+The chromosomes are pulled by the
+spindle fibers and begin to line up on
+the midline, or equator, of the spin-
+dle. Each sister chromatid is attached
+to its own spindle fiber. One sister
+chromatid’s spindle fiber extends to
+one pole, and the other extends to the
+opposite pole. This arrangement is
+important because it ensures that
+each new cell receives an identical and
+complete set of chromosomes.
+Anaphase: The third 
+phase of mitosis
+The separation of sister chro-
+matids marks the beginning of
+anaphase, the third phase of mito-
+sis. During anaphase, the cen-
+tromeres split apart and chromatid
+pairs from each chromosome sepa-
+rate from each other. The chro-
+matids are pulled apart by the
+shortening of the microtubules in
+the spindle fibers.
+Centriole
+0201-0210 C08S2 BDOL-829900  8/4/04  3:31 AM  Page 208
+
+
+===== PAGE 16 =====
+Telophase: The fourth 
+phase of mitosis
+The final phase of mitosis is
+telophase. T elophase begins as the
+chromatids reach the opposite poles of
+the cell. During telophase, many of the
+changes that occurred during prophase
+are reversed as the new cells prepare for
+their own independent existence. The
+chromosomes, which had been tightly
+coiled since the end of prophase, now
+unwind so they can begin to direct the
+metabolic activities of the new cells.
+The spindle begins to break down, the
+nucleolus reappears, and a new nuclear
+envelope forms around each set of chro-
+mosomes. Finally, a new double mem-
+brane begins to form between the two
+new nuclei.
+Cytokinesis
+Following telophase, the cell’s cyto-
+plasm divides in a process called
+cytokinesis (si toh kih NEE sus).
+Cytokinesis differs between plants and
+animals. T oward the end of telophase
+in animal cells, the plasma membrane
+pinches in along the equator as shown
+in Figure 8.15. As the cell cycle pro-
+ceeds, the two new cells are separated.
+Find out more about mitosis in animal
+cells in the MiniLab.
+Plant cells have a rigid cell wall, 
+so the plasma membrane does not
+pinch in. Rather, a structure known as
+the cell plate is laid down across the
+cell’s equator. A cell membrane forms
+around each cell, and new cell walls
+form on each side of the cell plate until
+separation is complete.
+8.2 CELL GROWTH AND REPRODUCTION   209
+(t)Ed Reschke/Peter Arnold, Inc., (b)David M. Phillips/Visuals Unlimited
+Compare and Contrast
+Seeing Asters The result of the
+process of mitosis is similar in plant
+and animal cells. However, animal
+cells develop structures called
+asters that are thought to serve as
+a brace for the spindle fibers,
+while plant cells do not develop
+asters.
+Procedure
+! Examine a slide showing fish mitosis 
+under low- and high-power magnification. 
+CAUTION: Use care when handling prepared slides.
+@ Find cells that are undergoing mitosis. You will be able to
+see dark-stained rodlike structures within certain cells.
+These structures are chromosomes.
+# Note the appearance and location of asters. They will
+appear as ray or starlike structures at opposite ends of
+cells that are in metaphase. 
+$ Asters may also be observed in cells that are in other
+phases of the cell cycle.
+Analysis
+1. Describe What is the location of asters in cells that are in
+prophase?
+2. Infer How do you know that asters are not critical to 
+mitosis?
+3. Use Models Sketch and label a plant cell and an animal
+cell in prophase. 
+Asters
+Stained LM Magnification: 250 /H11003
+Figure 8.15
+The furrow, created when proteins positioned under
+the plasma membrane at the equator of this frog
+cell contracted and slid past each other, will deepen
+until the cell is pinched in two.
+Color-enhanced SEM Magnification: 25 /H11003
+0201-0210 C08S2 BDOL-829900  8/4/04  3:32 AM  Page 209
+
+
+===== PAGE 17 =====
+Understanding Main Ideas
+1. Describe how a cell’s surface area-to-volume ratio
+limits its size.
+2. Why is it necessary for a cell’s chromosomes to be
+distributed to its daughter cells in such a precise
+manner?
+3. Relate cells to each level of organization in a 
+multicellular organism.
+4. In multicellular organisms, describe two cellular
+specializations that result from mitosis.
+Thinking Critically
+5. At one time, interphase was referred to as the
+resting phase of the cell cycle. Why do you think
+this description is no longer used?
+6. Get the Big Picture Make a table sequencing
+the phases of the cell cycle. Mention one impor-
+tant event that occurs at each phase. For more
+help, refer to Get the Big Picture in the Skill
+Handbook.
+SKILL REVIEWSKILL REVIEW
+210 CELLULAR TRANSPORT AND THE CELL CYCLE
+Tissue 
+(muscle tissue)
+Cell 
+(muscle cell)
+Organ 
+(stomach)
+Organ system 
+(digestive system)
+Organism 
+(Florida panther)
+Figure 8.16
+Cells of complex multicellular organisms are organized into tissues,
+organs, and organ systems. Sequence What levels of organization
+is a human blood cell a part of?
+Results of Mitosis
+Mitosis is a process that guarantees
+genetic continuity, resulting in the
+production of two new cells with
+chromosome sets that are identical to
+those of the parent cell. These new
+daughter cells will carry out the same
+cellular processes and functions as
+those of the parent cell and will grow
+and divide just as the parent cell did.
+When mitosis is complete, unicellu-
+lar organisms remain as single cells—
+the organism simply multiplied. In
+multicellular organisms, cell growth
+and reproduction result in groups of
+cells that work together as tissue to
+perform a specific function. Tissues
+organize in various combinations to
+form organs that perform more com-
+plex roles within the organism. For
+example, cells make up muscle tissue, 
+then muscle tissue works with other
+tissues in the organ called the stomach
+to mix up food. Multiple organs that
+work together form an organ system.
+The stomach is one organ in the diges-
+tive system, which functions to break
+up and digest food. 
+All organ systems work together
+for the survival of the organism,
+whether the organism is a fly or a
+human. Figure 8.16 shows an exam-
+ple of cell specialization and organiza-
+tion for a complex organism. In
+addition to its digestive system, the
+panther has a number of other organ
+systems that have developed through
+cell specialization. It is important to
+remember that no matter how com-
+plex the organ system or organism
+becomes, the cell is still the most
+basic unit of that organization. 
+nc.bdol.glencoe.com/self_check_quiz 
+0201-0210 C08S2 BDOL-829900  8/4/04  3:32 AM  Page 210
+
+
+===== PAGE 18 =====
+8.3
+SECTION PREVIEW
+Objectives
+Describe the role of
+enzymes in the regulation
+of the cell cycle.
+Distinguish between the
+events of a normal cell
+cycle and the abnormal
+events that result in 
+cancer.
+Identify ways to poten-
+tially reduce the risk of
+cancer.
+Review Vocabulary
+protein: a large complex
+polymer composed of
+carbon, hydrogen, 
+oxygen, nitrogen, and
+sometimes sulfur (p. 160)
+New Vocabulary
+cancer
+gene
+8.3 CONTROL OF THE CELL CYCLE   211
+Normal Control of the Cell Cycle
+Why do some types of cells divide rapidly, while others divide slowly?
+What tells a cell when it is time to leave one part of the cell cycle and
+begin the next?
+Proteins and enzymes control the cell cycle
+The cell cycle is controlled by proteins called cyclins and a set of
+enzymes that attach to the cyclin and become activated. The interaction
+of these molecules, based on conditions both in the cell’s environment
+and inside the cell, controls the cell cycle. Occasionally, cells lose control
+of the cell cycle. This uncontrolled dividing of cells can result from the
+failure to produce certain enzymes, the overproduction of enzymes, or
+the production of other enzymes at the wrong time. Cancer is a malig-
+nant growth resulting from uncontrolled cell division. This loss of con-
+trol may be caused by environmental factors or by changes in enzyme
+production.
+Enzyme production is directed by genes located on the chromosomes.
+A gene is a segment of DNA that controls the production of a protein.
+Many studies point to the portion of interphase just before DNA repli-
+cation as being a key control period in the cell cycle. Scientists have iden-
+tified several enzymes that trigger DNA replication.
+Getting Control
+Finding Main Ideas As 
+you read through the sec-
+tion on control of the cell
+cycle, answer the following
+questions.
+Study Organizer 
+1. Enzymes control the cell
+cycle. What controls
+enzyme production?
+2. What are two environ-
+mental factors that 
+contribute to the develop-
+ment of cancer? List any
+possible ways you can
+influence these factors.
+3. How does a person’s diet
+relate to the chances of
+getting cancer?
+Luis M. De La Maza, PhD.M.D./Phototake, NYC
+Color-enhanced SE M Magnification: 7500 /H11003
+Control of the Cell Cycle
+This tumor is developing due to a mistake in
+the cell cycle.
+Objective 2.04 Investigate and describe the structure
+and function of enzymes and explain their importance in biological systems.
+North Carolina Objectives
+0211-0219 C08S3 BDOL-829900  8/4/04  3:49 AM  Page 211
+
+
+===== PAGE 19 =====
+Cancer: A Mistake 
+in the Cell Cycle
+Currently, scientists consider can-
+cer to be a result of changes in one or
+more of the genes that produce sub-
+stances that are involved in control-
+ling the cell cycle. These changes are
+expressed as cancer when something
+prompts the damaged genes into
+action. Cancerous cells form masses
+of tissue called tumors that deprive
+normal cells of nutrients. In later
+stages, cancer cells enter the circula-
+tory system and spread throughout
+the body, a process called metastasis,
+forming new tumors that disrupt the
+function of organs, organ systems,
+and ultimately, the organism. 
+Cancer is the second leading cause
+of death in the United States,
+exceeded only by heart disease. Can-
+cer can affect any tissue in the body. In
+the United States, lung, colon, breast,
+and prostate cancers are the most
+prevalent types. Use the Problem-
+Solving Lab on this page to estimate
+the number of people in the United
+States who will develop these kinds of
+cancers in this decade, and how many
+people are expected to die from can-
+cers. The Connection to Health feature
+at the end of this chapter further dis-
+cusses skin cancer.
+Infer why cancer is
+difficult to treat in later stages.
+The causes of cancer
+The causes of cancer are difficult to
+pinpoint because both genetic and
+environmental factors are involved.
+The environmental influences of can-
+cer become obvious when you con-
+sider that people in different
+countries develop different types 
+of cancers at different rates. For
+example, the rate of breast cancer is
+relatively high in the United States,
+but relatively low in Japan. Similarly,
+stomach cancer is common in Japan,
+but rare in the United States. 
+Other environmental factors, such
+as cigarette smoke, air and water 
+pollution, and exposure to ultra-
+violet radiation from the sun, are all
+known to damage the genes that
+control the cell cycle. Cancer may
+also be caused by viral infections that
+damage the genes.
+212 CELLULAR TRANSPORT AND THE CELL CYCLE
+Interpret Data
+How does the incidence of cancer vary? Cancer affects
+many different body organs. In addition, the same body organ,
+such as our skin, can be affected by several different types of
+cancer. Some types of cancer are more treatable than others.
+Use the following graph to analyze the incidence of cancer.
+Thinking Critically
+1. Make and Use Graphs Which cancer type is most com-
+mon? Least common?
+2. Interpret Data Which cancer type seems to be least treat-
+able? Most treatable?
+3. Interpret Data Using breast cancer as an example, calcu-
+late the percent of survival for this cancer type. 
+4. Use Numbers Approximately what percentage of new
+cancer cases in the United States in 2000 were lung 
+cancer?
+20 000
+60 000
+100 000
+140 000
+180 000
+220 000
+260 000
+300 000
+340 000
+760 000
+800 000
+840 000
+Kind of cancer
+Number of cases
+Breast Lung
+Prostate
+Skin:         
+    basal 
+cell 
+and      
+squamous
+ 
+Skin:
+melanoma
+Colon
+Cancer Rates in the United States (2000)
+Estimated new cases
+Estimated deaths
+0211-0219 C08S3 BDOL-829900  8/4/04  3:50 AM  Page 212
+
+
+===== PAGE 20 =====
+Cancer prevention
+From recent and ongoing investi-
+gations, scientists have established a
+clear link between a healthy lifestyle
+and the incidence of cancer.
+Physicians and dietary experts
+agree that diets low in fat and high in
+fiber content can reduce the risk of
+many kinds of cancer. For example,
+diets high in fat have been linked to
+increased risk for colon, breast, and
+prostate cancers, among others.
+People who consume only a minimal
+amount of fat reduce the potential
+risk for these and other cancers and
+may also maintain a healthy body
+weight more easily. In addition,
+recent studies suggest that diets high
+in fiber are associated with reduced
+risk for cancer, especially colon can-
+cer. Fruits, vegetables, and grain
+products are excellent dietary options
+because of their fiber content and
+because they are naturally low in fat.
+The foods displayed in Figure 8.17
+illustrate some of the choices that are
+associated with cancer prevention.
+Vitamins and minerals may also
+help prevent cancer. Key in this cate-
+gory are carotenoids, vitamins A, C,
+and E, and calcium. Carotenoids are
+found in foods such as yellow and
+orange vegetables and green leafy
+vegetables. Citrus fruits are a great
+source of vitamin C, and many dairy
+products are rich in calcium.
+In addition to diet, other healthy
+choices such as daily exercise and not
+using tobacco also are known to
+reduce the risk of cancer. 
+Understanding Main Ideas
+1. Do all cells complete the cell cycle in the same
+amount of time?
+2. Describe how enzymes control the cell cycle.
+3. How can disruption of the cell cycle result in cancer?
+4. How does cancer affect normal cell functioning?
+Thinking Critically
+5. What evidence shows that the environment influ-
+ences the occurrence of cancer?
+6. Recognize Cause and Effect Although not 
+all cancers are preventable, some lifestyle 
+choices, such as a healthy diet and regular 
+exercise, can decrease your cancer risk. Give 
+a summary of how these two lifestyle choices 
+could be implemented by teens. For more 
+help, refer to Recognize Cause and Effect in 
+the Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+8.3 CONTROL OF THE CELL CYCLE   213
+KS Studios/Bob Mullenix
+Figure 8.17
+A healthy diet may
+reduce your risk of 
+cancer. Classify What
+types of food make
+up a diet that
+reduces the risk 
+of cancer?
+nc.bdol.glencoe.com/self_check_quiz 
+0211-0219 C08S3 BDOL-829900  8/4/04  3:51 AM  Page 213
+
+
+===== PAGE 21 =====
+214 CELLULAR TRANSPORT AND THE CELL CYCLE
+Y
+X
+AA
+Before You Begin
+Mitosis and the resulting
+multiplication of cells are
+responsible for the growth
+of an organism. Does mito-
+sis occur in all areas of an
+organism at the same rate,
+or are there certain areas
+within an organism where
+mitosis occurs more often?
+You will answer this ques-
+tion in this BioLab. Your
+organism will be an onion,
+and the areas you are
+going to investigate will
+be different locations in 
+its root.
+Where is mitosis most
+common?
+Problem
+Does mitosis occur at the same rate in all of the parts of an
+onion root?
+Objectives
+In this BioLab, you will:
+■ Observe cells in two different root areas.
+■ Identify the stages of mitosis in each area.
+Materials
+prepared slide of onion root tip
+microscope
+Skill Handbook
+If you need help with this lab, refer to the Skill Handbook.
+Safety Precautions
+CAUTION: Report any glass breakage to your teacher.
+1. Using diagram A as a guide, locate area X on a 
+prepared slide of onion root tip.
+2. Place the prepared slide under your microscope and use
+low power to locate area X. CAUTION: Use care when han-
+dling prepared slides.
+3. Switch to high power. 
+4. Using diagram B as a guide:
+a. Identify those cells that are in mitosis and those cells
+that are in interphase. 
+b. Create a data table. Record the number of cells
+observed in each phase of mitosis and interphase for
+area X. Note: It will be easier to count and keep track
+of cells by following rows. See diagram C as a guide to
+counting.
+5. Using diagram A again, locate area Y on the same pre-
+pared slide.
+PROCEDUREPROCEDURE
+PREPARATIONPREPARATION
+0211-0219 C08S3 BDOL-829900  8/4/04  3:52 AM  Page 214
+
+
+===== PAGE 22 =====
+High-power view
+Start
+counting
+here
+End
+counting
+here
+Interphase
+Prophase
+Metaphase
+Anaphase
+Telophase
+8.3 CONTROL OF THE CELL CYCLE   215
+BB
+CC
+6. Place the prepared slide under your microscope and use low power to locate
+area Y.
+7. Switch to high power.
+8. Using diagram B as a guide:
+a. Identify those cells that are in mitosis and those that are in interphase. 
+b. Record in the data table the number of cells observed in each phase of
+mitosis and interphase for area Y.
+9. Clean all equipment as instructed by your teacher,
+and return everything to its proper place.
+CLEANUP AND DISPOSAL
+ANALYZE AND CONCLUDEANALYZE AND CONCLUDE
+1. Observe Which area of the onion root tip (X or Y) had the greatest per-
+centage of cells undergoing mitosis? The lowest? Use specific totals from
+your data table to support your answer.
+2. Predict If mitosis is associated with rapid
+growth, where do you believe is the location
+of most rapid root growth, area X or Y?
+Explain your answer.
+3. Apply Where might you look for cells in the
+human body that are undergoing mitosis? 
+4. Think Critically Assume that you were not
+able to observe cells in every phase of mito-
+sis. Explain why this might be, considering
+the length of each phase.
+5. What factors might cause
+misleading results? How could you avoid
+these problems?
+ERROR ANALYSIS
+Make and Use Graphs Prepare a circle
+graph that shows the total number of cells
+counted in area X and the percentage of cells
+in each phase of mitosis.
+Web Links To find out 
+more about mitosis, visit
+nc.bdol.glencoe.com/mitosis
+0211-0219 C08S3 BDOL-829900  8/4/04  3:56 AM  Page 215
+
+
+===== PAGE 23 =====
+216 CELLULAR TRANSPORT AND THE CELL CYCLE
+Skin Cancer
+S
+kin cancer accounts for one-third of all
+malignancies diagnosed in the United States,
+and the incidence of skin cancer is increasing.
+Most cases are caused by exposure to harmful
+ultraviolet rays emitted by the sun, so skin cancer
+most often develops on the exposed face or neck.
+The people most at risk are those whose fair skin
+contains smaller amounts of a protective pigment
+called melanin.
+Skin is composed of two layers of tissue, the
+epidermis and the dermis. The epidermis is the
+part that we see on the surface of our bodies and
+is composed of multiple layers of closely packed
+cells. As the cells reach the surface, they die and
+become flattened. Eventually they flake away. T o
+replace the loss, cells on the innermost layer of
+the epidermis are constantly dividing.
+Y our body has a natural protection system to
+shield skin cells from potentially harmful rays
+of the sun. A pigment called melanin is pro-
+duced by cells called melanocytes and absorbs
+the UV rays before they reach basal cells.
+Types of skin cancers Uncontrolled divi-
+sion of epidermal cells leads to skin cancer.
+Squamous cell carcinoma is a common type of
+skin cancer that affects cells throughout the
+epidermis. Squamous cell cancer takes the
+form of red or pink tumors that can grow rap-
+idly and spread. Precancerous growths pro-
+duced by sun-damaged basal cells can become
+basal cell carcinoma, another common type of
+skin cancer. In basal cell carcinoma, the can-
+cerous cells are from the layer of the epidermis
+that replenishes the shed epithelial cells. Both
+squamous cell carcinoma and basal cell carci-
+noma are usually discovered when they are
+small and can be easily removed in a doctor’s
+office. Both types also respond to treatment
+such as surgery, chemotherapy, and radiation
+therapy. 
+The most lethal skin cancer is malignant
+melanoma. Melanomas are cancerous growths of
+the melanocytes that normally protect other cells
+in the epithelium from the harmful rays of the
+sun. An important indication of a melanoma can
+be a change in color of an area of skin to a vari-
+ety of colors including black, brown, red, dark
+blue, or gray. A single melanoma can have several
+colors within the tumor. Melanomas can also
+form at the site of moles. Melanomas can be dan-
+gerous because cancerous cells from the tumor
+can travel to other areas of the body before the
+melanoma is detected. Early detection is essen-
+tial, and melanomas can be surgically removed.
+Dixie Knight/Medichrome/The Stock Shop
+Describe Scientists know that the UV rays of 
+sunlight can contribute to skin cancer. Write a para-
+graph describing how you can minimize the risk.
+To find out more about skin cancer, visit 
+nc.bdol.glencoe.com/health
+Epidermis
+Melanocytes
+Melanin
+granulesDermis
+Structure of the skin
+Melanoma
+0211-0219 C08S3 BDOL-829900  8/4/04  3:59 AM  Page 216
+
+
+===== PAGE 24 =====
+Section 8.1
+STUDY GUIDESTUDY GUIDE
+CHAPTER 8 ASSESSMENT   217
+Luis M. De La Maza, PhD.M.D./Phototake, NYC
+Section 8.2
+Section 8.3
+To help you review
+osmosis, use the Organizational Study
+Fold on page 195.
+Key Concepts
+■ Osmosis is the diffusion of water through a
+selectively permeable membrane.
+■ Passive transport moves a substance with
+the concentration gradient and requires no
+energy from the cell.
+■ Active transport moves materials against
+the concentration gradient and requires
+energy to overcome the flow of materials
+opposite the concentration gradient.
+■ Large particles may enter a cell by endo-
+cytosis and leave by exocytosis.
+Vocabulary
+active transport (p. 199)
+endocytosis (p. 200)
+exocytosis (p. 200)
+facilitated diffusion 
+(p. 198)
+hypertonic solution 
+(p. 196)
+hypotonic solution 
+(p. 196)
+isotonic solution (p. 196)
+osmosis (p. 195)
+passive transport 
+(p. 198)
+Cellular
+Transport
+Key Concepts
+■ Cell size is limited largely by the diffusion
+rate of materials into and out of the cell,
+the amount of DNA available to program
+the cell’s metabolism, and the cell’s surface
+area-to-volume ratio.
+■ The life cycle of a cell is divided into two
+general periods: a period of active growth
+and metabolism known as interphase, and a
+period that leads to cell division known as
+mitosis.
+■ Mitosis is divided into four phases:
+prophase, metaphase, anaphase, and
+telophase.
+■ The cells of most multicellular organisms
+are organized into tissues, organs, and
+organ systems.
+Vocabulary
+anaphase (p. 208)
+cell cycle (p. 204)
+centriole (p. 208)
+centromere (p. 206)
+chromatin (p. 204)
+chromosome (p. 203)
+cytokinesis (p. 209)
+interphase (p. 204)
+metaphase (p. 208)
+mitosis (p. 204)
+organ (p. 210)
+organ system (p. 210)
+prophase (p. 206)
+sister chromatid (p. 206)
+spindle (p. 208)
+telophase (p. 209)
+tissue (p. 210)
+Cell Growth and
+Reproduction
+Key Concepts
+■ The cell cycle is controlled by key enzymes
+that are produced at specific points in the
+cell cycle. 
+■ Cancer is caused by genetic and environ-
+mental factors that change the genes that
+control the cell cycle.
+Vocabulary
+cancer (p. 211)
+gene (p. 211)
+Color-enhanced SEM
+Magnification: 7500/H11003
+Control of the
+Cell Cycle
+nc.bdol.glencoe.com/vocabulary_puzzlemaker 
+0211-0219 C08S3 BDOL-829900  8/4/04  4:00 AM  Page 217
+
+
+===== PAGE 25 =====
+Review the Chapter 8 vocabulary words listed in
+the Study Guide on page 217. Determine if each 
+statement is true or false. If false, replace the
+underlined word with the correct vocabulary
+word.
+1. Mitosis is the result of uncontrolled division
+of cells.
+2. Small, dark cylindrical structures that are
+made of microtubules and located just out-
+side the nucleus are called genes.
+3. Diffusion of water across a selectively per-
+meable membrane is called cytokinesis.
+4. In a hypotonic solution, the concentration
+of dissolved substances inside cells is higher
+than the concentration outside the cell.
+5. Cancer is a period of nuclear division in a cell.
+6. What kind of environment is described when
+the concentration of dissolved substances is
+greater outside the cell than inside?
+A. hypotonic C. isotonic 
+B. hypertonic D. saline
+7. How is osmosis defined?
+A. as active transport
+B. as diffusion of water through a selectively
+permeable membrane
+C. as an example of facilitated diffusion
+D. as requiring a transport protein
+8. An amoeba ingests large food particles by
+what process?
+A. osmosis C. endocytosis
+B. diffusion D. exocytosis
+9. Of what are chromosomes composed?
+A. cytoplasm C. RNA and proteins
+B. centrioles D. DNA and proteins
+10. Which of the following does NOT occur
+during interphase?
+A. excretion of wastes
+B. cell repair
+C. protein synthesis
+D. nuclear division
+11. During metaphase, 
+the chromosomes 
+move to the equator 
+of what structure 
+(shown here)?
+A. poles
+B. cell plate
+C. centriole
+D. spindle
+12. All but which of the following factors limit
+cell size?
+A. time required for diffusion
+B. elasticity of the plasma membrane
+C. presence of only one nucleus
+D. surface area-to-volume ratio
+13. Which of the following is NOT a known
+cause of cancer?
+A. environmental influences
+B. certain viruses
+C. cigarette smoke
+D. bacterial infections
+14. Open Ended How would you expect the
+number of mitochondria in a cell to be
+related to the amount of active transport it
+carries out?
+15. Open Ended Suppose that all of the
+enzymes that control the normal cell cycle
+were identified. Suggest some ways that this
+information might be used to fight cancer.
+16. Open Ended Substance A ’s molecules are
+small. Substance B’s molecules, which react
+with substance A to produce a blue-black
+color, are larger in comparison. If a solution
+of substance A is placed inside a selectively
+permeable bag, and the bag is placed in a
+solution of substance B, what will happen?
+17. Predict What do you think will happen
+when a freshwater paramecium is placed in
+salt water?
+218 CHAPTER 8 ASSESSMENT
+Ed Reschke/Peter Arnold, Inc.
+Stained LM Magnification: 250 /H11003
+nc.bdol.glencoe.com/chapter_test 
+0211-0219 C08S3 BDOL-829900  8/4/04  4:00 AM  Page 218
+
+
+===== PAGE 26 =====
+Multiple Choice
+Use the following illustration to answer questions
+19–23.
+19. Which drawing indicates a cell in metaphase
+of mitosis?
+A. A C. C
+B. B D. D
+20. During which stage do the chromatids of
+chromosomes separate?
+A. A C. C
+B. B D. D
+21. Which drawing indicates a cell whose
+nuclear membrane is dissolving?
+A. A C. C
+B. B D. D
+22. Which of the following indicates the correct
+order of mitosis in animal cells?
+A. A-B-C-D C. C-A-D-B
+B. B-C-A-D D. C-B-A-D
+23. Which drawing shows a cell in anaphase?
+A. A C. C
+B. B D. D
+24. A biologist notes that some cells are growing
+faster than others in a tissue culture. A week
+later, the fast-growing cells have tripled in
+number. This observation is a clue that the
+fast-growing cells ________.
+A. have killed the slow-growing cells
+B. might be unable to control mitosis
+C. were exposed to radiation or chemicals
+D. contain an unknown enzyme
+25. Which parts of the nucleosome are made of
+DNA?
+A. 1 and 2 C. 2 and 3
+B. 1 and 3 D. 2 and 4
+26. Which parts of the nucleosome are made of
+protein?
+A. 1 and 2 C. 2 and 3
+B. 1 and 3 D. 2 and 4
+2 3
+Nucleosome
+1
+4
+AB C D
+18. Cystic fibrosis
+is a genetic disorder that results from the
+inability of cells to properly transport some
+materials. Visit  
+to investigate cystic fibrosis. Write an 
+essay that explains what you have learned
+about cystic fibrosis and present it to your
+class.
+REAL WORLD BIOCHALLENGE
+CHAPTER 8 ASSESSMENT   219
+nc.bdol.glencoe.com
+Constructed Response/Grid In
+Record your answers on your answer document.
+27. Open Ended The cell cycle can be affected by internal and external factors. Injury to a tissue
+can prompt changes in the cell cycle of the cells near the injury site. Formulate a testable
+hypothesis concerning a specific type of cell’s response to injury. State your hypothesis, plan
+an investigative procedure to test your hypothesis, and list the steps. 
+28. Open Ended Explain why drinking quantities of ocean water is dangerous to humans.
+The assessed North Carolina objective appears next to the question.
+nc.bdol.glencoe.com/standardized_test 
+2.02
+2.02
+2.02
+2.03
+0211-0219 C08S3 BDOL-829900  8/4/04  4:01 AM  Page 219
+

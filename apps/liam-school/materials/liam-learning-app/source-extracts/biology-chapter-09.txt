@@ -1,0 +1,2296 @@
+===== PAGE 1 =====
+What You’ll Learn
+■ You will recognize why organ-
+isms need a constant supply of
+energy and where that energy
+comes from.
+■ You will identify how cells store
+and release energy as ATP.
+■ You will describe the pathways
+by which cells obtain energy.
+■ You will compare ATP produc-
+tion in mitochondria and in
+chloroplasts.
+Why It’s Important
+Every cell in your body needs
+energy in order to function. 
+The energy your cells store is 
+the fuel for basic body functions
+such as walking and breathing.
+Energy in a CellEnergy in a Cell
+Johann Schumacher/Peter Arnold, Inc.
+Visit to
+• study the entire chapter 
+online
+• access Web Links for more
+information and activities on
+cell energy
+• review content with the
+Interactive Tutor and self-
+check quizzes
+This squirrel is eating seeds 
+produced by the conifer. The
+conifer traps light energy and
+stores it in the bonds of certain
+molecules for later use. How do
+the squirrel’s cells, which cannot
+trap light energy, use the mole-
+cules in the seeds to supply
+energy for the squirrel?
+Understanding
+the Photo
+220
+nc.bdol.glencoe.com
+0220 C9CO BDOL-829900  8/4/04  4:23 AM  Page 220
+
+
+===== PAGE 2 =====
+9.1
+SECTION PREVIEW
+Objectives
+Explain why organisms
+need a supply of energy.
+Describe how energy is
+stored and released by ATP.
+Review Vocabulary
+active transport:movement
+of materials through a
+membrane against a 
+concentration gradient;
+requires energy from 
+the cell (p. 199)
+New Vocabulary
+ATP (adenosine 
+triphosphate)
+ADP (adenosine 
+diphosphate)
+9.1 THE NEED FOR ENERGY  221
+Why ATP?
+Using an Analogy A spring stores energy
+when it is compressed. When the com-
+pressed spring is released, energy also is
+released, energy that sends this smiley-
+faced toy flying into the air. Like
+this coiled spring, chemical bonds
+store energy that can be released
+when the bond is broken. Just as
+some springs are tighter than oth-
+ers, some chemical bonds store
+more energy than others.
+Summarize Scan this section 
+and make a list of general ways 
+in which cells use energy.
+The Need 
+for Energy
+Stored energy
+Cell Energy
+Energy is essential to life. All living
+organisms must be able to obtain energy
+from the environment in which they live.
+Plants and other green organisms are able
+to trap the light energy in sunlight and
+store it in the bonds of certain molecules
+for later use. Other organisms, such as the
+panda shown in Figure 9.1, cannot use
+sunlight directly. Instead, they eat green
+plants. In that way, they obtain the energy
+stored in plants.
+Work and the need for energy
+Y ou’ve learned about several cell
+processes that require energy. Active
+transport, cell division, movement of fla-
+gella or cilia, and the production, trans-
+port, and storage of proteins are some
+examples. Y ou can probably come up with
+other examples of biological work, such as
+muscles contracting during exercise, your
+Figure 9.1
+Because this panda
+cannot trap the
+sun’s energy for
+use in its body, it
+eats bamboo.
+Molecules in bam-
+boo leaves contain
+energy in their
+chemical bonds.
+Some of those
+molecules supply
+energy for the
+panda.
+(tl tr)Aaron Haupt, (bl)Tom McHugh/Photo Researchers
+Objective 2.03 Investigate
+the cell as a living system including: Energy use and
+release in biochemical reactions
+North Carolina Objectives
+0221-0224 C9S1 BDOL-829900  8/4/04  4:29 AM  Page 221
+
+
+===== PAGE 3 =====
+heart pumping and your brain control-
+ling your entire body. This work can-
+not be done without energy.
+When you finish strenuous physi-
+cal exercise, such as running cross
+country, your body needs a quick
+source of energy, so you may eat a
+granola bar. On a cellular level, there
+is a molecule in your cells that is a
+quick source of energy for any
+organelle in the cell that needs it.
+This energy is stored in the chemical
+bonds of the molecule and can be
+used quickly and easily by the cell. 
+The name of this energy molecule
+is adenosine triphosphate (uh DEH
+nuh seen • tri FAHS fayt), or ATP for
+short. ATP is composed of an adeno-
+sine molecule with three phosphate
+groups attached. Recall that phos-
+phate groups are charged particles,
+and remember that particles with the
+same charge do not like being too
+close to each other.
+Forming and 
+Breaking Down ATP
+The charged phosphate groups act
+like the positive poles of two mag-
+nets. If like poles of a magnet are
+placed next to each other, it is diffi-
+cult to force the magnets together.
+Likewise, bonding three phosphate
+groups to form adenosine triphos-
+phate requires considerable energy.
+When only one phosphate group
+bonds, a small amount of energy is
+required and the chemical bond does
+not store much energy. This mole-
+cule is called adenosine monophos-
+phate (AMP). When a second
+phosphate group is added, more
+energy is required to force the two
+groups together. This molecule is
+called adenosine diphosphate, or
+ADP . An even greater amount of
+energy is required to force a third
+charged phosphate group close
+enough to the other two to form a
+bond. When this bond is broken,
+energy is released.
+The energy of ATP becomes avail-
+able to a cell when the molecule is 
+broken down. In other words, when
+the chemical bond between the sec-
+ond and third phosphate groups in
+ATP is broken, energy is released and
+the resulting molecule is ADP . At this
+222 ENERGY IN A CELL
+Mel Victor/The Stock Shop
+mono-, di-, tri-from
+the Greek words
+mono and di, and
+the Latin wordtri,
+meaning “one,”
+“two,” and “three,”
+respectively;
+Adenosine triphos-
+phate contains three
+phosphate groups.
+Recognize Cause 
+and Effect
+Why is fat the choice?
+Humans store their excess 
+energy as fat rather than as car-
+bohydrates. Why is this? From 
+an evolutionary and efficiency
+point of view, fats are better for 
+storage than carbohydrates. 
+Find out why.
+Solve the Problem
+The following facts compare certain characteristics of fats and
+carbohydrates:
+A. When broken down by the body, each six-carbon molecule
+of fat yields 51 ATP molecules. Each six-carbon carbo-
+hydrate molecule yields 36 ATP molecules. 
+B. Carbohydrates bind and store water. The metabolism of
+water yields no ATP. Fat has no water bound to it.
+C. An adult who weighs 70 kg can survive on the energy
+derived from stored fat for 30 days without eating. The
+same person would have to weigh nearly 140 kg to survive
+30 days on stored carbohydrates.
+Thinking Critically
+1. Analyze From an ATP production viewpoint, use fact B 
+to make a statement regarding the efficiency of fats vs. 
+carbohydrates.
+2. Define Operationally Explain why the average weight
+for humans is close to 70 kg and not 140 kg.
+0221-0224 C9S1 BDOL-829900  8/4/04  4:30 AM  Page 222
+
+
+===== PAGE 4 =====
+point, ADP can form ATP again by
+bonding with another phosphate
+group. This process creates a renew-
+able cycle of ATP formation and
+breakdown. Figure 9.2A illustrates
+the chemical reactions that are
+involved in the cycle.
+The formation/breakdown recy-
+cling activity is important because it
+relieves the cell of having to store all
+of the ATP it needs. As long as phos-
+phate groups are available, the cell
+can make more ATP . Another benefit
+of the formation/breakdown cycle is
+that ADP also can be used as an
+energy source. Although most cell
+functions require the amount of
+energy in ATP , some cell functions do
+not require as much energy and can
+use the energy stored in ADP . Read
+the Problem-Solving Lab on the oppo-
+site page and think about how the
+human body stores energy.
+How cells tap into the energy
+stored in ATP
+When ATP is broken down and the
+energy is released, as shown in 
+Figure 9.2B, the energy must be cap-
+tured and used efficiently by cells.
+Otherwise, it is wasted. ATP is a small
+molecule. Many proteins have a spe-
+cific site where ATP can bind. Then,
+when the phosphate bond is broken
+and the energy released, the cell can
+use the energy for activities such as
+making a protein or transporting mol-
+ecules through the plasma membrane.
+This cellular process is similar to the
+way energy in batteries is used by a
+radio. Batteries sitting on a table are of
+little use if the energy stored within
+the batteries cannot be accessed.
+When the batteries are snapped into
+the holder in the radio, the radio then
+has access to the stored energy and
+can use it. When the energy in the
+9.1 THE NEED FOR ENERGY   223
+ADP
+ADP
+ATP
+Adenosine
+Protein
+PPP
+P
+P
+P
+Adenosine PP
+Adenosine triphosphate (ATP)
+Adenosine diphosphate (ADP)
++ Energy
+The addition and release of a phosphate group on
+adenosine diphosphate creates a cycle of ATP forma-
+tion and breakdown.
+A To access the energy stored in ATP, proteins bind ATP
+and uncouple the phosphate group. The ADP that is
+formed is released, and the protein binding site can
+once again bind ATP.
+B
+Figure 9.2
+The formation and breakdown of ATP is cyclic.
+0221-0224 C9S1 BDOL-829900  8/4/04  4:31 AM  Page 223
+
+
+===== PAGE 5 =====
+Understanding Main Ideas
+1. Identify cellular processes that need energy 
+from ATP.
+2. How does ATP store energy?
+3. How can ADP be “recycled” to form ATP again?
+4. How do proteins in your cells access the energy
+stored in ATP?
+5. List three biological activities that require energy. 
+Thinking Critically
+6. Phosphate groups in ATP repel each other because
+they have negative charges. What charge might
+be present in the ATP binding site of a protein to
+attract ATP?
+7. Get the Big Picture How does an animal access
+the energy in sunlight? For more help, refer to
+Get the Big Picture in the Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+224 ENERGY IN A CELL
+(t)Dr. K.S. Kim/Peter Arnold, Inc., (b)National Geographic Society Image Collection
+Figure 9.3
+ATP fuels the cellular activity
+that drives the organism. Define
+Operationally What organelles 
+do these cells or organisms
+use for movement?
+Some organisms
+(left) use energy
+from ATP to move. 
+C
+batteries has been used, the batteries
+can be taken out, recharged, and
+replaced in the holder. In a similar
+fashion in a cell, when ATP has been
+broken down to ADP , the ADP is
+released from the binding site in the
+protein and the binding site may then
+be filled by another ATP molecule. 
+Uses of Cell Energy
+Y ou can probably think of hun-
+dreds of physical activities that
+require energy, but energy is equally
+important at the cellular level.
+Making new molecules is one way
+that cells use energy. Some of these
+molecules are enzymes. Other mole-
+cules build membranes and cell
+organelles. Cells use energy to
+maintain homeostasis. Kidneys use
+energy to move molecules and 
+ions in order to eliminate waste 
+substances while keeping needed 
+substances in the bloodstream.
+Figure 9.3 shows several ways that
+cells use energy.
+List three cellular
+activities that require energy.
+Stained TEM Magnification: 18 000 /H11003
+Nerve cells transmit
+impulses by using
+ATP to power the
+active transport of
+certain ions.
+A
+Fireflies and many marine organisms, such as
+the jellyfish shown here, produce light by a
+process called bioluminescence. The light results
+from a chemical reaction that is powered by the
+breakdown of ATP.
+B
+nc.bdol.glencoe.com/self_check_quiz 
+0221-0224 C9S1 BDOL-829900  8/4/04  4:31 AM  Page 224
+
+
+===== PAGE 6 =====
+Photosynthesis: 
+Trapping the Sun’s Energy
+9.2 PHOTOSYNTHESIS: TRAPPING THE SUN’S ENERGY  225
+SECTION PREVIEW
+Objectives
+Relate the structure of
+chloroplasts to the events in
+photosynthesis.
+Describe light-dependent
+reactions.
+Explain the reactions 
+and products of the light-
+independent Calvin cycle.
+Review Vocabulary
+chloroplast:cell organelle
+that captures light
+energy and produces
+food to store for later
+use (p. 184)
+New Vocabulary
+photosynthesis
+light-dependent reactions
+light-independent reactions
+pigment
+chlorophyll
+electron transport chain
+NADP+
+photolysis
+Calvin cycle
+9.2
+Photosynthesis  Make the following Foldable to help you 
+illustrate what happens during each phase of photosynthesis.
+ Fold a vertical sheet of paper 
+in half from top to bottom.
+ Fold in half from 
+side to side with the fold at 
+the top.
+STEP 1 STEP 2
+1st Phase
+Light-
+Dependent
+2nd Phase
+Light-
+Independent
+ Unfold the paper once. 
+Cut only the fold of the top flap to 
+make two tabs.
+ Turn the 
+paper vertically and 
+label on the front 
+tabs as shown.
+STEP 3 STEP 4
+Compare and Contrast  As you read Section 9.2, compare and contrast the two 
+phases of photosynthesis under the appropriate tab.
+Trapping Energy from Sunlight
+T o use the energy in sunlight, the cells of green organisms must trap light
+energy and store it in a manner that is readily usable by cell organelles—in
+the chemical bonds of ATP . However, light energy is not available 24 hours
+a day, so the cell must also store some of the energy for use during the dark
+hours. The process that uses the sun’s energy to make simple sugars is called
+photosynthesis. These simple sugars are then converted into complex car-
+bohydrates, such as starches, which store energy.
+Photosynthesis happens in two phases. The light-dependent reactions
+convert light energy into chemical energy. The molecules of ATP 
+produced in the light-dependent reactions are then used to fuel the 
+light-independent reactions that produce simple sugars. The general
+equation for photosynthesis is written as follows:
+6CO2 /H110016H2O → C6H12O6 /H110016O2
+The BioLab at the end of this chapter can be performed to study what
+factors influence the rate of photosynthesis.
+photosynthesis
+from the Greek
+words photo,
+meaning “light,”
+and syntithenai,
+meaning “to put
+together”;
+Photosynthesis
+puts together
+sugar molecules
+using water, car-
+bon dioxide, and
+energy from light.
+Objective 2.05 Investigate and analyze the bioener-
+getic reactions: Photosynthesis
+North Carolina Objectives
+0225-0230 C9S2 BDOL-829900  8/4/04  4:41 AM  Page 225
+
+
+===== PAGE 7 =====
+Experiment
+Separating Pigments
+Chromatography is an impor-
+tant diagnostic tool. In this
+experiment, you will use paper
+chromatography to separate
+different pigments from plant
+leaves.
+Procedure
+! Obtain a pre-made plant solution from your teacher.
+@ Place a few drops 2 cm high on a 5-cm /H1100314-cm strip of 
+filter paper. Let it dry. Make sure a small colored spot is
+visible.
+# Pour rubbing alcohol in a 100-mL beaker to a depth of
+1 cm. 
+$ Place the filter paper into the beaker. The filter paper
+should touch the alcohol, but the dot should not. Hold 
+it in place 15 minutes and observe what happens.
+Analysis 
+1. Explain What did you observe as the solvent moved 
+up the filter paper?
+2. Infer Why did you see different colors at different 
+locations on the filter paper?
+(t)Matt Meadows, (b)James Westwater
+Figure 9.4
+The red, yellow, and
+purple pigments are
+visible in the autumn.
+Recognize Cause and
+Effect Why can’t you
+see these colors dur-
+ing the summer?
+226 ENERGY IN A CELL
+The chloroplast and pigments
+Recall that the chloroplast is the
+cell organelle where photosynthesis
+occurs. It is in the membranes of the
+thylakoid discs in chloroplasts that the
+light-dependent reactions take place.
+T o trap the energy in the sun’s 
+light, the thylakoid membranes con-
+tain pigments, molecules that absorb
+specific wavelengths of sunlight. Pig-
+ments are arranged within the thy-
+lakoid membranes in clusters known as
+photosystems. Although a photosys-
+tem contains several kinds of pig-
+ments, the most common is
+chlorophyll. Chlorophyll absorbs
+most wavelengths of light except
+green. Because chlorophyll cannot
+absorb this wavelength, it is reflected,
+giving leaves a green appearance. In
+the fall, trees stop producing chloro-
+phyll in their leaves. Other pigments
+become visible, giving leaves like those
+in Figure 9.4 a wide variety of colors.
+The MiniLab on this page will allow
+you to separate the pigments in a leaf.
+Read the Connection to Chemistry at the
+end of this chapter to find out more
+about biological pigments.
+Light-Dependent
+Reactions
+The first phase of photosynthesis
+requires sunlight. As sunlight strikes
+the chlorophyll molecules in a photo-
+system of the thylakoid membrane, the
+energy in the light is transferred to
+electrons. These highly energized, or
+excited, electrons are passed from
+chlorophyll to an electron transport
+chain, a series of proteins embedded in
+the thylakoid membrane. Figure 9.5
+summarizes this process.
+Each protein in the chain passes
+energized electrons along to the next
+protein, similar to a bucket brigade in
+which a line of people pass a bucket of
+0225-0230 C9S2 BDOL-829900  8/4/04  4:42 AM  Page 226
+
+
+===== PAGE 8 =====
+9.2 PHOTOSYNTHESIS: TRAPPING THE SUN’S ENERGY   227
+water from person to person to fight a
+fire. At each step along the transport
+chain, the electrons lose energy, just as
+some of the water might be spilled
+from buckets in the fire-fighting
+chain. This “lost” energy can be used
+to form ATP from ADP , or to pump
+hydrogen ions into the center of the
+thylakoid disc.
+After the electrons have traveled
+down the electron transport chain,
+they are re-energized in a second
+photosystem and passed down a sec-
+ond electron transport chain. At the
+bottom of this chain, the electrons
+are still very energized. So that this
+energy is not wasted, the electrons
+are transferred to the stroma of the
+chloroplast. T o do this, an electron
+carrier molecule called NADP /H11001
+(nicotinamide adenine dinucleotide
+phosphate) is used. NADP /H11001 can
+combine with two excited electrons
+and a hydrogen ion (H /H11001) to become
+NADPH. NADPH does not use the
+energy present in the energized elec-
+trons; it simply stores the energy
+until it can transfer it to the stroma.
+There, NADPH will play an impor-
+tant role in the light-independent
+reactions. 
+Explain how energy
+from electrons is released.
+Restoring electrons
+Recall that at the beginning of
+photosynthesis, electrons are lost
+from chlorophyll molecules when
+light is absorbed. If these electrons
+are not replaced, the chlorophyll will
+be unable to absorb additional light
+and the light-dependent reactions
+will stop, as will the production of
+ATP . T o replace the lost electrons,
+molecules of water are split in the
+first photosystem. This reaction is
+called photolysis (fo TAH luh sis).
+For every water molecule that is
+Light-Dependent Reactions
+Light energy
+Chlorophyll
+passes energy
+down through the
+electron transport chain.
+Energized electrons provide
+energy that
+transfers to chlorophyll.
+Sun
+splits
+H2O
+bonds              to ADP
+forming
+ATPH+
+oxygen
+released
+for use in the
+light-independent reactions.
+NADP+
+NADPH
+P
+Figure 9.5
+Chlorophyll molecules absorb light energy
+and energize electrons for producing ATP
+and NADPH.
+0225-0230 C9S2 BDOL-829900  8/4/04  4:43 AM  Page 227
+
+
+===== PAGE 9 =====
+split, one half molecule of oxygen,
+two electrons, and two hydrogen
+ions are formed, as shown in
+Figure 9.6. The oxygen produced
+by photolysis is released into the air
+and supplies the oxygen we breathe.
+The electrons are returned to
+chlorophyll. The hydrogen ions are
+pumped into the thylakoid, where
+they accumulate in high concentra-
+tion. Because this difference in con-
+centration forms a concentration
+gradient across the membrane, H /H11001
+ions diffuse out of the thylakoid and
+provide energy for the production of
+ATP . This coupling of the move-
+ment of H /H11001ions to ATP production
+is called chemiosmosis (keh mee oz
+MOH sis). The MiniLab on this page
+shows how the steps of photosynthe-
+sis were traced.
+Light-Independent
+Reactions
+The second phase of photosynthe-
+sis does not require light. It is called
+the Calvin cycle, which is a series of
+reactions that use carbon dioxide to
+form sugars. The Calvin cycle takes
+place in the stroma of the chloroplast,
+as shown in Figure 9.7.
+228 ENERGY IN A CELL
+Sun
+Chlorophyll
+      O2 + 2H+
+H2O
+2e–
+H2O           2H+ +    O2  +  2e–  
+1
+2
+1
+2
+Figure 9.6
+In photolysis, a molecule of water is split to
+replace electrons lost from chlorophyll, H+
+for chemiosmosis, and oxygen. Infer How
+many molecules of water must be split
+to make a molecule of oxygen gas?
+Formulate Models
+Use Isotopes to Understand
+Photosynthesis C. B. van Niel
+demonstrated that photosynthesis 
+is a light-dependent reaction in
+which the O2 comes from water.
+Other scientists confirmed his find-
+ings by using radioactive isotopes of
+oxygen as tracers. Radioactive tracers
+are used to follow a particular molecule
+through a chemical reaction. 
+Procedure
+! Study the following general equation that resulted from
+the van Niel experiment:
+CO2 /H110012H2O* → CH2O /H11001H2O /H11001O2* 
+@ Radioactive water, water tagged with an isotope of oxygen
+as a tracer (shown by the *), was used. Note where the
+tagged oxygen ends up on the right side of the equation.
+# Assume that the experiment was repeated, but this time a
+radioactive tag was put on the oxygen in CO 2.
+$ Using materials provided by your teacher, model what you
+predict the appearance of the results would be. Your
+model must include a “tag” to indicate the oxygen isotope
+on the left side of the arrow as well as where it ends up
+on the right side of the arrow.
+% You also must use labels or different colors in your model
+to indicate what happens to the carbon and hydrogen. 
+Analysis
+1. Explain How can an isotope be used as a tag?
+2. Use Models Using your model, predict what happens to:
+a. all oxygen molecules that originated from carbon dioxide.
+b. all carbon molecules that originated from carbon dioxide.
+c. all hydrogen molecules that originated from water.
+van Niel
+0225-0230 C9S2 BDOL-829900  8/4/04  4:43 AM  Page 228
+
+
+===== PAGE 10 =====
+9.2 PHOTOSYNTHESIS: TRAPPING THE SUN’S ENERGY   229
+C C C C C
+C
+C C C C C C
+C C C
+C C C
+C C C
+C C C
+C C C
+C C C C C C
+C C C
+(Sugars and other carbohydrates)
+ADP +
+ADP + 
+ATP 
+ATP 
+NADP+
+NADPH 
+(RuBP)
+(CO2)
+(Unstable intermediate)
+(PGAL)
+(PGAL)
+(PGAL)
+Calvin
+Cycle
+P
+P
+Formation of 
+3-carbon molecules
+The six-carbon sugar
+formed in Step A
+immediately splits to 
+form two three-carbon
+molecules.
+BB
+Use of ATP and
+NADPH A series of 
+reactions involving ATP 
+and NADPH from the 
+light-dependent reactions
+converts the three-carbon
+molecules into phospho-
+glyceraldehyde (PGAL),
+three-carbon sugars with
+higher energy bonds.
+CC
+Sugar production One out
+of every six molecules of PGAL
+is transferred to the cytoplasm
+and used in the synthesis of
+sugars and other carbohydrates.
+After three rounds of the cycle,
+six molecules of PGAL are
+produced.
+DD
+RuBP is r eplenished
+Five molecules of PGAL,
+each with three carbon
+atoms, produce three
+molecules of the five-
+carbon RuBP. This
+replenishes the RuBP that
+was used up, and the cycle
+can continue.
+EE
+Carbon fixation
+The carbon atom from CO2
+bonds with a five-carbon
+sugar called ribulose
+biphosphate (RuBP) to
+form an unstable six-
+carbon sugar.
+AA
+The stroma in chloroplasts
+hosts the Calvin cycle.
+Color-enhanced TEM
+Magnification: 6300/H11003
+The Calvin Cycle
+Figure 9.7
+The Calvin cycle takes the carbon in CO 2, adds it to one mole-
+cule of RuBP, and forms sugars through a series of reactions
+in the stroma of chloroplasts. The NADPH and ATP produced
+during the earlier light-dependent reactions are important
+molecules for this series of reactions. Critical Thinking Why
+is the Calvin cycle in plants directly and indirectly
+important to animals?
+0225-0230 C9S2 BDOL-829900  8/4/04  4:43 AM  Page 229
+
+
+===== PAGE 11 =====
+Understanding Main Ideas
+1. Why do you see green when you look at a leaf on
+a tree? Why do you see other colors in the fall?
+2. How do the light-dependent reactions of 
+photosynthesis relate to the Calvin cycle?
+3. What is the function of water in photosynthesis?
+Explain the reaction that achieves this function.
+4. How does the electron transport chain transfer
+light energy in photosynthesis?
+Thinking Critically
+5. In photosynthesis, is chlorophyll considered a reac-
+tant, a product, or neither? How does the role of
+chlorophyll compare with the roles of CO2 and H2O?
+6. Get the Big Picture Identify the parts of the
+chloroplast in which the various steps of photo-
+synthesis take place. For more help, refer to Get
+the Big Picture in the Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+230 ENERGY IN A CELL
+CORBIS/Bettmann-UPI
+The Calvin cycle
+The Calvin cycle, named after
+Melvin Calvin, who worked out the
+details of the reactions, is called a cycle
+because one of the last molecules
+formed in the series of chemical reac-
+tions is also one of the molecules
+needed for the first reaction of the
+cycle. Therefore, one of the products
+can be used again to continue the cycle.
+Y ou have learned that in the elec-
+tron transport chain, an energized
+electron is passed from protein to
+protein, and the energy is released
+slowly. Y ou can imagine that making a
+complex carbohydrate from a mole-
+cule of CO2 would be a large task for
+a cell, so the light-independent reac-
+tions in the stroma of the chloroplast
+break down the complicated process
+into small steps. 
+At the beginning of the Calvin
+cycle, one molecule of carbon diox-
+ide is added to one molecule of
+RuBP to form a six-carbon sugar.
+This step is called carbon fixation
+because carbon is “fixed” into a six-
+carbon sugar. In a series of reactions,
+the sugar breaks down and is eventu-
+ally converted to two three-carbon
+sugars called phosphoglyceralde-
+hyde, or PGAL. After three rounds
+of the cycle, with each round fixing
+one molecule of CO 2, six molecules
+of PGAL are produced. Five of these
+molecules are rearranged to form
+three molecules of RuBP , the start-
+ing material. The sixth molecule of
+PGAL is available to the organism
+for making sugars, complex carbo-
+hydrates, and other organic com-
+pounds. As you will see in the next
+section, PGAL is important to all
+organisms because it plays a role in
+cellular respiration.
+Biochemist
+I
+f you are curious about what
+makes plants and animals grow
+and develop, consider a career as a
+biochemist. The basic research of
+biochemists seeks to understand
+how processes in an organism work
+to ensure the organism’s survival.
+Skills for the Job
+A bachelor’s degree in chemistry or
+biochemistry will qualify you to be a lab 
+assistant. For a more involved position, you will need a 
+master’s degree; advanced research requires a Ph.D. Some
+biochemists work with genes to create new plants and new
+chemicals from plants. Others research the causes and cures
+of diseases or the effects of poor nutrition. Still others
+investigate solutions for urgent problems, such as finding
+better ways of growing, storing, and caring for crops.
+To find out more about careers in related fields,
+visit
+ nc.bdol.glencoe.com/careers
+nc.bdol.glencoe.com/self_check_quiz 
+0225-0230 C9S2 BDOL-829900  8/4/04  4:44 AM  Page 230
+
+
+===== PAGE 12 =====
+9.3
+SECTION PREVIEW
+Objectives
+Compare and contrast
+cellular respiration and
+fermentation.
+Explain how cells obtain
+energy from cellular 
+respiration.
+Review Vocabulary
+mitochondria: cell organ-
+elles that transform
+energy for the cell 
+(p. 185)
+New Vocabulary
+cellular respiration
+anaerobic
+aerobic
+glycolysis
+citric acid cycle
+lactic acid fermentation
+alcoholic fermentation
+anaerobic from
+the Greek words
+an, meaning
+“without,” and
+aeros, meaning
+“air”; Anaerobic
+organisms can live
+without oxygen.
+9.3 GETTING ENERGY TO MAKE ATP   231
+What happens to sugars?
+Using Prior Knowledge Yo u
+know that the chlorophyll in
+green plants is the key to photo-
+synthesis and that sugars are pro-
+duced. Y ou also know that your
+body needs energy to survive.
+Sugars can be broken down in
+cells to yield large amounts of
+energy. But, your cells can’t con-
+vert light energy to sugars. What
+will you do? Fortunately, the cells
+of all organisms can use the sug-
+ars made by plants during the
+Calvin cycle. By eating plant
+material, animals, too, can access
+the sun’s energy.
+Identify In which organelle are 
+sugars converted to ATP?
+Getting Energy to Make ATP
+Michael Keller/CORBIS
+Cellular Respiration
+The process by which mitochondria break down food molecules to pro-
+duce ATP is called cellular respiration.There are three stages of cellular
+respiration: glycolysis, the citric acid cycle, and the electron transport chain.
+The first stage, glycolysis, is anaerobic—no oxygen is required. The last
+two stages are aerobic and require oxygen to be completed. 
+Glycolysis
+Glycolysis (gli KAH lih sis) is a series of chemical reactions in the cyto-
+plasm of a cell that break down glucose, a six-carbon compound, into two
+molecules of pyruvic (pie RUE vik) acid, a three-carbon compound.
+Because two molecules of ATP are used to start glycolysis, and only four
+ATP molecules are produced, glycolysis is not very effective, producing
+only two ATP molecules for each glucose molecule broken down.
+In the electron transport chain of photosynthesis, an electron carrier
+called NADP /H11001was described as carrying energized electrons to
+another location in the cell for further chemical reactions. Glycolysis
+also uses an electron carrier, called NAD /H11001(nicotinamide adenine di-
+nucleotide). NAD /H11001forms NADH when it accepts two electrons. 
+Objective 2.05 Investigate and analyze the bioener-
+getic reactions: Aerobic Respiration; Anaerobic Respiration
+North Carolina Objectives
+0231-0243 C9S3 BDOL-829900  8/4/04  4:59 AM  Page 231
+
+
+===== PAGE 13 =====
+Notice in Figure 9.8 that two
+molecules of PGAL are formed dur-
+ing glycolysis. Recall that PGAL
+also forms in the Calvin cycle. The
+PGAL made during photosynthesis
+can enter the glycolysis pathway and
+lead to the formation of ATP and
+organic molecules.
+Following glycolysis, the pyruvic
+acid molecules move into the mito-
+chondria, the organelles that transform
+energy for the cell. In the presence of
+oxygen, two more stages complete cel-
+lular respiration: the citric acid cycle
+and the electron transport chain of the
+mitochondrion. Before these two
+stages can begin, however, pyruvic acid
+undergoes a series of reactions in which
+it gives off a molecule of CO2 and com-
+bines with a molecule called coenzyme
+A to form acetyl-CoA. The reaction
+with coenzyme A produces a molecule
+of NADH and H /H11001. These reactions
+are shown in Figure 9.9.
+The citric acid cycle
+The citric acid cycle, also called
+the Krebs cycle, is a series of chemical
+reactions similar to the Calvin cycle
+in that the molecule used in the first
+reaction is also one of the end prod-
+ucts. Read Figure 9.10 to study the
+citric acid cycle.
+For every turn of the cycle, one mol-
+ecule of ATP and two molecules of car-
+bon dioxide are produced. T wo
+electron carriers are used, NAD/H11001and
+FAD (flavin adenine dinucleotide). A
+total of three NADH, three H /H11001ions,
+and one FADH2 are formed. The elec-
+tron carriers each pass two energized
+electrons along to the electron trans-
+port chain in the inner membrane of
+the mitochondrion.
+232 ENERGY IN A CELL
+C C C C C C C P
+C C C
+C C C
+C C CP
+C C
+ENERGY ENERGY
+2ATP 2ADP 4ADP + 4 P
+2NAD+2PGAL
+Glucose
+4ATP
+2NADH + 2H+
+2 Pyruvic
+acid
+C C C C C C C C C CC
+NAD+
+CO2
+NADH + H +
+Pyruvic
+acid
+Outside the
+mitochondrion
+Mitochondrial
+membrane
+Coenzyme A
+Pyruvic
+acid
+Inside the
+mitochondrion
+Intermediate
+by-product
+- CoA
+Acetyl-CoA
++
+Figure 9.8
+Glycolysis breaks down
+a molecule of glucose
+into two molecules of
+pyruvic acid. In the
+process, it forms a net
+of two molecules of
+ATP, two molecules of
+NADH , and two hydro-
+gen ions. 
+Figure 9.9
+Before the citric acid
+cycle and electron trans-
+port chain begin, pyruvic
+acid undergoes a series
+of reactions. Infer
+What products are
+formed as a result of
+the reactions within
+the mitochondrion?
+0231-0243 C9S3 BDOL-829900  8/4/04  5:00 AM  Page 232
+
+
+===== PAGE 14 =====
+The Citric Acid Cycle
+Figure 9.10
+The citric acid cycle breaks down a molecule of
+acetyl-CoA and forms ATP and CO 2. The electron
+carriers NAD /H11001and FAD pick up energized electrons
+and pass them to the electron transport chain in
+the inner mitochondrial membrane. Critical Thinking
+How many CO 2 molecules are produced for every
+glucose molecule that entered the cellular respira-
+tion pathways?
+9.3 GETTING ENERGY TO MAKE ATP   233
+P
+NAD+
+NAD+
+NAD+
+FADH2 FAD
+C C
+NADH + H+
+NADH + H+
+ATP
+ADP +
+(Acetyl-CoA)
+(Oxaloacetic acid) (Citric acid)
+Citric
+Acid
+Cycle
+O              O
+(CO2)
+O              O
+(CO2)
+NADH + H+
+C C C C
+C C C C
+C C C C
+C C C C
+C C C C C
+C
+C C C C C
+C
+C
+Formation of the second CO 2 Another
+molecule of CO2 is released, forming a four-carbon
+compound. One molecule of ATP and a molecule
+of NADH are also produced. 
+CC
+Citric acid The two-carbon
+compound acetyl-CoA reacts
+with a four-carbon compound
+called oxaloacetic acid to form
+citric acid, a six-carbon
+molecule. 
+AA Formation of CO2 A molecule
+of CO2 is formed, reducing the
+eventual product to a five-carbon
+compound. In the process, a
+molecule of NADH and H+ is
+produced.
+BB
+Profs. P . Motta & T. Naguro/Science Photo Library/Custom Medical Stock Photo
+Recycling of 
+oxaloacetic acid The 
+four-carbon molecule goes
+through a series of reactions 
+in which FADH 2, NADH, and H +
+are formed. The carbon chain
+is rearranged, and oxaloacetic
+acid is again made available
+for the cycle.
+DD
+The mitochondria host
+the citric acid cycle.
+Magnification: unavailable
+0231-0243 C9S3 BDOL-829900  8/4/04  5:00 AM  Page 233
+
+
+===== PAGE 15 =====
+The electron transport chain
+The electron transport chain in
+the inner membrane of the mito-
+chondrion is very similar to the elec-
+tron transport chains of the
+thylakoid membrane in the chloro-
+plasts of plant cells during photo-
+synthesis. NADH and FADH 2
+deliver energized electrons at the
+top of the chain. The electrons are
+passed from protein to protein
+within the membrane, slowly releas-
+ing their energy in steps. Some of
+that energy is used directly to form
+ATP; some is used by an enzyme to
+pump H/H11001ions into the center of the
+mitochondrion. Consequently, the
+mitochondrion inner membrane
+becomes positively charged because
+of the high concentration of posi-
+tively charged hydrogen ions. At the
+same time, the exterior of the mem-
+brane is negatively charged, which
+further attracts hydrogen ions. The
+gradient of H /H11001ions that results
+across the inner membrane of the
+mitochondrion provides the energy
+for ATP production, just as it 
+does in the chemiosmotic process 
+that takes place at the thylakoid mem-
+branes in the chloroplasts. Figure 9.11
+summarizes the electron transport
+chain and the formation of ATP .
+The final electron acceptor at the
+bottom of the chain is oxygen, which
+reacts with four hydrogen ions (4H/H11001)
+and four electrons to form two mole-
+cules of water (H2O). This is why oxy-
+gen is so important to our bodies.
+Without oxygen, the proteins in the
+electron transport chain cannot pass
+along the electrons. If a protein cannot
+pass along an electron to oxygen, it
+cannot accept another electron. Very
+quickly, the entire chain becomes
+blocked and ATP production stops. 
+Overall, the electron transport
+chain adds 32 ATP molecules to the
+four already produced. Obviously,
+the aerobic process of ATP produc-
+tion is very effective. In the absence
+of oxygen, however, an anaerobic
+process can produce small amounts
+of ATP to keep the cell from dying.
+234 ENERGY IN A CELL
+H/H11001 H/H11001
+H/H11001
+H/H11001
+H/H11001
+H/H11001
+/H11002
+/H11001
+P
+Electron
+carrier proteins
+Electron
+pathway
+Space between
+inner and outer
+membranes
+Enzyme
+ADP /H11001 ATP
+Inner
+membrane
+Center of
+mitochondrion
+NAD/H11001
+FAD
+NADH
+FADH2
+4 H/H11001 /H11001 O2
+/H11001 4 electrons H2O
+H2O
+e/H11002
+Figure 9.11
+In the electron transport
+chain, the carrier mole-
+cules NADH and FADH2
+give up electrons that
+pass through a series of
+reactions. Oxygen is the
+final electron acceptor. 
+0231-0243 C9S3 BDOL-829900  8/4/04  5:01 AM  Page 234
+
+
+===== PAGE 16 =====
+9.3 GETTING ENERGY TO MAKE ATP   235
+Fermentation
+There are times, such as during
+heavy exercise, when your cells are
+without oxygen for a short period of
+time. When this happens, an anaero-
+bic process called fermentation fol-
+lows glycolysis and provides a means
+to continue producing ATP until oxy-
+gen is available again. There are two
+major types of fermentation: lactic
+acid fermentation and alcoholic fer-
+mentation. The table in Figure 9.12
+compares the two processes with res-
+piration. Perform the Problem-Solving
+Lab shown here to further compare
+and contrast cellular respiration and
+fermentation.
+Infer when your
+body might perform fermentation
+reactions.
+Lactic acid fermentation
+Y ou know that under anaerobic con-
+ditions, the electron transport chain
+backs up because oxygen is not present
+Gerard Vandystadt/Vandystadt Agency/Photo Researchers
+Figure 9.12
+Lactic acid and alcoholic fermentations are comparable
+in the production of ATP, but compared to cellular respi-
+ration, it is obvious that fermentation is far less efficient
+in ATP production. This runner’s muscles have been
+depleted of oxygen and fermentation is taking place.
+Comparison of Fermentation to Cellular Respiration
+Lactic Acid Alcoholic Cellular respiration
+glucose glucose glucose
+glycolysis (pyruvic acid) glycolysis (pyruvic acid) glycolysis (pyruvic acid)
+carbon dioxide carbon dioxide
+/H11001/H11001
+lactic acid alcohol water
+/H11001/H11001 /H11001
+2 ATP 2 ATP 36 ATP
+Acquire Information
+Cellular respiration or fermentation? The methods by
+which organisms derive ATP may differ; however, the result,
+the production of ATP molecules, is similar.
+Solve the Problem
+Study the table in Figure 9.12 and evaluate cellular respiration,
+lactic acid fermentation, and alcoholic fermentation.
+Thinking Critically
+1. Describe Why does cellular respiration produce so much
+more ATP than does fermentation?
+2. Use Scientific Explanations Describe a situation when a
+human would need to use more than one of the processes
+listed above.
+3. Analyze Think of an organism that might generate ATP
+only by fermentation and consider why fermentation is the
+best process for the organism.
+0231-0243 C9S3 BDOL-829900  8/4/04  5:01 AM  Page 235
+
+
+===== PAGE 17 =====
+as the final electron acceptor. As
+NADH and FADH2 arrive at the chain
+from the citric acid cycle and glycolysis,
+they cannot release their energized
+electrons. The citric acid cycle and gly-
+colysis cannot continue without a
+steady supply of NAD/H11001and FAD. 
+The cell does not have a method to
+replace FAD during anaerobic condi-
+tions; however, NAD /H11001can be
+replaced through lactic acid fermenta-
+tion. Lactic acid fermentation is one
+of the processes that supplies energy
+when oxygen is scarce. T wo molecules
+of pyruvic acid produced in glycolysis
+use NADH to form two molecules of
+lactic acid. This releases NAD /H11001to be
+used in glycolysis, allowing two ATP
+molecules to be formed for each glu-
+cose molecule. The lactic acid is trans-
+ferred from muscle cells, where it is
+produced during strenuous exercise,
+to the liver that converts it back to
+pyruvic acid. The lactic acid that
+builds up in muscle cells results in
+muscle fatigue.
+Alcoholic fermentation
+Another type of fermentation,
+alcoholic fermentation, is used 
+by yeast cells and some bacteria to
+produce CO 2 and ethyl alcohol.
+When making bread, like that shown
+in Figure 9.13, yeast cells produce
+CO2 that forms bubbles in the dough.
+Eventually the heat of the oven kills
+the yeast and the bubble pockets are
+left to lighten the bread. Y ou can do
+the MiniLab on this page to study
+alcoholic fermentation in apple juice.
+236 ENERGY IN A CELL
+Figure 9.13
+Alcoholic fermentation by the yeast in bread
+dough produces CO2 bubbles that raise the
+dough. Think Critically What happens to
+the CO2?
+Predict
+Determine if Apple 
+Juice Ferments Some organ-
+isms, such as yeast, can break
+down food molecules and syn-
+thesize ATP when no oxygen is
+available. When food is avail-
+able, yeast carry out alcoholic
+fermentation, producing CO2.
+Thus, the production of CO2 in
+the absence of oxygen can be
+used to judge whether alcoholic
+fermentation is taking place.
+Procedure
+! Carefully study the diagram
+and set up the experiment
+as shown.
+@ Hold the test tube in a
+beaker of warm (not hot)
+water and observe.
+Analysis
+1. Interpret Data What were the gas bubbles that came
+from the plastic pipette?
+2. Hypothesize What would happen to the rate of bubbles
+given off if more yeast were present in the mixture?
+3. Analyze Why was the test tube placed in warm water?
+4. Draw Conclusions Was the process you demonstrated
+aerobic or anaerobic? Explain.
+Yeast and
+apple juice
+Plastic 
+pipette
+Water
+Test tube
+Metal
+washers
+Matt Meadows
+0231-0243 C9S3 BDOL-829900  8/4/04  5:02 AM  Page 236
+
+
+===== PAGE 18 =====
+Comparing
+Photosynthesis and
+Cellular Respiration 
+The production and breakdown
+of food molecules are accomplished
+by distinct processes that bear cer-
+tain similarities. Both photosynthe-
+sis and cellular respiration use
+electron carriers and a cycle of
+chemical reactions to form ATP .
+Both use electron transport chains
+to form ATP and to create a chemi-
+cal and a concentration gradient of
+H/H11001within a cell. This hydrogen ion
+gradient can be used to form ATP by
+chemiosmosis.
+However, despite using such simi-
+lar tools, the two cellular processes
+accomplish quite different tasks.
+Photosynthesis produces high-energy
+carbohydrates and oxygen from the
+sun’s energy, whereas cellular respira-
+tion uses oxygen to break down car-
+bohydrates to form ATP and
+compounds that provide less energy.
+Also, one of the end products of cel-
+lular respiration is CO2, which is one
+of the beginning products for photo-
+synthesis. The oxygen produced dur-
+ing photosynthesis is a critical
+molecule necessary for cellular respi-
+ration. T able 9.1 compares these
+complementary processes.
+Understanding Main Ideas
+1. Compare the ATP yields of glycolysis, the citric
+acid cycle, and the electron transport chain.
+2. How do alcoholic fermentation and lactic acid fer-
+mentation differ?
+3. How is most of the ATP from aerobic respiration
+produced?
+4. Why is lactic acid fermentation important to the
+cell when oxygen is scarce?
+5. How many ATP molecules are produced after the
+electrons go down the electron transport chain?
+Thinking Critically
+6. Compare the energy-producing processes in a 
+jogger’s leg muscles with those of a sprinter’s
+leg muscles. Which is likely to build up more 
+lactic acid? Explain. 
+7. Get the Big Picture How are the chemical reac-
+tions of photosynthesis and cellular respiration
+connected? What is the significance of this con-
+nection? For more help, refer to Get the Big
+Picture in the Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+9.3 GETTING ENERGY TO MAKE ATP   237
+(l)file photo, (r)George Robbins
+Table 9.1 Comparison of Photosynthesis and Cellular Respiration
+Photosynthesis Cellular Respiration
+Food synthesized Food broken down
+Energy from sun stored in glucose Energy of glucose released
+Carbon dioxide taken in Carbon dioxide given off
+Oxygen given off Oxygen taken in
+Produces sugars Produces CO 2
+from PGAL and H 2O
+Requires Does not
+light require light
+Occurs only in Occurs in all
+presence of living cells
+chlorophyll
+nc.bdol.glencoe.com/self_check_quiz 
+0231-0243 C9S3 BDOL-829900  8/4/04  5:02 AM  Page 237
+
+
+===== PAGE 19 =====
+What factors influence 
+photosynthesis?
+Problem
+How do different wavelengths of light that a plant receives
+affect its rate of photosynthesis?
+Objectives
+In this BioLab, you will:
+■ Observe photosynthesis in an aquatic organism.
+■ Measure the rate of photosynthesis.
+■ Research the wavelengths of various colors of light.
+■ Observe how various wavelengths of light influence the
+rate of photosynthesis.
+■ Use the Internet to collect and compare data from other
+students.
+Materials
+1000-mL beaker lamp with reflector and
+three Elodea plants 150-watt bulb
+string 0.25% sodium hydrogen
+washers carbonate (baking soda) 
+colored cellophane, solution
+assorted colors watch with second hand
+Safety Precautions
+CAUTION: Always wear goggles in the lab.
+Skill Handbook
+If you need help with this lab, refer to the Skill Handbook.
+1. Construct a basic setup like the one shown here.
+2. Create a data table to record your measurements. Be sure
+to include a column for each color of light you will inves-
+tigate and a column for the control.
+3. Place the Elodea plants in the beaker, then
+completely cover them with water. Add
+some of the baking soda solution. The solu-
+tion provides CO2 for the aquarium plants.
+Be sure to use the same amount of water
+and solution for each trial.
+PROCEDUREPROCEDURE
+PREPARATIONPREPARATION
+Before You
+Begin
+Oxygen is one of the prod-
+ucts of photosynthesis.
+Because oxygen is only
+slightly soluble in water,
+aquatic plants such as
+Elodea give off visible
+bubbles of oxygen as they
+carry out photosynthesis. 
+By measuring the rate at
+which bubbles form, you
+can measure the rate of
+photosynthesis.
+Matt Meadows
+0231-0243 C9S3 BDOL-829900  8/4/04  5:04 AM  Page 238
+
+
+===== PAGE 20 =====
+ANALYZE AND CONCLUDEANALYZE AND CONCLUDE
+9.3 GETTING ENERGY TO MAKE ATP   239
+1. Interpret Observations From where
+did the bubbles of oxygen emerge? 
+2. Make Inferences Explain how 
+counting bubbles measures the rate 
+of photosynthesis.
+3. Use the Internet Look up the wave-
+lengths of the colors of light you used.
+Make a graph of your data and data
+posted by other students with the rate
+of photosynthesis per minute plotted
+against the wavelengths of light you
+tested for both the control and experi-
+mental setups. Write a sentence or two
+explaining the graph.
+4. Why was it important to use the same amount of sodium
+hydrogen carbonate in each trial?
+ERROR ANALYSIS
+4. Conduct a control by directing the lamp (without col-
+ored cellophane) on the plant and noticing when you see
+the bubbles.
+5. Observe and record the number of oxygen bubbles that
+Elodea generates in five minutes.
+6. Cover the lamp with a piece of colored cellophane and
+repeat steps 4 and 5.
+7. Repeat steps 4 and 5 with a different color of cellophane.
+8. Go to to post 
+your data.
+9. Return plant material to an
+aquarium to prevent it from drying out.
+CLEANUP AND DISPOSAL
+Bubbles observed 
+in five minutes
+Color 1 Color 2 Control
+Data Table
+Find this BioLab using the link below and post
+your data in the data table provided for this
+activity. Using the additional data from other
+students on the Internet, analyze the com-
+bined data and expand your graph.
+nc.bdol.glencoe.com/internet_lab
+nc.bdol.glencoe.com/internet_lab
+Runk-Schoenberger/Grant Heilman Photography
+0231-0243 C9S3 BDOL-829900  8/4/04  5:08 AM  Page 239
+
+
+===== PAGE 21 =====
+240 ENERGY IN A CELL
+Plant Pigments
+I
+n photosynthesis, light energy is converted into
+chemical energy. T o begin the process, light is
+absorbed by colorful pigment molecules contained
+in chloroplasts.
+A pigment is a substance that can absorb spe-
+cific wavelengths of visible light. Y ou can observe
+the colors of the various wavelengths of light by
+letting sunlight pass through a prism to create a
+“rainbow,” or spectrum, that has red light on one
+end, violet on the other, and orange, yellow,
+green, blue, and indigo light in between.
+Every photosynthetic pigment is distinctive in
+that it absorbs specific wavelengths in the visible
+light spectrum.
+Chlorophylls a and b The principal pig-
+ment of photosynthesis is chlorophyll.
+Chlorophyll exists in two forms, designated as a
+and b. Chlorophyll a and b both absorb light in
+the violet to blue and the red to red-orange parts
+of the spectrum, although at somewhat different
+wavelengths. These pigments also reflect green
+light, which is why plant leaves appear green.
+When chlorophyll b absorbs light, it transfers
+the energy it acquires to chlorophyll a, which then
+feeds that energy into the chemical reactions that
+lead to the production of ATP and NADPH. In
+this way, chlorophyll b acts as an “accessory” pig-
+ment by making it possible for photosynthesis to
+occur over a broader spectrum of light than would
+be possible with chlorophyll a alone.
+Carotenoids and phycobilins Carotenoids
+and phycobilins are other kinds of accessory pig-
+ments that absorb wavelengths of light different
+from those absorbed by chlorophyll a and b, and
+so extend the range of light that can be used for
+photosynthesis.
+Carotenoids are yellow-orange pigments.
+They are found in all green plants, but their
+color is usually masked by chlorophyll.
+Carotenoids are also found in cyanobacteria and
+in brown algae. A particular carotenoid called
+fucoxanthin gives brown algae their characteris-
+tic dark brown or olive green color.
+Phycobilins are blue and red. Red algae get
+their distinctive blood-red coloration from phy-
+cobilins. Some phycobilins can absorb wave-
+lengths of green, violet, and blue light, which
+penetrate deep water. One species of red algae
+that contains these pigments is able to live at
+ocean depths of 269 meters (882.5 feet). The
+algae’s pigments absorb enough of the incredibly
+faint light that penetrates to this depth—only a
+tiny percent of what is available at the water’s
+surface—to power photosynthesis.
+Think Critically How do you think accessory
+pigments may have influenced the spread of pho-
+tosynthetic organisms into diverse habitats such as
+the deep sea?
+To find out more about pigments, visit 
+nc.bdol.glencoe.com/chemistry
+(t)Robert Calentine/Visuals Unlimited, (inset)Dan Gotshall/Visuals Unlimited
+Pigments color cyanobacteria
+(above) and red algae (inset).
+LM Magnification: 450 /H11003
+0231-0243 C9S3 BDOL-829900  8/4/04  5:11 AM  Page 240
+
+
+===== PAGE 22 =====
+Section 9.1
+ Vocabulary
+(ADP) adenosine 
+diphosphate (p. 222)
+(ATP) adenosine 
+triphosphate (p. 222)
+Vocabulary
+Calvin cycle (p. 228)
+chlorophyll (p. 226)
+electron transport chain
+(p. 226)
+light-dependent 
+reactions (p. 225)
+light-independent 
+reactions (p. 225)
+NADP/H11001(p. 227)
+photolysis (p. 227)
+photosynthesis (p. 225)
+pigment (p. 226)
+Photosynthesis:
+Trapping the
+Sun’s Energy
+Getting Energy
+to Make ATP
+STUDY GUIDESTUDY GUIDE
+CHAPTER 9 ASSESSMENT   241
+To help you review photo-
+synthesis and cellular respiration, use the
+Organizational Study Fold on page 225.
+(t)Tom McHugh/Photo Researchers, (b)Matt Meadows
+The Need for
+Energy
+Section 9.2
+Section 9.3 Vocabulary
+aerobic (p. 231)
+alcoholic fermentation
+(p. 236)
+anaerobic (p. 231)
+cellular respiration 
+(p. 231)
+citric acid cycle (p. 232)
+glycolysis (p. 231)
+lactic acid fermentation
+(p. 236)
+Key Concepts
+■ ATP is the molecule that stores energy for
+easy use within the cell.
+■ ATP is formed when a phosphate group is
+added to ADP . When ATP is broken
+down, ADP and phosphate are formed and
+energy is released.
+■ Green organisms trap the energy in sun-
+light and store it in the bonds of certain
+molecules for later use.
+■ Organisms that cannot use sunlight directly
+obtain energy by consuming plants or other
+organisms that have consumed plants.
+Key Concepts
+■ Photosynthesis is the process by which cells
+use light energy to make simple sugars. 
+■ Chlorophyll in the chloroplasts of plant
+cells traps light energy needed for 
+photosynthesis.
+■ The light reactions of photosynthesis pro-
+duce ATP and result in the splitting of
+water molecules.
+■ The reactions of the Calvin cycle make
+carbohydrates using CO2 along with ATP
+and NADPH from the light reactions.
+Key Concepts
+■ In cellular respiration, cells break down
+carbohydrates to release energy. 
+■ The first stage of cellular respiration, gly-
+colysis, takes place in the cytoplasm and
+does not require oxygen.
+■ The citric acid cycle takes place in mito-
+chondria and requires oxygen.
+nc.bdol.glencoe.com/vocabulary_puzzlemaker 
+0231-0243 C9S3 BDOL-829900  8/4/04  5:11 AM  Page 241
+
+
+===== PAGE 23 =====
+242 CHAPTER 9 ASSESSMENT
+Review the Chapter 9 vocabulary words listed in
+the Study Guide on page 241. For each set of
+vocabulary words, choose the one that does not
+belong. Explain why it does not belong.
+1. light-dependent reactions—Calvin cycle—
+chlorophyll
+2. glycolysis—alcoholic fermentation—aerobic
+3. NADP/H11001—chlorophyll—pigment
+4. photolysis—Calvin cycle—light-dependent
+reactions
+5. cellular respiration—citric acid cycle—
+photosynthesis
+6. Which of the following is a product of the
+Calvin cycle?
+A. carbon dioxide
+B. NADP/H11001
+C. oxygen
+D. FADH2
+7. ________ processes require oxygen, whereas
+________ processes do not.
+A. Anaerobic—aerobic
+B. Aerobic—anaerobic
+C. Photolysis—aerobic
+D. Aerobic—respiration
+8. Four molecules of glucose would give a net
+yield of ________ ATP following glycolysis.
+A. 8 C. 4
+B. 16 D. 12
+9. In which of the following structures do the
+light-independent reactions of photosynthesis
+take place?
+A. C.
+B. D.
+10. What is the first process in an animal cell to
+be affected by anaerobic conditions?
+A. citric acid cycle
+B. fermentation
+C. glycolysis
+D. electron transport chain
+11. In which stage of cellular respiration is 
+glucose broken down into two molecules 
+of pyruvic acid?
+A. Calvin cycle
+B. glycolysis
+C. citric acid cycle 
+D. electron transport chain
+12. Which of the following is a similarity between
+the citric acid cycle and the Calvin cycle?
+A. Both cycles utilize oxygen.
+B. Both cycles produce carbon dioxide.
+C. Both cycles utilize ATP to break down
+carbon bonds.
+D. Both cycles recycle the molecule needed
+for the first reaction.
+13. When yeast ferments the sugar in a bread
+mixture, what is produced that causes the
+bread dough to rise?
+A. carbon dioxide C. ethyl alcohol
+B. water D. oxygen
+14. Open Ended Why would human muscle
+cells contain many more mitochondria than
+skin cells?
+15. Open Ended How are cellular respiration
+and photosynthesis complementary
+processes?
+16. Open Ended What happens to sunlight 
+that strikes a leaf but is not trapped by
+chlorophyll?
+17. Sequence Describe the pathway of elec-
+trons from the time they enter the inter-
+membrane space of the mitochondrion to
+the time they are returned to the inside of
+the mitochondrion.
+nc.bdol.glencoe.com/chapter_test
+0231-0243 C9S3 BDOL-829900  8/4/04  5:12 AM  Page 242
+
+
+===== PAGE 24 =====
+CHAPTER 9 ASSESSMENT   243
+18. Concept Map Make a concept map using
+the following vocabulary terms: cellular res-
+piration, glycolysis, citric acid cycle, electron
+transport chain.
+19. Muscle tissue
+is made of different types of fibers—fast-twitch
+and slow-twitch. These fibers vary in meta-
+bolic activities. Visit 
+to find out about the various types of muscle
+fibers. How do the metabolic activities of
+these fibers vary? What types of fibers are
+used for different movements and why?
+REAL WORLD BIOCHALLENGE
+are the steps of
+2.
+4.
+1. 3.
+which takes place in mitochondria
+Multiple Choice
+Study the table and answer questions
+20–23.
+The following experimental data was
+collected by placing equal amounts of
+various plant parts in sealed containers
+and exposing them to various light col-
+ors. After eight hours in the container,
+the increase in oxygen was measured 
+in the container.
+Rate of Photosynthesis
+Container Plant Plant Part Light Color Temperature Increase 
+(°C) in O 2 (mL)
+1 Geranium Leaf Red 22 120
+2 Geranium Leaf Green 22 15
+3 Geranium Root Red 22 0
+4 Violet Leaf Red 22 80
+5 Violet Leaf Green 22 10
+nc.bdol.glencoe.com
+20. One could compare the amount of oxygen
+produced in eight hours at two different
+light colors by comparing _________.
+A. 1 and 3 C. 1 and 5
+B. 2 and 4 D. 1 and 2
+21. In which container was photosynthesis tak-
+ing place at the fastest rate?
+A. 1 C. 3
+B. 2 D. 4
+22. In which container was photosynthesis not
+occurring?
+A. 1 C. 3
+B. 2 D. 4
+23. According to the data, which variable 
+determined whether or not photosynthesis
+occurred?
+A. plant C. temperature
+B. light color D. plant part
+Constructed Response/Grid In
+Record your answers on your answer document.
+24. Open Ended Compare the energy storage in photosynthesis to the energy storage in cellular 
+respiration.
+25. Open Ended Compare alcoholic fermentation and lactic acid fermentation in terms of starting
+and ending material and ATP production.
+The assessed North Carolina objective appears next to the question.
+2.05
+2.05
+2.05
+1.02
+2.05
+2.05
+nc.bdol.glencoe.com/standardized_test 
+0231-0243 C9S3 BDOL-829900  8/4/04  5:13 AM  Page 243
+
+
+===== PAGE 25 =====
+The Chemistry of Life
+Although you are studying biology, chemistry is
+fundamental to all biological functions. Under-
+standing some of the basic concepts of chemistry
+will enhance your understanding of the biological
+world.
+Elements and Atoms
+Every substance in and on Earth is composed 
+of one or more kinds of elements. An atom, the
+smallest component of an element, is made of
+even smaller particles called electrons, protons,
+and neutrons. Atoms react to form compounds.
+The Life of a Cell
+A
+ll organisms are made of cells, and each cell 
+is like a complex, self-contained machine that
+can perform life functions. Yet as small as they are,
+all of the mechanisms and processes of these little
+machines are not fully known, and scientists
+continue to unravel the marvelous mysteries 
+of the living cell.
+The Cell Theory
+Van Leeuwenhoek might have
+viewed microorganisms like
+these found in a droplet of
+pond water.
+LM Magnification: 100 /H11003
+Carbon Isotopes
+Isotopes of carbon contain different numbers
+of neutrons.
+Carbon-12: six protons and six neutrons
+Carbon-13: six protons and seven neutrons
+Carbon-14: six protons and eight neutrons
+Cells are microscopic machines.
+244
+I
+n the 1600s, Anton van Leeuwenhoek was the first person
+to view living organisms through a microscope. Another sci-
+entist, Robert Hooke, named the structures cells. Two hundred
+years later, several scientists, including Matthias Schleiden,
+Theodor Schwann, and Rudolf Virchow continued to study
+animal and plant tissues under the microscope. Conclusions
+from many scientists were combined to form the cell theory:
+1. All organisms are composed of one or more cells.
+2. The cell is the basic unit of organization of organisms.
+3. All cells come from preexisting cells.
+(t)Michael Rosenfelf/Tony Stone Images, (b)Science VU/Visuals Unlimited
+0244-0249 U3 BD/Rev BDOL-829900  8/4/04  1:44 PM  Page 244
+
+
+===== PAGE 26 =====
+r-phosphate 
+bone
+rogen bonds between
+genous bases
+A
+A
+A
+P
+P
+P
+P
+D
+D
+D
+D
+D
+D
+D
+DT
+T
+T
+G
+G
+C
+C
+Substrate
+Active
+site
+The Life of a Cell
+Color-enhanced TEM Magnification: 41 150 /H11003
+An enzyme has an area called an
+active site in which a specific sub-
+strate undergoes a chemical reaction.
+Color-enhanced TEM
+Magnification: 4800/H11003
+Nucleic acids are made 
+of subunits called nucleo-
+tides. Each one consists of 
+a sugar, a phosphate group,
+and a nitrogenous base.
+Organelles
+THE LIFE OF A CELL 245
+A prokaryotic cell does not
+contain membrane-bound
+organelles.
+Organic Compounds
+Carbohydrates are chemical compounds made
+of carbon, hydrogen, and oxygen. Common carbo-
+hydrates include sugars, starches, and cellulose.
+Lipids, known as fats and oils, contain a glycerol
+backbone and three fatty acid chains. Proteins are
+large molecules made of amino acids connected by
+peptide bonds. Enzymes are proteins that change
+the rates of chemical reactions. Nucleic acids such
+as DNA and RNA are complex biomolecules that
+store cellular information in the form of a code.
+Eukaryotes and Prokaryotes 
+All cells are surrounded by a plasma membrane.
+Eukaryotic cells contain membrane-bound organelles
+within the cell. Cells without internal membrane-
+bound organelles are called prokaryotic cells. 
+A eukaryotic cell con-
+tains membrane-
+bound organelles.
+(t)Dr. Kari Lounatmaa/Science Photo Library/Photo Researchers, (b)Moredun Animal Health, Ltd./Science Photo Library/Photo Resear chers
+0244-0249 U3 BD/Rev BDOL-829900  8/4/04  1:45 PM  Page 245
+
+
+===== PAGE 27 =====
+246 BIODIGEST UNIT 3 REVIEW
+Carbohydrate
+Phospholipid
+bilayer
+Protein
+Fatty 
+acid tail
+Phosphate head
+The plasma membrane is composed of
+a lipid bilayer with embedded proteins.
+Plasma 
+membrane
+Mitochondrion
+Nucleus
+Chloroplast
+Cell wall
+Vacuole
+Golgi 
+apparatus
+Ribosomes
+Rough
+endoplasmic
+reticulum
+Plant cell Animal cell
+The Life of a Cell
+Color-enhanced TEM Magnification: unavailable Color-enhanced TEM Magnification: 1250 /H11003
+Cell Organelles 
+The organelles of a cell work together to carry
+out the functions necessary for cell survival.
+Gateway to the Cell
+According to the fluid mosaic model, the
+plasma membrane is formed by two layers of
+phospholipids with the fatty acid chains facing
+each other; the phosphate groups face the cell’s
+internal and external environments, and proteins
+are embedded in the membrane.
+Control of Cell Functions
+The nucleus contains the master plans for pro-
+teins, which are then produced by organelles
+called ribosomes. The nucleus also controls cellular
+functions.
+Assembly, Transport, and Storage 
+The cytoplasm suspends the cell’s organelles,
+including endoplasmic reticulum, Golgi apparatus,
+vacuoles, and lysosomes. The endoplasmic reticulum
+and Golgi apparatus transport and modify proteins.
+Energy Transformers 
+Chloroplasts are found in plant cells. They 
+capture the sun’s light energy so it can be trans-
+formed into useable chemical energy. Mitochon-
+dria are found in both animal and plant cells. 
+They transform the food you eat into a useable
+energy form.
+Support and Locomotion
+A network of microfilaments and microtubules
+attach to the plasma membrane to give the cell
+structure. Cilia are short, numerous projections that
+move like the oars of a boat. Flagella are longer
+projections that move in a whiplike fashion to 
+propel a cell. 
+(l)Biophoto Associates/Photo Researchers, (r) Dr. Gopel Murti/Phototake, NYC
+0244-0249 U3 BD/Rev BDOL-829900  8/4/04  1:46 PM  Page 246
+
+
+===== PAGE 28 =====
+The Life of a Cell
+Cellular Environments
+Isotonic solution: same number of dissolved
+substances inside and outside the cell
+Hypotonic solution: more dissolved sub-
+stances inside the cell; water enters the cell
+Hypertonic solution: fewer dissolved sub-
+stances inside the cell; water leaves the cell
+ATP production for each
+molecule of glucose
+Glycolysis: produces a net gain of two ATP,
+two NADH, and two H+
+Citric acid cycle (Krebs cycle): produces
+two ATP, six NADH, and two FADH2
+Electron transport chain: produces 32 ATP
+from NADH and FADH2
+Lactic acid fermentation: produces two ATP
+and lactic acid
+THE LIFE OF A CELL 247
+Interphase
+Prophase
+Metaphase
+Anaphase
+Telophase
+During the stages of mitosis, chromosomes are sepa-
+rated into two daughter cells. 
+Carrier protein
+Higher concentration
+of ions
+Ions Lower concentration
+of ions Energy
+Active transport
+Diffusion and Osmosis
+The selectively permeable plasma membrane
+allows only certain substances to cross. Diffusion 
+is the movement of a substance from an area of
+higher concentration to an area of lower concen-
+tration. Diffusion of water across a selectively per-
+meable membrane is called osmosis.
+Simple diffusion occurs by random movement
+of molecules or ions. In facilitated diffusion, pro-
+teins bind to and move molecules across a mem-
+brane. Active transport uses energy to move
+molecules against a concentration gradient.
+Energy in a Cell 
+Adenosine triphosphate (ATP) is the most com-
+mon energy source in a cell. Two organelles help
+form ATP from other sources of energy.
+Chloroplasts in plant cells convert energy from
+the sun’s rays into ATP using light-dependent reac-
+tions and store that energy in sugars via light-
+independent reactions and the Calvin cycle.
+Mitochondria in both plant and animal cells con-
+vert food energy into ATP through a series of
+chemical reactions including glycolysis, the citric
+acid cycle, and the electron transport chain.
+Mitosis
+As cells grow, they reach a size where the
+plasma membrane cannot transport enough nutri-
+ents and wastes to maintain cell growth. At this
+point, the cell undergoes mitosis and divides. 
+The period prior to mitosis, called interphase, is
+one of intense metabolic activity. The first stage of
+mitosis is prophase, when the duplicated chromo-
+somes condense and the mitotic spindle forms. The
+chromosomes line up in the center of the cell dur-
+ing metaphase and slowly separate during ana-
+phase. In telophase the nucleus divides followed
+by cytokinesis, which separates the daughter cells. 
+0244-0249 U3 BD/Rev BDOL-829900  8/4/04  1:47 PM  Page 247
+
+
+===== PAGE 29 =====
+248 UNIT 3 STANDARDIZED TEST PRACTICE
+Chromosome Comparison of Four Organisms
+Organism Human Rye Potato Guinea pig
+Number of 
+chromosomes 46 14 48 64
+in body cells
+Number of 
+chromatids 92 A 96 128
+during metaphase
+Number of 
+chromosomes 46 14 48 64
+in daughter cells
+Multiple Choice
+Use the table below to answer questions 1–3.
+1. What number belongs in the space labeled A
+under “Rye” in the table?
+A. 14 C. 7
+B. 28 D. 21
+2. If one pair of chromatids failed to separate
+during mitosis in rye cells, how many chromo-
+somes would end up in the two daughter cells?
+A. 28 and 28
+B. 14 and 14
+C. 7 and 8
+D. 13 and 15
+3. What is the relationship between the number
+of chromosomes in body cells and the com-
+plexity of an organism?
+A. The more complex the organism, the more
+chromosomes it has.
+B. The more complex the organism, the fewer
+chromosomes it has.
+C. There is no relationship.
+D. The number of chromosomes is deter-
+mined by the sex of the organism.
+4. The isotopes of the element magnesium differ
+in their number of ________.
+A. proteins
+B. electrons
+C. neutrons
+D. protons
+5. Which of the following organelles are found in
+all cells?
+A. plasma membrane and ribosomes
+B. mitochondria and chloroplasts
+C. microtubules and lysosomes
+D. Golgi apparatus and endoplasmic reticulum
+6. During late interphase, the chromosomes dou-
+ble to form chromatids that are attached to
+each other. During which phase of mitosis do
+the chromatids separate?
+A. prophase
+B. metaphase
+C. anaphase
+D. telophase
+7. Plants must have a constant supply of ________
+for photosynthesis, but they provide ________
+for cellular respiration.
+A. water—carbon dioxide
+B. carbon dioxide—water
+C. carbon dioxide—oxygen
+D. oxygen—water
+8. Which type of bond involves the sharing of 
+electrons?
+A. covalent
+B. ionic
+C. hydrogen
+D. electrostatic
+9. The primary organelle used for storing infor-
+mation in a cell is the ________.
+A. cell wall
+B. endoplasmic reticulum
+C. mitochondria
+D. nucleus
+When Eliminating,
+Cross It Out
+List the answer choice letters on scratch paper
+and, with your pencil, cross out choices you’ve
+eliminated. You’ll stop yourself from choosing
+an answer you’ve mentally eliminated.
+The assessed North Carolina objective appears next to the question.End-of-Course Test Practice
+2.02
+2.05
+2.02
+0244-0249 U3 BD/Rev BDOL-829900  8/4/04  5:41 PM  Page 248
+
+
+===== PAGE 30 =====
+UNIT 3 STANDARDIZED TEST PRACTICE   249
+10. A biologist studies cells under a microscope
+that have been drawn from an unknown solu-
+tion. The cells appear shriveled. What can the
+biologist conclude about the solution? 
+A. It is hypotonic.
+B. It is isotonic.
+C. It is hypertonic.
+D. It is polar.
+11. Which helps capture the sun’s energy?
+A. light-dependent reactions
+B. citric acid cycle
+C. Calvin cycle
+D. light-independent reactions
+Use the word equation below to answer questions
+12–14.
+sucrose /H11001water glucose /H11001fructose
+12. The reaction above illustrates the ________.
+A. hydrolysis of sucrose
+B. condensation of sucrose
+C. hydrolysis of glucose
+D. condensation of fructose
+13. The product(s) of this reaction is/are
+________.
+A. sucrose
+B. water
+C. glucose and fructose
+D. sucrose and water
+14. Glucose and fructose are ________.
+A. disaccharides
+B. polysaccharides
+C. monosaccharides
+D. starches
+Use the figure below to answer questions 15–17.
+15. The illustrations above demonstrate the trans-
+port of an ion across the plasma membrane,
+but they are out of sequence. In what order do
+they belong?
+A. D-C-B-A C. C-B-D-A
+B. A-B-D-C D. A-D-B-C
+16. What statement is true about diagram D?
+A. The ion movement is random.
+B. Energy is required.
+C. The fatty acids in the plasma membrane
+could also move apart to allow the ion
+through.
+D. The concentration of ions is higher at the
+top of diagram D than at the bottom.
+17. Which process is best represented by these 
+diagrams?
+A. diffusion C. endocytosis
+B. active transport D. passive transport
+Energy
+A. B.
+C. D.
+Constructed Response/Grid In
+Record your answers on your answer document.
+18. Open Ended How is an ionic bond different from a covalent bond?
+19. Open Ended Describe the role of transport proteins in plasma membranes.
+20. Open Ended Compare the functions of mitochondria and chloroplasts in cells. Be sure to include
+ATP in your answer.
+21. Open Ended Describe the cellular process of mitosis.
+2.05
+2.03
+2.02
+2.03
+2.03
+2.03
+nc.bdol.glencoe.com/standardized_test
+0244-0249 U3 BD/Rev BDOL-829900  8/4/04  5:42 PM  Page 249
+

@@ -1,0 +1,1848 @@
+===== PAGE 1 =====
+170
+Visit to
+• study the entire chapter
+online
+• access Web Links for more
+information and activities on
+cells
+• review content with the
+Interactive Tutor and self-
+check quizzes
+A View of the CellA View of the Cell
+Color-enhanced TEM Magnification: 4700 /H11003
+You and all other organisms are
+made of cells. A human cell
+appears in this color-enhanced
+photograph. Scientists use color
+enhancement with assistance
+from computer software to dis-
+tinguish various cell parts.
+Understanding
+the Photo
+What You’ll Learn
+■ You will identify the parts of
+prokaryotic and eukaryotic
+cells.
+■ You will identify the structure
+and function of the plasma
+membrane.
+■ You will relate the structure
+of cell parts to their functions.
+Why It’s Important
+Cells are the foundation for all
+life forms. Birth, growth, devel-
+opment, death, and all life func-
+tions begin as cellular processes.
+Plasma membrane
+Nucleus
+Mitochondrion
+Endoplasmic
+reticulum
+Lysosomes
+nc.bdol.glencoe.com
+Biophoto Associates/Photo Researchers 
+0170-0170 C07CO BDOL-829900  8/4/04  1:46 AM  Page 170
+
+
+===== PAGE 2 =====
+The Discovery of Cells7.1
+SECTION PREVIEW
+Objectives
+Relate advances in micro-
+scope technology to dis-
+coveries about cells and
+cell structure.
+Compare the operation 
+of a compound light micro-
+scope with that of an elec-
+tron microscope.
+Identify the main ideas of
+the cell theory.
+Review Vocabulary
+organization: the orderly
+structure of cells in an
+organism (p. 7)
+New Vocabulary
+cell
+compound light microscope
+cell theory
+electron microscope
+organelle
+prokaryote
+eukaryote
+nucleus
+7.1 THE DISCOVERY OF CELLS 171
+The Cell Theory
+Summarize  After you read Section 7.1, summarize the three main ideas of 
+the cell theory in your own words. Review the theory using the information 
+provided and note its strengths and weaknesses.
+The Cell Theory  Make the following Foldable to help you 
+organize the ideas of the cell theory.
+  Collect 2 sheets of paper and 
+layer them about 1.5 cm apart vertically. 
+Keep the edges level.
+  Fold up the bottom 
+edges of the paper to form 4 
+equal tabs.
+  Fold the papers and crease well to 
+hold the tabs in place. Staple along the fold. 
+Label each tab with one of the main ideas of 
+the cell theory. 
+STEP 1
+STEP 3
+STEP 2
+The History of the Cell Theory
+Before microscopes were invented, people believed that diseases were
+caused by curses and supernatural spirits. They had no idea that organ-
+isms such as bacteria existed. As scientists began using microscopes, they
+quickly realized they were entering a new world—one of microorganisms
+(my kroh OR guh nih zumz). Microscopes enabled scientists to view and
+study cells, the basic units of living organisms. 
+Light microscopes
+The microscope Anton van Leeuwenhoek ( LAY vun hook) used in the
+1600s is considered a simple light microscope because it contained one
+lens and used light to view objects. Over the next 200 years, scientists
+greatly improved microscopes by grinding higher quality lenses 
+and developing the compound light microscope. Compound light 
+microscopes use a series of lenses to magnify objects in steps. These
+microscopes can magnify objects up to about 1500 times. As the obser-
+vations of organisms viewed under a microscope expanded, scientists
+began to draw conclusions about the organization of living matter.
+With the microscope established as a valid scientific tool, scientists had
+to learn the size relationship of magnified objects to their true size. See
+what specimens look like at different magnifications on pages
+1064–1065 in the Focus On.
+Physical
+Science
+Connection
+Lenses and the
+refraction of
+light Because
+light waves travel
+faster in air than
+in glass, they
+change direction
+as they move from
+air into a glass
+lens. This bending
+of light waves is
+called refraction.
+Refraction occurs
+when a wave
+changes speed as it
+moves from one
+material into
+another. 
+Objective 4.01 Analyze the classification of organisms according
+to their evolutionary relationships: Similarities and differences between eukaryotic and
+prokaryotic organisms
+North Carolina Objectives
+0171-0174 C07S1 BDOL-829900  8/4/04  1:54 AM  Page 171
+
+
+===== PAGE 3 =====
+The cell theory
+Robert Hooke was an English sci-
+entist who lived at the same time as
+van Leeuwenhoek. Hooke used a
+compound light microscope to study
+cork, the dead cells of oak bark. In
+cork, Hooke observed small geomet-
+ric shapes, like those shown in
+Figure 7.1. Hooke gave these box-
+shaped structures the name cells
+because they reminded him of the
+small rooms monks lived in at a
+monastery. Cells are the basic units of
+all living things. 
+Several scientists extended Hooke’s
+observations and drew some impor-
+tant conclusions. In the 1830s, the
+German scientist Matthias Schleiden
+observed a variety of plants and 
+concluded that all plants are com-
+posed of cells. Another German sci-
+entist, Theodor Schwann, made sim-
+ilar observations on animals. The
+observations and conclusions of these
+scientists are summarized as the cell
+theory, one of the fundamental ideas
+of modern biology. 
+The cell theory is made up of
+three main ideas:
+1. All organisms are composed of one or
+more cells. An organism may be a
+single cell, such as the organisms
+van Leeuwenhoek saw in water.
+Others, like the plants and animals
+with which you are most familiar,
+are multicellular, or made up of
+many cells.
+2. The cell is the basic unit of structure and
+organization of organisms. Although
+organisms such as humans, dogs,
+and trees can become very large and
+complex, the cell remains the sim-
+plest, most basic component of any
+organism.
+3. All cells come from preexisting cells.
+Before the cell theory, no one knew
+how cells were formed, where they
+came from, or what determined the
+type of cell they became. The cell
+theory states that a cell divides to
+form two identical cells.
+Summarize the
+main ideas of the cell theory.
+Electron microscopes
+The microscopes we have dis-
+cussed so far use a beam of light and
+can magnify an object up to about
+1500 times its actual size. Although
+light microscopes continue to be valu-
+able tools, scientists knew that another
+world, which they could not yet see,
+existed within a cell. In the 1930s and
+1940s, a new type of microscope, the
+electron microscope,was developed.
+This microscope uses a beam of elec-
+trons instead of light to magnify
+structures up to 500 000 times their
+actual size, allowing scientists to see
+structures within a cell. Because the
+electrons can collide with air particles
+and scatter, specimens must be exam-
+ined in a vacuum.
+There are two basic types of electron
+microscopes. Scientists commonly use
+the scanning electron microscope
+(SEM) to scan the surfaces of cells to
+learn their three-dimensional shape.
+The transmission electron microscope
+172 A VIEW OF THE CELL
+Stained LM Magnification: 100 /H11003
+Figure 7.1
+Cork cells (above) from
+the dead bark of an
+oak tree (top) were
+observed by Robert
+Hooke using a crude
+compound light micro-
+scope that magnified
+structures only 30 times.
+Infer Why did Hooke
+name them “cells”?
+(t)Francesc Muntada/CORBIS, (b)Cabisco/Visuals Unlimited
+0171-0174 C07S1 BDOL-829900  8/4/04  1:55 AM  Page 172
+
+
+===== PAGE 4 =====
+(TEM) allows scientists to study the
+structures contained within a cell. 
+New types of microscopes and new
+techniques are continually being de-
+signed. For example, the scanning tun-
+neling microscope (STM) uses the
+flow of electrons to create computer
+images of atoms on the surface of a
+molecule. New techniques using the
+light microscope have increased the
+information scientists can gain with
+this basic tool. Most of these new tech-
+niques seek to add contrast to struc-
+tures within the cells, such as adding
+dyes that stain some parts of a cell, but
+not others. T ry MiniLab 7.1to practice
+the basic technique of measuring
+objects under a microscope.
+Two Basic Cell Types
+With the development of better
+microscopes, scientists observed that
+all cells contain small, specialized
+structures called organelles. Many,
+but not all, organelles are surrounded
+by membranes. Each organelle has a
+specific function in the cell.
+Cells can be divided into two broad
+groups: those that contain membrane-
+bound organelles and those that do
+not. Cells that do not contain any
+membrane-bound organelles are called
+prokaryotic (pro kar ee AW tik) cells.
+Most unicellular organisms, such as
+bacteria, do not have membrane-
+bound organelles and are therefore
+called prokaryotes.
+Cells of the other type, those con-
+taining membrane-bound organelles,
+are called eukaryotic (yew kar ee AW
+tik) cells. Most of the multicellular
+organisms we know are made up of
+eukaryotic cells and are therefore
+called eukaryotes. It is important to
+note, however, that some eukaryotes,
+such as amoebas, or some algae and
+yeast, are unicellular organisms.
+AA BB
+7.1 THE DISCOVERY OF CELLS 173
+Measure in SI
+Measuring Objects Under a
+Microscope Knowing the diame-
+ter of the circle of light you see
+when looking through a micro-
+scope allows you to measure the
+size of objects being viewed. For
+most microscopes, the diameter 
+of the circle of light is 1.5 mm, or 
+1500 µm (micrometers), under low
+power and 0.375 mm, or 375 µm, 
+under high power.
+Procedure
+! Look at diagram A that shows an object viewed under low
+power. Knowing the circle diameter to be 1500 µm, the
+estimated length of object (a) is 400 µm. What is the esti-
+mated length of object (b)?
+@ Look at diagram B that shows an object viewed under
+high power. Knowing the circle diameter to be 375 µm,
+the estimated length of object (c) is 100 µm. What is the
+estimated length of object (d)?
+# With help from your teacher, prepare a wet mount of a
+strand of your hair. CAUTION: Use caution when handling
+microscopes and glass slides. Measure the diameter of
+your hair strand while viewing it under low and then high
+power.
+Analysis
+1. Observe and Infer An object can be magnified 100, 200,
+or 1000 times when viewed under a microscope. Does the
+object’s actual size change with each magnification?
+Explain.
+2. Estimate Do your observations of the diameter of your
+hair strand under low and high power support the answer
+to question 1? If not, offer a possible explanation why.
+1500 µm 375 µm
+a c
+d
+b
+Human hair
+Stained LM Magnification: 75 /H11003
+George Musil/Visuals Unlimited
+0171-0174 C07S1 BDOL-829900  8/4/04  1:55 AM  Page 173
+
+
+===== PAGE 5 =====
+Understanding Main Ideas
+1. Describe the history of microscopes, and evaluate
+their impact in the study of cells.
+2. How does the cell theory describe the levels of
+organization of living organisms?
+3. Compare the sources of the beam in light micro-
+scopes and electron microscopes.
+4. Describe the differences between a prokaryotic
+and a eukaryotic cell, and identify their parts.
+5. Explain the difference between a scanning elec-
+tron microscope and a transmission electron
+microscope and their uses.
+Thinking Critically
+6. Suppose you discovered a new type of plant.
+Applying the cell theory, what can you say for 
+certain about this organism?
+7. Care and Use of a Microscope Most compound
+light microscopes have four objective lenses with
+magnifications of 4/H11003, 10/H11003, 40/H11003, and 100/H11003. What
+magnifications are available if the eyepiece magni-
+fies 15 times? For more help, refer to Care and Use
+of a Microscopein the Skill Handbook.
+SKILL REVIEWSKILL REVIEW
+174 A VIEW OF THE CELL
+Figure 7.2
+Some parts of prokaryotic and eukaryotic cells are shown here.
+Cell wall
+Plasma membraneDNARibosomes
+Nucleus
+Plasma membrane
+Chromosomes
+Organelles
+Nucleolus
+Size Comparison
+Prokaryote
+Eukaryotic cells are generally 
+one to one hundred times 
+bigger than prokaryotic cells.
+Average size ranges
+Eukaryotic cells: 0.01mm to 
+0.1mm
+Prokaryotic cells: 0.001 mm to 
+0.01mm
+Eukaryote
+ A prokaryotic cell does not
+have internal organelles
+surrounded by a membrane.
+Most of a prokaryote’s
+metabolism takes place 
+in the cytoplasm.
+A
+This eukaryotic cell
+from an animal has
+distinct membrane-
+bound organelles
+that allow different
+parts of the cell to
+perform different
+functions.
+B
+Compare the prokaryotic and 
+eukaryotic cells in Figure 7.2. Sepa-
+ration of cell functions into distinct
+compartments—the organelles—ben-
+efits the eukaryotic cell. One benefit
+is that chemical reactions that would
+normally not occur in the same area
+of the cell can now be carried out at
+the same time.
+Robert Brown, a Scottish scientist,
+observed that eukaryotic cells contain
+a prominent structure, which Rudolf
+Virchow later concluded was the
+structure responsible for cell division.
+We now know this structure as the
+nucleus, the central membrane-
+bound organelle that manages or con-
+trols cellular functions. 
+nc.bdol.glencoe.com/self_check_quiz 
+0171-0174 C07S1 BDOL-829900  8/4/04  1:55 AM  Page 174
+
+
+===== PAGE 6 =====
+7.2
+SECTION PREVIEW
+Objectives
+Describe how a cell’s
+plasma membrane 
+functions.
+Relate the function of the
+plasma membrane to the
+fluid mosaic model.
+Review Vocabulary
+ion: an atom or group of
+atoms with a positive or
+negative electrical
+charge (p. 147)
+New Vocabulary
+plasma membrane
+selective permeability
+phospholipid
+fluid mosaic model
+transport protein
+permeable from
+the Latin words
+per, meaning
+“through,” and
+meare, meaning
+“to glide”; Mater-
+ials move easily
+(glide) through
+permeable 
+membranes.
+7.2 THE PLASMA MEMBRANE 175
+Controlling the Flow
+Using Prior Knowledge In this sec-
+tion, you will learn about the
+plasma membrane which sur-
+rounds the cell and serves as 
+a gateway through which mate-
+rials enter and exit the cell.
+The plasma membrane is com-
+posed of two layers of lipids.
+Y ou have read that lipids are
+organic compounds that are
+insoluble in water, which is why
+the oil and vinegar in this salad
+dressing form two separate layers 
+that do not dissolve in each other.
+Infer Considering that a cell’s environment is extremely
+watery, why might lipids be important to the composition of the plasma membrane?
+The Plasma Membrane
+Maintaining a Balance
+Y ou are comfortable in your house largely because the thermostat
+maintains the temperature within a limited range regardless of what’s
+happening outside. Similarly, all living cells must maintain a balance
+regardless of internal and external conditions. Survival depends on the
+cell’s ability to maintain the proper conditions within itself.
+Why cells must control materials
+Y our cells need nutrients such as glucose, amino acids, and lipids to
+function. It is the job of the plasma membrane, the flexible boundary
+between the cell and its environment, to allow a steady supply of these
+nutrients to come into the cell no matter what the external conditions are.
+However, too much of any of these nutrients or other substances, espe-
+cially ions, can be harmful to the cell. If levels become too high, the excess
+is removed through the plasma membrane. Waste and other products also
+leave the cell through the plasma membrane. Recall that this process of
+maintaining balance in the cell’s environment is called homeostasis.
+How does the plasma membrane maintain homeostasis? One mechanism
+is selective permeability,a process in which a membrane allows some mol-
+ecules to pass through while keeping others out. In your home, a screen in
+a window can perform selective permeability in a similar way. When you
+open the window, the screen lets fresh air in and keeps most insects out. 
+Kristen Brochmann/Fundamental Photographs 
+Objective 2.03 Investigate the cell as a living system
+including: Movement of materials into and out of cells
+North Carolina Objectives
+0175-0178 C07S2 BDOL-829900  8/4/04  2:03 AM  Page 175
+
+
+===== PAGE 7 =====
+176 A VIEW OF THE CELL
+A window screen is selectively perme-
+able because it allows air but not most
+insects to pass through it.
+A
+Some molecules, such as water,
+freely enter the cell through the plasma
+membrane, as shown in Figure 7.3.
+Other particles, such as sodium and
+calcium ions, must be allowed into the
+cell only at certain times, in certain
+amounts, and through certain chan-
+nels. The plasma membrane must be
+selective in allowing these ions to enter.
+Use the Problem-Solving Lab here to
+analyze the plasma membrane of a
+yeast cell.
+Structure of the 
+Plasma Membrane
+Now that you understand the basic
+function of the plasma membrane,
+you can study its structure. Recall
+from Chapter 6 that lipids are large
+molecules that are composed of glyc-
+erol and three fatty acids. If a phos-
+phate group replaces a fatty acid, 
+a phospholipid is formed. Thus, a
+phospholipid (fahs foh LIH pid) has 
+a glycerol backbone, two fatty acid
+chains, and a phosphate group. The
+plasma membrane is composed of a
+phospholipid bilayer, which has two
+layers of phospholipids back-to-back.
+Oxygen
+Amino acids
+Water
+Wastes
+Wastes
+Glucose
+Plasma
+membrane
+Carbon dioxide
+AA BB
+Figure 7.3
+The selectively permeable plasma membrane
+controls substances entering and leaving a cell.
+The plasma membrane is also selectively permeable.
+Substances, such as glucose, must enter and stay in
+a cell. Other substances must leave a cell, and some
+substances must be prevented from entering a cell.
+B
+Recognize Cause and Effect
+Is the plasma membrane a selective barrier?Yeast cells are
+living organisms and are surrounded by a plasma membrane.
+Below are the results of an experiment which shows that living
+yeast plasma membranes can limit what enters the cell. 
+Solve the Problem
+Diagram A shows yeast cells in a solution of blue stain. Note
+their color as well as the color of the surrounding stain.
+Diagram B also shows yeast cells in a solution of blue stain.
+These cells, however, were boiled for 10 minutes before being
+placed in the stain. Again, note the color of the yeast cells as
+well as the color of the surrounding stain.
+Thinking Critically
+1. Explain How does boiling affect the yeast cells?
+2. Hypothesize Why is the color of the cells different under
+different conditions? Be sure that your hypothesis takes
+the role of the plasma membrane into consideration.
+3. Infer Are plasma membranes selective barriers? Explain.
+C.C. Lockwood/DRK Photo
+0175-0178 C07S2 BDOL-829900  8/4/04  2:04 AM  Page 176
+
+
+===== PAGE 8 =====
+The phospholipid bilayer
+The phosphate group is critical for
+the formation and function of the
+plasma membrane. The two fatty acid
+tails of the phospholipids are nonpolar,
+whereas the head of the phospholipid
+molecule containing the phosphate
+group is polar.
+Water is a key component of living
+organisms, both inside and outside 
+the cell. The polar phosphate group
+allows the cell membrane to interact
+with its watery environment because,
+as you recall, water is also polar. The
+fatty acid tails, on the other hand,
+avoid water. The two layers of phos-
+pholipid molecules make a sandwich
+with the fatty acid tails forming the
+interior of the membrane and the
+phospholipid heads facing the watery
+environments found inside and out-
+side the cell. Figure 7.4 illustrates
+phospholipids and their place within
+the structure of the plasma membrane.
+When many phospholipid molecules
+come together in this manner, a barrier
+is created that is water-soluble at its
+outer surfaces and water-insoluble in
+the middle. Water-soluble molecules
+will not easily move through the mem-
+brane because they are stopped by this
+water-insoluble layer.
+Describe the struc-
+ture of the phospholipid bilayer.
+7.2 THE PLASMA MEMBRANE 177
+Cholesterol
+Membrane
+protein
+Cytoplasm
+Carbohydrate
+chains
+Membrane
+protein
+Polar head
+(includes 
+phosphate 
+group)
+Phospholipid
+molecule
+Nonpolar
+tails (fatty
+acids)
+Figure 7.4
+The plasma membrane has pro-
+teins on its surface or embedded
+in it. The phospholipid and pro-
+tein molecules are free to move
+sideways within the membrane.
+Infer Why do the polar heads
+of the phospholipids face the
+outsides of the membrane?
+Physical
+Science
+Connection
+Solubility and the
+nature of solute
+and solvent
+Solvents made of
+polar molecules
+usually dissolve
+polar and ionic
+solutes. Solvents
+made of nonpolar
+molecules, such as
+oil or fat, usually
+dissolve nonpolar
+solutes.
+0175-0178 C07S2 BDOL-829900  8/4/04  2:05 AM  Page 177
+
+
+===== PAGE 9 =====
+The model of the plasma membrane
+is called the fluid mosaic model. It is
+fluid because the phospholipids move
+within the membrane just as water
+molecules move with the currents in a
+lake. At the same time, proteins in the
+membrane also move among the phos-
+pholipids like boats with their decks
+above water and hulls below water.
+These proteins create a “mosaic,” or
+pattern, on the membrane surface.
+Other components 
+of the plasma membrane
+Cholesterol, shown in Figure 7.5,
+is also found in the plasma membrane
+where it helps to stabilize the phos-
+pholipids by preventing their fatty
+acid tails from sticking together.
+Cholesterol is a common topic in
+health issues today because high levels
+are associated with reduced blood
+flow in blood vessels. Y et, for all the
+emphasis on cholesterol-free foods, it
+is important to recognize that choles-
+terol plays a critical role in the stabil-
+ity of the plasma membrane and is
+therefore a necessary part of your diet.
+Y ou’ve learned that proteins are
+found within the lipid membrane.
+Proteins that span the entire mem-
+brane help form the selectively per-
+meable membrane that regulates 
+which molecules enter and which
+molecules leave a cell. These pro-
+teins are called transport proteins.
+Transport proteins move needed
+substances or waste materials through
+the plasma membrane. Other pro-
+teins and carbohydrates that stick out
+from the cell surface help cells to
+identify chemical signals and each
+other. As you will discover later, these
+characteristics are important in pro-
+tecting your cells from infection.
+Proteins at the inner surface of a
+plasma membrane play an important
+role in attaching the plasma mem-
+brane to the cell’s internal support
+structure, giving the cell its flexibility.
+Explain how a
+water-soluble substance can pass
+through the plasma membrane.
+Understanding Main Ideas
+1. Describe the plasma membrane, and explain why
+it is called a bilayer structure. 
+2. Describe the structure of a phospholipid. Use the
+terms polar and nonpolar in your answer.
+3. What are the specialized parts of the phospholipid
+bilayer, and how do their structures relate to the
+structure of the plasma membrane?
+4. Why is the structure of the plasma membrane
+referred to as a fluid mosaic?
+Thinking Critically
+5. Suggest what might happen if cells grow and
+reproduce in an environment where no choles-
+terol is available.
+6. Get the Big Picture Plasma membranes allow
+certain materials to pass through them. Investigate
+how this property contributes to homeostasis. For
+more help, refer to Get the Big Picture in the Skill
+Handbook.
+SKILL REVIEWSKILL REVIEW
+178 A VIEW OF THE CELL
+OHOH
+Cholesterol
+molecule
+Phospholipid molecules
+Figure 7.5 
+Eukaryotic plasma
+membranes can contain
+large amounts of cho-
+lesterol—as many as
+one molecule for every
+phospholipid molecule.
+nc.bdol.glencoe.com/self_check_quiz 
+0175-0178 C07S2 BDOL-829900  8/4/04  2:05 AM  Page 178
+
+
+===== PAGE 10 =====
+7.3
+SECTION PREVIEW
+Objectives
+Identify the structure and
+function of the parts of a
+typical eukaryotic cell.
+Explain the advantages of
+highly folded membranes
+in cells.
+Compare and contrast
+the structures of plant and
+animal cells.
+Review Vocabulary
+enzyme: a protein that
+speeds up the rate of a
+chemical reaction
+(p. 161)
+New Vocabulary
+cell wall
+chromatin
+nucleolus
+ribosome
+cytoplasm
+endoplasmic reticulum
+Golgi apparatus
+vacuole
+lysosome
+chloroplast
+plastid
+chlorophyll
+mitochondria
+cytoskeleton
+microtubule
+microfilament
+cilia
+flagella
+Eukaryotic Cell Structure
+Plasma
+membrane
+Inside 
+of cell
+Outside 
+of cell
+Plasma
+membrane
+Figure 7.6 
+The plasma membrane is
+made up of two layers, which
+are diagrammed in the center
+image. You can see the layers
+in the photomicrograph.
+Color-enhanced TEM Magnification: 250 000 /H11003
+Cellular Boundaries
+When a group works together, someone on the team decides what
+resources are necessary for the project and provides these resources. In
+the cell, the plasma membrane, shown in Figure 7.6, performs this task
+by acting as a selectively permeable membrane. The fluid mosaic model
+describes the plasma membrane as a flexible boundary of a cell. However,
+plant cells, fungi, bacteria, and some protists have an additional bound-
+ary, the cell wall. The cell wall is a fairly rigid structure located outside
+the plasma membrane that provides additional support and protection.
+Working Together 
+for a Common Goal
+Using an Analogy When
+you work on a group
+project, each person has
+his or her own skills
+and talents that add a
+particular value to the
+group’s work. In the
+same way, each com-
+ponent of a eukaryotic
+cell has a specific job,
+and all of the parts of
+the cell work together to
+help the cell survive.
+Organize Information As you
+read the section, make a list of the
+cell parts. Next to each one, identify
+something from everyday life that functions in
+the same way. Then, explain what they both do.
+Cell structures, like this team
+of students, work together.
+(t)Aaron Haupt , (b)Courtesy Biao Ding, The Ohio State University 
+Objective 2.02 Investigate and describe the structure
+and functions of cells including: Cell organelles
+North Carolina Objectives
+0179-0193 C07S3 BDOL-829900  8/4/04  2:13 AM  Page 179
+
+
+===== PAGE 11 =====
+The cell wall
+The cell wall forms an inflexible bar-
+rier that protects the cell and gives 
+it support. Figure 7.7 shows a plant 
+cell wall composed of a carbohydrate
+called cellulose. The cellulose forms a
+thick, tough mesh of fibers. This
+fibrous cell wall is very porous and
+allows molecules to enter. Unlike the
+plasma membrane, it does not select
+which molecules can enter into the cell.
+The Nucleus 
+and Cell Control
+Just as every team needs a leader to
+direct activity, so the cell needs a leader
+to give directions. The nucleus is the
+leader of the eukaryotic cell because 
+it contains the directions to make 
+proteins. Every part of the cell depends
+on proteins, so by containing the blue-
+print to make proteins, the nucleus
+controls the activity of the organelles.
+Read the Problem-Solving Lab on this
+page and consider how the Acetabularia
+(a suh tab yew LAIR ee uh) nucleus con-
+trols the cell. 
+The master set of directions for
+making proteins is contained in 
+chromatin, which are strands of the
+genetic material, DNA. When a cell
+Color-enhanced TEM Magnification: 48 000 /H11003
+Interpret the Data
+What organelle directs cell activity? Acetabularia, a type
+of marine alga, grows as single, large cells 2 to 5 cm in height.
+The nuclei of these cells are in the “feet.” Different species of
+these algae have different kinds of caps, some petal-like and
+others that look like umbrellas. If a cap is removed, it quickly
+grows back. If both cap and foot are removed from the cell of
+one species and a foot from another species is attached, a new
+cap will grow. This new cap will have a structure with charac-
+teristics of both species. If this new cap is removed, the cap
+that grows back will be like the cell that donated the nucleus.
+The scientist who discovered these properties was Joachim
+Hämmerling. He wondered why the first cap that grew had
+characteristics of both species, yet the second cap was clearly
+like that of the cell that donated the nucleus.
+Solve the Problem
+Look at the diagram below and identify how the final cell
+develops.
+Thinking Critically
+Interpret Data Why is the final cap like that of the cell 
+from which the nucleus was taken? 
+Nucleus Nucleus
+Cell wall
+Outside of cell
+Plasma
+membrane
+Inside of cell
+180 A VIEW OF THE CELL
+Figure 7.7 
+The cell wall is a rigid structure that func-
+tions to protect the cell and give the cell its
+shape. Plant cell walls are made mainly 
+of cellulose. The plasma membrane in 
+the circle has been exaggerated to 
+show detail.
+D.E. Akin/Visuals Unlimited 
+0179-0193 C07S3 BDOL-829900  8/4/04  2:14 AM  Page 180
+
+
+===== PAGE 12 =====
+Color-enhanced TEM Magnification: 14 000 /H11003
+Nuclear pores
+Cytoplasm
+Chromatin
+Nucleolus
+Nuclear envelope
+of two membranes
+Nucleus
+Figure 7.8
+The transmission electron photomicrograph
+shows the nucleus of a eukaryotic cell. The
+large holes in the nuclear envelope are pores.
+7.3 EUKARYOTIC CELL STRUCTURE 181
+divides, the chromatin condenses to
+form chromosomes. Within the nu-
+cleus is a prominent organelle called
+the nucleolus, which makes ribo-
+somes. Ribosomes are the sites where
+the cell produces proteins according to
+the directions of DNA. Unlike other
+organelles, ribosomes are not bound by
+a membrane. They are simple struc-
+tures made of RNA and protein. Look
+at the onion cells as described in the
+MiniLab on the next page and try to
+identify the nucleus.
+For proteins to be made, ribosomes
+must leave the nucleus and enter the
+cytoplasm, and the blueprints con-
+tained in DNA must be translated
+into RNA and sent to the cytoplasm.
+Cytoplasm is the clear, gelatinous
+fluid inside a cell. Ribosomes and
+translated RNA are transported to 
+the cytoplasm through the nuclear
+envelope—a structure that separates
+the nucleus from the cytoplasm, as
+shown in Figure 7.8. The nuclear
+envelope is a double membrane made
+up of two phospholipid bilayers con-
+taining small nuclear pores for sub-
+stances to pass through. Ribosomes
+and translated RNA pass into the
+cytoplasm through these pores in the
+nuclear envelope.
+Assembly, Transport,
+and Storage
+Y ou have begun to follow the trail
+of protein production as directed by
+the cell manager—the nucleus. But
+what happens to the copy of the blue-
+prints for proteins once it passes from
+the nucleus into the cytoplasm?
+Organelles for assembly and
+transport of proteins
+The cytoplasm suspends the cell’s
+organelles. One particular organelle
+in a eukaryotic cell, the endoplasmic
+reticulum (ER), is the site of cell-
+ular chemical reactions. Shown in
+Figure 7.9, the ER is arranged in a
+series of highly folded membranes in
+the cytoplasm. Its folds are like the
+folds of an accordion. If you spread
+the accordion out, it would take up
+tremendous space. By pleating and
+folding, the accordion fits into a
+compact unit. Similarly, a large
+amount of folded ER is available to
+do work in a small space.
+Ribosomes in the cytoplasm are
+attached to the surface of the endoplas-
+mic reticulum, called rough endo-
+plasmic reticulum, where they carry
+out the function of protein synthesis. 
+Don W. Fawcett/Visuals Unlimited 
+0179-0193 C07S3 BDOL-829900  8/4/04  2:15 AM  Page 181
+
+
+===== PAGE 13 =====
+Ribosomes
+Endoplasmic
+reticulum
+182 A VIEW OF THE CELL
+Figure 7.9
+The endoplasmic reticulum is a 
+complex system of membranes in the
+cytoplasm of eukaryotic cells. Infer
+What substances are produced
+and stored in the ER?
+Color-enhanced TEM Magnification: 50 000 /H11003
+The ribosome’s job is to make pro-
+teins. Each protein made in the rough
+ER has a particular function; it may
+become a protein that forms a part of
+the plasma membrane, a protein that is
+released from the cell, or a protein
+transported to other organelles. Ribo-
+somes can also be found floating freely
+in the cytoplasm. They make proteins
+that perform tasks within the cyto-
+plasm itself. 
+Areas of the ER that are not stud-
+ded with ribosomes are known as
+smooth endoplasmic reticulum. The
+smooth ER is involved in numerous
+biochemical activities, including the
+production and storage of lipids.
+After proteins are made, they are
+transferred to another organelle called
+the Golgi (GAWL jee) apparatus.
+The Golgi apparatus, as shown in
+Figure 7.10, is a flattened stack of
+tubular membranes that modifies
+the proteins. The Golgi apparatus
+sorts proteins into packages and
+packs them into membrane-bound
+structures, called vesicles, to be sent
+to the appropriate destination, like
+mail being sorted at the post office.
+Compare and 
+contrast the two types of ER.
+Experiment
+Cell Organelles Adding stains to cellular material helps you
+distinguish cell organelles.
+Procedure
+CAUTION: Iodine stain is hazardous. Handle it with care. Be
+sure to wash hands with soap or detergent before and after
+this lab.
+! Prepare a water wet mount of onion skin. Do this by 
+using your fingernail to peel off the inside of a layer of
+onion bulb. The layer must be almost transparent. Use 
+the following diagram as a guide.
+@ Make sure that the onion layer is lying flat on the glass
+slide and is not folded.
+# Observe the onion cells under low- and high-power magni-
+fication. Identify as many organelles as possible.
+$ Repeat steps 1 through 3, only this time use an iodine
+stain instead of water.
+Analysis
+1. Observe and Infer What organelles were easily seen in
+the unstained onion cells? In cells stained with iodine?
+2. Experiment How are stains useful for viewing cells? 
+R. Bolander and Don W. Fawcett/Visuals Unlimited
+0179-0193 C07S3 BDOL-829900  8/4/04  2:15 AM  Page 182
+
+
+===== PAGE 14 =====
+7.3 EUKARYOTIC CELL STRUCTURE 183
+Figure 7.11
+Plant cells usually
+have one large vac-
+uole (A); some animal
+cells contain many
+smaller vacuoles (B).
+Color-enhanced TEM Magnification: 1850 /H11003
+Color-enhanced TEM
+Magnification: 13 000/H11003
+Vesicles
+Golgi
+apparatus
+Figure 7.10
+The Golgi apparatus, as viewed with a
+TEM, looks like a side view of a stack
+of pancakes. Also visible are many
+spherical vesicles that are involved in
+protein transport. 
+Vacuoles and storage
+Now let’s look at some of the other
+members of the cell team important 
+for the cell’s functioning. Cells have
+membrane-bound compartments,
+called vacuoles, for temporary stor-
+age of materials. A vacuole, like that
+in Figure 7.11A, is a sac used to store
+food, enzymes, and other materials
+needed by a cell. Some vacuoles store
+waste products. Animal cells usually
+do not contain vacuoles. If they do,
+the vacuoles are much smaller, as
+shown in Figure 7.11B.
+Lysosomes and recycling
+Did anyone ever ask you to take
+out the trash? Is that action part of 
+a team effort? In a cell, it is.
+Lysosomes are organelles that con-
+tain digestive enzymes. They digest
+excess or worn out organelles, food
+particles, and engulfed viruses or 
+bacteria. The membrane surrounding
+a lysosome prevents the digestive
+enzymes inside from destroying the
+cell. Lysosomes can fuse with vac-
+uoles and dispense their enzymes into
+the vacuole, digesting its contents.
+Color-enhanced TEM Magnification: 45 000 /H11003
+AA BB
+(t)Don W. Fawcett/Visuals Unlimited, (bl)Biophoto Associates/Photo Researchers, (br)David M. Phillips/Visuals Unlimited 
+0179-0193 C07S3 BDOL-829900  8/4/04  2:16 AM  Page 183
+
+
+===== PAGE 15 =====
+For example, when an amoeba engulfs
+food and encloses it in a vacuole, a 
+lysosome fuses with the vacuole and
+releases its enzymes, which digest the
+food. Sometimes, lysosomes digest the
+cells that contain them. When a 
+tadpole develops into a frog, lyso-
+somes within the cells of the tad-
+pole’s tail cause its digestion. The
+molecules released are used to build
+different cells, perhaps in the legs of
+the adult frog.
+Energy Transformers
+After learning about cell parts and
+what they do, it’s easy to imagine that
+each of these cell team members
+requires a lot of energy. Protein pro-
+duction, modification, transportation,
+digestion—all require energy. T wo
+other organelles, chloroplasts and
+mitochondria, provide that energy.
+Chloroplasts and energy
+When you walk through a field 
+or pick a vegetable from the garden,
+you may not think of the plants as
+energy generators. In fact, that is
+exactly what you see. Located in the
+cells of green plants and some protists,
+chloroplasts are the heart of the gen-
+erator. Chloroplasts are cell organ-
+elles that capture light energy and
+convert it to chemical energy.
+A chloroplast, like a nucleus, has a
+double membrane. The diagram and
+TEM photomicrograph of a chloro-
+plast in Figure 7.12 shows an outer
+membrane and a folded inner mem-
+brane system. It is within these inner
+thylakoid membranes that the energy
+from sunlight is trapped. These inner
+membranes are arranged in stacks of
+membranous sacs called grana, which
+resemble stacks of coins. The fluid
+that surrounds the stacks of grana is
+called stroma.
+The chloroplast belongs to a group
+of plant organelles called plastids,
+which are used for storage. Some plas-
+tids store starches or lipids, whereas
+others contain pigments, molecules
+that give color. Plastids are named
+according to their color or the pig-
+ment they contain. Chloroplasts con-
+tain the green pigment chlorophyll.
+Chlorophyll traps light energy and
+gives leaves and stems their green color. 
+Describe the inter-
+nal structure of a chloroplast.
+184 A VIEW OF THE CELL
+chloroplast from
+the Greek words
+chloros, meaning
+“green,” and
+platos, meaning
+“formed object”;
+Chloroplasts cap-
+ture light energy
+and produce food
+for plant cells.
+Plants are green
+because they con-
+tain the green pig-
+ment chlorophyll.
+Stroma
+Thylakoid
+Granum
+Two membranes
+Chloroplast
+Figure 7.12
+Chloroplasts are usually disc-shaped but have 
+the ability to change shape and position in 
+the cell as light intensity changes. The 
+pigment chlorophyll is embedded in 
+the inner series of thylakoid 
+membranes.
+Color-enhanced TEM Magnification: 6300 /H11003
+Jeremy Burgess/Science Photo Library/Photo Researchers 
+0179-0193 C07S3 BDOL-829900  8/4/04  2:16 AM  Page 184
+
+
+===== PAGE 16 =====
+Mitochondria and energy
+The chemical energy generated by
+chloroplasts is stored in the bonds 
+of sugar molecules until they are bro-
+ken down by mitochondria, shown 
+in Figure 7.13. Mitochondria are
+membrane-bound organelles in plant
+and animal cells that transform energy
+for the cell. This energy is then stored
+in the bonds of other molecules that
+cell organelles can access easily and
+quickly when energy is needed.
+A mitochondrion has an outer
+membrane and a highly folded inner
+membrane. As with the endoplasmic
+reticulum and chloroplasts, the folds
+of the inner membrane provide a
+large surface area that fits in a small
+space. Energy-storing molecules are
+produced on the inner folds. Mito-
+chondria occur in varying numbers
+depending on the function of the cell.
+For example, liver cells may have up
+to 2000 mitochondria.
+Although the process by which
+energy is transformed and used in the
+cells is a technical concept that you
+will learn in a later chapter, the
+Connection to Literature at the end of
+this chapter explains how cellular
+processes can also be inspiring.
+Organelles for Support
+and Locomotion
+Scientists once thought that cell
+organelles just floated in a sea of cyto-
+plasm. More recently, cell biologists
+have discovered that cells have a sup-
+port structure called the cytoskeleton
+within the cytoplasm. 
+The cytoskeleton
+The cytoskeleton forms a frame-
+work for the cell, like the skeleton that
+forms the framework for your body.
+However, unlike your bones, the cyto-
+skeleton is a constantly changing struc-
+ture. It can be dismantled in one place
+and reassembled somewhere else in the
+cell, changing the cell’s shape.
+The cytoskeleton is a network of
+tiny rods and filaments. Microtubules
+are thin, hollow cylinders made of pro-
+tein. Microfilamentsare smaller, solid
+protein fibers. T ogether, they act as a
+sort of scaffold to maintain the shape
+of the cell in the same way that poles
+maintain the shape of a tent. They also
+anchor and support many organelles
+and provide a sort of highway system
+through which materials move within
+the cell.
+7.3 EUKARYOTIC CELL STRUCTURE 185
+cytoskeleton from
+the Greek word
+cyte, meaning
+“cell”; The cyto-
+skeleton provides
+support and struc-
+ture for the cell.
+Color-enhanced TEM Magnification: 9000 /H11003
+Inner membrane
+Outer membrane
+MitochondrionFigure 7.13
+Mitochondria are granular and rod-shaped, with 
+an inner membrane that forms long, narrow folds. 
+This TEM shows a cross section of a mitochondrion.
+Explain Why is the inner membrane folded?
+Physical
+Science
+Connection
+Conservation of
+energy Energy
+can exist in
+different forms,
+such as thermal,
+electrical, chemical,
+and light energy.
+However, even
+though energy can
+change from one
+form to another,
+energy cannot be
+created or
+destroyed—it is
+always conserved. 
+Keith R. Porter/Photo Researchers 
+0179-0193 C07S3 BDOL-829900  8/4/04  2:17 AM  Page 185
+
+
+===== PAGE 17 =====
+Plant Cells Plant cells
+are characterized by a cell
+wall and chloroplasts.
+Plant cells usually have
+one large vacuole.
+B
+Golgi apparatus
+Chloroplast
+Plasma membrane
+Cell wall
+Free ribosomes
+Ribosomes
+Cytoskeleton
+Nucleolus
+Nucleus
+Mitochondrion
+Cytoplasm
+Endoplasmic
+reticulum
+Animal Cells
+Notice that animal cells
+have centrioles, whereas
+plant cells do not. Animal
+cells typically have small
+lysosomes.
+A
+Lysosome
+Nucleus
+Golgi apparatus
+Mitochondrion
+Plasma
+membrane Centriole
+Nucleolus
+Cytoplasm
+Endoplasmic
+reticulum
+Free
+ribosomes
+Ribosomes
+Cytoskeleton
+186 A VIEW OF THE CELL
+Comparing Animal 
+and Plant Cells
+Figure 7.14
+You can easily recognize that a person does not look like a
+flower and a moose does not resemble a tree. But at the cellular
+level under a microscope, the cells that make up all of the differ-
+ent animals and plants of the world are very much alike. Critical
+Thinking Why are animal and plant cells similar?
+0179-0193 C07S3 BDOL-829900  8/4/04  2:18 AM  Page 186
+
+
+===== PAGE 18 =====
+Centrioles
+Centrioles are organelles found in
+the cells of animals and most protists.
+They occur in pairs and are made up
+of microtubules. Centrioles play an
+important role in cell division.
+Cilia and flagella
+Some cell surfaces have cilia and
+flagella, which are organelles made
+of microtubules that aid the cell in
+locomotion or feeding. Cilia and fla-
+gella can be distinguished by their
+structure and by the nature of their
+action. Cilia are short, numerous
+projections that look like hairs.
+Their motion is similar to that of
+oars in a rowboat. Flagella are longer
+projections that move with a whip-
+like motion. A cell usually has only
+one or two flagella. In unicellular
+organisms, cilia and flagella are the
+major means of locomotion.
+Remember that prokaryotic cells
+lack the membrane-bound organelles
+that are found in eukaryotic cells.
+T able 7.1 shows a side-by-side com-
+parison of eukaryotic and prokaryotic
+cells, their cell parts, and what those
+parts do. Figure 7.14 summarizes 
+the structure of eukaryotic plant and
+animal cells.
+Understanding Main Ideas
+1. How are highly folded membranes an advantage
+for the functions of cellular parts? Name an
+organelle that has highly folded membranes.
+2. If a cell synthesizes large quantities of protein
+molecules, which organelles might be numerous
+in that cell?
+3. A cell’s digestive enzymes are enclosed in a mem-
+brane-bound organelle. How can these molecules
+function in the cell?
+4. Compare and contrast the functions of a cell wall
+to the functions of a plasma membrane.
+5. Compare the number of vacuoles in plant cells
+and animal cells.
+Thinking Critically
+6. Compare mitochondria and chloroplasts. Why are
+they referred to as energy transformers?
+7. Student Presentation Builder Create a
+class presentation that follows a protein mole-
+cule from its formation to its final destination,
+using the Student Presentation Builder.
+SKILL REVIEWSKILL REVIEW
+7.3 EUKARYOTIC CELL STRUCTURE 187
+Table 7.1 Comparison of Prokaryotic and Eukaryotic Cells
+Cell Part Function Prokaryotic Cell Eukaryotic Cell
+Plasma membrane Maintains homeostasis Present Present
+Cell wall Supports and protects cell Present Present in plants
+Ribosome Makes proteins Present Present
+Chloroplast Produces food Absent Present in plants
+Cytoskeleton Provides internal structure Absent Present
+Endoplasmic reticulum Chemical reactions Absent Present
+Golgi apparatus Sorts and transports Absent Present
+Lysosome Digests material Absent Present in some
+Mitochondrion Transforms energy Absent Present
+Nucleus Cell control center Absent Present
+Vacuole Storage Absent Present
+nc.bdol.glencoe.com/self_check_quiz 
+0179-0193 C07S3 BDOL-829900  8/4/04  2:18 AM  Page 187
+
+
+===== PAGE 19 =====
+188 A VIEW OF THE CELL
+Before You Begin
+Before You Begin
+Are all cells alike in appear-
+ance, shape, and size? Do
+all cells have some of the
+same organelles present
+within their cell bound-
+aries? One way to answer
+these questions is to ob-
+serve a variety of cells
+using a light microscope.
+In this lab, you will make
+observations of a bacter-
+ial cell (Bacillus subtilis),
+frog blood cells, and a
+plant cell (from Elodea).
+Observing and Comparing
+Different Cell Types
+Problem
+Are all cells alike in appearance and size?
+Objectives
+In this BioLab, you will: 
+■ Observe, diagram, and measure cells and their organelles.
+■ Infer whether cells are prokaryotic or eukaryotic and
+whether they are from unicellular organisms or multicellular
+organisms.
+■ List the traits of plant and animal cells.
+Materials
+microscope dropper glass slide
+coverslip forceps Elodea leaf
+prepared slides of Bacillus subtilis and frog blood
+Safety Precautions
+CAUTION: Use care when handling slides. Dispose of any broken
+glass in a container provided by your teacher. Always wear
+goggles in the lab.
+Skill Handbook
+If you need help with this lab, refer to the Skill Handbook.
+1. Copy the data table.
+2. Examine a prepared slide of Bacillus subtilis using both
+low- and high-power magnification. (Note: This slide has
+been stained. Bacterial cells have no natural color.) 
+PROCEDUREPROCEDURE
+PREPARATIONPREPARATION
+Organelles observed
+Prokaryote or eukaryote
+From a multicellular or 
+unicellular organism
+Diagram (with size in 
+micrometers, µm)
+Bacillus subtilis Elodea Frog Blood
+Data Table
+0179-0193 C07S3 BDOL-829900  8/4/04  2:21 AM  Page 188
+
+
+===== PAGE 20 =====
+7.3 EUKARYOTIC CELL STRUCTURE   189
+Leopard frog
+3. Identify and record the names of any observed
+organelles. Infer whether these cells are
+prokaryotic or eukaryotic. Infer whether these
+cells are from a unicellular or multicellular
+organism. Record your findings in the table.
+4. Diagram one cell as seen under high-power
+magnification.
+5. While using high power, determine the length
+and width in micrometers of this cell. Refer to
+Thinking Critically in the Skill Handbook for
+help with determining magnification. Record
+your measurements on the diagram.
+6. Prepare a wet mount of a single leaf from Elodea using
+the diagram as a guide.
+7. Observe the Elodea cells under low- and high-power
+magnification.
+8. Repeat steps 3 through 5 for Elodea.
+9. Examine a prepared slide of frog blood. (Note: This slide
+has been stained. Its natural color is pink.)
+10. Observe cells under low- and high-power magnification.
+11. Repeat steps 3 through 5 for frog blood cells.
+12. Clean all equipment as instructed
+by your teacher, and return everything to its proper place
+for reuse. Wash your hands thoroughly.
+CLEANUP AND DISPOSAL
+ANALYZE AND CONCLUDEANALYZE AND CONCLUDE
+1. Observe and Infer Which cells were prokaryotic and which 
+were eukaryotic? How were you able to tell?
+2. Predict Which cell was from a plant and which was from an animal?
+Explain your answer.
+3. Measure Are prokaryotic or eukaryotic 
+cells larger? Give specific measurements to
+support your answer.
+4. Define Operationally Compare the struc-
+ture and function of the plant and animal
+cells you saw.
+5. Suppose you estimate that
+eight Elodea cells will fit across the high-power
+field of view of your microscope. Y ou calculate
+that the diameter of an Elodea cell is approxi-
+mately 50 mm. Is this a reasonable value? If
+not, what was the error in your analysis?
+ERROR ANALYSIS
+Lab Techniques Prepare a wet mount of
+very thin slices of bamboo (saxophone reed).
+Observe under low and high power. What
+structures are you looking at? Explain the
+absence of all other organelles from 
+this material.
+Web Links To find out more about
+microscopy and cell types, visit
+nc.bdol.glencoe.com/microscopy
+Breck P . Kent/Animals Animals
+0179-0193 C07S3 BDOL-829900  8/4/04  2:26 AM  Page 189
+
+
+===== PAGE 21 =====
+190 A VIEW OF THE CELL
+The Lives of a Cell
+by Lewis Thomas
+“I have been trying to think of the earth
+as a kind of organism, but it is no go. I can-
+not think of it this way. It is too big, too
+complex, with too many working parts
+lacking visible connections. . . . I wondered
+about this. If not like an organism, what is it
+like, what is it most like? Then, satisfactorily
+for that moment, it came to me: it is most like
+a single cell.”
+—Lewis Thomas
+Y
+ou may think of yourself as a body made up
+of parts. Arms, legs, skin, stomach, eyes,
+brain, heart, lungs. In actual fact, you are a com-
+munity of living structures that work together
+for growth and survival. 
+Y our body is made up of eukaryotic cells con-
+taining organelles that work together for each
+cell’s survival. Organelles such as the Golgi
+apparatus and vesicles may work closely
+together. Other organelles, such as the mito-
+chondria that serve as the cell’s power plants,
+may perform a unique function within the cell. 
+On a much more complex level, an organism
+is similar to a cell in that many parts work
+together for the good of the whole. Groups of
+cells work together as tissues. Several tissues
+form an organ, and many organs form an organ
+system. For example, in an organ system such as
+the digestive system, cells and tissues form an
+organ such as the stomach, but several related
+organs—including the intestines, the pancreas,
+and the liver—are needed to completely digest
+and absorb the food you eat. In a similar man-
+ner, the organisms within a community are all
+connected to and dependent upon each other.
+Y ou could extend this view to the entire Earth,
+which consists of a collection of interconnected 
+ecosystems.
+Words are like organelles Now that you
+have formed an image in your mind of a cell 
+and its working parts, imagine a paragraph com-
+posed of words. Just as a cell contains a group 
+of organelles working together, the words in a
+paragraph interact to convey thoughts and ideas.
+Despite all his technical knowledge, Dr. Thomas
+—a physician and medical researcher—writes sim-
+ply and engagingly about everything from the tiny
+universe inside a single cell to the possibility of
+visitors from a distant planet. 
+Medicine, a young science Dr. Thomas
+grew up with the practice of medicine. As a boy,
+he accompanied his father, a family physician, 
+on house calls to patients. Y ears later, Lewis
+Thomas described those days in his autobiogra-
+phy, The Youngest Science. The title reflects his
+belief that the practice of medicine is “still very
+early on” and that some basic problems of dis-
+ease are just now yielding to exploration.
+Earth “is most like a single cell.”
+Color-enhanced TEM Magnification: 10 000 /H11003
+Critique Evaluate Dr. Thomas’s comparison of
+Earth to a cell. How do you think Earth is like a
+cell? How would you disagree with this model?
+To find out more about the 
+works of Dr. Lewis Thomas, visit 
+(l)SSEC/University of Wisconsin, Madison, (r)Alfred Pasieka/Science Source/Photo Researchers 
+nc.bdol.glencoe.com/literature
+0179-0193 C07S3 BDOL-829900  8/4/04  2:28 AM  Page 190
+
+
+===== PAGE 22 =====
+Section 7.1
+ Vocabulary
+cell (p. 171)
+cell theory (p. 172)
+compound light 
+microscope (p. 171)
+electron microscope 
+(p. 172)
+eukaryote (p. 173)
+nucleus (p. 174)
+organelle (p. 173)
+prokaryote (p. 173)
+The Discovery
+of Cells
+Vocabulary
+fluid mosaic model 
+(p. 178)
+phospholipid (p. 176)
+plasma membrane 
+(p. 175)
+selective permeability 
+(p. 175)
+transport proteins 
+(p. 178)
+The Plasma
+Membrane
+STUDY GUIDESTUDY GUIDE
+CHAPTER 7 ASSESSMENT   191
+To help you review the
+cell theory, use the Organizational
+Study Fold on page 171.
+Section 7.2
+Vocabulary
+cell wall (p. 179)
+chlorophyll (p. 184)
+chloroplast (p. 184)
+chromatin (p. 180)
+cilia (p. 187)
+cytoplasm (p. 181)
+cytoskeleton (p. 185)
+endoplasmic reticulum 
+(p. 181)
+flagella (p. 187)
+Golgi apparatus 
+(p. 182)
+lysosome (p. 183)
+microfilament (p. 185)
+microtubule (p. 185)
+mitochondria (p. 185)
+nucleolus (p. 181)
+plastid (p. 184)
+ribosome (p. 181)
+vacuole (p. 183)
+Eukaryotic Cell
+Structure
+Section 7.3
+Key Concepts
+■ Microscopes enabled biologists to see cells
+and develop the cell theory.
+■ The cell theory states that the cell is the
+basic unit of organization, all organisms
+are made up of one or more cells, and all
+cells come from preexisting cells. 
+■ Using electron microscopes, scientists can
+study cell structure in detail.
+■ Cells are classified as prokaryotic or
+eukaryotic based on whether or not they
+have membrane-bound organelles.
+Key Concepts
+■ Through selective permeability, the plasma
+membrane controls what enters and leaves
+a cell.
+■ The fluid mosaic model describes the
+plasma membrane as a phospholipid
+bilayer with embedded proteins.
+Key Concepts
+■ Eukaryotic cells have a nucleus and other
+organelles and are enclosed by a plasma
+membrane. Some cells have a cell wall that
+provides support and protection.
+■ Cells make proteins on ribosomes that are
+often attached to the highly folded endo-
+plasmic reticulum. Cells store materials in
+the Golgi apparatus and vacuoles.
+■ Mitochondria break down sugar molecules
+to release energy. Chloroplasts convert
+light energy into chemical energy.
+■ The cytoskeleton helps maintain cell shape
+and is involved in the movement of
+organelles and materials.
+nc.bdol.glencoe.com/vocabulary_puzzlemaker
+0179-0193 C07S3 BDOL-829900  8/4/04  2:29 AM  Page 191
+
+
+===== PAGE 23 =====
+Review the Chapter 7 vocabulary words listed in
+the Study Guide on page 191. Match the words
+with the definitions below.
+1. organelle that is the boundary between the
+cell and its environment
+2. membrane-bound organelles that transform
+energy in all eukaryotic cells 
+3. highly organized structures within cells
+4. organelles that are the sites of protein 
+synthesis
+5. basic unit of organization of both unicellular
+and multicellular organisms
+6. In what type of cell would you find a 
+chloroplast?
+A. prokaryote C. plant
+B. animal D. fungus
+7. In which of the following pairs are the terms
+NOT related?
+A. nucleus—DNA
+B. chloroplasts—chlorophyll
+C. flagella—chromatin
+D. cell wall—cellulose
+8. Magnifications greater than 10 000/H11003can be
+obtained when using ________.
+A. light microscopes
+B. metric rulers
+C. hand lenses
+D. electron microscopes
+9. A bacterium is classified as a prokaryote
+because it ________.
+A. has cilia
+B. has no membrane-bound nucleus
+C. is a single cell
+D. has no DNA
+10. What is the difference between a prokaryote
+and a eukaryote?
+A. the need for nutrients
+B. plasma membranes
+C. membrane-bound organelles
+D. cell walls
+11. Which of these structures captures the sun’s
+energy when synthesizing carbohydrates?
+A. C.
+B. D.
+12. Which of the following structures is NOT
+found in both plant and animal cells?
+A. chloroplast C. ribosomes
+B. cytoskeleton D. mitochondria
+13. Which biomolecule is NOT stored in 
+plastids?
+A. a lipid C. an amino acid
+B. a pigment D. a starch
+14. Open Ended Suggest a reason why packets
+of proteins collected by the Golgi apparatus
+might merge with lysosomes.
+15. Open Ended How does the structure of the
+plasma membrane allow materials to move
+across it in both directions?
+16. Open Ended Can live specimens be exam-
+ined with an electron microscope? Explain.
+17. Writing in Biology Predict whether you
+would expect muscle cells or fat cells to con-
+tain more mitochondria and explain why.
+18. Organelles,
+cells, and organisms have a wide range of
+sizes. Visit to find out
+about these size comparisons. Can any cell
+be seen with the naked eye? Make a visual
+display, such as a poster or model, that
+shows the range of sizes. Present this infor-
+mation to your class.
+REAL WORLD BIOCHALLENGE
+192 CHAPTER 7 ASSESSMENT
+nc.bdol.glencoe.com
+nc.bdol.glencoe.com/chapter_test
+0179-0193 C07S3 BDOL-829900  8/4/04  6:40 AM  Page 192
+
+
+===== PAGE 24 =====
+CHAPTER 7 ASSESSMENT   193
+D
+C
+B
+A
+Constructed Response/Grid In
+Record your answers on your answer document.
+28. Open Ended Identify and describe a cellular process that maintains homeostasis within a cell.
+29. Open Ended Explain the differences between van Leeuwenhoek’s microscope and a modern
+compound light microscope.
+19. Infer In plants, cells that transport water
+against the force of gravity are found to con-
+tain many more mitochondria than do some
+other plant cells. What is the reason for this?
+20. Writing About Biology Describe the 
+contributions of the early cell scientists.
+Evaluate the impact of their research on 
+scientific thought.
+Multiple Choice
+Use the photo to answer questions 21–23.
+21. The small dots are composed of ________.
+A. DNA and lipids
+B. DNA and proteins
+C. RNA and lipids
+D. RNA and proteins
+22. The small dots are made in the ________.
+A. nucleolus
+B. endoplasmic reticulum
+C. Golgi apparatus
+D. lysosome
+23. The function of the small dots is to
+________.
+A. synthesize lipids
+B. transport materials throughout the cell
+C. synthesize proteins
+D. harness energy for the cell
+Use the diagram to answer questions 24–27.
+24. Which component stabilizes the 
+phospholipids?
+A. A C. C
+B. B D. D
+25. Which component helps polar molecules
+and ions to enter the cell?
+A. A C. C
+B. B D. D
+26. Which component helps cells identify each
+other?
+A. A C. C
+B. B D. D
+27. Which component prevents the cell’s watery
+environment from entering the cell?
+A. A C. C
+B. B D. D
+TEM Magnification: 50 000 /H11003
+R. Bolander and Don W. Fawcett/Visuals Unlimited 
+2.02
+2.02
+2.02
+2.03
+2.03
+2.01
+2.02
+2.02
+nc.bdol.glencoe.com/standardized_test 
+The assessed North Carolina objective appears next to the question.
+0179-0193 C07S3 BDOL-829900  8/4/04  6:40 AM  Page 193
+
