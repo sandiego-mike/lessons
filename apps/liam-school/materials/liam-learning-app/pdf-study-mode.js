@@ -89,6 +89,7 @@ function openMode(){
   const overlay=document.getElementById('pdfstudy-overlay'),host=document.getElementById('pdfstudy-questions'); if(!overlay||!host)return;
   document.getElementById('pdfstudy-close').onclick=closeMode;document.getElementById('pdfstudy-export').onclick=()=>exportPdfStudy(subject,ch,questions);
   overlay.querySelectorAll('[data-pane]').forEach(b=>b.onclick=()=>setMobilePane(b.dataset.pane));
+  document.dispatchEvent(new CustomEvent('pdfstudy:opened'));
   overlay.addEventListener('input',e=>{const t=e.target;if(!t.matches('textarea[data-pdfstudy-id]'))return;const q=questions.find(x=>x.id===t.dataset.pdfstudyId);if(!q)return;const k=stateKey(subject,ch.number);saved[k]=saved[k]||{};saved[k][q.id]=t.value;saved[k+'-updatedAt']=new Date().toISOString();syncMappedAnswer(subject,ch.number,q,t.value);save();const c=syncCompletion(subject,ch,questions,saved[k]);const pct=c.total?Math.round(c.answered/c.total*100):0;const prog=host.querySelector('.pdfstudy-progress');if(prog)prog.innerHTML=`<strong>${c.answered}/${c.total} questions saved</strong><span>${pct}%</span><div><i style="width:${pct}%"></i></div>`;});
 }
 function injectButton(){
