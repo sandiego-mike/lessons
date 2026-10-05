@@ -8,22 +8,7 @@
 	</head>
 	<body>
 		<div id="app"><div class="wrap"><div class="card"><h1>Loading DeVries Learning...</h1></div></div></div>
-
-		<script>
-			window.onerror=function(m,s,l,c,e){
-				var message=String((e&&e.stack)||m);
-				window.__DEVriesLearningError__=message;
-				var el=document.getElementById('app');
-				var stillStarting=el&&/Loading DeVries Learning/i.test(el.textContent||'');
-				if(stillStarting){
-					el.innerHTML='<div class="wrap"><div class="card"><h1>App startup error</h1><pre>'+message+'</pre></div></div>';
-				}else if(window.console&&console.error){
-					console.error('DeVries Learning runtime error:',message);
-				}
-				return false;
-			};
-		</script>
-
+		<script>window.onerror=function(m,s,l,c,e){var message=String((e&&e.stack)||m);window.__DEVriesLearningError__=message;var el=document.getElementById('app');var stillStarting=el&&/Loading DeVries Learning/i.test(el.textContent||'');if(stillStarting){el.innerHTML='<div class="wrap"><div class="card"><h1>App startup error</h1><pre>'+message+'</pre></div></div>';}else if(window.console&&console.error){console.error('DeVries Learning runtime error:',message)}return false;};</script>
 		<script src="data-inline.js?v=34"></script>
 		<script src="inventory-inline.js?v=30"></script>
 		<script src="pacing.js?v=34"></script>
@@ -54,8 +39,12 @@
 		<script src="math-answer-input-fix.js?v=45"></script>
 		<script src="math-course-quality-v3.js?v=48"></script>
 		<script src="math-course-quality-v4.js?v=49"></script>
-		<script src="math-genuine-learning.js?v=67"></script>\n\t\t<script src="math-final-block-fix.js?v=68"></script>\n\t\t<script src="math3-progression-fix.js?v=74"></script>
-		<script src="math-ch4-answer-fix.js?v=68"></script>\n\t\t<script src="math-ch7-source-alignment.js?v=77"></script>
+		<script src="math-genuine-learning.js?v=67"></script>
+		<script src="math-final-block-fix.js?v=68"></script>
+		<script src="math3-progression-fix.js?v=74"></script>
+		<script src="math-ch4-answer-fix.js?v=68"></script>
+		<script src="math-ch7-source-alignment.js?v=77"></script>
 		<script src="response-autogrow.js?v=53"></script>
+		<script src="sat-prep.js?v=1"></script>
 	</body>
 </html>
