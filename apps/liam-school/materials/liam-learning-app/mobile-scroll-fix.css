@@ -1,13 +1,15 @@
-/* iPhone/iPad scroll safety — keep the document and SAT overlays vertically scrollable. */
-html,body{min-height:100%;height:auto!important;overflow-x:hidden!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch;overscroll-behavior-y:auto;touch-action:pan-y pinch-zoom}
-body{position:static!important}
+/* iPhone/iPad scroll safety */
+html,body{min-height:100%;height:auto!important;overflow-x:hidden!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important;touch-action:pan-y pinch-zoom!important}
 #app{min-height:100vh;height:auto!important;overflow:visible!important}
-.satoverlay,.sat-overlay,[id*="sat-overlay"],[class*="satOverlay"]{overflow-y:auto!important;overflow-x:hidden!important;-webkit-overflow-scrolling:touch!important;touch-action:pan-y pinch-zoom!important;overscroll-behavior-y:contain}
-.satpanel,.satmodal,.sat-inner,#sat-inner,.satsolo,.satcoach,.satresults{height:auto!important;max-height:none!important;overflow:visible!important;touch-action:pan-y pinch-zoom!important}
+/* SAT uses .satover + .satshell. The overlay stays fixed; the shell is the scroll viewport. */
+.satover{overflow:hidden!important;touch-action:pan-y pinch-zoom!important}
+.satshell{min-height:0!important;overflow-y:auto!important;overflow-x:hidden!important;-webkit-overflow-scrolling:touch!important;overscroll-behavior-y:contain!important;touch-action:pan-y pinch-zoom!important}
+.sathome,.satcoach,.satsolo,.satresults{height:auto!important;max-height:none!important;overflow:visible!important;touch-action:pan-y pinch-zoom!important}
 @media(max-width:850px){
  html,body{width:100%;max-width:100%;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important;touch-action:pan-y pinch-zoom!important}
- .satoverlay,.sat-overlay,[id*="sat-overlay"],[class*="satOverlay"]{position:fixed!important;inset:0!important;height:100dvh!important;max-height:100dvh!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important;padding-bottom:max(28px,env(safe-area-inset-bottom))!important}
- #sat-inner,.sat-inner,.satpanel,.satmodal{min-height:100%;height:auto!important;max-height:none!important;overflow:visible!important}
+ .satover{position:fixed!important;inset:0!important;height:100dvh!important;max-height:100dvh!important;padding:0!important;overflow:hidden!important}
+ .satshell{height:100dvh!important;max-height:100dvh!important;min-height:0!important;border-radius:0!important;overflow-y:scroll!important;overflow-x:hidden!important;-webkit-overflow-scrolling:touch!important;touch-action:pan-y pinch-zoom!important;padding-bottom:max(24px,env(safe-area-inset-bottom))!important}
+ #sat-inner{display:block!important;min-height:min-content!important;height:auto!important;max-height:none!important;overflow:visible!important}
+ .sathome,.satcoach,.satsolo,.satresults{display:block!important;min-height:0!important;height:auto!important;max-height:none!important;overflow:visible!important;padding-bottom:40px!important}
  .satq,.coachlesson,.scorehero,.satstats,.review{max-width:100%;overflow-wrap:anywhere}
- textarea,input,button,label{touch-action:manipulation}
 }
